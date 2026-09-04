@@ -1,0 +1,29 @@
+{
+  "name": "Fly In Absentee 15-Touch",
+  "description": "Automated outreach sequence for Fly In absentee owners",
+  "created": "2026-03-17",
+  "touches": [
+    {"touch": 1, "day": 0, "type": "email", "template": "email_01.txt", "purpose": "Introduction + CMA offer"},
+    {"touch": 2, "day": 2, "type": "sms", "template": "sms_01.txt", "purpose": "Quick follow-up to email"},
+    {"touch": 3, "day": 5, "type": "email", "template": "email_02.txt", "purpose": "Market update / property value angle"},
+    {"touch": 4, "day": 7, "type": "sms", "template": "sms_02.txt", "purpose": "Did you get a chance to see my email?"},
+    {"touch": 5, "day": 10, "type": "email", "template": "email_03.txt", "purpose": "Social proof / testimonial"},
+    {"touch": 6, "day": 14, "type": "sms", "template": "sms_03.txt", "purpose": "Direct question - Any plans for the property?"},
+    {"touch": 7, "day": 21, "type": "email", "template": "email_04.txt", "purpose": "Fresh market data for their area"},
+    {"touch": 8, "day": 28, "type": "sms", "template": "sms_04.txt", "purpose": "Soft check-in"},
+    {"touch": 9, "day": 35, "type": "email", "template": "email_05.txt", "purpose": "Seasonal angle (spring market)"},
+    {"touch": 10, "day": 42, "type": "sms", "template": "sms_05.txt", "purpose": "Still happy to help when timing's right"},
+    {"touch": 11, "day": 50, "type": "email", "template": "email_06.txt", "purpose": "Updated property value estimate"},
+    {"touch": 12, "day": 65, "type": "sms", "template": "sms_06.txt", "purpose": "Quick pulse check"},
+    {"touch": 13, "day": 80, "type": "email", "template": "email_07.txt", "purpose": "Market news / trend"},
+    {"touch": 14, "day": 100, "type": "sms", "template": "sms_07.txt", "purpose": "Checking in"},
+    {"touch": 15, "day": 120, "type": "email", "template": "email_08.txt", "purpose": "Closing the loop - last touch"}
+  ],
+  "settings": {
+    "email_time": "09:00",
+    "sms_time": "10:00",
+    "timezone": "America/New_York",
+    "pause_on_reply": true,
+    "cc_email": "ch@thehooverhometeam.com"
+  }
+}

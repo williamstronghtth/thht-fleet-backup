@@ -1,0 +1,12 @@
+{
+  "environment": "paper",
+  "base_url": "https://paper-api.alpaca.markets/v2",
+  "api_key": "<REDACTED:CREDENTIAL>",
+  "api_secret": "<REDACTED:CREDENTIAL>",
+  "data_url": "https://data.alpaca.markets/v2",
+  "notes": {
+    "type": "Paper Trading (sandbox)",
+    "added": "2026-03-14",
+    "added_by": "Ryan Chen"
+  }
+}

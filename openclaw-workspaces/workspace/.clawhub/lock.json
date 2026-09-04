@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "skills": {
+    "skill-guard": {
+      "version": "1.0.2",
+      "installedAt": 1770587344056
+    },
+    "agent-browser-core": {
+      "version": "1.0.1",
+      "installedAt": 1770587389331
+    },
+    "search-xepv0": {
+      "version": "1.0.0",
+      "installedAt": 1770730576612
+    },
+    "github": {
+      "version": "1.0.0",
+      "installedAt": 1770730715776
+    },
+    "github-pr": {
+      "version": "1.0.0",
+      "installedAt": 1770730850677
+    },
+    "canva": {
+      "version": "1.0.0",
+      "installedAt": 1771012567513
+    },
+    "clawpod": {
+      "version": "0.1.0",
+      "installedAt": 1771033249953
+    },
+    "agent-browser": {
+      "version": "0.2.0",
+      "installedAt": 1771943401094
+    },
+    "last30days-official": {
+      "version": "2.9.3",
+      "installedAt": 1774892006081
+    }
+  }
+}

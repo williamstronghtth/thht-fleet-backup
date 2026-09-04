@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "updated": "2026-03-30T00:00:00Z",
+  "platform": "kalshi",
+  "sizing": {
+    "max_position_pct": 10,
+    "default_contracts": 50,
+    "scale_with_edge": true
+  },
+  "edge_thresholds": {
+    "min_edge_to_trade": 5,
+    "high_conviction": 12,
+    "sizing_multiplier_high": 2.0
+  },
+  "price_zones": {
+    "extreme_low": { "max": 0.20, "priority": "high" },
+    "mid_range": { "min": 0.20, "max": 0.80, "priority": "low" },
+    "extreme_high": { "min": 0.80, "priority": "high" }
+  },
+  "category_weights": {
+    "spike_reactive": 1.5,
+    "politics": 1.3,
+    "entertainment": 1.0,
+    "economics": 1.0,
+    "weather": 0.7,
+    "sports": 0.0
+  },
+  "alerts": {
+    "spike_threshold_pct": 15,
+    "consecutive_loss_pause": 3,
+    "daily_loss_limit_dollars": 100
+  },
+  "notes": "Initial config. Conservative until we have 50+ closed trades."
+}

@@ -1,0 +1,155 @@
+{
+  "coaches": {
+    "ATL": {
+      "name": "Quin Snyder",
+      "style": "defensive",
+      "pace": "slow"
+    },
+    "BOS": {
+      "name": "Joe Mazzulla",
+      "style": "offensive",
+      "pace": "fast"
+    },
+    "BKN": {
+      "name": "Jordi Fernandez",
+      "style": "developmental",
+      "pace": "medium"
+    },
+    "CHA": {
+      "name": "Charles Lee",
+      "style": "unknown",
+      "pace": "medium"
+    },
+    "CHI": {
+      "name": "Billy Donovan",
+      "style": "balanced",
+      "pace": "medium"
+    },
+    "CLE": {
+      "name": "Kenny Atkinson",
+      "style": "offensive",
+      "pace": "fast"
+    },
+    "DAL": {
+      "name": "Jason Kidd",
+      "style": "defensive",
+      "pace": "slow"
+    },
+    "DEN": {
+      "name": "Michael Malone",
+      "style": "balanced",
+      "pace": "medium"
+    },
+    "DET": {
+      "name": "J.B. Bickerstaff",
+      "style": "defensive",
+      "pace": "slow"
+    },
+    "GSW": {
+      "name": "Steve Kerr",
+      "style": "motion",
+      "pace": "fast"
+    },
+    "HOU": {
+      "name": "Ime Udoka",
+      "style": "defensive",
+      "pace": "slow"
+    },
+    "IND": {
+      "name": "Rick Carlisle",
+      "style": "offensive",
+      "pace": "fast"
+    },
+    "LAC": {
+      "name": "Tyronn Lue",
+      "style": "balanced",
+      "pace": "medium"
+    },
+    "LAL": {
+      "name": "JJ Redick",
+      "style": "offensive",
+      "pace": "fast"
+    },
+    "MEM": {
+      "name": "Taylor Jenkins",
+      "style": "balanced",
+      "pace": "fast"
+    },
+    "MIA": {
+      "name": "Erik Spoelstra",
+      "style": "defensive",
+      "pace": "slow"
+    },
+    "MIL": {
+      "name": "Doc Rivers",
+      "style": "balanced",
+      "pace": "medium"
+    },
+    "MIN": {
+      "name": "Chris Finch",
+      "style": "defensive",
+      "pace": "medium"
+    },
+    "NOP": {
+      "name": "Willie Green",
+      "style": "balanced",
+      "pace": "medium"
+    },
+    "NYK": {
+      "name": "Tom Thibodeau",
+      "style": "defensive",
+      "pace": "slow"
+    },
+    "OKC": {
+      "name": "Mark Daigneault",
+      "style": "balanced",
+      "pace": "fast"
+    },
+    "ORL": {
+      "name": "Jamahl Mosley",
+      "style": "defensive",
+      "pace": "slow"
+    },
+    "PHI": {
+      "name": "Nick Nurse",
+      "style": "defensive",
+      "pace": "medium"
+    },
+    "PHX": {
+      "name": "Mike Budenholzer",
+      "style": "offensive",
+      "pace": "slow"
+    },
+    "POR": {
+      "name": "Chauncey Billups",
+      "style": "developmental",
+      "pace": "fast"
+    },
+    "SAC": {
+      "name": "Mike Brown",
+      "style": "balanced",
+      "pace": "fast"
+    },
+    "SAS": {
+      "name": "Gregg Popovich",
+      "style": "balanced",
+      "pace": "slow"
+    },
+    "TOR": {
+      "name": "Darko Rajakovic",
+      "style": "offensive",
+      "pace": "fast"
+    },
+    "UTA": {
+      "name": "Will Hardy",
+      "style": "developmental",
+      "pace": "medium"
+    },
+    "WAS": {
+      "name": "Brian Keefe",
+      "style": "developmental",
+      "pace": "fast"
+    }
+  },
+  "observations": []
+}

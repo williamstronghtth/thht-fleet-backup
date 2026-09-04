@@ -1,0 +1,87 @@
+{
+  "version": 5,
+  "created": "2026-03-08",
+  "updated": "2026-04-05",
+  "variables": {
+    "format": {
+      "length": "medium",
+      "style": "bullets_with_tables",
+      "sections": ["market_snapshot", "expert_radar", "risk_radar", "strategic_thought"],
+      "max_sections": 4
+    },
+    "engagement": {
+      "start_with_question": false,
+      "end_with_question": true,
+      "personal_hook_required": true,
+      "weekly_feedback_check": true,
+      "feedback_check_day": "friday",
+      "feedback_mechanism": "direct_ask_friday",
+      "feedback_prompt_style": "one_line_specific",
+      "capture_signals_same_day": true
+    },
+    "sources": {
+      "market_data": ["reuters", "yahoo_finance"],
+      "experts": ["damodaran", "howard_marks", "matt_levine", "lyn_alden", "josh_brown", "michael_batnick", "nick_timiraos", "chamath", "friedberg", "dave_meyer", "tracy_alloway", "joe_weisenthal"],
+      "max_experts_featured": 2,
+      "rotation_policy": "strict_rotation",
+      "rotation_queue": ["matt_levine", "nick_timiraos", "tracy_alloway", "joe_weisenthal", "damodaran"],
+      "rotation_note": "Must feature at least one non-repeat expert from the last 2 briefings; avoid running Howard Marks/Lyn Alden more than 2 consecutive briefings combined unless market context strongly warrants it"
+    },
+    "depth": {
+      "market_data": "snapshot",
+      "expert_insights": "one_key_takeaway",
+      "analysis": "moderate",
+      "personal_relevance": "explicit"
+    },
+    "tone": "executive_concise",
+    "delivery": {
+      "time": "07:00",
+      "timezone": "America/New_York",
+      "channel": "telegram"
+    }
+  },
+  "hypotheses": {
+    "active": [
+      "Specific Friday feedback prompts will produce more measurable responses than generic asks",
+      "Fresh expert rotation across 3-5 voices reduces staleness and improves reply likelihood",
+      "Explicit personal relevance in the strategic thought or question increases engagement"
+    ],
+    "confirmed": [
+      "Personal relevance wins over generic market updates (Exp #1 vs #2-3)",
+      "Data dumps ARE valuable - Chris confirmed 2026-03-15",
+      "Weekly briefings highly valued",
+      "Medium length is acceptable when the content is decision-relevant"
+    ],
+    "rejected": [
+      "Shorter = better (Chris wants data dumps, not brevity)",
+      "Start with question drives response (no evidence after 10+ experiments)"
+    ],
+    "inconclusive": [
+      "2 experts max increases depth without overwhelm (no feedback data)",
+      "Friday feedback ask closes the loop reliably (implemented, but no recorded result yet)",
+      "Howard Marks/Lyn Alden rotation improved engagement (freshness improved, engagement unmeasured)"
+    ]
+  },
+  "performance": {
+    "experiments_run": 22,
+    "experiments_with_feedback": 4,
+    "avg_engagement_score": 1.75,
+    "best_score": 7,
+    "worst_score": 0,
+    "feedback_gap": "Experiments 4-22 still lack structured engagement logging — CRITICAL DEBT",
+    "weeks_without_feedback": 4
+  },
+  "next_actions": [
+    "Use a more specific Friday prompt: ask which section was most useful this week",
+    "Log any reply, later reference, or action signal in feedback.jsonl the same day",
+    "Continue rotating experts beyond Howard Marks/Lyn Alden to test freshness properly",
+    "Tie the end question to a concrete decision Chris may face this week"
+  ],
+  "changelog": {
+    "v5": "2026-04-05: Kept medium format and end question. Refined feedback prompt to be more specific. Advanced expert rotation queue beyond Howard Marks/Lyn Alden. Added explicit same-day signal capture requirement.",
+    "v4": "2026-03-29: Dropped start_with_question (no evidence it works). Added strict rotation queue. Added feedback mechanism field. Acknowledged 3-week feedback gap as critical debt.",
+    "v3": "2026-03-22: Returned to medium length. Added expert rotation policy.",
+    "v2": "2026-03-15: Added start/end questions, shorter format.",
+    "v1": "2026-03-08: Initial config with 6 sections."
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "messages": [
+    {
+      "id": "msg13",
+      "from": "william",
+      "to": "ryan",
+      "text": "Morning check-in. Chris is asking for an update. How's the day going?",
+      "timestamp": "2026-02-13T14:32:00.000Z"
+    },
+    {
+      "id": "msg14",
+      "from": "ryan",
+      "to": "william",
+      "text": "Phase 1 code complete. Blocked on deploy — need Chris to clarify which repo is at clientlist.onrender.com.",
+      "timestamp": "2026-02-13T14:32:30.000Z"
+    },
+    {
+      "id": "msg15",
+      "from": "william",
+      "to": "ryan",
+      "text": "New project: Social Media Dashboard for Fiona. Buffer API + custom approval workflow.",
+      "timestamp": "2026-02-13T17:19:00.000Z"
+    },
+    {
+      "id": "msg16",
+      "from": "ryan",
+      "to": "william",
+      "text": "On it — scaffolding approval dashboard with post creation, platform selection, review workflow.",
+      "timestamp": "2026-02-13T17:19:30.000Z"
+    },
+    {
+      "id": "msg17",
+      "from": "william",
+      "to": "ryan",
+      "text": "Buffer closed API access. Evaluating alternatives: Ayrshare, Late, direct integrations.",
+      "timestamp": "2026-02-13T17:43:00.000Z"
+    },
+    {
+      "id": "msg18",
+      "from": "ryan",
+      "to": "william",
+      "text": "Recommend hybrid: deploy dashboard now for manual posting, integrate Ayrshare ($29/mo) for auto-posting by Monday.",
+      "timestamp": "2026-02-13T17:44:00.000Z"
+    },
+    {
+      "id": "msg19",
+      "from": "william",
+      "to": "ryan",
+      "text": "Ayrshare jumped to $149/mo. Chris found Late (getlate.dev) at $33/mo. Evaluate it.",
+      "timestamp": "2026-02-13T18:07:00.000Z"
+    },
+    {
+      "id": "msg20",
+      "from": "ryan",
+      "to": "william",
+      "text": "Late looks great! Covers all 4 platforms, no dev app approvals needed, clean API. $116/mo savings. Recommend it.",
+      "timestamp": "2026-02-13T18:08:00.000Z"
+    },
+    {
+      "id": "msg21",
+      "from": "william",
+      "to": "ryan",
+      "text": "Green light on Late. API key provided. Wire it up!",
+      "timestamp": "2026-02-13T18:20:00.000Z"
+    },
+    {
+      "id": "msg22",
+      "from": "ryan",
+      "to": "william",
+      "text": "Late integration complete! Dashboard deployed at thht-social.onrender.com. Auto-posting ready.",
+      "timestamp": "2026-02-13T18:21:00.000Z"
+    },
+    {
+      "id": "msg23",
+      "from": "william",
+      "to": "ryan",
+      "text": "2pm check-in. Big wins: Social Dashboard deployed, Late integration complete, Fiona onboarded.",
+      "timestamp": "2026-02-13T19:02:00.000Z"
+    },
+    {
+      "id": "msg24",
+      "from": "ryan",
+      "to": "william",
+      "text": "Social dashboard clean. Property Alerts blocked on listing data source. Ready for next task.",
+      "timestamp": "2026-02-13T19:02:30.000Z"
+    },
+    {
+      "id": "msg25",
+      "from": "ryan",
+      "to": "william",
+      "text": "Chris setting up Canva API for Fiona. Building OAuth callback endpoint now.",
+      "timestamp": "2026-02-13T19:40:00.000Z"
+    },
+    {
+      "id": "msg26",
+      "from": "ryan",
+      "to": "william",
+      "text": "Canva OAuth working! Fixed PKCE flow. Fiona now has full Canva access — templates, designs, assets.",
+      "timestamp": "2026-02-13T19:49:00.000Z"
+    },
+    {
+      "id": "msg27",
+      "from": "ryan",
+      "to": "william",
+      "text": "Canva integration complete! Fiona has full toolkit: Social Dashboard + Late auto-posting + Canva access.",
+      "timestamp": "2026-02-13T19:52:00.000Z"
+    }
+  ]
+}

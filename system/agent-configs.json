@@ -1,0 +1,110 @@
+[
+  {
+    "id": "main",
+    "name": "William Strong",
+    "workspace": null,
+    "model": {
+      "primary": "openai-codex/gpt-5.4"
+    },
+    "telegram": {}
+  },
+  {
+    "id": "ryan-chen",
+    "name": "Ryan Chen",
+    "workspace": "/root/.openclaw/workspace-ryan-chen",
+    "model": {
+      "primary": "anthropic/claude-opus-4-5"
+    },
+    "telegram": {}
+  },
+  {
+    "id": "calvin-king",
+    "name": "Calvin King",
+    "workspace": "/root/.openclaw/workspace-calvin-king",
+    "model": {
+      "primary": "openai-codex/gpt-5.4"
+    },
+    "telegram": {}
+  },
+  {
+    "id": "fiona-murphy",
+    "name": "Fiona Murphy",
+    "workspace": "/root/.openclaw/workspace-fiona-murphy",
+    "model": {
+      "primary": "openai-codex/gpt-5.4"
+    },
+    "telegram": {}
+  },
+  {
+    "id": "jack-sullivan",
+    "name": "Jack Sullivan",
+    "workspace": "/root/.openclaw/workspace-jack-sullivan",
+    "model": {
+      "primary": "openai-codex/gpt-5.4"
+    },
+    "telegram": {}
+  },
+  {
+    "id": "eno-sarris",
+    "name": "Eno Sarris",
+    "workspace": "/root/.openclaw/workspace-eno-sarris",
+    "model": {
+      "primary": "openai-codex/gpt-5.4"
+    },
+    "telegram": {}
+  },
+  {
+    "id": "derek-marshall",
+    "name": "Derek Marshall",
+    "workspace": "/root/.openclaw/workspace-derek-marshall",
+    "model": {
+      "primary": "openai-codex/gpt-5.4"
+    },
+    "telegram": {}
+  },
+  {
+    "id": "willow-hayes",
+    "name": "Willow Hayes",
+    "workspace": "/root/.openclaw/workspace-willow-hayes",
+    "model": {
+      "primary": "openai-codex/gpt-5.4"
+    },
+    "telegram": {}
+  },
+  {
+    "id": "oliver-kensington",
+    "name": "Oliver Kensington",
+    "workspace": "/root/.openclaw/workspace-oliver-kensington",
+    "model": {
+      "primary": "openai-codex/gpt-5.4"
+    },
+    "telegram": {}
+  },
+  {
+    "id": "elliot-crane",
+    "name": "Elliot Crane",
+    "workspace": "/root/.openclaw/workspace-elliot-crane",
+    "model": {
+      "primary": "openai-codex/gpt-5.4"
+    },
+    "telegram": {}
+  },
+  {
+    "id": "arthur-pembroke",
+    "name": "Arthur Pembroke",
+    "workspace": "/root/.openclaw/workspace-arthur-pembroke",
+    "model": {
+      "primary": "openai-codex/gpt-5.4"
+    },
+    "telegram": {}
+  },
+  {
+    "id": "nolan-price",
+    "name": "Nolan Price",
+    "workspace": "/root/.openclaw/workspace-nolan-price",
+    "model": {
+      "primary": "openai-codex/gpt-5.4"
+    },
+    "telegram": {}
+  }
+]

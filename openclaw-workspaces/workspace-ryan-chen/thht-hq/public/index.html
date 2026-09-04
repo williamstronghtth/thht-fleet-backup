@@ -1,0 +1,788 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Team HQ — The Hoover Home Team</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    :root {
+      --bg: #0a0a0f;
+      --bg-card: #12121a;
+      --bg-hover: #1a1a24;
+      --border: #2a2a3a;
+      --text: #e4e4e7;
+      --text-muted: #71717a;
+      --accent: #6366f1;
+      --accent-hover: #4f46e5;
+      --green: #22c55e;
+      --yellow: #eab308;
+      --red: #ef4444;
+      --blue: #3b82f6;
+      --floor: #1a1c2e;
+      --desk: #2d3748;
+      --desk-top: #4a5568;
+    }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+    }
+
+    .dashboard {
+      display: grid;
+      grid-template-columns: 320px 1fr 340px;
+      grid-template-rows: auto 1fr;
+      height: 100vh;
+    }
+
+    header {
+      grid-column: 1 / -1;
+      padding: 16px 24px;
+      background: var(--bg-card);
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header h1 {
+      font-size: 18px;
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    header h1 span {
+      font-size: 12px;
+      color: var(--text-muted);
+      font-weight: 400;
+    }
+
+    .header-status {
+      display: flex;
+      gap: 16px;
+      font-size: 13px;
+      color: var(--text-muted);
+    }
+
+    .status-dot {
+      display: inline-block;
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      margin-right: 6px;
+    }
+
+    .status-dot.online { background: var(--green); }
+    .status-dot.away { background: var(--yellow); }
+
+    /* Virtual Office */
+    .office-container {
+      background: var(--bg);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .office-floor {
+      width: 700px;
+      height: 500px;
+      background: var(--floor);
+      border-radius: 20px;
+      position: relative;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.5);
+      border: 1px solid var(--border);
+    }
+
+    .office-floor::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background-image: 
+        linear-gradient(rgba(255,255,255,0.02) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255,255,255,0.02) 1px, transparent 1px);
+      background-size: 40px 40px;
+      border-radius: 20px;
+    }
+
+    .desk {
+      position: absolute;
+      width: 140px;
+      height: 80px;
+      background: var(--desk);
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-end;
+      padding-bottom: 8px;
+    }
+
+    .desk::before {
+      content: '';
+      position: absolute;
+      top: 5px;
+      left: 10px;
+      right: 10px;
+      height: 50px;
+      background: var(--desk-top);
+      border-radius: 4px;
+    }
+
+    .desk::after {
+      content: '';
+      position: absolute;
+      top: 15px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 40px;
+      height: 25px;
+      background: #1a1a2e;
+      border-radius: 3px;
+      border: 2px solid #374151;
+      box-shadow: 0 0 10px rgba(99, 102, 241, 0.3);
+    }
+
+    .desk-label {
+      font-size: 10px;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      z-index: 1;
+    }
+
+    .agent-at-desk {
+      position: absolute;
+      bottom: -45px;
+      left: 50%;
+      transform: translateX(-50%);
+      text-align: center;
+    }
+
+    .agent-avatar {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid var(--border);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+      transition: all 0.3s ease;
+    }
+
+    .agent-avatar.online {
+      border-color: var(--green);
+      box-shadow: 0 0 20px rgba(34, 197, 94, 0.4);
+    }
+
+    .agent-name {
+      font-size: 11px;
+      font-weight: 600;
+      margin-top: 4px;
+      white-space: nowrap;
+    }
+
+    .agent-role {
+      font-size: 9px;
+      color: var(--text-muted);
+    }
+
+    .meeting-table {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 180px;
+      height: 100px;
+      background: linear-gradient(135deg, #4a3728 0%, #3d2d20 100%);
+      border-radius: 50px;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.4);
+      border: 3px solid #5a4738;
+    }
+
+    .meeting-table::before {
+      content: '🤝';
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 24px;
+      opacity: 0.5;
+    }
+
+    .water-cooler {
+      position: absolute;
+      bottom: 30px;
+      right: 30px;
+      width: 40px;
+      height: 60px;
+      background: linear-gradient(180deg, #60a5fa 0%, #3b82f6 50%, #1e3a5f 100%);
+      border-radius: 8px 8px 4px 4px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    }
+
+    .water-cooler::before {
+      content: '';
+      position: absolute;
+      top: -15px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 30px;
+      height: 20px;
+      background: #1e40af;
+      border-radius: 6px 6px 0 0;
+    }
+
+    .water-cooler::after {
+      content: '💧';
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 16px;
+    }
+
+    .plant {
+      position: absolute;
+      font-size: 32px;
+    }
+
+    .desk.desk-1 { top: 40px; left: 40px; }
+    .desk.desk-2 { top: 40px; right: 40px; }
+    .desk.desk-3 { bottom: 80px; left: 40px; }
+    .desk.desk-4 { bottom: 80px; right: 40px; }
+
+    .plant.plant-1 { top: 20px; left: 50%; transform: translateX(-50%); }
+    .plant.plant-2 { bottom: 20px; left: 20px; }
+    .plant.plant-3 { top: 50%; right: 20px; transform: translateY(-50%); }
+
+    /* Left sidebar - Live Chat */
+    .left-sidebar {
+      background: var(--bg-card);
+      border-right: 1px solid var(--border);
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+
+    /* Right sidebar - Takeaways */
+    .right-sidebar {
+      background: var(--bg-card);
+      border-left: 1px solid var(--border);
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+
+    .panel-title {
+      font-size: 11px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: var(--text-muted);
+    }
+
+    /* Live Chat Feed */
+    .chat-feed {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      min-height: 0;
+    }
+
+    .chat-feed-header {
+      padding: 12px 16px;
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .live-indicator {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 11px;
+      color: var(--green);
+    }
+
+    .live-dot {
+      width: 6px;
+      height: 6px;
+      background: var(--green);
+      border-radius: 50%;
+      animation: blink 1.5s infinite;
+    }
+
+    @keyframes blink {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.3; }
+    }
+
+    .chat-messages {
+      flex: 1;
+      overflow-y: auto;
+      padding: 12px;
+    }
+
+    .chat-message {
+      margin-bottom: 12px;
+      font-size: 12px;
+    }
+
+    .chat-message-header {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      margin-bottom: 4px;
+    }
+
+    .chat-from {
+      font-weight: 600;
+      color: var(--accent);
+    }
+
+    .chat-arrow {
+      color: var(--text-muted);
+    }
+
+    .chat-to {
+      font-weight: 600;
+      color: var(--green);
+    }
+
+    .chat-time {
+      color: var(--text-muted);
+      font-size: 10px;
+      margin-left: auto;
+    }
+
+    .chat-text {
+      color: var(--text);
+      line-height: 1.4;
+      padding-left: 2px;
+    }
+
+    /* Takeaways Panel */
+    .takeaways-panel {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      min-height: 0;
+    }
+
+    .takeaways-header {
+      padding: 12px 16px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .takeaways-tabs {
+      display: flex;
+      gap: 6px;
+      margin-top: 10px;
+    }
+
+    .tab-btn {
+      padding: 4px 10px;
+      border-radius: 6px;
+      border: none;
+      background: transparent;
+      color: var(--text-muted);
+      font-size: 11px;
+      font-weight: 500;
+      cursor: pointer;
+      transition: all 0.15s;
+    }
+
+    .tab-btn:hover {
+      background: var(--bg-hover);
+    }
+
+    .tab-btn.active {
+      background: var(--accent);
+      color: white;
+    }
+
+    .takeaways-list {
+      flex: 1;
+      overflow-y: auto;
+      padding: 12px;
+    }
+
+    .takeaway-item {
+      background: var(--bg);
+      border-radius: 8px;
+      padding: 10px;
+      margin-bottom: 8px;
+      border-left: 3px solid var(--accent);
+    }
+
+    .takeaway-item.action { border-left-color: var(--blue); }
+    .takeaway-item.insight { border-left-color: var(--yellow); }
+    .takeaway-item.decision { border-left-color: var(--green); }
+
+    .takeaway-type {
+      font-size: 9px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      color: var(--text-muted);
+      margin-bottom: 4px;
+    }
+
+    .takeaway-text {
+      font-size: 12px;
+      line-height: 1.4;
+      margin-bottom: 6px;
+    }
+
+    .takeaway-meta {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 10px;
+      color: var(--text-muted);
+    }
+
+    .takeaway-agent {
+      display: flex;
+      align-items: center;
+      gap: 4px;
+    }
+
+    .takeaway-agent img {
+      width: 14px;
+      height: 14px;
+      border-radius: 50%;
+    }
+
+    .status-badge {
+      padding: 2px 6px;
+      border-radius: 8px;
+      font-size: 9px;
+      font-weight: 500;
+      text-transform: uppercase;
+    }
+
+    .status-badge.pending { background: rgba(234, 179, 8, 0.2); color: var(--yellow); }
+    .status-badge.in-progress { background: rgba(59, 130, 246, 0.2); color: var(--blue); }
+    .status-badge.done { background: rgba(34, 197, 94, 0.2); color: var(--green); }
+    .status-badge.blocked { background: rgba(239, 68, 68, 0.2); color: var(--red); }
+
+    .empty-state {
+      text-align: center;
+      padding: 30px 16px;
+      color: var(--text-muted);
+    }
+
+    .empty-state h3 {
+      font-size: 13px;
+      margin-bottom: 4px;
+    }
+
+    .empty-state p {
+      font-size: 11px;
+    }
+
+    .typing-indicator {
+      display: none;
+      position: absolute;
+      bottom: -8px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: var(--accent);
+      padding: 2px 8px;
+      border-radius: 10px;
+      font-size: 9px;
+      white-space: nowrap;
+    }
+
+    .agent-at-desk.active .typing-indicator {
+      display: block;
+      animation: pulse 1.5s infinite;
+    }
+
+    @keyframes pulse {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.5; }
+    }
+
+    ::-webkit-scrollbar {
+      width: 5px;
+    }
+
+    ::-webkit-scrollbar-track {
+      background: transparent;
+    }
+
+    ::-webkit-scrollbar-thumb {
+      background: var(--border);
+      border-radius: 3px;
+    }
+  </style>
+</head>
+<body>
+  <div class="dashboard">
+    <header>
+      <h1>
+        🏠 Team HQ
+        <span>The Hoover Home Team</span>
+      </h1>
+      <div class="header-status" id="headerStatus">
+        <span class="status-dot online"></span> 2/2 online
+      </div>
+    </header>
+
+    <!-- LEFT: Live Chat -->
+    <div class="left-sidebar">
+      <div class="chat-feed">
+        <div class="chat-feed-header">
+          <span class="panel-title">Live Chat</span>
+          <div class="live-indicator">
+            <div class="live-dot"></div>
+            LIVE
+          </div>
+        </div>
+        <div class="chat-messages" id="chatMessages">
+          <div class="empty-state">
+            <h3>No messages yet</h3>
+            <p>Conversations will appear here</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- CENTER: Virtual Office -->
+    <div class="office-container">
+      <div class="office-floor">
+        <div class="desk desk-1">
+          <span class="desk-label">William</span>
+          <div class="agent-at-desk" id="agent-william">
+            <img class="agent-avatar online" src="/avatars/william.jpg" alt="William" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%232a2a3a%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%2371717a%22 font-size=%2240%22>W</text></svg>'">
+            <div class="agent-name">William</div>
+            <div class="agent-role">Co-founder</div>
+            <div class="typing-indicator">💬 Active</div>
+          </div>
+        </div>
+
+        <div class="desk desk-2">
+          <span class="desk-label">Ryan</span>
+          <div class="agent-at-desk active" id="agent-ryan">
+            <img class="agent-avatar online" src="/avatars/ryan-chen.jpg" alt="Ryan" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%232a2a3a%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2255%22 text-anchor=%22middle%22 fill=%22%2371717a%22 font-size=%2240%22>R</text></svg>'">
+            <div class="agent-name">Ryan</div>
+            <div class="agent-role">Software Engineer</div>
+            <div class="typing-indicator">💻 Coding</div>
+          </div>
+        </div>
+
+        <div class="desk desk-3">
+          <span class="desk-label">Empty</span>
+        </div>
+
+        <div class="desk desk-4">
+          <span class="desk-label">Empty</span>
+        </div>
+
+        <div class="meeting-table"></div>
+        <div class="water-cooler"></div>
+        <div class="plant plant-1">🌿</div>
+        <div class="plant plant-2">🪴</div>
+        <div class="plant plant-3">🌱</div>
+      </div>
+    </div>
+
+    <!-- RIGHT: Takeaways -->
+    <div class="right-sidebar">
+      <div class="takeaways-panel">
+        <div class="takeaways-header">
+          <div class="panel-title">Takeaways</div>
+          <div class="takeaways-tabs">
+            <button class="tab-btn active" data-filter="all">All</button>
+            <button class="tab-btn" data-filter="action">Actions</button>
+            <button class="tab-btn" data-filter="insight">Insights</button>
+            <button class="tab-btn" data-filter="decision">Decisions</button>
+          </div>
+        </div>
+        <div class="takeaways-list" id="takeawaysList">
+          <div class="empty-state">
+            <h3>No takeaways yet</h3>
+            <p>Action items will appear here</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    let takeaways = [];
+    let chatMessages = [];
+    let currentFilter = 'all';
+
+    async function loadTakeaways() {
+      try {
+        const res = await fetch('/api/takeaways');
+        const data = await res.json();
+        takeaways = data.takeaways || [];
+        renderTakeaways();
+      } catch (err) {
+        console.error('Failed to load takeaways:', err);
+      }
+    }
+
+    async function loadChatlog() {
+      try {
+        const res = await fetch('/api/chatlog');
+        const data = await res.json();
+        const newMessages = data.messages || [];
+        
+        // Check if we have new messages
+        if (newMessages.length !== chatMessages.length) {
+          chatMessages = newMessages;
+          renderChatMessages();
+        }
+      } catch (err) {
+        console.error('Failed to load chatlog:', err);
+      }
+    }
+
+    async function loadAgentStatus() {
+      try {
+        const williamRes = await fetch('/api/agents/main/status');
+        const williamStatus = await williamRes.json();
+        updateAgentStatus('william', williamStatus);
+
+        const ryanRes = await fetch('/api/agents/ryan-chen/status');
+        const ryanStatus = await ryanRes.json();
+        updateAgentStatus('ryan', ryanStatus);
+      } catch (err) {
+        console.error('Failed to load agent status:', err);
+      }
+    }
+
+    function updateAgentStatus(agentId, status) {
+      const agentEl = document.getElementById(`agent-${agentId}`);
+      if (!agentEl) return;
+
+      const avatar = agentEl.querySelector('.agent-avatar');
+      if (status.status === 'online') {
+        avatar.classList.add('online');
+        agentEl.classList.add('active');
+      } else {
+        avatar.classList.remove('online');
+        agentEl.classList.remove('active');
+      }
+    }
+
+    function renderChatMessages() {
+      const container = document.getElementById('chatMessages');
+      
+      if (chatMessages.length === 0) {
+        container.innerHTML = `
+          <div class="empty-state">
+            <h3>No messages yet</h3>
+            <p>Conversations will appear here</p>
+          </div>
+        `;
+        return;
+      }
+      
+      container.innerHTML = chatMessages.slice(-30).map(msg => {
+        const time = new Date(msg.timestamp).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+        const fromName = msg.from === 'william' || msg.from === 'main' ? 'William' : 'Ryan';
+        const toName = msg.to === 'william' || msg.to === 'main' ? 'William' : msg.to === 'chris' ? 'Chris' : 'Ryan';
+        
+        return `
+          <div class="chat-message">
+            <div class="chat-message-header">
+              <span class="chat-from">${fromName}</span>
+              <span class="chat-arrow">→</span>
+              <span class="chat-to">${toName}</span>
+              <span class="chat-time">${time}</span>
+            </div>
+            <div class="chat-text">${escapeHtml(msg.text)}</div>
+          </div>
+        `;
+      }).join('');
+      
+      // Scroll to bottom
+      container.scrollTop = container.scrollHeight;
+    }
+
+    function renderTakeaways() {
+      const container = document.getElementById('takeawaysList');
+      
+      let filtered = takeaways;
+      if (currentFilter !== 'all') {
+        filtered = takeaways.filter(t => t.type === currentFilter);
+      }
+      
+      if (filtered.length === 0) {
+        container.innerHTML = `
+          <div class="empty-state">
+            <h3>No ${currentFilter === 'all' ? 'takeaways' : currentFilter + 's'} yet</h3>
+            <p>Items will appear here</p>
+          </div>
+        `;
+        return;
+      }
+      
+      container.innerHTML = filtered.map(t => {
+        const agentName = t.agent === 'main' || t.agent === 'william' ? 'William' : 'Ryan';
+        const avatarId = t.agent === 'main' || t.agent === 'william' ? 'william' : 'ryan-chen';
+        const time = new Date(t.createdAt).toLocaleDateString();
+        
+        return `
+          <div class="takeaway-item ${t.type}">
+            <div class="takeaway-type">${t.type}</div>
+            <div class="takeaway-text">${escapeHtml(t.text)}</div>
+            <div class="takeaway-meta">
+              <div class="takeaway-agent">
+                <img src="/avatars/${avatarId}.jpg" alt="${agentName}" onerror="this.style.display='none'">
+                ${agentName} · ${time}
+              </div>
+              ${t.status ? `<span class="status-badge ${t.status}">${t.status}</span>` : ''}
+            </div>
+          </div>
+        `;
+      }).join('');
+    }
+
+    function escapeHtml(text) {
+      const div = document.createElement('div');
+      div.textContent = text;
+      return div.innerHTML;
+    }
+
+    // Tab handling
+    document.querySelectorAll('.tab-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        currentFilter = btn.dataset.filter;
+        renderTakeaways();
+      });
+    });
+
+    // Auto-refresh (every 10 seconds for chat, 30 for rest)
+    setInterval(loadChatlog, 10000);
+    setInterval(() => {
+      loadTakeaways();
+      loadAgentStatus();
+    }, 30000);
+
+    // Initialize
+    loadChatlog();
+    loadTakeaways();
+    loadAgentStatus();
+  </script>
+</body>
+</html>

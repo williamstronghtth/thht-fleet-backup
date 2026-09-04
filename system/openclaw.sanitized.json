@@ -1,0 +1,451 @@
+{
+  "meta": {
+    "lastTouchedVersion": "2026.4.8",
+    "lastTouchedAt": "2026-04-08T18:36:42.945Z"
+  },
+  "env": {
+    "vars": {
+      "CANVA_CLIENT_ID": "OC-AZxYeHya5Ie1",
+      "CANVA_CLIENT_SECRET": "<REDACTED>",
+      "SERPER_API_KEY": "<REDACTED>",
+      "KALSHI_API_KEY_ID": "<REDACTED>",
+      "KALSHI_PRIVATE_KEY": "<REDACTED>",
+      "XAI_API_KEY": "<REDACTED>"
+    }
+  },
+  "wizard": {
+    "lastRunAt": "2026-04-05T00:07:02.447Z",
+    "lastRunVersion": "2026.3.24",
+    "lastRunCommand": "configure",
+    "lastRunMode": "local"
+  },
+  "browser": {
+    "enabled": true,
+    "executablePath": "/root/.cache/ms-playwright/chromium-1208/chrome-linux64/chrome",
+    "headless": true,
+    "noSandbox": true,
+    "defaultProfile": "openclaw",
+    "profiles": {
+      "lightpanda": {
+        "cdpUrl": "http://127.0.0.1:9333",
+        "color": "#00CC66"
+      },
+      "openclaw": {
+        "cdpPort": 18800,
+        "color": "#FF4500"
+      }
+    }
+  },
+  "auth": {
+    "profiles": {
+      "anthropic:william": {
+        "provider": "anthropic",
+        "mode": "token"
+      },
+      "anthropic:manual": {
+        "provider": "anthropic",
+        "mode": "token"
+      },
+      "anthropic:default": {
+        "provider": "anthropic",
+        "mode": "token"
+      },
+      "openai-codex:ch@thehooverhometeam.com": {
+        "provider": "openai-codex",
+        "mode": "oauth",
+        "email": "ch@thehooverhometeam.com"
+      },
+      "google-gemini-cli:ch@thehooverhometeam.com": {
+        "provider": "google-gemini-cli",
+        "mode": "token"
+      }
+    }
+  },
+  "agents": {
+    "defaults": {
+      "model": {
+        "primary": "openai-codex/gpt-5.4",
+        "fallbacks": [
+          "google-gemini-cli/gemini-2.5-pro",
+          "anthropic/claude-sonnet-4-6"
+        ]
+      },
+      "models": {
+        "anthropic/claude-opus-4-6": {},
+        "anthropic/claude-sonnet-4-6": {},
+        "openai-codex/gpt-5.4": {},
+        "google-gemini-cli/gemini-2.5-pro": {}
+      },
+      "workspace": "/root/.openclaw/workspace",
+      "contextPruning": {
+        "mode": "cache-ttl",
+        "ttl": "1h"
+      },
+      "compaction": {
+        "mode": "safeguard"
+      },
+      "heartbeat": {
+        "every": "1h"
+      },
+      "maxConcurrent": 4,
+      "subagents": {
+        "maxConcurrent": 8
+      },
+      "sandbox": {
+        "browser": {
+          "enabled": true
+        }
+      }
+    },
+    "list": [
+      {
+        "id": "main",
+        "name": "William Strong",
+        "model": {
+          "primary": "anthropic/claude-opus-5"
+        }
+      },
+      {
+        "id": "ryan-chen",
+        "name": "Ryan Chen",
+        "workspace": "/root/.openclaw/workspace-ryan-chen",
+        "agentDir": "/root/.openclaw/agents/ryan-chen/agent",
+        "model": {
+          "primary": "anthropic/claude-opus-5"
+        }
+      },
+      {
+        "id": "calvin-king",
+        "name": "Calvin King",
+        "workspace": "/root/.openclaw/workspace-calvin-king",
+        "agentDir": "/root/.openclaw/agents/calvin-king/agent",
+        "model": {
+          "primary": "anthropic/claude-opus-5"
+        }
+      },
+      {
+        "id": "fiona-murphy",
+        "name": "Fiona Murphy",
+        "workspace": "/root/.openclaw/workspace-fiona-murphy",
+        "agentDir": "/root/.openclaw/agents/fiona-murphy/agent",
+        "model": {
+          "primary": "anthropic/claude-opus-5"
+        }
+      },
+      {
+        "id": "jack-sullivan",
+        "name": "Jack Sullivan",
+        "workspace": "/root/.openclaw/workspace-jack-sullivan",
+        "agentDir": "/root/.openclaw/agents/jack-sullivan/agent",
+        "model": {
+          "primary": "anthropic/claude-opus-5"
+        }
+      },
+      {
+        "id": "eno-sarris",
+        "name": "Eno Sarris",
+        "workspace": "/root/.openclaw/workspace-eno-sarris",
+        "agentDir": "/root/.openclaw/agents/eno-sarris/agent",
+        "model": {
+          "primary": "anthropic/claude-opus-5"
+        }
+      },
+      {
+        "id": "derek-marshall",
+        "name": "Derek Marshall",
+        "workspace": "/root/.openclaw/workspace-derek-marshall",
+        "agentDir": "/root/.openclaw/agents/derek-marshall/agent",
+        "model": {
+          "primary": "anthropic/claude-opus-5"
+        }
+      },
+      {
+        "id": "willow-hayes",
+        "name": "Willow Hayes",
+        "workspace": "/root/.openclaw/workspace-willow-hayes",
+        "agentDir": "/root/.openclaw/agents/willow-hayes/agent",
+        "model": {
+          "primary": "anthropic/claude-opus-5"
+        }
+      },
+      {
+        "id": "oliver-kensington",
+        "name": "Oliver Kensington",
+        "workspace": "/root/.openclaw/workspace-oliver-kensington",
+        "agentDir": "/root/.openclaw/agents/oliver-kensington/agent",
+        "model": {
+          "primary": "anthropic/claude-opus-5"
+        }
+      },
+      {
+        "id": "elliot-crane",
+        "name": "Elliot Crane",
+        "workspace": "/root/.openclaw/workspace-elliot-crane",
+        "agentDir": "/root/.openclaw/agents/elliot-crane/agent",
+        "model": {
+          "primary": "anthropic/claude-opus-5"
+        }
+      },
+      {
+        "id": "arthur-pembroke",
+        "name": "Arthur Pembroke",
+        "workspace": "/root/.openclaw/workspace-arthur-pembroke",
+        "agentDir": "/root/.openclaw/agents/arthur-pembroke/agent",
+        "model": {
+          "primary": "openai-codex/gpt-5.4"
+        }
+      },
+      {
+        "id": "nolan-price",
+        "name": "Nolan Price",
+        "workspace": "/root/.openclaw/workspace-nolan-price",
+        "agentDir": "/root/.openclaw/agents/nolan-price/agent",
+        "model": {
+          "primary": "anthropic/claude-opus-5"
+        }
+      }
+    ]
+  },
+  "tools": {
+    "sessions": {
+      "visibility": "all"
+    },
+    "agentToAgent": {
+      "enabled": true
+    }
+  },
+  "bindings": [
+    {
+      "agentId": "main",
+      "match": {
+        "channel": "telegram",
+        "accountId": "william"
+      }
+    },
+    {
+      "agentId": "ryan-chen",
+      "match": {
+        "channel": "telegram",
+        "accountId": "ryan"
+      }
+    },
+    {
+      "agentId": "calvin-king",
+      "match": {
+        "channel": "telegram",
+        "accountId": "calvin"
+      }
+    },
+    {
+      "agentId": "fiona-murphy",
+      "match": {
+        "channel": "telegram",
+        "accountId": "fiona"
+      }
+    },
+    {
+      "agentId": "jack-sullivan",
+      "match": {
+        "channel": "telegram",
+        "accountId": "jack"
+      }
+    },
+    {
+      "agentId": "eno-sarris",
+      "match": {
+        "channel": "telegram",
+        "accountId": "eno-sarris"
+      }
+    },
+    {
+      "agentId": "derek-marshall",
+      "match": {
+        "channel": "telegram",
+        "accountId": "derek-marshall"
+      }
+    },
+    {
+      "agentId": "willow-hayes",
+      "match": {
+        "channel": "telegram",
+        "accountId": "willow-hayes"
+      }
+    },
+    {
+      "agentId": "oliver-kensington",
+      "match": {
+        "channel": "telegram",
+        "accountId": "oliver-kensington"
+      }
+    },
+    {
+      "agentId": "elliot-crane",
+      "match": {
+        "channel": "telegram",
+        "accountId": "elliot-crane"
+      }
+    },
+    {
+      "agentId": "arthur-pembroke",
+      "match": {
+        "channel": "telegram",
+        "accountId": "arthur-pembroke"
+      }
+    },
+    {
+      "type": "route",
+      "agentId": "nolan-price",
+      "match": {
+        "channel": "telegram",
+        "accountId": "nolan-price"
+      }
+    }
+  ],
+  "messages": {
+    "ackReactionScope": "group-mentions"
+  },
+  "commands": {
+    "native": "auto",
+    "nativeSkills": "auto",
+    "restart": true,
+    "ownerDisplay": "raw"
+  },
+  "channels": {
+    "telegram": {
+      "enabled": true,
+      "dmPolicy": "pairing",
+      "groupPolicy": "allowlist",
+      "streaming": "partial",
+      "accounts": {
+        "william": {
+          "enabled": true,
+          "dmPolicy": "pairing",
+          "botToken": "<REDACTED>",
+          "groupPolicy": "allowlist",
+          "streaming": "partial"
+        },
+        "ryan": {
+          "enabled": true,
+          "dmPolicy": "pairing",
+          "botToken": "<REDACTED>",
+          "groupPolicy": "allowlist",
+          "streaming": "partial"
+        },
+        "calvin": {
+          "enabled": true,
+          "dmPolicy": "pairing",
+          "botToken": "<REDACTED>",
+          "groupPolicy": "allowlist",
+          "streaming": "partial"
+        },
+        "fiona": {
+          "enabled": true,
+          "dmPolicy": "pairing",
+          "botToken": "<REDACTED>",
+          "groupPolicy": "allowlist",
+          "streaming": "partial"
+        },
+        "jack": {
+          "enabled": true,
+          "dmPolicy": "pairing",
+          "botToken": "<REDACTED>",
+          "groupPolicy": "allowlist",
+          "streaming": "partial"
+        },
+        "eno-sarris": {
+          "enabled": true,
+          "dmPolicy": "pairing",
+          "botToken": "<REDACTED>",
+          "groupPolicy": "allowlist",
+          "streaming": "partial"
+        },
+        "derek-marshall": {
+          "enabled": true,
+          "dmPolicy": "pairing",
+          "botToken": "<REDACTED>",
+          "groupPolicy": "allowlist",
+          "streaming": "partial"
+        },
+        "willow-hayes": {
+          "enabled": true,
+          "dmPolicy": "pairing",
+          "botToken": "<REDACTED>",
+          "groupPolicy": "allowlist",
+          "streaming": "partial"
+        },
+        "oliver-kensington": {
+          "enabled": true,
+          "dmPolicy": "pairing",
+          "botToken": "<REDACTED>",
+          "groupPolicy": "allowlist",
+          "streaming": "partial"
+        },
+        "elliot-crane": {
+          "enabled": true,
+          "dmPolicy": "pairing",
+          "botToken": "<REDACTED>",
+          "groupPolicy": "allowlist",
+          "streaming": "partial"
+        },
+        "arthur-pembroke": {
+          "enabled": true,
+          "dmPolicy": "pairing",
+          "botToken": "<REDACTED>",
+          "groupPolicy": "allowlist",
+          "streaming": "partial"
+        },
+        "nolan-price": {
+          "enabled": true,
+          "dmPolicy": "pairing",
+          "botToken": "<REDACTED>",
+          "groupPolicy": "allowlist",
+          "streaming": "partial"
+        }
+      },
+      "defaultAccount": "william"
+    }
+  },
+  "gateway": {
+    "port": 45999,
+    "mode": "local",
+    "bind": "lan",
+    "controlUi": {
+      "allowedOrigins": [
+        "http://localhost:18789",
+        "http://127.0.0.1:18789"
+      ]
+    },
+    "auth": {
+      "mode": "token",
+      "token": "<REDACTED>"
+    },
+    "tailscale": {
+      "mode": "off",
+      "resetOnExit": false
+    }
+  },
+  "skills": {
+    "install": {
+      "nodeManager": "npm"
+    }
+  },
+  "plugins": {
+    "entries": {
+      "telegram": {
+        "enabled": true
+      },
+      "google": {
+        "enabled": true
+      },
+      "openai": {
+        "enabled": true
+      },
+      "anthropic": {
+        "enabled": true
+      },
+      "browser": {
+        "enabled": true
+      }
+    }
+  }
+}

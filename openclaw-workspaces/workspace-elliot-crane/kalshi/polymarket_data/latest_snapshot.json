@@ -1,0 +1,64 @@
+{
+  "timestamp": "2026-03-27T18:08:35.824570+00:00",
+  "total_markets": 500,
+  "by_category": {
+    "economics": 0,
+    "politics": 160,
+    "sports": 121,
+    "crypto": 1,
+    "other": 218
+  },
+  "top_10_volume": [
+    {
+      "question": "Will Cape Verde win the 2026 FIFA World Cup?",
+      "yes_price": 0.0025,
+      "volume_24h": 1413728.1869999997
+    },
+    {
+      "question": "Will Tucker Carlson win the 2028 US Presidential Election?",
+      "yes_price": 0.034,
+      "volume_24h": 649191.7102780003
+    },
+    {
+      "question": "Will the Charlotte Hornets win the 2026 NBA Finals?",
+      "yes_price": 0.012,
+      "volume_24h": 617720.7724570001
+    },
+    {
+      "question": "Will Gavin Newsom win the 2028 Democratic presidential nomination?",
+      "yes_price": 0.244,
+      "volume_24h": 610065.6775139995
+    },
+    {
+      "question": "Will JB Pritzker win the 2028 US Presidential Election?",
+      "yes_price": 0.0175,
+      "volume_24h": 530251.4478530003
+    },
+    {
+      "question": "Will Stephen Curry win the 2025\u20132026 NBA MVP?",
+      "yes_price": 0.0005,
+      "volume_24h": 496648.75999999995
+    },
+    {
+      "question": "Will Uruguay win the 2026 FIFA World Cup?",
+      "yes_price": 0.0145,
+      "volume_24h": 495732.04312900006
+    },
+    {
+      "question": "Will Kim Kardashian win the 2028 Democratic presidential nomination?",
+      "yes_price": 0.0075,
+      "volume_24h": 488296.3240580008
+    },
+    {
+      "question": "Will Atletico Madrid win the 2025\u201326 Champions League?",
+      "yes_price": 0.0325,
+      "volume_24h": 445922.70133500017
+    },
+    {
+      "question": "Will England win the 2026 FIFA World Cup?",
+      "yes_price": 0.1285,
+      "volume_24h": 432481.93374000274
+    }
+  ],
+  "economics_markets": []
+}

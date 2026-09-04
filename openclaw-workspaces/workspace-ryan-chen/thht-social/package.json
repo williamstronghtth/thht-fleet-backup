@@ -1,0 +1,20 @@
+{
+  "name": "thht-social",
+  "version": "1.0.0",
+  "description": "Social Media Dashboard for The Hoover Home Team",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": ["social-media", "dashboard", "buffer"],
+  "author": "The Hoover Home Team",
+  "license": "ISC",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "multer": "^2.0.2"
+  }
+}

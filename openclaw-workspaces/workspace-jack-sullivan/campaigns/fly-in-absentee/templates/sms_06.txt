@@ -1,0 +1,1 @@
+{greeting} {first_name}, quick pulse check. Everything good with your property in Fly In? If you want an update on values, just let me know. {closer}

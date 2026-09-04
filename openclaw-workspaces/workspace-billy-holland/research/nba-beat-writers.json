@@ -1,0 +1,224 @@
+{
+  "description": "NBA beat writers by team - X handles for injury/news tracking via Nitter",
+  "nitterInstances": [
+    "xcancel.com"
+  ],
+  "note": "Most Nitter instances are dead. xcancel.com works as of Feb 2026.",
+  "teams": {
+    "ATL": {
+      "name": "Atlanta Hawks",
+      "writers": [
+        {"handle": "ChrisKirschner", "name": "Chris Kirschner", "outlet": "The Athletic"},
+        {"handle": "KLChouinard", "name": "Kevin Chouinard", "outlet": "Hawks.com"}
+      ]
+    },
+    "BOS": {
+      "name": "Boston Celtics",
+      "writers": [
+        {"handle": "AdamHimmelsbach", "name": "Adam Himmelsbach", "outlet": "Boston Globe"},
+        {"handle": "BrianTRobb", "name": "Brian Robb", "outlet": "MassLive"}
+      ]
+    },
+    "BKN": {
+      "name": "Brooklyn Nets",
+      "writers": [
+        {"handle": "NetsDaily", "name": "Nets Daily", "outlet": "SB Nation"},
+        {"handle": "NYPost_Lewis", "name": "Brian Lewis", "outlet": "NY Post"}
+      ]
+    },
+    "CHA": {
+      "name": "Charlotte Hornets",
+      "writers": [
+        {"handle": "rodaborone", "name": "Rod Boone", "outlet": "Charlotte Observer"}
+      ]
+    },
+    "CHI": {
+      "name": "Chicago Bulls",
+      "writers": [
+        {"handle": "KCJHoop", "name": "K.C. Johnson", "outlet": "Chicago Sports Network"},
+        {"handle": "DarnellMayberry", "name": "Darnell Mayberry", "outlet": "The Athletic"}
+      ]
+    },
+    "CLE": {
+      "name": "Cleveland Cavaliers",
+      "writers": [
+        {"handle": "ChrisFedor", "name": "Chris Fedor", "outlet": "Cleveland.com"},
+        {"handle": "KelseyCleveland", "name": "Kelsey Russo", "outlet": "The Athletic"}
+      ]
+    },
+    "DAL": {
+      "name": "Dallas Mavericks",
+      "writers": [
+        {"handle": "townbrad", "name": "Brad Townsend", "outlet": "Dallas Morning News"},
+        {"handle": "espaborowski", "name": "Tim Cato", "outlet": "The Athletic"}
+      ]
+    },
+    "DEN": {
+      "name": "Denver Nuggets",
+      "writers": [
+        {"handle": "msaborowski", "name": "Mike Singer", "outlet": "Denver Post"},
+        {"handle": "harrisonwind", "name": "Harrison Wind", "outlet": "DNVR"}
+      ]
+    },
+    "DET": {
+      "name": "Detroit Pistons",
+      "writers": [
+        {"handle": "JLEdwardsIII", "name": "James L. Edwards III", "outlet": "The Athletic"},
+        {"handle": "rodboard", "name": "Rod Beard", "outlet": "Detroit News"}
+      ]
+    },
+    "GSW": {
+      "name": "Golden State Warriors",
+      "writers": [
+        {"handle": "anthonyVslater", "name": "Anthony Slater", "outlet": "The Athletic"},
+        {"handle": "MontePooleNBCS", "name": "Monte Poole", "outlet": "NBC Sports Bay Area"}
+      ]
+    },
+    "HOU": {
+      "name": "Houston Rockets",
+      "writers": [
+        {"handle": "KellyIkoNBA", "name": "Kelly Iko", "outlet": "The Athletic"},
+        {"handle": "Jonathan_Feigen", "name": "Jonathan Feigen", "outlet": "Houston Chronicle"}
+      ]
+    },
+    "IND": {
+      "name": "Indiana Pacers",
+      "writers": [
+        {"handle": "ScottAgness", "name": "Scott Agness", "outlet": "Fieldhouse Files"},
+        {"handle": "DustinDopirak", "name": "Dustin Dopirak", "outlet": "Indianapolis Star"}
+      ]
+    },
+    "LAC": {
+      "name": "LA Clippers",
+      "writers": [
+        {"handle": "LawMurrayTheNU", "name": "Law Murray", "outlet": "The Athletic"},
+        {"handle": "AndrewGreif", "name": "Andrew Greif", "outlet": "LA Times"}
+      ]
+    },
+    "LAL": {
+      "name": "Los Angeles Lakers",
+      "writers": [
+        {"handle": "jaborowski", "name": "Jovan Buha", "outlet": "The Athletic"},
+        {"handle": "LakersReporter", "name": "Mike Trudell", "outlet": "Lakers.com"}
+      ]
+    },
+    "MEM": {
+      "name": "Memphis Grizzlies",
+      "writers": [
+        {"handle": "ChrisHerwordsTA", "name": "Chris Herrington", "outlet": "Daily Memphian"},
+        {"handle": "DrewHill_DM", "name": "Drew Hill", "outlet": "Daily Memphian"}
+      ]
+    },
+    "MIA": {
+      "name": "Miami Heat",
+      "writers": [
+        {"handle": "IraHeatBeat", "name": "Ira Winderman", "outlet": "Sun Sentinel"},
+        {"handle": "anthonychiang", "name": "Anthony Chiang", "outlet": "Miami Herald"}
+      ]
+    },
+    "MIL": {
+      "name": "Milwaukee Bucks",
+      "writers": [
+        {"handle": "eric_nehm", "name": "Eric Nehm", "outlet": "The Athletic"},
+        {"handle": "JimOwczarski", "name": "Jim Owczarski", "outlet": "Milwaukee Journal Sentinel"}
+      ]
+    },
+    "MIN": {
+      "name": "Minnesota Timberwolves",
+      "writers": [
+        {"handle": "JonKrawczynski", "name": "Jon Krawczynski", "outlet": "The Athletic"},
+        {"handle": "DaneMooreNBA", "name": "Dane Moore", "outlet": "Dane Moore NBA Podcast"}
+      ]
+    },
+    "NOP": {
+      "name": "New Orleans Pelicans",
+      "writers": [
+        {"handle": "WillGuillory", "name": "Will Guillory", "outlet": "The Athletic"},
+        {"handle": "ChristianClark", "name": "Christian Clark", "outlet": "NOLA.com"}
+      ]
+    },
+    "NYK": {
+      "name": "New York Knicks",
+      "writers": [
+        {"handle": "FredKatz", "name": "Fred Katz", "outlet": "The Athletic"},
+        {"handle": "StefanBondy", "name": "Stefan Bondy", "outlet": "NY Daily News"}
+      ]
+    },
+    "OKC": {
+      "name": "Oklahoma City Thunder",
+      "writers": [
+        {"handle": "joe_mussatto", "name": "Joe Mussatto", "outlet": "The Oklahoman"},
+        {"handle": "AndrewSchlecht", "name": "Andrew Schlecht", "outlet": "Daily Thunder"}
+      ]
+    },
+    "ORL": {
+      "name": "Orlando Magic",
+      "writers": [
+        {"handle": "JoshuaBRobbins", "name": "Josh Robbins", "outlet": "The Athletic"},
+        {"handle": "KhsportsJason", "name": "Jason Beede", "outlet": "Orlando Sentinel"}
+      ]
+    },
+    "PHI": {
+      "name": "Philadelphia 76ers",
+      "writers": [
+        {"handle": "PompeyOnSixers", "name": "Keith Pompey", "outlet": "Philadelphia Inquirer"},
+        {"handle": "DerekBodnerNBA", "name": "Derek Bodner", "outlet": "The Athletic"}
+      ]
+    },
+    "PHX": {
+      "name": "Phoenix Suns",
+      "writers": [
+        {"handle": "Gambo987", "name": "John Gambadoro", "outlet": "Arizona Sports"},
+        {"handle": "GeraldBourguet", "name": "Gerald Bourguet", "outlet": "PHNX Sports"}
+      ]
+    },
+    "POR": {
+      "name": "Portland Trail Blazers",
+      "writers": [
+        {"handle": "jwquick", "name": "Jason Quick", "outlet": "The Athletic"},
+        {"handle": "CHold", "name": "Casey Holdahl", "outlet": "TrailBlazers.com"}
+      ]
+    },
+    "SAC": {
+      "name": "Sacramento Kings",
+      "writers": [
+        {"handle": "JandersonSacBee", "name": "Jason Anderson", "outlet": "Sacramento Bee"},
+        {"handle": "SeanCunningham", "name": "Sean Cunningham", "outlet": "ABC10"}
+      ]
+    },
+    "SAS": {
+      "name": "San Antonio Spurs",
+      "writers": [
+        {"handle": "JMcDonald_SAEN", "name": "Jeff McDonald", "outlet": "San Antonio Express-News"},
+        {"handle": "tom_orsborn", "name": "Tom Orsborn", "outlet": "San Antonio Express-News"}
+      ]
+    },
+    "TOR": {
+      "name": "Toronto Raptors",
+      "writers": [
+        {"handle": "JLew1050", "name": "Josh Lewenberg", "outlet": "TSN"},
+        {"handle": "BlakeMurphyODC", "name": "Blake Murphy", "outlet": "Sportsnet"}
+      ]
+    },
+    "UTA": {
+      "name": "Utah Jazz",
+      "writers": [
+        {"handle": "Tjonesonthenba", "name": "Tony Jones", "outlet": "The Athletic"},
+        {"handle": "andyblarsen", "name": "Andy Larsen", "outlet": "Salt Lake Tribune"}
+      ]
+    },
+    "WAS": {
+      "name": "Washington Wizards",
+      "writers": [
+        {"handle": "JoshRobbinsNBA", "name": "Josh Robbins", "outlet": "The Athletic"},
+        {"handle": "ChaseHughesNBCS", "name": "Chase Hughes", "outlet": "NBC Sports Washington"}
+      ]
+    }
+  },
+  "nationalWriters": [
+    {"handle": "ShamsCharania", "name": "Shams Charania", "outlet": "ESPN"},
+    {"handle": "wojespn", "name": "Adrian Wojnarowski", "outlet": "ESPN"},
+    {"handle": "MarkJonesESPN", "name": "Marc J. Spears", "outlet": "ESPN"},
+    {"handle": "ChrisHaynes", "name": "Chris Haynes", "outlet": "NBA TV/TNT"}
+  ]
+}

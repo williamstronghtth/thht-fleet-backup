@@ -1,0 +1,37 @@
+{
+  "entry_number": 12,
+  "era": "Early Earth (Archean)",
+  "time_reached": "~3.5–2.5 billion years ago — the Archean Eon; stromatolites and cyanobacteria dominate; the banded iron formations begin to form as cyanobacteria start releasing oxygen; Earth is a microbial world",
+  "last_entry_date": "2026-07-21",
+  "last_topic": "The Archean World (~3.5–2.5 Bya) — stromatolites as the first visible monuments of life; microbial mats; the emergence of cyanobacteria and oxygenic photosynthesis; banded iron formations as evidence of early oxygen; foreshadowing the Great Oxidation Event",
+  "open_threads": [
+    "The Sagittarius Dwarf Galaxy — another merger still in progress; its tidal debris wraps around the Milky Way in streams",
+    "The Andromeda collision — the Milky Way and Andromeda on course to merge ~4 billion years hence",
+    "Dark matter halos: still growing via accretion; the Milky Way continues to cannibalize satellite galaxies (Magellanic Clouds)",
+    "The supermassive black hole at our centre (Sgr A*) — how it grew, its relationship to galactic evolution",
+    "Population II stars in the halo: the living fossils of the early galaxy, still orbiting in their ancient tilted paths",
+    "Jupiter's role as cosmic bodyguard — its gravity shields the inner planets from most long-period comets",
+    "The Oort Cloud and Kuiper Belt — relics of the protoplanetary disk; source of comets",
+    "Earth's Moon — formed from the Theia impact debris; stabilises axial tilt; slowly receding; tidal forces slowing Earth's rotation over geological time",
+    "The origin of Earth's water — debate between main accretion phase vs. Late Heavy Bombardment delivery; carbonaceous chondrite isotopic match",
+    "The Isua formation (Greenland) — carbon isotope ratios suggestive of life at ~3.8 Bya; contested but compelling",
+    "Hydrothermal vents vs. tidal pools — the debate over where life first emerged (covered in Entry #11 but unresolved)",
+    "The RNA World — what came before RNA? How did nucleotides form? The pre-RNA world remains murky",
+    "LUCA's environment — what was the Last Universal Common Ancestor actually like? Deep-sea thermophile? Early membrane chemistry?",
+    "The transition from RNA World to DNA/protein world — how did DNA take over the storage role?",
+    "Stromatolites in Shark Bay — the living survivors of the Archean world, still building in hypersaline lagoons",
+    "Banded iron formations — the geological record of the ocean 'rusting' as cyanobacteria released O2; key economic iron ore deposits today (Pilbara, Labrador Trough, Minnesota iron range)"
+  ],
+  "coming_up": [
+    "Entry #13: The Great Oxidation Event (2.4 Bya) — cyanobacteria flood the atmosphere with oxygen; the first mass extinction; banded iron formations; how poison became the breath of life",
+    "Entry #14: The rise of the eukaryotic cell — endosymbiosis; mitochondria and chloroplasts as captured bacteria; the invention of the nucleus; the cell that made complexity possible",
+    "Entry #15: Snowball Earth (720–635 Mya) — evidence that Earth froze pole-to-pole; volcanic CO2 rescue; the mysterious Ediacaran fauna that emerged after the thaw"
+  ],
+  "pacing": {
+    "cosmic_origins_entries_used": 9,
+    "early_earth_entries_used": 3,
+    "cosmic_origins_budget": 30,
+    "early_earth_budget": 45,
+    "notes": "On track. Entry #1: Big Bang → Cosmic Dark Ages. Entry #2: Population III stars. Entry #3: First galaxies / Cosmic Dawn. Entry #4: Reionization. Entry #5: Cosmic web. Entry #6: Cosmic noon / quasars / star formation peak. Entry #7: Birth of the Milky Way / Gaia-Enceladus merger. Entry #8: Solar System formation (~4.6 Bya). Entry #9: Hadean Earth / Theia impact / magma ocean / Moon formation (~4.5 Bya). Entry #10: Late Heavy Bombardment / first oceans / earliest life evidence (~4.1–3.8 Bya). Entry #11: Origin of life / RNA World / LUCA / first microfossils (~4.0–3.5 Bya). Entry #12: Archean world / stromatolites / cyanobacteria / banded iron formations (~3.5–2.5 Bya). Next: GOE."
+  }
+}

@@ -1,0 +1,6 @@
+{"experiment_id": "exp-001", "date": "2026-03-06", "metric": "emails_sent", "value": 140, "notes": "Day 1 of cold calling sequence launched"}
+{"experiment_id": "exp-001", "date": "2026-03-07", "metric": "replies", "value": 2, "notes": "2 not interested replies (kimbobp, peacefuldays59)"}
+{"experiment_id": "exp-001", "date": "2026-03-07", "metric": "bounces", "value": 2, "notes": "thomas2876@hotmail.com bounced, roadrunner mailbox full"}
+{"experiment_id": "exp-003", "date": "2026-02-24", "metric": "leads_loaded", "value": 58, "notes": "Lis pendens leads with skip trace data"}
+{"experiment_id": "general", "date": "2026-02-19", "metric": "expired_emails_sent", "value": 53, "notes": "Initial expired listing outreach"}
+{"experiment_id": "general", "date": "2026-02-25", "metric": "abandoned_property_emails", "value": 5, "notes": "Door knocking follow-up campaign started"}

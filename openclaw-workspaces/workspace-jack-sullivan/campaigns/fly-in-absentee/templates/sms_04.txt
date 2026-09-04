@@ -1,0 +1,1 @@
+{greeting} {first_name}, {opener} Just checking in on your Fly In property. If you ever want to chat about the market, I'm around. {closer}

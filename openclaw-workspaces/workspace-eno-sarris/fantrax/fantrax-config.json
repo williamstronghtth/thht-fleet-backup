@@ -1,0 +1,39 @@
+{
+  "leagueId": "fq6li5m5mhuxa22g",
+  "teamId": "5cqtzk7mmhuxa22k",
+  "teamName": "Money Ball",
+  "ownerName": "ChrisHoover",
+  "credentials": {
+    "email": "choover323@gmail.com",
+    "password": "<REDACTED:CREDENTIAL>"
+  },
+  "apiEndpoint": "https://www.fantrax.com/fxpa/req",
+  "apiVersion": "179.0.1",
+  "browserTargetId": "535670B09B963A6556CE74BAD4D77F34",
+  "notes": {
+    "apiStructure": {
+      "url": "/fxpa/req?leagueId={leagueId}",
+      "body": {
+        "msgs": [{"method": "METHOD_NAME", "data": {}}],
+        "uiv": 3,
+        "refUrl": "https://www.fantrax.com/...",
+        "dt": 1,
+        "at": 0,
+        "av": "0.0",
+        "tz": "UTC",
+        "v": "179.0.1"
+      }
+    },
+    "knownMethods": [
+      "getPlayerStats",
+      "getFantasyTeams",
+      "getFantasyColumns",
+      "getPendingTransactions"
+    ],
+    "authNote": "API requires active browser session - use browser automation with profile='openclaw'"
+  },
+  "draft": {
+    "date": "Mar 16, 2026 1:00 PM EDT",
+    "status": "upcoming"
+  }
+}

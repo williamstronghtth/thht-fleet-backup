@@ -1,0 +1,40 @@
+# Data (large, regenerable)
+data/raw/
+data/processed/
+data/models/
+data/reports/
+data/bankroll_state.json
+data/betting/history.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Books (large binary files)
+books/
+
+# nbadb downloaded data
+data/nbadb/
+__pycache__/
+google-service-account.json

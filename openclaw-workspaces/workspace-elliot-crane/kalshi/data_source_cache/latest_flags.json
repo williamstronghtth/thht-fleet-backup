@@ -1,0 +1,45 @@
+[
+  {
+    "source_id": "cleveland_fed_nowcast",
+    "source_name": "Cleveland Fed Inflation Nowcast",
+    "detected_at": "2026-05-11T17:55:47.699412+00:00",
+    "headline": "NEW DATA: Cleveland Fed Inflation Nowcast \u2014 PCE Inflation MoM=0.1333% (as of 08/29)",
+    "value": "PCE Inflation MoM=0.1333% (as of 08/29)",
+    "market_keywords": [
+      "KXCPI",
+      "CPI",
+      "inflation"
+    ],
+    "urgency": "HIGH",
+    "url": "https://www.clevelandfed.org/-/media/files/webcharts/inflationnowcasting/nowcast_month.json?sc_lang=en"
+  },
+  {
+    "source_id": "atlanta_fed_gdpnow",
+    "source_name": "Atlanta Fed GDPNow",
+    "detected_at": "2026-05-11T17:55:48.266525+00:00",
+    "headline": "NEW DATA: Atlanta Fed GDPNow \u2014 0.77% (hash=425ad9a0)",
+    "value": "0.77% (hash=425ad9a0)",
+    "market_keywords": [
+      "KXGDP",
+      "GDP",
+      "recession",
+      "economic growth"
+    ],
+    "urgency": "HIGH",
+    "url": "https://www.atlantafed.org/cqer/research/gdpnow"
+  },
+  {
+    "source_id": "fed_funds_futures",
+    "source_name": "SOFR/Fed Funds Futures (30-day)",
+    "detected_at": "2026-05-11T17:55:48.724915+00:00",
+    "headline": "UPDATED: SOFR/Fed Funds Futures (30-day) changed from [page_hash=e7932213] \u2192 [page_hash=7566f076]",
+    "value": "page_hash=7566f076",
+    "market_keywords": [
+      "KXFED",
+      "FOMC",
+      "rate"
+    ],
+    "urgency": "MEDIUM",
+    "url": "https://markets.cboe.com/us/futures/market_statistics/daily/"
+  }
+]

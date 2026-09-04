@@ -1,0 +1,73 @@
+{
+  "metadata": {
+    "created": "2026-03-12T19:09:00Z",
+    "authorization_date": "2026-03-12",
+    "status": "PHASE_3_ACTIVE",
+    "limits": {
+      "max_single_trade": 25,
+      "max_total_exposure": 100,
+      "max_contracts_per_market": 30,
+      "max_daily_loss": 50,
+      "max_weekly_loss": 100
+    }
+  },
+  "current_state": {
+    "daily_pnl": 0,
+    "weekly_pnl": 0,
+    "consecutive_losses": 0,
+    "total_exposure": 4.5,
+    "trading_halted": false,
+    "halt_reason": null
+  },
+  "positions": [
+    {
+      "ticker": "KXOSCARPIC-26-ONE",
+      "contracts": 6,
+      "side": "YES",
+      "avg_price": 0.75,
+      "cost_basis": 4.5,
+      "current_price": 0.74,
+      "unrealized_pnl": -0.06,
+      "entry_date": "2026-03-12",
+      "thesis": "Pre-existing position (inherited)",
+      "status": "OPEN"
+    }
+  ],
+  "trades": [
+    {
+      "id": "7d0ff339-800f-42ef-85d3-a5fb0069794e",
+      "timestamp": "2026-03-14T13:48:08Z",
+      "ticker": "KXCPI-26MAR-T0.7",
+      "market": "CPI >0.7% March 2026",
+      "side": "yes",
+      "action": "buy",
+      "contracts": 20,
+      "price": 0.48,
+      "cost": 9.6,
+      "fees": 0.35,
+      "total": 9.95,
+      "thesis": "Weekend dislocation - market dropped 14pts (61%->47%) while Iran/oil news escalating. February gas moderately elevated but enough for >0.7% to be in play.",
+      "my_estimate": 0.58,
+      "my_estimate_updated": 0.70,
+      "estimate_update_date": "2026-03-16",
+      "estimate_update_reason": "Energy crisis escalated: Brent $106, Hormuz effectively closed, gas $3.45+. Original thesis too conservative.",
+      "market_price_at_estimate": 0.48,
+      "fair_value": "55-60%",
+      "edge_estimate": "7-12 points",
+      "confidence": "MEDIUM",
+      "steel_man_quality": 4,
+      "steel_man": "February data may lag the oil shock — gasoline spiked late Feb, won't fully hit CPI until March. Core ex-energy has been moderating. Market could be correctly pricing that February catches only the START of the shock, not the peak.",
+      "three_lenses": {
+        "historical": "Base rate unknown at entry (pre-rule)",
+        "fundamental": "Iran/oil shock → energy inflation → supports YES",
+        "market_structure": "Weekend liquidity thin → possible dislocation"
+      },
+      "settlement_date": "2026-03-26",
+      "status": "OPEN",
+      "outcome": null,
+      "pnl": null,
+      "decision_type": "AUTONOMOUS (Elliot)"
+    }
+  ],
+  "weekly_summaries": []
+}

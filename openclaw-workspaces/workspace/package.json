@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "jimp": "^1.6.0",
+    "jsqr": "^1.4.0",
+    "nodemailer": "^8.0.0",
+    "otplib": "^13.2.1",
+    "playwright": "^1.58.1",
+    "qrcode-reader": "^1.0.4",
+    "sharp": "^0.34.5",
+    "totp-generator": "^2.0.1",
+    "youtube-transcript": "^1.2.1"
+  }
+}

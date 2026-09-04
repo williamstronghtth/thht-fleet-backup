@@ -1,0 +1,188 @@
+{
+  "stories": [
+    {
+      "date": "2026-04-06",
+      "topic": "La Noche Triste — The Night the Aztecs Drove Cortés Out (1520)",
+      "era": "Early Modern / Age of Conquest (1520)",
+      "region": "Mesoamerica / Mexico",
+      "style": "James Holland (granular military/personal)",
+      "footnote": "The famous \"Tree of the Night of Sorrows\" where Cortés supposedly sat and wept became a colonial landmark — but the larger truth is that this was one of the rare moments in the conquest when Indigenous forces decisively shattered the myth of Spanish invincibility."
+    },
+    {
+      "date": "2026-04-05",
+      "topic": "The Night Edo Burned — The Great Fire of Meireki (1657)",
+      "era": "Early Modern / Tokugawa Japan (1657)",
+      "region": "Japan / East Asia",
+      "style": "Yuval Harari (systems/big-picture)",
+      "footnote": "The fire killed so many people so quickly that the Tokugawa shogunate responded not just with rebuilding, but with urban redesign — wider streets, firebreaks, and new zoning rules that helped shape Edo into the city that would eventually become Tokyo."
+    },
+    {
+      "date": "2026-04-04",
+      "topic": "The Antikythera Mechanism — The Machine Out of Time (c. 70–60 BC)",
+      "era": "Ancient / Hellenistic (c. 70-60 BC)",
+      "region": "Ancient Greece / Eastern Mediterranean",
+      "style": "Graham Hancock (speculative/mystery)",
+      "footnote": "The mechanism's gear train models the Moon's irregular orbit with remarkable fidelity — its teeth are cut to account for the fact that the Moon moves faster when it is closer to Earth; no one expected the Greeks to have understood this, and for a long time, no one believed they had.",
+      "delivery_note": "Telegram to @chris failed — chat ID unresolved. Recurring issue: Chris needs to send /start or any message to the arthur-pembroke Telegram bot first to enable outbound delivery."
+    },
+    {
+      "date": "2026-04-03",
+      "topic": "The Body Smugglers of Venice — How a Stolen Saint Built an Empire (828 AD)",
+      "era": "Medieval / Early Medieval (828 AD)",
+      "region": "Western Europe / Italy (Venice, Republic of Venice)",
+      "style": "Yuval Harari (systems/big-picture)",
+      "footnote": "The custodians who accepted the bribe wept as the body left — and reportedly said, 'Better you take him than let him be destroyed,' since the local Caliph had begun demolishing Christian churches; the merchants recorded this detail faithfully, possibly because it made the theft sound more like a rescue.",
+      "delivery_note": "Telegram to @chris failed — chat ID unresolved. Recurring issue: Chris needs to send /start or any message to the arthur-pembroke Telegram bot first."
+    },
+    {
+      "date": "2026-04-02",
+      "topic": "The Last Emperor — The Fall of Constantinople (1453)",
+      "era": "Late Medieval / Early Modern (1453)",
+      "region": "Anatolia / Byzantine Empire / Constantinople",
+      "style": "James Holland (granular military/personal)",
+      "footnote": "When Mehmed entered the Hagia Sophia, he is said to have quoted the Persian poet Saadi: 'The spider weaves the curtains in the palace of the Caesars; the owl calls the watches in the towers of Afrasiab' — a lament for fallen greatness, spoken by the man who caused it",
+      "delivery_note": "Telegram to @chris failed — chat ID unresolved. Recurring issue: Chris needs to send /start or any message to the arthur-pembroke Telegram bot first."
+    },
+    {
+      "date": "2026-04-01",
+      "topic": "The Ships That Vanished — Zheng He and the Great Withdrawal (1405–1433)",
+      "era": "Early Modern / Ming Dynasty (1405-1433)",
+      "region": "China / East Asia / Indian Ocean / East Africa",
+      "style": "Yuval Harari (systems/big-picture)",
+      "footnote": "The word 'kowtow' — meaning to bow in submission — entered English directly from the tribute ceremonies Zheng He enforced on foreign kings; the most enduring legacy of the greatest fleet in history may be a word for kneeling",
+      "delivery_note": "Telegram to @chris failed — chat ID unresolved. Known issue: Chris needs to send /start or any message to the arthur-pembroke Telegram bot first to enable outbound delivery."
+    },
+    {
+      "date": "2026-03-31",
+      "topic": "The Battle of Adwa — The Day Africa Fought Back (1896)",
+      "era": "Modern / Colonial (1896)",
+      "region": "East Africa (Ethiopia)",
+      "style": "James Holland (granular military/personal)",
+      "footnote": "Empress Taytu Betul, who helped plan the Ethiopian strategy at Adwa, later founded the city of Addis Ababa — whose name, in Amharic, means 'New Flower'",
+      "delivery_note": "Telegram to @chris failed — chat ID unresolved. Known issue: Chris needs to send /start or any message to the arthur-pembroke Telegram bot first to enable outbound delivery."
+    },
+    {
+      "date": "2026-03-30",
+      "topic": "Göbekli Tepe — The Temple Before Civilisation (c. 9600 BC)",
+      "era": "Prehistoric / Neolithic (c. 9600 BC)",
+      "region": "Anatolia / Turkey / Near East",
+      "style": "Graham Hancock (speculative/mystery)",
+      "footnote": "The word 'paradise' derives from an ancient Persian term for a walled garden — but the first walled sacred enclosure we know of wasn't Persian, wasn't a garden, and predates Persia by eight thousand years",
+      "delivery_note": "Telegram to @chris failed — chat ID unresolved. Chris needs to initiate conversation with the arthur-pembroke bot first."
+    },
+    {
+      "date": "2026-03-29",
+      "topic": "The Colony That Broke Napoleon — The Haitian Revolution and the Louisiana Purchase (1791–1804)",
+      "era": "Modern / Revolutionary (1791-1804)",
+      "region": "Caribbean (Saint-Domingue / Haiti)",
+      "style": "Yuval Harari (systems/big-picture)",
+      "footnote": "The word 'Haiti' means 'Land of High Mountains' in Taíno — the language of a people the Spanish had already driven to extinction by the time the French arrived",
+      "delivery_note": "Telegram to @chris failed — chat ID unresolved. Story composed and logged."
+    },
+    {
+      "date": "2026-03-28",
+      "topic": "The Siege of Vienna — The Last Charge of the Winged Hussars (1683)",
+      "era": "Early Modern (1683)",
+      "region": "Central Europe / Habsburg Empire / Ottoman Empire",
+      "style": "James Holland (granular military/personal)",
+      "footnote": "The coffee houses of Vienna trace their origin to sacks of coffee beans left behind in the Ottoman camp — one of the strangest and most pleasant spoils of war in European history"
+    },
+    {
+      "date": "2026-03-26",
+      "topic": "The Wayfinders — Polynesian Navigation Across the Pacific",
+      "era": "Ancient to Medieval (1500 BC - 1300 AD)",
+      "region": "Oceania / Pacific Islands",
+      "style": "Graham Hancock (speculative/mystery)",
+      "footnote": "The Polynesian word for 'lost' — in the navigational sense — does not exist in most Pacific Island languages; the concept was, quite literally, unthinkable"
+    },
+    {
+      "date": "2026-03-25",
+      "topic": "The Tulip That Ate Holland — Dutch Tulip Mania",
+      "era": "Early Modern (1630s)",
+      "region": "Western Europe (Dutch Republic, Netherlands)",
+      "style": "Yuval Harari (systems/big-picture)",
+      "footnote": "The word 'bourse' — meaning stock exchange — comes from the Bruges home of the Van der Beurze family, where medieval merchants gathered to trade; the Dutch tulip traders who crashed the world's first speculative bubble were, in a sense, just the grandchildren of that invention"
+    },
+    {
+      "date": "2026-03-24",
+      "topic": "The Fall of Singapore — The Night the Empire Died",
+      "era": "Modern / WWII (1942)",
+      "region": "Southeast Asia (Singapore, Malaya)",
+      "style": "James Holland (granular military/personal)",
+      "footnote": "Yamashita's troops were so low on supplies that his chief of staff later admitted the surrender came 'just in time' — had Percival held out another week, the Japanese might have been forced to withdraw"
+    },
+    {
+      "date": "2026-03-23",
+      "topic": "Mohenjo-daro and the Indus Valley — The City With No King",
+      "era": "Ancient / Bronze Age (c. 2600-1900 BC)",
+      "region": "South Asia (Indus Valley, modern Pakistan/India)",
+      "style": "Graham Hancock (speculative/mystery)",
+      "footnote": "The Indus Valley civilisation used standardised weights in multiples of 0.87 grams — a system so precise that a merchant in Harappa and a merchant in Lothal, 800 miles apart, could trade without dispute"
+    },
+    {
+      "date": "2026-03-22",
+      "topic": "Great Zimbabwe — The Stone City That Shouldn't Exist",
+      "era": "Medieval (11th-15th century)",
+      "region": "Southern Africa (Zimbabwe)",
+      "style": "Graham Hancock (speculative/mystery)",
+      "footnote": "Great Zimbabwe's walls contain no mortar whatsoever — every stone holds its place through nothing but gravity and the precision of its cut"
+    },
+    {
+      "date": "2026-03-21",
+      "topic": "The Inca Quipu — An Empire Run on Knotted String",
+      "era": "Pre-Columbian / Early Modern (15th-16th century)",
+      "region": "South America (Inca Empire / Tawantinsuyu)",
+      "style": "Yuval Harari (systems/big-picture)",
+      "footnote": "The Inca empire had no markets — the state distributed everything, making it history's largest planned economy until the twentieth century"
+    },
+    {
+      "date": "2026-03-20",
+      "topic": "Admiral Yi Sun-sin and the Battle of Myeongnyang",
+      "era": "Early Modern (1597)",
+      "region": "Korea, East Asia",
+      "style": "James Holland (granular military/personal)",
+      "footnote": "Yi Sun-sin's diary survived — we know he wept the night before"
+    },
+    {
+      "date": "2026-03-19",
+      "topic": "The Bronze Age Collapse",
+      "era": "Late Bronze Age (c. 1200-1150 BC)",
+      "region": "Eastern Mediterranean (Egypt, Anatolia, Greece, Levant)",
+      "style": "Graham Hancock (speculative/mystery)",
+      "footnote": "History's greatest cold case—no single culprit convicted"
+    },
+    {
+      "date": "2026-03-18",
+      "topic": "The House of Wisdom",
+      "era": "Islamic Golden Age (9th century)",
+      "region": "Baghdad, Abbasid Caliphate",
+      "style": "Yuval Harari (systems/big-picture)",
+      "footnote": "Algorithm derives from al-Khwarizmi's name"
+    },
+    {
+      "date": "2026-03-17",
+      "topic": "Assassination of Julius Caesar",
+      "era": "Ancient Rome (44 BC)",
+      "region": "Rome, Italy",
+      "style": "James Holland (granular military/personal)",
+      "footnote": "Ides of March as debt deadline"
+    },
+    {
+      "date": "2026-04-08",
+      "topic": "The Ink That Darkened the Tigris — The Fall of Baghdad (1258)",
+      "era": "Medieval / Islamic World (1258)",
+      "region": "Middle East / Abbasid Caliphate (Baghdad)",
+      "style": "James Holland (granular military/personal)",
+      "footnote": "The Arabic word 'algebra' — from al-jabr — survived the sack of Baghdad inside a treatise that had already been translated into Latin in Spain two centuries before Hulagu arrived; the Mongols destroyed the city, but the mathematics had already escaped."
+    },
+    {
+      "date": "2026-04-07",
+      "topic": "The King Who Burned the Sea — Rajendra Chola and the Raid on Srivijaya (1025)",
+      "era": "Medieval / Indian Ocean World (1025)",
+      "region": "South India / Southeast Asia / Indian Ocean",
+      "style": "Graham Hancock (speculative/mystery)",
+      "footnote": "Rajendra Chola commemorated his overseas triumph not with a sea fort or a captured throne, but by building a new capital called Gangaikonda Cholapuram — 'the city of the Chola who took the Ganges' — linking conquest by river and conquest by sea into one imperial boast."
+    }
+  ],
+  "note": "Track delivered stories to ensure variety. No topic repeats within 60 days. RECURRING ISSUE: @chris has not started a conversation with the arthur-pembroke Telegram bot, so outbound delivery fails. Chris needs to send /start or any message to the bot first to enable outbound delivery."
+}

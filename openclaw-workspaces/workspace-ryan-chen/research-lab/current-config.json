@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "updated": "2026-03-08",
+  "estimation": {
+    "buffers": {
+      "simple_feature": 1.0,
+      "integration": 1.5,
+      "browser_automation": 2.0,
+      "new_stack": 2.0
+    }
+  },
+  "stack_preferences": {
+    "simple_dashboard": "express_vanilla",
+    "complex_ui": "react",
+    "database": "supabase",
+    "scraping": "scrapling"
+  },
+  "deployment": {
+    "render_branches": ["main", "master"],
+    "browser_profile": "openclaw"
+  },
+  "active_experiments": [
+    {
+      "id": "exp-001",
+      "hypothesis": "Logging tasks at start improves estimation accuracy",
+      "start_date": "2026-03-08",
+      "status": "running"
+    }
+  ]
+}

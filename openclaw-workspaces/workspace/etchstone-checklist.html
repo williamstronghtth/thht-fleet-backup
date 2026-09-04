@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<style>
+  @page { margin: 0.6in 0.7in; size: letter; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 11px; color: #1a1a1a; line-height: 1.5; margin: 0; padding: 0; }
+  
+  .header { text-align: center; border-bottom: 3px solid #1a3a5c; padding-bottom: 12px; margin-bottom: 16px; }
+  .header h1 { font-size: 20px; color: #1a3a5c; margin: 0 0 4px 0; letter-spacing: 1px; }
+  .header .subtitle { font-size: 12px; color: #555; margin: 2px 0; }
+  .header .builder-info { font-size: 10px; color: #888; margin-top: 6px; }
+  
+  .section { margin-bottom: 14px; page-break-inside: avoid; }
+  .section-title { font-size: 13px; font-weight: bold; color: #fff; background: #1a3a5c; padding: 5px 10px; margin: 0 0 6px 0; border-radius: 3px; }
+  .section-title.partial { background: #b8860b; }
+  .section-title.unanswered { background: #c0392b; }
+  .section-title.notes { background: #2d6a2e; }
+  
+  table { width: 100%; border-collapse: collapse; margin-bottom: 8px; font-size: 10.5px; }
+  th { background: #f0f3f7; text-align: left; padding: 5px 8px; font-weight: 600; border: 1px solid #d0d0d0; }
+  td { padding: 5px 8px; border: 1px solid #d0d0d0; vertical-align: top; }
+  tr:nth-child(even) { background: #fafbfc; }
+  
+  .check { color: #27ae60; font-weight: bold; }
+  .warn { color: #b8860b; font-weight: bold; }
+  .miss { color: #c0392b; font-weight: bold; }
+  
+  .checklist { list-style: none; padding: 0; margin: 0; }
+  .checklist li { padding: 3px 0 3px 22px; position: relative; font-size: 10.5px; border-bottom: 1px solid #eee; }
+  .checklist li:before { content: "☐"; position: absolute; left: 4px; color: #c0392b; font-size: 12px; }
+  
+  .note-box { background: #f8f9f0; border-left: 4px solid #2d6a2e; padding: 8px 12px; margin: 6px 0; font-size: 10.5px; }
+  .note-box.warning { background: #fdf6e3; border-left-color: #c0392b; }
+  .note-box strong { color: #1a3a5c; }
+  
+  .footer { text-align: center; font-size: 9px; color: #999; border-top: 1px solid #ddd; padding-top: 8px; margin-top: 16px; }
+  
+  .good-list { list-style: none; padding: 0; }
+  .good-list li { padding: 2px 0 2px 18px; position: relative; font-size: 10.5px; }
+  .good-list li:before { content: "✓"; position: absolute; left: 4px; color: #27ae60; font-weight: bold; }
+
+  .cat-header { font-size: 11px; font-weight: 600; color: #1a3a5c; margin: 8px 0 3px 0; padding-bottom: 2px; border-bottom: 1px solid #ddd; }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>NEW CONSTRUCTION EVALUATION</h1>
+  <div class="subtitle">Etchstone Properties — County Road & Thornton Ferry Road II, Amherst, NH</div>
+  <div class="builder-info">(603) 724-2655 &nbsp;|&nbsp; etchstoneproperties.com</div>
+</div>
+
+<!-- SECTION 1: ANSWERED -->
+<div class="section">
+  <div class="section-title">✅ CONFIRMED BY BUILDER SPEC SHEET (17 Items)</div>
+  <table>
+    <tr><th style="width:40%">Question</th><th>Builder's Answer</th></tr>
+    <tr><td>Exterior wall framing (2x4 vs 2x6)?</td><td><span class="check">2x6 studs @ 16" o.c.</span> — above minimum spec</td></tr>
+    <tr><td>Interior wall framing?</td><td>2x4 studs @ 16" o.c. (standard)</td></tr>
+    <tr><td>Appliance brand?</td><td><span class="check">JennAir</span> — fridge, range, dishwasher, microwave, vented hood, microwave drawer</td></tr>
+    <tr><td>Exterior wall insulation?</td><td><span class="check">R-24 fiberglass blown-in blanket with vapor barrier</span></td></tr>
+    <tr><td>Attic insulation?</td><td>Fiberglass or cellulose per code</td></tr>
+    <tr><td>Basement ceiling insulation?</td><td>Fiberglass batts per code</td></tr>
+    <tr><td>Heat source?</td><td>LP gas forced hot air + central AC</td></tr>
+    <tr><td>Water heater?</td><td>Gas water heaters</td></tr>
+    <tr><td>Electrical panel?</td><td><span class="check">200 Amp service</span> (future-proof)</td></tr>
+    <tr><td>Siding material?</td><td><span class="check">James Hardie siding</span> from builder's selection</td></tr>
+    <tr><td>Roofing material?</td><td>Architectural roof shingles</td></tr>
+    <tr><td>Main floor flooring?</td><td>3¼" hardwood from builder's selection</td></tr>
+    <tr><td>Bath flooring?</td><td>Tile in primary baths</td></tr>
+    <tr><td>Sub-flooring?</td><td>¾" tongue and groove</td></tr>
+    <tr><td>Window type?</td><td>Insulated vinyl, double hung, tilt-in sashes and screens</td></tr>
+    <tr><td>Front door?</td><td>Insulated fiberglass</td></tr>
+    <tr><td>Ventilation?</td><td>Continuous ridge and soffit vents</td></tr>
+  </table>
+</div>
+
+<!-- SECTION 2: PARTIAL -->
+<div class="section">
+  <div class="section-title partial">⚠️ PARTIALLY ANSWERED — NEED MORE DETAIL (8 Items)</div>
+  <table>
+    <tr><th style="width:25%">Question</th><th style="width:30%">On Spec Sheet</th><th>What to Ask</th></tr>
+    <tr><td>Appliance models + ENERGY STAR?</td><td>JennAir brand only</td><td class="warn">Which specific models? ENERGY STAR rated?</td></tr>
+    <tr><td>Flooring brand &amp; grade?</td><td>"3¼" hardwood, builder's selection"</td><td class="warn">What species? Brand? Grade? (Red oak vs white oak vs engineered?)</td></tr>
+    <tr><td>Kitchen/bath plumbing fixtures?</td><td>"Single lever pullout faucets"</td><td class="warn">What BRAND? Kohler? Delta? Moen?</td></tr>
+    <tr><td>Roof insulation method?</td><td>"Fiberglass or cellulose per code"</td><td class="warn">"Per code" = minimum. Is spray foam available? What R-value?</td></tr>
+    <tr><td>Roofing warranty?</td><td>Architectural shingles, no warranty listed</td><td class="warn">What brand? 30-year or lifetime warranty?</td></tr>
+    <tr><td>Data/telecom wiring?</td><td>"Data and Telecom per design"</td><td class="warn">CAT5e or CAT6? RJ-45 jacks? Star or series? Which rooms?</td></tr>
+    <tr><td><strong>Exterior trim material</strong></td><td><strong>"Full coverage aluminum/vinyl trim"</strong></td><td class="miss"><strong>⚠️ RED FLAG — Hardie SIDING but vinyl/aluminum TRIM. Ask if HardieTrim is standard or available as upgrade.</strong></td></tr>
+    <tr><td>HVAC system details?</td><td>"High efficiency forced hot air"</td><td class="warn">Brand? Model? SEER/AFUE rating?</td></tr>
+  </table>
+</div>
+
+<!-- SECTION 3: UNANSWERED -->
+<div class="section">
+  <div class="section-title unanswered">❌ UNANSWERED — ASK THE BUILDER (22 Items)</div>
+
+  <div class="cat-header">Structure</div>
+  <ul class="checklist">
+    <li>1st floor ceiling height?</li>
+    <li>2nd floor ceiling height?</li>
+    <li>2nd floor joist size and type (solid lumber, LVL, I-Joist, open web truss)?</li>
+    <li>Main floor support joists — size and type (solid lumber, LVL, I-Joist, steel, open web truss)?</li>
+  </ul>
+
+  <div class="cat-header">HVAC</div>
+  <ul class="checklist">
+    <li>Standard ductwork or small/high velocity?</li>
+    <li>Zone control — manual dampers or automatic zone dampers with room thermostats?</li>
+    <li>Does every room have BOTH supply AND return vents?</li>
+  </ul>
+
+  <div class="cat-header">Insulation &amp; Soundproofing</div>
+  <ul class="checklist">
+    <li>Sound insulation between 1st and 2nd floors?</li>
+  </ul>
+
+  <div class="cat-header">Plumbing</div>
+  <ul class="checklist">
+    <li>Pipe material — copper, CPVC, or PEX?</li>
+    <li>Bathroom fixture brands (toilet, shower fixtures)?</li>
+  </ul>
+
+  <div class="cat-header">Windows — Performance Specs</div>
+  <ul class="checklist">
+    <li>U-Factor (target: 0.30 or lower)?</li>
+    <li>SHGC Factor (target: 0.25 or lower)?</li>
+    <li>VT Factor (target: 0.50 or higher)?</li>
+    <li>Low-E coating rating?</li>
+    <li>AL rating (air leakage)?</li>
+    <li>CR rating (condensation resistance)?</li>
+  </ul>
+
+  <div class="cat-header">Interior</div>
+  <ul class="checklist">
+    <li>Interior doors — hollow core or solid?</li>
+    <li>2nd floor flooring underlayment (cork or similar) for sound?</li>
+  </ul>
+
+  <div class="cat-header">Safety &amp; Systems</div>
+  <ul class="checklist">
+    <li>Radon gas meter and evacuation exhaust system? <strong>(HIGH PRIORITY — Amherst is a high radon zone)</strong></li>
+    <li>Whole house generator included or available?</li>
+    <li>Well water purification and softener system?</li>
+  </ul>
+
+  <div class="cat-header">Exterior</div>
+  <ul class="checklist">
+    <li>Gutters included?</li>
+    <li>Ice dam prevention provisions? <strong>(Critical for NH winters)</strong></li>
+  </ul>
+
+  <div class="cat-header">Contract Terms</div>
+  <ul class="checklist">
+    <li>Payment structure — construction loan with draws based on phase completion?</li>
+    <li>Guaranteed price adjusted only via authorized change orders?</li>
+    <li>Guaranteed completion/ready date?</li>
+    <li>Penalty clause if builder misses the ready date?</li>
+  </ul>
+</div>
+
+<!-- SECTION 4: NOTES -->
+<div class="section">
+  <div class="section-title notes">🔍 ADDITIONAL NOTES</div>
+
+  <div class="note-box warning">
+    <strong>⚠️ Exterior Trim Mismatch:</strong> Spec lists James Hardie SIDING but aluminum/vinyl TRIM around windows and doors. This is where builders cut costs on an otherwise premium exterior. Vinyl trim is less durable, can warp, and doesn't match Hardie's longevity. Ask about HardieTrim (fiber cement trim) as standard or upgrade.
+  </div>
+
+  <div class="note-box warning">
+    <strong>⚠️ NH-Specific Concerns:</strong><br>
+    • <strong>Radon:</strong> Amherst, NH is in a high-radon zone. A radon mitigation system (sub-slab depressurization) should be standard in new construction — not an afterthought or add-on.<br>
+    • <strong>Ice Dams:</strong> No mention of gutters or ice &amp; water shield membrane. NH winters demand: ice/water shield on first 3-6 feet of roof edge + properly sized gutters. Ridge/soffit vents are confirmed (good), which helps.<br>
+    • <strong>Well Water:</strong> NH wells commonly have arsenic, manganese, iron, and hardness issues. A water test + purification/softener system should be discussed before closing.
+  </div>
+
+  <div class="note-box">
+    <strong>What Looks Good:</strong>
+    <ul class="good-list">
+      <li>2x6 exterior framing @ 16" o.c. (above standard)</li>
+      <li>R-24 blown-in insulation with vapor barrier</li>
+      <li>JennAir appliances (premium brand)</li>
+      <li>200 Amp electrical service</li>
+      <li>Hardwood floors + hardwood staircase</li>
+      <li>Insulated fiberglass entry door</li>
+      <li>Gas fireplace included standard</li>
+      <li>James Hardie siding</li>
+    </ul>
+  </div>
+</div>
+
+<div class="footer">
+  Prepared by The Hoover Home Team &nbsp;|&nbsp; thehooverhometeam.com &nbsp;|&nbsp; March 2026
+</div>
+
+</body>
+</html>

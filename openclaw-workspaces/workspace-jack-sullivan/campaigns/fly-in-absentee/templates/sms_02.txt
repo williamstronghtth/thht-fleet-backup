@@ -1,0 +1,1 @@
+{greeting} {first_name}, {opener} Did you get a chance to see my email about your property in Fly In? {closer}

@@ -1,0 +1,81 @@
+{
+  "bots": [
+    {
+      "agent_id": "main",
+      "bot_token": "<REDACTED>",
+      "name": "William Strong"
+    },
+    {
+      "agent_id": "ryan-chen",
+      "bot_token": "<REDACTED>",
+      "name": "Ryan Chen"
+    },
+    {
+      "agent_id": "calvin-king",
+      "bot_token": "<REDACTED>",
+      "name": "Calvin King"
+    },
+    {
+      "agent_id": "fiona-murphy",
+      "bot_token": "<REDACTED>",
+      "name": "Fiona Murphy"
+    },
+    {
+      "agent_id": "jack-sullivan",
+      "bot_token": "<REDACTED>",
+      "name": "Jack Sullivan"
+    },
+    {
+      "agent_id": "eno-sarris",
+      "bot_token": "<REDACTED>",
+      "name": "Eno Sarris"
+    },
+    {
+      "agent_id": "derek-marshall",
+      "bot_token": "<REDACTED>",
+      "name": "Derek Marshall",
+      "allowed_chat_ids": [
+        8560812913,
+        8773514384
+      ]
+    },
+    {
+      "agent_id": "willow-hayes",
+      "bot_token": "<REDACTED>",
+      "name": "Willow Hayes"
+    },
+    {
+      "agent_id": "oliver-kensington",
+      "bot_token": "<REDACTED>",
+      "name": "Oliver Kensington"
+    },
+    {
+      "agent_id": "elliot-crane",
+      "bot_token": "<REDACTED>",
+      "name": "Elliot Crane"
+    },
+    {
+      "agent_id": "arthur-pembroke",
+      "bot_token": "<REDACTED>",
+      "name": "Arthur Pembroke"
+    },
+    {
+      "agent_id": "nolan-price",
+      "bot_token": "<REDACTED>",
+      "name": "Nolan Price"
+    },
+    {
+      "agent_id": "iris-vale",
+      "bot_token": "<REDACTED>",
+      "name": "Iris Vale"
+    },
+    {
+      "agent_id": "miles-redgrave",
+      "bot_token": "<REDACTED>",
+      "name": "Miles Redgrave"
+    }
+  ],
+  "allowed_chat_ids": [
+    8560812913
+  ]
+}

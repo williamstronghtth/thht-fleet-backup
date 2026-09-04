@@ -1,0 +1,1905 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>THHT CRM — The Hoover Home Team</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    :root {
+      --bg: #0f172a;
+      --surface: #1e293b;
+      --surface-hover: #334155;
+      --border: #334155;
+      --text: #f1f5f9;
+      --text-muted: #94a3b8;
+      --accent: #3b82f6;
+      --accent-hover: #2563eb;
+      --lead: #8b5cf6;
+      --active: #06b6d4;
+      --contract: #f59e0b;
+      --closed: #22c55e;
+      --past: #64748b;
+      --danger: #ef4444;
+      --warm: #f97316;
+      --cold: #6366f1;
+      --divorce: #ec4899;
+      --probate: #8b5cf6;
+      --pre-foreclosure: #ef4444;
+      --expired: #84cc16;
+      --fsbo: #14b8a6;
+      --investor-type: #eab308;
+      --referral: #22c55e;
+      --sphere: #3b82f6;
+    }
+
+    body {
+      font-family: 'Jost', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+    }
+
+    header {
+      padding: 16px 24px;
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    header h1 {
+      font-size: 20px;
+      font-weight: 600;
+    }
+
+    .header-actions {
+      display: flex;
+      gap: 12px;
+      align-items: center;
+    }
+
+    .search-box {
+      padding: 8px 12px;
+      border-radius: 8px;
+      border: 1px solid var(--border);
+      background: var(--bg);
+      color: var(--text);
+      font-size: 14px;
+      width: 250px;
+    }
+
+    .search-box:focus {
+      outline: none;
+      border-color: var(--accent);
+    }
+
+    .btn {
+      padding: 8px 16px;
+      border-radius: 8px;
+      border: none;
+      font-size: 14px;
+      font-weight: 500;
+      cursor: pointer;
+      transition: all 0.15s;
+    }
+
+    .btn-primary {
+      background: var(--accent);
+      color: white;
+    }
+
+    .btn-primary:hover {
+      background: var(--accent-hover);
+    }
+
+    .stats-bar {
+      display: flex;
+      gap: 16px;
+      padding: 16px 24px;
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      overflow-x: auto;
+    }
+
+    .stat-card {
+      padding: 12px 20px;
+      background: var(--bg);
+      border-radius: 8px;
+      min-width: 120px;
+      cursor: pointer;
+      border: 2px solid transparent;
+      transition: all 0.15s;
+    }
+
+    .stat-card:hover {
+      border-color: var(--border);
+    }
+
+    .stat-card.active {
+      border-color: var(--accent);
+    }
+
+    .stat-card .count {
+      font-size: 24px;
+      font-weight: 700;
+    }
+
+    .stat-card .label {
+      font-size: 12px;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .stat-card.lead .count { color: var(--lead); }
+    .stat-card.active-stage .count { color: var(--active); }
+    .stat-card.contract .count { color: var(--contract); }
+    .stat-card.closed .count { color: var(--closed); }
+    .stat-card.past .count { color: var(--past); }
+    .stat-card.followup .count { color: var(--danger); }
+
+    main {
+      padding: 24px;
+    }
+
+    .client-table {
+      width: 100%;
+      border-collapse: collapse;
+      background: var(--surface);
+      border-radius: 12px;
+      overflow: hidden;
+    }
+
+    .client-table th,
+    .client-table td {
+      padding: 12px 16px;
+      text-align: left;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .client-table th {
+      background: var(--bg);
+      font-size: 12px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      color: var(--text-muted);
+    }
+
+    .client-table tr:hover {
+      background: var(--surface-hover);
+      cursor: pointer;
+    }
+
+    .client-name {
+      font-weight: 500;
+    }
+
+    .client-email {
+      font-size: 13px;
+      color: var(--text-muted);
+    }
+
+    .stage-badge {
+      display: inline-block;
+      padding: 4px 10px;
+      border-radius: 12px;
+      font-size: 12px;
+      font-weight: 500;
+      text-transform: capitalize;
+    }
+
+    .stage-badge.lead { background: rgba(139, 92, 246, 0.2); color: var(--lead); }
+    .stage-badge.active { background: rgba(6, 182, 212, 0.2); color: var(--active); }
+    .stage-badge.contract { background: rgba(245, 158, 11, 0.2); color: var(--contract); }
+    .stage-badge.closed { background: rgba(34, 197, 94, 0.2); color: var(--closed); }
+    .stage-badge.past { background: rgba(100, 116, 139, 0.2); color: var(--past); }
+
+    .source-badge {
+      font-size: 12px;
+      color: var(--text-muted);
+    }
+
+    .lead-type-badge {
+      display: inline-block;
+      padding: 4px 10px;
+      border-radius: 12px;
+      font-size: 11px;
+      font-weight: 500;
+      text-transform: capitalize;
+    }
+
+    .lead-type-badge.warm { background: rgba(249, 115, 22, 0.2); color: var(--warm); }
+    .lead-type-badge.cold { background: rgba(99, 102, 241, 0.2); color: var(--cold); }
+    .lead-type-badge.divorce { background: rgba(236, 72, 153, 0.2); color: var(--divorce); }
+    .lead-type-badge.probate { background: rgba(139, 92, 246, 0.2); color: var(--probate); }
+    .lead-type-badge.pre-foreclosure { background: rgba(239, 68, 68, 0.2); color: var(--pre-foreclosure); }
+    .lead-type-badge.expired { background: rgba(132, 204, 22, 0.2); color: var(--expired); }
+    .lead-type-badge.fsbo { background: rgba(20, 184, 166, 0.2); color: var(--fsbo); }
+    .lead-type-badge.investor { background: rgba(234, 179, 8, 0.2); color: var(--investor-type); }
+    .lead-type-badge.referral { background: rgba(34, 197, 94, 0.2); color: var(--referral); }
+    .lead-type-badge.sphere { background: rgba(59, 130, 246, 0.2); color: var(--sphere); }
+    .lead-type-badge.other { background: rgba(100, 116, 139, 0.2); color: var(--past); }
+
+    .followup-date {
+      font-size: 13px;
+    }
+
+    .followup-date.overdue {
+      color: var(--danger);
+      font-weight: 500;
+    }
+
+    .followup-date.upcoming {
+      color: var(--contract);
+    }
+
+    /* Modal */
+    .modal-overlay {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(0, 0, 0, 0.7);
+      z-index: 1000;
+      justify-content: center;
+      align-items: flex-start;
+      padding: 40px 20px;
+      overflow-y: auto;
+    }
+
+    .modal-overlay.open {
+      display: flex;
+    }
+
+    .modal {
+      background: var(--surface);
+      border-radius: 12px;
+      width: 100%;
+      max-width: 600px;
+      max-height: calc(100vh - 80px);
+      overflow-y: auto;
+    }
+
+    .modal-header {
+      padding: 20px 24px;
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .modal-header h2 {
+      font-size: 18px;
+      font-weight: 600;
+    }
+
+    .modal-close {
+      background: none;
+      border: none;
+      color: var(--text-muted);
+      font-size: 24px;
+      cursor: pointer;
+    }
+
+    .modal-body {
+      padding: 24px;
+    }
+
+    .form-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+      margin-bottom: 16px;
+    }
+
+    .form-group {
+      margin-bottom: 16px;
+    }
+
+    .form-group label {
+      display: block;
+      font-size: 13px;
+      font-weight: 500;
+      margin-bottom: 6px;
+      color: var(--text-muted);
+    }
+
+    .form-group input,
+    .form-group select,
+    .form-group textarea {
+      width: 100%;
+      padding: 10px 12px;
+      border-radius: 8px;
+      border: 1px solid var(--border);
+      background: var(--bg);
+      color: var(--text);
+      font-size: 14px;
+      font-family: inherit;
+    }
+
+    .form-group textarea {
+      min-height: 80px;
+      resize: vertical;
+    }
+
+    .form-group input:focus,
+    .form-group select:focus,
+    .form-group textarea:focus {
+      outline: none;
+      border-color: var(--accent);
+    }
+
+    .modal-footer {
+      padding: 16px 24px;
+      border-top: 1px solid var(--border);
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+    }
+
+    .btn-danger {
+      background: transparent;
+      color: var(--danger);
+      border: 1px solid var(--danger);
+    }
+
+    .btn-danger:hover {
+      background: var(--danger);
+      color: white;
+    }
+
+    .activity-log {
+      margin-top: 24px;
+      border-top: 1px solid var(--border);
+      padding-top: 16px;
+    }
+
+    .activity-log h3 {
+      font-size: 14px;
+      font-weight: 600;
+      margin-bottom: 12px;
+      color: var(--text-muted);
+    }
+
+    .activity-entry {
+      padding: 8px 0;
+      border-bottom: 1px solid var(--border);
+      font-size: 13px;
+    }
+
+    .activity-entry:last-child {
+      border-bottom: none;
+    }
+
+    .activity-time {
+      color: var(--text-muted);
+      font-size: 12px;
+    }
+
+    .empty-state {
+      text-align: center;
+      padding: 60px 20px;
+      color: var(--text-muted);
+    }
+
+    .empty-state h3 {
+      font-size: 18px;
+      margin-bottom: 8px;
+    }
+
+    /* Follow-up Panel */
+    .followup-panel {
+      display: none;
+      padding: 24px;
+    }
+
+    .followup-panel.active {
+      display: block;
+    }
+
+    .followup-section {
+      margin-bottom: 24px;
+    }
+
+    .followup-section h3 {
+      font-size: 14px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      margin-bottom: 12px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .followup-section h3 .count {
+      background: var(--danger);
+      color: white;
+      padding: 2px 8px;
+      border-radius: 10px;
+      font-size: 12px;
+    }
+
+    .followup-section h3.today .count {
+      background: var(--contract);
+    }
+
+    .followup-section h3.upcoming .count {
+      background: var(--accent);
+    }
+
+    .followup-card {
+      background: var(--surface);
+      border-radius: 10px;
+      padding: 16px;
+      margin-bottom: 12px;
+      border-left: 4px solid var(--danger);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 16px;
+    }
+
+    .followup-card.today {
+      border-left-color: var(--contract);
+    }
+
+    .followup-card.upcoming {
+      border-left-color: var(--accent);
+    }
+
+    .followup-info {
+      flex: 1;
+    }
+
+    .followup-name {
+      font-weight: 600;
+      font-size: 15px;
+      margin-bottom: 4px;
+    }
+
+    .followup-details {
+      font-size: 13px;
+      color: var(--text-muted);
+      display: flex;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+
+    .followup-action {
+      font-size: 12px;
+      color: var(--text);
+      margin-top: 6px;
+      padding: 6px 10px;
+      background: var(--bg);
+      border-radius: 6px;
+      display: inline-block;
+    }
+
+    .followup-actions {
+      display: flex;
+      gap: 8px;
+    }
+
+    .btn-small {
+      padding: 6px 12px;
+      font-size: 12px;
+      border-radius: 6px;
+      border: none;
+      cursor: pointer;
+      transition: all 0.15s;
+    }
+
+    .btn-success {
+      background: var(--closed);
+      color: white;
+    }
+
+    .btn-success:hover {
+      background: #16a34a;
+    }
+
+    /* Quick Contact Modal */
+    .quick-modal {
+      max-width: 400px;
+    }
+
+    .snooze-options {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      margin-top: 8px;
+    }
+
+    .snooze-btn {
+      padding: 8px 12px;
+      border-radius: 6px;
+      border: 1px solid var(--border);
+      background: var(--bg);
+      color: var(--text);
+      font-size: 13px;
+      cursor: pointer;
+      transition: all 0.15s;
+    }
+
+    .snooze-btn:hover {
+      border-color: var(--accent);
+      background: var(--surface-hover);
+    }
+
+    .snooze-btn.selected {
+      border-color: var(--accent);
+      background: var(--accent);
+      color: white;
+    }
+
+    /* ---- AI Smart Query Bar ---- */
+    .smart-query-bar {
+      padding: 12px 24px;
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .smart-query-input {
+      flex: 1;
+      min-width: 260px;
+      padding: 9px 14px;
+      border-radius: 8px;
+      border: 1px solid var(--border);
+      background: var(--bg);
+      color: var(--text);
+      font-size: 14px;
+      font-family: inherit;
+    }
+
+    .smart-query-input:focus {
+      outline: none;
+      border-color: var(--accent);
+    }
+
+    .smart-query-input::placeholder {
+      color: var(--text-muted);
+    }
+
+    .btn-ai {
+      background: linear-gradient(135deg, #6366f1, #8b5cf6);
+      color: white;
+      white-space: nowrap;
+    }
+
+    .btn-ai:hover {
+      background: linear-gradient(135deg, #4f46e5, #7c3aed);
+    }
+
+    .btn-ai:disabled {
+      opacity: 0.6;
+      cursor: not-allowed;
+    }
+
+    .smart-filter-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 4px 10px;
+      border-radius: 20px;
+      background: rgba(99, 102, 241, 0.2);
+      border: 1px solid rgba(99, 102, 241, 0.4);
+      color: #a5b4fc;
+      font-size: 12px;
+      font-weight: 500;
+    }
+
+    .smart-filter-badge button {
+      background: none;
+      border: none;
+      color: #a5b4fc;
+      cursor: pointer;
+      padding: 0;
+      font-size: 14px;
+      line-height: 1;
+      opacity: 0.7;
+    }
+
+    .smart-filter-badge button:hover {
+      opacity: 1;
+    }
+
+    .smart-query-error {
+      color: var(--danger);
+      font-size: 13px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>THHT CRM</h1>
+    <div class="header-actions">
+      <select id="leadTypeFilter" class="search-box" style="width: 140px; cursor: pointer;">
+        <option value="">All Types</option>
+        <option value="warm">🔥 Warm</option>
+        <option value="cold">❄️ Cold</option>
+        <option value="divorce">💔 Divorce</option>
+        <option value="probate">📜 Probate</option>
+        <option value="pre-foreclosure">🏚️ Pre-Foreclosure</option>
+        <option value="expired">⏰ Expired</option>
+        <option value="fsbo">🏠 FSBO</option>
+        <option value="investor">💰 Investor</option>
+        <option value="referral">🤝 Referral</option>
+        <option value="sphere">🌐 Sphere</option>
+        <option value="other">📋 Other</option>
+      </select>
+      <input type="text" class="search-box" id="searchInput" placeholder="Search clients...">
+      <button class="btn" style="background: var(--border); color: var(--text);" onclick="openImportModal()">📥 Import CSV</button>
+      <button class="btn btn-primary" onclick="openModal()">+ Add Client</button>
+    </div>
+  </header>
+
+  <div class="stats-bar" id="statsBar">
+    <div class="stat-card" data-filter="all">
+      <div class="count" id="statTotal">0</div>
+      <div class="label">Total</div>
+    </div>
+    <div class="stat-card lead" data-filter="lead">
+      <div class="count" id="statLead">0</div>
+      <div class="label">Leads</div>
+    </div>
+    <div class="stat-card active-stage" data-filter="active">
+      <div class="count" id="statActive">0</div>
+      <div class="label">Active</div>
+    </div>
+    <div class="stat-card contract" data-filter="contract">
+      <div class="count" id="statContract">0</div>
+      <div class="label">Contract</div>
+    </div>
+    <div class="stat-card closed" data-filter="closed">
+      <div class="count" id="statClosed">0</div>
+      <div class="label">Closed</div>
+    </div>
+    <div class="stat-card past" data-filter="past">
+      <div class="count" id="statPast">0</div>
+      <div class="label">Past</div>
+    </div>
+    <div class="stat-card followup" data-filter="followup">
+      <div class="count" id="statFollowup">0</div>
+      <div class="label">Follow-Up</div>
+    </div>
+  </div>
+
+  <!-- AI Smart Query Bar -->
+  <div class="smart-query-bar" id="smartQueryBar">
+    <input
+      type="text"
+      class="smart-query-input"
+      id="smartQueryInput"
+      placeholder="e.g. show me clients from Amherst who haven't been contacted in 30 days"
+      onkeydown="if(event.key==='Enter') runSmartQuery()"
+    >
+    <button class="btn btn-ai" id="smartQueryBtn" onclick="runSmartQuery()">✨ AI Search</button>
+    <div id="smartFilterBadge" style="display:none;"></div>
+  </div>
+
+  <main id="mainTable">
+    <table class="client-table">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Phone</th>
+          <th>Type</th>
+          <th>Stage</th>
+          <th>Source</th>
+          <th>Follow-Up</th>
+          <th>Last Activity</th>
+        </tr>
+      </thead>
+      <tbody id="clientList">
+      </tbody>
+    </table>
+    <div class="empty-state" id="emptyState" style="display: none;">
+      <h3>No clients yet</h3>
+      <p>Click "Add Client" to get started</p>
+    </div>
+  </main>
+
+  <!-- Follow-up Panel -->
+  <div class="followup-panel" id="followupPanel">
+    <div class="followup-section" id="overdueSection">
+      <h3>🔴 Overdue <span class="count" id="overdueCount">0</span></h3>
+      <div id="overdueList"></div>
+    </div>
+    <div class="followup-section" id="todaySection">
+      <h3 class="today">🟡 Due Today <span class="count" id="todayCount">0</span></h3>
+      <div id="todayList"></div>
+    </div>
+    <div class="followup-section" id="upcomingSection">
+      <h3 class="upcoming">🔵 This Week <span class="count" id="upcomingCount">0</span></h3>
+      <div id="upcomingList"></div>
+    </div>
+  </div>
+
+  <!-- Client Modal -->
+  <div class="modal-overlay" id="clientModal">
+    <div class="modal">
+      <div class="modal-header">
+        <h2 id="modalTitle">Add Client</h2>
+        <button class="modal-close" onclick="closeModal()">&times;</button>
+      </div>
+      <div class="modal-body">
+        <input type="hidden" id="clientId">
+        <div class="form-row">
+          <div class="form-group">
+            <label>First Name</label>
+            <input type="text" id="firstName">
+          </div>
+          <div class="form-group">
+            <label>Last Name</label>
+            <input type="text" id="lastName">
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label>Email</label>
+            <input type="email" id="email">
+          </div>
+          <div class="form-group">
+            <label>Phone</label>
+            <input type="tel" id="phone">
+          </div>
+        </div>
+        <div class="form-group">
+          <label>Address</label>
+          <input type="text" id="address">
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label>Stage</label>
+            <select id="stage">
+              <option value="lead">Lead</option>
+              <option value="active">Active</option>
+              <option value="contract">Contract</option>
+              <option value="closed">Closed</option>
+              <option value="past">Past</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label>Lead Type</label>
+            <select id="leadType">
+              <option value="warm">🔥 Warm</option>
+              <option value="cold">❄️ Cold</option>
+              <option value="divorce">💔 Divorce</option>
+              <option value="probate">📜 Probate</option>
+              <option value="pre-foreclosure">🏚️ Pre-Foreclosure</option>
+              <option value="expired">⏰ Expired</option>
+              <option value="fsbo">🏠 FSBO</option>
+              <option value="investor">💰 Investor</option>
+              <option value="referral">🤝 Referral</option>
+              <option value="sphere">🌐 Sphere</option>
+              <option value="other">📋 Other</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-group">
+          <label>Lead Source</label>
+          <select id="leadSource">
+            <option value="Cold Calling">Cold Calling</option>
+            <option value="Browns Landing DM">Browns Landing DM</option>
+            <option value="Letter">Letter</option>
+            <option value="Sold.com">Sold.com</option>
+            <option value="Close AI">Close AI</option>
+            <option value="OPCity">OPCity</option>
+            <option value="Qazzoo">Qazzoo</option>
+            <option value="KvCORE">KvCORE</option>
+            <option value="CB Lead">CB Lead</option>
+            <option value="Door Knocking">Door Knocking</option>
+            <option value="Buyers">Buyers</option>
+            <option value="Website Home Evaluation">Website Home Evaluation</option>
+            <option value="EDDM">EDDM</option>
+            <option value="Renter">Renter</option>
+            <option value="Open House">Open House</option>
+            <option value="Other">Other</option>
+          </select>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label>Follow-Up Date</label>
+            <input type="date" id="followUpDate">
+          </div>
+          <div class="form-group">
+            <label>Next Action</label>
+            <input type="text" id="nextAction" placeholder="e.g., Call back, Send email...">
+          </div>
+        </div>
+        <div class="form-group">
+          <label>Notes</label>
+          <textarea id="notes" placeholder="Add notes about this client..."></textarea>
+        </div>
+        
+        <!-- Property Alerts Section -->
+        <div class="alerts-section" style="margin-top: 20px; padding-top: 20px; border-top: 1px solid var(--border);">
+          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px;">
+            <h3 style="font-size: 14px; font-weight: 600;">🏠 Property Alerts</h3>
+            <label style="display: flex; align-items: center; gap: 8px; cursor: pointer;">
+              <input type="checkbox" id="alertsEnabled" style="width: 18px; height: 18px;">
+              <span style="font-size: 13px;">Enable Alerts</span>
+            </label>
+          </div>
+          
+          <div id="alertsCriteria" style="display: none;">
+            <div class="form-row">
+              <div class="form-group">
+                <label>Client Type</label>
+                <select id="clientType">
+                  <option value="buyer">Buyer</option>
+                  <option value="seller">Seller</option>
+                  <option value="both">Buyer & Seller</option>
+                  <option value="investor">Investor</option>
+                  <option value="past">Past Client</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label>Alert Frequency</label>
+                <select id="alertFrequency">
+                  <option value="daily">Daily Digest</option>
+                  <option value="realtime">Real-time</option>
+                </select>
+              </div>
+            </div>
+            
+            <div class="form-group">
+              <label>Locations (comma-separated)</label>
+              <input type="text" id="alertLocations" placeholder="e.g., Port Orange, New Smyrna Beach, 32127">
+            </div>
+            
+            <div class="form-row">
+              <div class="form-group">
+                <label>Min Price</label>
+                <input type="number" id="alertPriceMin" placeholder="e.g., 200000">
+              </div>
+              <div class="form-group">
+                <label>Max Price</label>
+                <input type="number" id="alertPriceMax" placeholder="e.g., 500000">
+              </div>
+            </div>
+            
+            <div class="form-row">
+              <div class="form-group">
+                <label>Min Beds</label>
+                <input type="number" id="alertBedsMin" placeholder="e.g., 3">
+              </div>
+              <div class="form-group">
+                <label>Min Baths</label>
+                <input type="number" id="alertBathsMin" placeholder="e.g., 2">
+              </div>
+            </div>
+            
+            <div class="form-row">
+              <div class="form-group">
+                <label>Property Types</label>
+                <select id="alertPropertyTypes" multiple style="height: 80px;">
+                  <option value="single-family">Single Family</option>
+                  <option value="townhouse">Townhouse</option>
+                  <option value="condo">Condo</option>
+                  <option value="multi-family">Multi-Family</option>
+                  <option value="land">Land</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label>Special Criteria</label>
+                <input type="number" id="alertYearBuiltMax" placeholder="Year built (max)" style="margin-bottom: 8px;">
+                <input type="number" id="alertMaxStories" placeholder="Max stories (floors)">
+              </div>
+            </div>
+            
+            <div class="form-group" id="capRateGroup" style="display: none;">
+              <label>Min Cap Rate % (for investors)</label>
+              <input type="number" id="alertMinCapRate" placeholder="e.g., 6" step="0.1">
+            </div>
+            
+            <div class="form-group">
+              <label>Custom Notes</label>
+              <input type="text" id="alertCustomNotes" placeholder="e.g., Must have pool, prefers cul-de-sac">
+            </div>
+          </div>
+        </div>
+        
+        <!-- Intelligence Section (Enrichment) -->
+        <div class="activity-log" id="intelligenceSection" style="display: none;">
+          <h3 style="display: flex; justify-content: space-between; align-items: center;">
+            <span>Intelligence</span>
+            <span id="enrichmentBadge" style="font-size: 12px; padding: 3px 10px; border-radius: 10px; font-weight: 500;"></span>
+          </h3>
+          <div id="intelligenceContent" style="margin-top: 12px;">
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
+              <div>
+                <div style="font-size: 11px; text-transform: uppercase; color: var(--text-muted); margin-bottom: 4px;">LinkedIn</div>
+                <div id="intelLinkedin" style="font-size: 14px;">—</div>
+              </div>
+              <div>
+                <div style="font-size: 11px; text-transform: uppercase; color: var(--text-muted); margin-bottom: 4px;">Home Address</div>
+                <div id="intelHomeAddress" style="font-size: 14px;">—</div>
+              </div>
+              <div>
+                <div style="font-size: 11px; text-transform: uppercase; color: var(--text-muted); margin-bottom: 4px;">Estimated Value</div>
+                <div id="intelHomeValue" style="font-size: 14px;">—</div>
+              </div>
+              <div>
+                <div style="font-size: 11px; text-transform: uppercase; color: var(--text-muted); margin-bottom: 4px;">Purchase Date</div>
+                <div id="intelPurchaseDate" style="font-size: 14px;">—</div>
+              </div>
+              <div>
+                <div style="font-size: 11px; text-transform: uppercase; color: var(--text-muted); margin-bottom: 4px;">Birthday</div>
+                <div id="intelBirthday" style="font-size: 14px;">—</div>
+              </div>
+              <div>
+                <div style="font-size: 11px; text-transform: uppercase; color: var(--text-muted); margin-bottom: 4px;">Enriched At</div>
+                <div id="intelEnrichedAt" style="font-size: 14px;">—</div>
+              </div>
+            </div>
+            <div id="intelNotes" style="margin-top: 10px; font-size: 12px; color: var(--text-muted); display: none;"></div>
+            <button class="btn-small" id="reEnrichBtn" style="margin-top: 12px; background: var(--accent); color: white;" onclick="reEnrichClient()">Re-enrich</button>
+          </div>
+        </div>
+
+        <div class="activity-log" id="activityLog" style="display: none;">
+          <h3>Activity Log</h3>
+          <div id="activityEntries"></div>
+        </div>
+        
+        <!-- Call History Section -->
+        <div class="activity-log" id="callHistory" style="display: none;">
+          <h3 style="display: flex; justify-content: space-between; align-items: center;">
+            <span>📞 Call History</span>
+            <a href="#" id="clickToCallLink" class="btn btn-primary" style="font-size: 12px; padding: 6px 12px; text-decoration: none;">
+              Call Now
+            </a>
+          </h3>
+          <div id="callEntries" style="margin-top: 12px;"></div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-danger" id="deleteBtn" style="display: none;" onclick="deleteClient()">Delete</button>
+        <div style="display: flex; gap: 12px;">
+          <button class="btn" style="background: var(--border); color: var(--text);" onclick="closeModal()">Cancel</button>
+          <button class="btn btn-primary" onclick="saveClient()">Save</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Quick Contact Modal -->
+  <div class="modal-overlay" id="contactModal">
+    <div class="modal quick-modal">
+      <div class="modal-header">
+        <h2>Log Contact</h2>
+        <button class="modal-close" onclick="closeContactModal()">&times;</button>
+      </div>
+      <div class="modal-body">
+        <input type="hidden" id="contactClientId">
+        <p id="contactClientName" style="font-weight: 600; margin-bottom: 16px;"></p>
+        <div class="form-group">
+          <label>Notes (optional)</label>
+          <textarea id="contactNotes" placeholder="What did you discuss?"></textarea>
+        </div>
+        <div class="form-group">
+          <label>Next Follow-up</label>
+          <div class="snooze-options">
+            <button class="snooze-btn" data-days="0">Done</button>
+            <button class="snooze-btn" data-days="1">Tomorrow</button>
+            <button class="snooze-btn" data-days="3">3 Days</button>
+            <button class="snooze-btn" data-days="7">1 Week</button>
+            <button class="snooze-btn" data-days="14">2 Weeks</button>
+            <button class="snooze-btn" data-days="30">1 Month</button>
+          </div>
+          <input type="date" id="contactNextDate" style="margin-top: 10px;">
+        </div>
+        <div class="form-group">
+          <label>Next Action</label>
+          <input type="text" id="contactNextAction" placeholder="e.g., Send proposal, Schedule showing...">
+        </div>
+      </div>
+      <div class="modal-footer">
+        <div></div>
+        <div style="display: flex; gap: 12px;">
+          <button class="btn" style="background: var(--border); color: var(--text);" onclick="closeContactModal()">Cancel</button>
+          <button class="btn btn-success" onclick="saveContact()">✓ Mark Contacted</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Import CSV Modal -->
+  <div class="modal-overlay" id="importModal">
+    <div class="modal">
+      <div class="modal-header">
+        <h2>Import CSV</h2>
+        <button class="modal-close" onclick="closeImportModal()">&times;</button>
+      </div>
+      <div class="modal-body">
+        <div class="form-group">
+          <label>Select CSV File</label>
+          <input type="file" id="csvFile" accept=".csv" style="padding: 10px; background: var(--bg); border-radius: 8px; border: 1px solid var(--border); width: 100%;">
+        </div>
+        <div style="background: var(--bg); padding: 16px; border-radius: 8px; margin-top: 12px;">
+          <p style="font-size: 13px; color: var(--text-muted); margin-bottom: 8px;"><strong>Expected format:</strong></p>
+          <p style="font-size: 12px; color: var(--text-muted); line-height: 1.6;">
+            First Name, Last Name, Email, Home Address, Cell Phone, Last Activity, (blank), Notes<br><br>
+            <strong>Tip:</strong> Section headers (e.g., "COLD CALLING") automatically set the lead source for rows below.
+          </p>
+        </div>
+        <div id="importPreview" style="display: none; margin-top: 16px;">
+          <h3 style="font-size: 14px; margin-bottom: 12px;">Preview</h3>
+          <div id="importStats" style="background: var(--bg); padding: 12px; border-radius: 8px; font-size: 13px;"></div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <div></div>
+        <div style="display: flex; gap: 12px;">
+          <button class="btn" style="background: var(--border); color: var(--text);" onclick="closeImportModal()">Cancel</button>
+          <button class="btn btn-primary" id="importBtn" onclick="importCSV()" disabled>Import</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    let clients = [];
+    let currentFilter = 'all';
+    let parsedImportData = [];
+
+    async function loadClients() {
+      const res = await fetch('/api/clients');
+      const data = await res.json();
+      clients = data.clients;
+      renderClients();
+      loadStats();
+    }
+
+    async function loadStats() {
+      const res = await fetch('/api/stats');
+      const stats = await res.json();
+      
+      document.getElementById('statTotal').textContent = stats.total;
+      document.getElementById('statLead').textContent = stats.byStage.lead || 0;
+      document.getElementById('statActive').textContent = stats.byStage.active || 0;
+      document.getElementById('statContract').textContent = stats.byStage.contract || 0;
+      document.getElementById('statClosed').textContent = stats.byStage.closed || 0;
+      document.getElementById('statPast').textContent = stats.byStage.past || 0;
+      document.getElementById('statFollowup').textContent = stats.needsFollowUp || 0;
+    }
+
+    function renderClients() {
+      const tbody = document.getElementById('clientList');
+      const search = document.getElementById('searchInput').value.toLowerCase();
+      const leadTypeFilter = document.getElementById('leadTypeFilter').value;
+      
+      let filtered = clients;
+      
+      // Apply stage filter
+      if (currentFilter !== 'all' && currentFilter !== 'followup') {
+        filtered = filtered.filter(c => c.stage === currentFilter);
+      }
+      
+      // Apply follow-up filter
+      if (currentFilter === 'followup') {
+        const today = new Date().toISOString().split('T')[0];
+        filtered = filtered.filter(c => c.followUpDate && c.followUpDate <= today);
+      }
+      
+      // Apply lead type filter
+      if (leadTypeFilter) {
+        filtered = filtered.filter(c => (c.leadType || 'cold') === leadTypeFilter);
+      }
+      
+      // Apply search
+      if (search) {
+        filtered = filtered.filter(c => 
+          c.firstName.toLowerCase().includes(search) ||
+          c.lastName.toLowerCase().includes(search) ||
+          c.email.toLowerCase().includes(search) ||
+          c.phone.includes(search)
+        );
+      }
+      
+      if (filtered.length === 0) {
+        tbody.innerHTML = '';
+        document.getElementById('emptyState').style.display = 'block';
+        document.querySelector('.client-table').style.display = 'none';
+        return;
+      }
+      
+      document.getElementById('emptyState').style.display = 'none';
+      document.querySelector('.client-table').style.display = 'table';
+      
+      tbody.innerHTML = filtered.map(c => {
+        const followUpClass = getFollowUpClass(c.followUpDate);
+        const lastActivity = c.lastActivity ? new Date(c.lastActivity).toLocaleDateString() : '-';
+        const leadType = c.leadType || 'cold';
+        const leadTypeLabel = leadType.replace('-', ' ');
+        
+        return `
+          <tr onclick="openClient('${c.id}')">
+            <td>
+              <div class="client-name">${c.firstName} ${c.lastName}</div>
+              <div class="client-email">${c.email || '-'}</div>
+            </td>
+            <td>${c.phone ? `<a href="tel:${c.phone}" style="color: var(--accent); text-decoration: none;">${c.phone}</a>` : '-'}</td>
+            <td><span class="lead-type-badge ${leadType}">${leadTypeLabel}</span></td>
+            <td><span class="stage-badge ${c.stage}">${c.stage}</span></td>
+            <td><span class="source-badge">${c.leadSource}</span></td>
+            <td><span class="followup-date ${followUpClass}">${c.followUpDate || '-'}</span></td>
+            <td>${lastActivity}</td>
+          </tr>
+        `;
+      }).join('');
+    }
+
+    function getFollowUpClass(date) {
+      if (!date) return '';
+      const today = new Date().toISOString().split('T')[0];
+      if (date < today) return 'overdue';
+      if (date === today) return 'upcoming';
+      return '';
+    }
+
+    function openModal(clientId = null) {
+      document.getElementById('clientModal').classList.add('open');
+      document.getElementById('modalTitle').textContent = clientId ? 'Edit Client' : 'Add Client';
+      document.getElementById('deleteBtn').style.display = clientId ? 'block' : 'none';
+      document.getElementById('activityLog').style.display = clientId ? 'block' : 'none';
+      
+      if (clientId) {
+        const client = clients.find(c => c.id === clientId);
+        if (client) {
+          document.getElementById('clientId').value = client.id;
+          document.getElementById('firstName').value = client.firstName;
+          document.getElementById('lastName').value = client.lastName;
+          document.getElementById('email').value = client.email;
+          document.getElementById('phone').value = client.phone;
+          document.getElementById('address').value = client.address;
+          document.getElementById('stage').value = client.stage;
+          document.getElementById('leadType').value = client.leadType || 'cold';
+          document.getElementById('leadSource').value = client.leadSource;
+          document.getElementById('followUpDate').value = client.followUpDate || '';
+          document.getElementById('nextAction').value = client.nextAction;
+          document.getElementById('notes').value = client.notes;
+          
+          // Load alerts data
+          const alerts = client.alerts || {};
+          const criteria = alerts.criteria || {};
+          document.getElementById('alertsEnabled').checked = alerts.enabled || false;
+          document.getElementById('alertsCriteria').style.display = alerts.enabled ? 'block' : 'none';
+          document.getElementById('clientType').value = client.clientType || 'buyer';
+          document.getElementById('alertFrequency').value = alerts.frequency || 'daily';
+          document.getElementById('alertLocations').value = (criteria.locations || []).join(', ');
+          document.getElementById('alertPriceMin').value = criteria.priceMin || '';
+          document.getElementById('alertPriceMax').value = criteria.priceMax || '';
+          document.getElementById('alertBedsMin').value = criteria.bedsMin || '';
+          document.getElementById('alertBathsMin').value = criteria.bathsMin || '';
+          document.getElementById('alertYearBuiltMax').value = criteria.yearBuiltMax || '';
+          document.getElementById('alertMaxStories').value = criteria.maxStories || '';
+          document.getElementById('alertMinCapRate').value = criteria.minCapRate || '';
+          document.getElementById('alertCustomNotes').value = criteria.customNotes || '';
+          
+          // Set property types (multi-select)
+          const propTypes = document.getElementById('alertPropertyTypes');
+          Array.from(propTypes.options).forEach(opt => {
+            opt.selected = (criteria.propertyTypes || []).includes(opt.value);
+          });
+          
+          // Show cap rate for investors
+          document.getElementById('capRateGroup').style.display = 
+            client.clientType === 'investor' ? 'block' : 'none';
+          
+          // Render activity log
+          const entries = document.getElementById('activityEntries');
+          entries.innerHTML = client.activityLog.slice().reverse().map(a => `
+            <div class="activity-entry">
+              <strong>${a.action}</strong>: ${a.details}
+              <div class="activity-time">${new Date(a.timestamp).toLocaleString()}</div>
+            </div>
+          `).join('');
+          
+          // Load enrichment / intelligence data
+          loadEnrichment(client.id);
+
+          // Load and display call history
+          loadClientCalls(client.id, client.phone);
+        }
+      } else {
+        // Hide intelligence and call history for new clients
+        document.getElementById('intelligenceSection').style.display = 'none';
+        document.getElementById('callHistory').style.display = 'none';
+        document.getElementById('clientId').value = '';
+        document.getElementById('firstName').value = '';
+        document.getElementById('lastName').value = '';
+        document.getElementById('email').value = '';
+        document.getElementById('phone').value = '';
+        document.getElementById('address').value = '';
+        document.getElementById('stage').value = 'lead';
+        document.getElementById('leadSource').value = 'Other';
+        document.getElementById('followUpDate').value = '';
+        document.getElementById('nextAction').value = '';
+        document.getElementById('notes').value = '';
+        document.getElementById('leadType').value = 'cold';
+        
+        // Reset alerts
+        document.getElementById('alertsEnabled').checked = false;
+        document.getElementById('alertsCriteria').style.display = 'none';
+        document.getElementById('clientType').value = 'buyer';
+        document.getElementById('alertFrequency').value = 'daily';
+        document.getElementById('alertLocations').value = '';
+        document.getElementById('alertPriceMin').value = '';
+        document.getElementById('alertPriceMax').value = '';
+        document.getElementById('alertBedsMin').value = '';
+        document.getElementById('alertBathsMin').value = '';
+        document.getElementById('alertYearBuiltMax').value = '';
+        document.getElementById('alertMaxStories').value = '';
+        document.getElementById('alertMinCapRate').value = '';
+        document.getElementById('alertCustomNotes').value = '';
+        Array.from(document.getElementById('alertPropertyTypes').options).forEach(opt => opt.selected = false);
+        document.getElementById('capRateGroup').style.display = 'none';
+      }
+    }
+
+    function openClient(id) {
+      openModal(id);
+    }
+
+    function closeModal() {
+      document.getElementById('clientModal').classList.remove('open');
+    }
+
+    async function saveClient() {
+      const id = document.getElementById('clientId').value;
+      
+      // Get selected property types
+      const propTypesSelect = document.getElementById('alertPropertyTypes');
+      const selectedPropTypes = Array.from(propTypesSelect.selectedOptions).map(opt => opt.value);
+      
+      // Parse locations
+      const locationsStr = document.getElementById('alertLocations').value;
+      const locations = locationsStr ? locationsStr.split(',').map(l => l.trim()).filter(l => l) : [];
+      
+      const data = {
+        firstName: document.getElementById('firstName').value,
+        lastName: document.getElementById('lastName').value,
+        email: document.getElementById('email').value,
+        phone: document.getElementById('phone').value,
+        address: document.getElementById('address').value,
+        stage: document.getElementById('stage').value,
+        leadType: document.getElementById('leadType').value,
+        clientType: document.getElementById('clientType').value,
+        leadSource: document.getElementById('leadSource').value,
+        followUpDate: document.getElementById('followUpDate').value || null,
+        nextAction: document.getElementById('nextAction').value,
+        notes: document.getElementById('notes').value,
+        alerts: {
+          enabled: document.getElementById('alertsEnabled').checked,
+          method: 'email',
+          frequency: document.getElementById('alertFrequency').value,
+          criteria: {
+            locations: locations,
+            priceMin: document.getElementById('alertPriceMin').value ? parseInt(document.getElementById('alertPriceMin').value) : null,
+            priceMax: document.getElementById('alertPriceMax').value ? parseInt(document.getElementById('alertPriceMax').value) : null,
+            bedsMin: document.getElementById('alertBedsMin').value ? parseInt(document.getElementById('alertBedsMin').value) : null,
+            bathsMin: document.getElementById('alertBathsMin').value ? parseInt(document.getElementById('alertBathsMin').value) : null,
+            propertyTypes: selectedPropTypes,
+            yearBuiltMax: document.getElementById('alertYearBuiltMax').value ? parseInt(document.getElementById('alertYearBuiltMax').value) : null,
+            maxStories: document.getElementById('alertMaxStories').value ? parseInt(document.getElementById('alertMaxStories').value) : null,
+            minCapRate: document.getElementById('alertMinCapRate').value ? parseFloat(document.getElementById('alertMinCapRate').value) : null,
+            customNotes: document.getElementById('alertCustomNotes').value
+          }
+        }
+      };
+
+      if (id) {
+        await fetch(`/api/clients/${id}`, {
+          method: 'PUT',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(data)
+        });
+      } else {
+        await fetch('/api/clients', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(data)
+        });
+      }
+
+      closeModal();
+      loadClients();
+    }
+
+    async function deleteClient() {
+      const id = document.getElementById('clientId').value;
+      if (!id) return;
+      
+      if (confirm('Are you sure you want to delete this client?')) {
+        await fetch(`/api/clients/${id}`, { method: 'DELETE' });
+        closeModal();
+        loadClients();
+      }
+    }
+
+    // Follow-up panel functions
+    async function loadFollowups() {
+      const res = await fetch('/api/followups');
+      const data = await res.json();
+      
+      document.getElementById('overdueCount').textContent = data.overdue.length;
+      document.getElementById('todayCount').textContent = data.dueToday.length;
+      document.getElementById('upcomingCount').textContent = data.upcoming.length;
+      
+      document.getElementById('overdueList').innerHTML = data.overdue.map(c => renderFollowupCard(c, 'overdue')).join('');
+      document.getElementById('todayList').innerHTML = data.dueToday.map(c => renderFollowupCard(c, 'today')).join('');
+      document.getElementById('upcomingList').innerHTML = data.upcoming.map(c => renderFollowupCard(c, 'upcoming')).join('');
+      
+      // Hide empty sections
+      document.getElementById('overdueSection').style.display = data.overdue.length ? 'block' : 'none';
+      document.getElementById('todaySection').style.display = data.dueToday.length ? 'block' : 'none';
+      document.getElementById('upcomingSection').style.display = data.upcoming.length ? 'block' : 'none';
+    }
+
+    function renderFollowupCard(client, type) {
+      const daysAgo = type === 'overdue' ? getDaysOverdue(client.followUpDate) : '';
+      return `
+        <div class="followup-card ${type}">
+          <div class="followup-info">
+            <div class="followup-name">${client.firstName} ${client.lastName}</div>
+            <div class="followup-details">
+              <span>${client.phone ? `<a href="tel:${client.phone}" style="color: var(--accent); text-decoration: none;">📞 ${client.phone}</a>` : '📞 No phone'}</span>
+              <span>📍 ${client.leadSource}</span>
+              <span>📅 ${client.followUpDate}${daysAgo ? ` (${daysAgo} overdue)` : ''}</span>
+            </div>
+            ${client.nextAction ? `<div class="followup-action">→ ${client.nextAction}</div>` : ''}
+          </div>
+          <div class="followup-actions">
+            <button class="btn-small btn-success" onclick="openContactModal('${client.id}', '${client.firstName} ${client.lastName}')">✓ Contacted</button>
+            <button class="btn-small" style="background: var(--border); color: var(--text);" onclick="openClient('${client.id}')">View</button>
+          </div>
+        </div>
+      `;
+    }
+
+    function getDaysOverdue(date) {
+      const diff = Math.floor((new Date() - new Date(date)) / (1000 * 60 * 60 * 24));
+      if (diff === 1) return '1 day';
+      return `${diff} days`;
+    }
+
+    function showFollowupPanel() {
+      document.getElementById('mainTable').style.display = 'none';
+      document.getElementById('followupPanel').classList.add('active');
+      loadFollowups();
+    }
+
+    function hideFollowupPanel() {
+      document.getElementById('mainTable').style.display = 'block';
+      document.getElementById('followupPanel').classList.remove('active');
+    }
+
+    // Quick contact modal
+    let selectedSnooze = null;
+
+    function openContactModal(clientId, clientName) {
+      document.getElementById('contactModal').classList.add('open');
+      document.getElementById('contactClientId').value = clientId;
+      document.getElementById('contactClientName').textContent = clientName;
+      document.getElementById('contactNotes').value = '';
+      document.getElementById('contactNextDate').value = '';
+      document.getElementById('contactNextAction').value = '';
+      selectedSnooze = null;
+      document.querySelectorAll('.snooze-btn').forEach(b => b.classList.remove('selected'));
+    }
+
+    function closeContactModal() {
+      document.getElementById('contactModal').classList.remove('open');
+    }
+
+    document.querySelectorAll('.snooze-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('.snooze-btn').forEach(b => b.classList.remove('selected'));
+        btn.classList.add('selected');
+        selectedSnooze = parseInt(btn.dataset.days);
+        
+        if (selectedSnooze === 0) {
+          document.getElementById('contactNextDate').value = '';
+        } else {
+          const nextDate = new Date(Date.now() + selectedSnooze * 24 * 60 * 60 * 1000);
+          document.getElementById('contactNextDate').value = nextDate.toISOString().split('T')[0];
+        }
+      });
+    });
+
+    async function saveContact() {
+      const clientId = document.getElementById('contactClientId').value;
+      const notes = document.getElementById('contactNotes').value;
+      const nextDate = document.getElementById('contactNextDate').value;
+      const nextAction = document.getElementById('contactNextAction').value;
+
+      await fetch(`/api/clients/${clientId}/contacted`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          notes: notes || 'Contacted',
+          nextFollowUp: nextDate || null,
+          nextAction
+        })
+      });
+
+      closeContactModal();
+      loadClients();
+      loadFollowups();
+      loadStats();
+    }
+
+    document.getElementById('contactModal').addEventListener('click', (e) => {
+      if (e.target.id === 'contactModal') closeContactModal();
+    });
+
+    // Filter handling
+    document.querySelectorAll('.stat-card').forEach(card => {
+      card.addEventListener('click', () => {
+        document.querySelectorAll('.stat-card').forEach(c => c.classList.remove('active'));
+        card.classList.add('active');
+        currentFilter = card.dataset.filter;
+        
+        if (currentFilter === 'followup') {
+          showFollowupPanel();
+        } else {
+          hideFollowupPanel();
+          renderClients();
+        }
+      });
+    });
+
+    // Search handling
+    document.getElementById('searchInput').addEventListener('input', renderClients);
+    
+    // Lead type filter handling
+    document.getElementById('leadTypeFilter').addEventListener('change', renderClients);
+
+    // Close modal on overlay click
+    document.getElementById('clientModal').addEventListener('click', (e) => {
+      if (e.target.id === 'clientModal') closeModal();
+    });
+
+    document.getElementById('importModal').addEventListener('click', (e) => {
+      if (e.target.id === 'importModal') closeImportModal();
+    });
+
+    // CSV Import functions
+    const LEAD_SOURCES = [
+      'COLD CALLING', 'BROWNS LANDING DM', 'LETTER', 'SOLD.COM', 'CLOSE AI', 'OPICITY', 'OPCITY',
+      'QAZZOO', 'KVCORE', 'CB LEAD', 'DOOR KNOCKING', 'BUYERS',
+      'WEBSITE HOME EVALUATION', 'EDDM', 'RENTER', 'OPEN HOUSE', 'OTHER'
+    ];
+
+    const SOURCE_MAP = {
+      'COLD CALLING': 'Cold Calling', 'BROWNS LANDING DM': 'Browns Landing DM',
+      'LETTER': 'Letter', 'SOLD.COM': 'Sold.com',
+      'CLOSE AI': 'Close AI', 'OPICITY': 'OPCity', 'OPCITY': 'OPCity',
+      'QAZZOO': 'Qazzoo', 'KVCORE': 'KvCORE', 'CB LEAD': 'CB Lead',
+      'DOOR KNOCKING': 'Door Knocking', 'BUYERS': 'Buyers',
+      'WEBSITE HOME EVALUATION': 'Website Home Evaluation', 'EDDM': 'EDDM',
+      'RENTER': 'Renter', 'OPEN HOUSE': 'Open House', 'OTHER': 'Other'
+    };
+
+    function openImportModal() {
+      document.getElementById('importModal').classList.add('open');
+      document.getElementById('csvFile').value = '';
+      document.getElementById('importPreview').style.display = 'none';
+      document.getElementById('importBtn').disabled = true;
+      parsedImportData = [];
+    }
+
+    function closeImportModal() {
+      document.getElementById('importModal').classList.remove('open');
+    }
+
+    function parseCSVLine(line) {
+      const row = [];
+      let current = '';
+      let inQuotes = false;
+      for (let i = 0; i < line.length; i++) {
+        const char = line[i];
+        if (char === '"') {
+          inQuotes = !inQuotes;
+        } else if (char === ',' && !inQuotes) {
+          row.push(current.trim());
+          current = '';
+        } else {
+          current += char;
+        }
+      }
+      row.push(current.trim());
+      return row;
+    }
+
+    function parseDate(dateStr) {
+      if (!dateStr) return null;
+      const parts = dateStr.split('/');
+      if (parts.length === 3) {
+        const [month, day, year] = parts;
+        return `${year}-${month.padStart(2, '0')}-${day.padStart(2, '0')}`;
+      }
+      return null;
+    }
+
+    function normalizePhone(phone) {
+      if (!phone) return '';
+      return phone.replace(/\D/g, '');
+    }
+
+    document.getElementById('csvFile').addEventListener('change', function(e) {
+      const file = e.target.files[0];
+      if (!file) return;
+
+      const reader = new FileReader();
+      reader.onload = function(e) {
+        const content = e.target.result;
+        const lines = content.split('\n');
+        const dataRows = lines.slice(1); // Skip header
+
+        let currentSource = 'Other';
+        parsedImportData = [];
+        const stats = { bySource: {} };
+
+        for (const line of dataRows) {
+          const row = parseCSVLine(line);
+          const firstCell = (row[0] || '').toUpperCase().trim();
+
+          // Check if this is a lead source header
+          if (LEAD_SOURCES.includes(firstCell)) {
+            currentSource = SOURCE_MAP[firstCell] || 'Other';
+            continue;
+          }
+
+          const firstName = (row[0] || '').trim();
+          const lastName = (row[1] || '').trim();
+          if (!firstName && !lastName) continue;
+
+          const email = (row[2] || '').trim();
+          const phone = normalizePhone(row[4] || '');
+          if (!email && !phone) continue;
+
+          parsedImportData.push({
+            firstName, lastName, email,
+            address: (row[3] || '').trim(),
+            phone,
+            lastActivity: parseDate(row[5]),
+            notes: (row[7] || '').trim(),
+            leadSource: currentSource,
+            stage: 'lead'
+          });
+
+          stats.bySource[currentSource] = (stats.bySource[currentSource] || 0) + 1;
+        }
+
+        // Show preview
+        const preview = document.getElementById('importPreview');
+        const statsDiv = document.getElementById('importStats');
+        preview.style.display = 'block';
+
+        let statsHtml = `<strong>${parsedImportData.length} contacts found</strong><br><br>`;
+        statsHtml += Object.entries(stats.bySource)
+          .sort((a, b) => b[1] - a[1])
+          .map(([source, count]) => `${source}: ${count}`)
+          .join('<br>');
+
+        statsDiv.innerHTML = statsHtml;
+        document.getElementById('importBtn').disabled = parsedImportData.length === 0;
+      };
+
+      reader.readAsText(file);
+    });
+
+    async function importCSV() {
+      if (parsedImportData.length === 0) return;
+
+      document.getElementById('importBtn').disabled = true;
+      document.getElementById('importBtn').textContent = 'Importing...';
+
+      try {
+        const res = await fetch('/api/import', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ clients: parsedImportData })
+        });
+
+        const result = await res.json();
+        alert(`✅ Imported ${result.imported} contacts!\nTotal in CRM: ${result.total}`);
+        closeImportModal();
+        loadClients();
+      } catch (err) {
+        alert('❌ Import failed: ' + err.message);
+      } finally {
+        document.getElementById('importBtn').disabled = false;
+        document.getElementById('importBtn').textContent = 'Import';
+      }
+    }
+
+    // Alerts toggle handler
+    document.getElementById('alertsEnabled').addEventListener('change', function() {
+      document.getElementById('alertsCriteria').style.display = this.checked ? 'block' : 'none';
+    });
+
+    // Client type change handler (show cap rate for investors)
+    document.getElementById('clientType').addEventListener('change', function() {
+      document.getElementById('capRateGroup').style.display = 
+        this.value === 'investor' ? 'block' : 'none';
+    });
+
+    // ========================================
+    // OpenPhone Call History
+    // ========================================
+    async function loadClientCalls(clientId, phone) {
+      const callHistory = document.getElementById('callHistory');
+      const callEntries = document.getElementById('callEntries');
+      const clickToCallLink = document.getElementById('clickToCallLink');
+      
+      // Show call history section
+      callHistory.style.display = 'block';
+      
+      // Set click-to-call link
+      if (phone) {
+        clickToCallLink.href = `tel:${phone}`;
+        clickToCallLink.style.display = 'inline-block';
+      } else {
+        clickToCallLink.style.display = 'none';
+      }
+      
+      // Fetch call history
+      try {
+        const res = await fetch(`/api/clients/${clientId}/calls`);
+        const data = await res.json();
+        
+        if (data.calls && data.calls.length > 0) {
+          callEntries.innerHTML = data.calls.slice(0, 10).map(call => {
+            const icon = call.type?.includes('call') 
+              ? (call.direction === 'inbound' ? '📲' : '📞')
+              : (call.direction === 'inbound' ? '📨' : '📤');
+            const action = call.type?.includes('call')
+              ? (call.direction === 'inbound' ? 'Incoming Call' : 'Outgoing Call')
+              : (call.direction === 'inbound' ? 'SMS Received' : 'SMS Sent');
+            const details = call.duration 
+              ? `Duration: ${call.duration}s` 
+              : (call.body ? call.body.substring(0, 50) + '...' : '');
+            
+            return `
+              <div class="activity-entry">
+                <strong>${icon} ${action}</strong>: ${details}
+                <div class="activity-time">${new Date(call.timestamp).toLocaleString()}</div>
+              </div>
+            `;
+          }).join('');
+        } else {
+          callEntries.innerHTML = '<div style="color: var(--text-muted); font-size: 14px;">No call history yet. Calls made via OpenPhone will appear here.</div>';
+        }
+      } catch (err) {
+        callEntries.innerHTML = '<div style="color: var(--text-muted); font-size: 14px;">Call history unavailable. Configure OpenPhone webhook to enable.</div>';
+      }
+    }
+
+    // ========================================
+    // Intelligence / Enrichment
+    // ========================================
+    async function loadEnrichment(clientId) {
+      const section = document.getElementById('intelligenceSection');
+      section.style.display = 'block';
+
+      // Reset fields
+      document.getElementById('intelLinkedin').textContent = '—';
+      document.getElementById('intelHomeAddress').textContent = '—';
+      document.getElementById('intelHomeValue').textContent = '—';
+      document.getElementById('intelPurchaseDate').textContent = '—';
+      document.getElementById('intelBirthday').textContent = '—';
+      document.getElementById('intelEnrichedAt').textContent = '—';
+      document.getElementById('intelNotes').style.display = 'none';
+
+      try {
+        const res = await fetch(`/api/clients/${clientId}/enrichment`);
+        const result = await res.json();
+        if (!result.success) return;
+
+        const d = result.data;
+        const badge = document.getElementById('enrichmentBadge');
+
+        // Status badge
+        if (d.enrichmentStatus === 'complete') {
+          badge.textContent = 'Enriched';
+          badge.style.background = 'var(--closed)';
+          badge.style.color = 'white';
+        } else if (d.enrichmentStatus === 'failed') {
+          badge.textContent = 'Failed';
+          badge.style.background = 'var(--danger)';
+          badge.style.color = 'white';
+        } else {
+          badge.textContent = 'Pending';
+          badge.style.background = 'var(--contract)';
+          badge.style.color = 'white';
+        }
+
+        // LinkedIn
+        if (d.linkedinUrl) {
+          document.getElementById('intelLinkedin').innerHTML =
+            `<a href="${d.linkedinUrl}" target="_blank" style="color: var(--accent); text-decoration: none;">View Profile</a>`;
+        }
+
+        // Property data
+        if (d.homeAddress) {
+          document.getElementById('intelHomeAddress').textContent = d.homeAddress;
+        }
+        if (d.estimatedHomeValue) {
+          document.getElementById('intelHomeValue').textContent =
+            '$' + d.estimatedHomeValue.toLocaleString();
+        }
+        if (d.homePurchaseDate) {
+          document.getElementById('intelPurchaseDate').textContent = d.homePurchaseDate;
+        }
+        if (d.birthday) {
+          document.getElementById('intelBirthday').textContent = d.birthday;
+        }
+        if (d.enrichedAt) {
+          document.getElementById('intelEnrichedAt').textContent =
+            new Date(d.enrichedAt).toLocaleDateString();
+        }
+
+        // Notes
+        if (d.enrichmentNotes) {
+          const notesEl = document.getElementById('intelNotes');
+          notesEl.textContent = d.enrichmentNotes;
+          notesEl.style.display = 'block';
+        }
+      } catch (err) {
+        // Enrichment data unavailable — not critical
+        const badge = document.getElementById('enrichmentBadge');
+        badge.textContent = 'Unavailable';
+        badge.style.background = 'var(--border)';
+        badge.style.color = 'var(--text-muted)';
+      }
+    }
+
+    async function reEnrichClient() {
+      const clientId = document.getElementById('clientId').value;
+      if (!clientId) return;
+
+      const btn = document.getElementById('reEnrichBtn');
+      btn.textContent = 'Running...';
+      btn.disabled = true;
+
+      try {
+        await fetch(`/api/clients/${clientId}/enrich`, { method: 'POST' });
+        // Reload after a short delay to let enrichment complete
+        setTimeout(() => loadEnrichment(clientId), 3000);
+      } catch (err) {
+        alert('Re-enrichment failed: ' + err.message);
+      } finally {
+        btn.textContent = 'Re-enrich';
+        btn.disabled = false;
+      }
+    }
+
+    // Initialize
+    loadClients();
+
+    // ============================================
+    // AI Smart Query
+    // ============================================
+
+    // Holds the smart-query result set when active; null means normal mode
+    let smartQueryClients = null;
+
+    async function runSmartQuery() {
+      const input = document.getElementById('smartQueryInput');
+      const btn = document.getElementById('smartQueryBtn');
+      const badge = document.getElementById('smartFilterBadge');
+      const query = input.value.trim();
+
+      if (!query) return;
+
+      btn.disabled = true;
+      btn.textContent = '⏳ Searching…';
+      badge.style.display = 'none';
+
+      try {
+        const res = await fetch('/api/smart-query', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ query })
+        });
+
+        const result = await res.json();
+
+        if (!result.success) {
+          badge.style.display = 'flex';
+          badge.innerHTML = `<span class="smart-query-error">⚠️ ${result.error || 'Query failed'}</span>`;
+          return;
+        }
+
+        // Replace displayed clients with smart-query results
+        smartQueryClients = result.data;
+        renderSmartResults(result.data, result.filter_applied, query);
+
+      } catch (err) {
+        badge.style.display = 'flex';
+        badge.innerHTML = `<span class="smart-query-error">⚠️ Network error — please try again</span>`;
+      } finally {
+        btn.disabled = false;
+        btn.textContent = '✨ AI Search';
+      }
+    }
+
+    function renderSmartResults(data, filter, queryText) {
+      const badge = document.getElementById('smartFilterBadge');
+      const tbody = document.getElementById('clientList');
+
+      // Build human-readable filter summary
+      const parts = Object.entries(filter)
+        .filter(([, v]) => v !== undefined && v !== null && v !== '')
+        .map(([k, v]) => `${k}=${v}`);
+      const filterSummary = parts.length ? parts.join(', ') : 'no filters matched';
+
+      badge.style.display = 'flex';
+      badge.innerHTML = `
+        <span>🔍 Filtered: ${filterSummary} — ${data.length} result${data.length !== 1 ? 's' : ''}</span>
+        <button onclick="clearSmartQuery()" title="Clear smart filter">✕</button>
+      `;
+
+      if (data.length === 0) {
+        tbody.innerHTML = '';
+        document.getElementById('emptyState').style.display = 'block';
+        document.querySelector('.client-table').style.display = 'none';
+        return;
+      }
+
+      document.getElementById('emptyState').style.display = 'none';
+      document.querySelector('.client-table').style.display = 'table';
+
+      tbody.innerHTML = data.map(c => {
+        const followUpClass = getFollowUpClass(c.followUpDate);
+        const lastActivity = c.lastActivity ? new Date(c.lastActivity).toLocaleDateString() : '-';
+        const leadType = c.leadType || 'cold';
+        const leadTypeLabel = leadType.replace('-', ' ');
+
+        return `
+          <tr onclick="openClient('${c.id}')">
+            <td>
+              <div class="client-name">${c.firstName} ${c.lastName}</div>
+              <div class="client-email">${c.email || '-'}</div>
+            </td>
+            <td>${c.phone ? `<a href="tel:${c.phone}" style="color: var(--accent); text-decoration: none;">${c.phone}</a>` : '-'}</td>
+            <td><span class="lead-type-badge ${leadType}">${leadTypeLabel}</span></td>
+            <td><span class="stage-badge ${c.stage}">${c.stage}</span></td>
+            <td><span class="source-badge">${c.leadSource || '-'}</span></td>
+            <td><span class="followup-date ${followUpClass}">${c.followUpDate || '-'}</span></td>
+            <td>${lastActivity}</td>
+          </tr>
+        `;
+      }).join('');
+    }
+
+    function clearSmartQuery() {
+      smartQueryClients = null;
+      document.getElementById('smartQueryInput').value = '';
+      document.getElementById('smartFilterBadge').style.display = 'none';
+      renderClients(); // restore normal view
+    }
+  </script>
+</body>
+</html>

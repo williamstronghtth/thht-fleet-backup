@@ -1,0 +1,12 @@
+{
+  "last_updated": "2026-03-30T00:00:00Z",
+  "categories": {
+    "economics": { "wins": 0, "losses": 0, "total_pnl": 0 },
+    "politics": { "wins": 0, "losses": 0, "total_pnl": 0 },
+    "entertainment": { "wins": 0, "losses": 0, "total_pnl": 0 },
+    "crypto": { "wins": 0, "losses": 0, "total_pnl": 0 },
+    "weather": { "wins": 0, "losses": 0, "total_pnl": 0 },
+    "sports": { "wins": 0, "losses": 0, "total_pnl": 0 },
+    "spike_reactive": { "wins": 0, "losses": 0, "total_pnl": 0 }
+  }
+}

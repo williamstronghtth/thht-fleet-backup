@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "updated": "2026-03-08",
+  "content": {
+    "preferred_formats": ["carousel", "single_image", "video", "blog"],
+    "optimal_posting_times": {
+      "instagram": "9am, 12pm, 6pm",
+      "facebook": "10am, 2pm",
+      "blog": "tuesday_thursday"
+    },
+    "tone": "professional_approachable"
+  },
+  "tracking": {
+    "engagement_threshold": 50,
+    "lead_attribution": true
+  },
+  "active_experiments": [
+    {
+      "id": "exp-001",
+      "hypothesis": "Carousel posts get higher engagement than single images",
+      "start_date": "2026-03-08",
+      "status": "running"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "metadata": {
+    "created": "2026-03-16",
+    "purpose": "Track ALL probability estimates (traded or not) for calibration analysis",
+    "source": "Superforecasting Ch. 3 - need volume to measure calibration"
+  },
+  "predictions": [
+    {
+      "id": 1,
+      "date": "2026-03-14",
+      "market": "CPI >0.7% March 2026",
+      "ticker": "KXCPI-26MAR-T0.7",
+      "my_estimate": 0.58,
+      "market_price": 0.48,
+      "method": "case",
+      "reference_class": null,
+      "base_rate": null,
+      "traded": true,
+      "settlement_date": "2026-03-26",
+      "outcome": null,
+      "notes": "Pre-dates base rate rule. Weekend dislocation thesis."
+    }
+  ],
+  "calibration_reviews": []
+}

@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "updated": "2026-03-30T17:43:00Z",
+  "topics": [
+    {
+      "id": "watch-001",
+      "topic": "Kalshi prediction markets news",
+      "frequency": "daily",
+      "priority": "high",
+      "reason": "Core platform - regulatory, volume, new markets"
+    },
+    {
+      "id": "watch-002", 
+      "topic": "Polymarket whale movements smart money",
+      "frequency": "daily",
+      "priority": "high",
+      "reason": "Cross-platform intel - what smart money is doing"
+    },
+    {
+      "id": "watch-003",
+      "topic": "CPI inflation predictions betting",
+      "frequency": "weekly",
+      "priority": "medium",
+      "reason": "Economics category - recurring market"
+    },
+    {
+      "id": "watch-004",
+      "topic": "Fed interest rate predictions market",
+      "frequency": "weekly",
+      "priority": "medium",
+      "reason": "Economics category - Fed decisions"
+    },
+    {
+      "id": "watch-005",
+      "topic": "prediction market arbitrage strategies",
+      "frequency": "weekly",
+      "priority": "medium",
+      "reason": "Edge finding - what traders are discussing"
+    }
+  ]
+}

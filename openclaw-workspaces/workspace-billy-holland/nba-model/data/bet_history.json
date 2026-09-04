@@ -1,0 +1,20 @@
+{
+  "bets": [
+    {
+      "id": 1,
+      "date": "2026-02-07",
+      "timestamp": "2026-02-07T01:02:35.172632",
+      "pick": "MEM +9",
+      "line": 9.0,
+      "edge": 3.4,
+      "edge_quality": "sweet_spot",
+      "units": 1.0,
+      "odds": -110,
+      "notes": "Model v2.0 first bet. Ja OUT but big cushion. Tips 10pm ET.",
+      "result": "L",
+      "actual_margin": -20,
+      "pnl": -1.0
+    }
+  ],
+  "summary": {}
+}

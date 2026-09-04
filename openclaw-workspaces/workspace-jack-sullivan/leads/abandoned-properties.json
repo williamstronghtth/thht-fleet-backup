@@ -1,0 +1,56 @@
+{
+  "campaign_start": "2026-02-25",
+  "source": "door_hanging",
+  "leads": [
+    {
+      "first_name": "Shirley",
+      "last_name": "Gilmore",
+      "email": "gilmore_meise@hotmail.com",
+      "address": "205 American Way",
+      "city": "Daytona Beach",
+      "out_of_state": true,
+      "second_location": "Shirley, NY",
+      "touch_count": 1
+    },
+    {
+      "first_name": "Linda",
+      "last_name": "Gatton",
+      "email": "lindagatton@yahoo.com",
+      "address": "914 Ginger Tree Pl",
+      "city": "Port Orange",
+      "out_of_state": false,
+      "second_location": null,
+      "touch_count": 1
+    },
+    {
+      "first_name": "Kathleen",
+      "last_name": "Menard",
+      "email": "menacon@aol.com",
+      "address": "904 Fruitwood Pl",
+      "city": "Port Orange",
+      "out_of_state": true,
+      "second_location": "Wallingford, CT",
+      "touch_count": 1
+    },
+    {
+      "first_name": "Andrew",
+      "last_name": "Daoud",
+      "email": "andrew.daoud@yahoo.com",
+      "address": "906 Smokerise Blvd",
+      "city": "Port Orange",
+      "out_of_state": false,
+      "second_location": null,
+      "touch_count": 1
+    },
+    {
+      "first_name": "Dorothy",
+      "last_name": "Heller",
+      "email": "hellerdorothy20@yahoo.com",
+      "address": "928 Countryside West Blvd",
+      "city": "Port Orange",
+      "out_of_state": false,
+      "second_location": null,
+      "touch_count": 1
+    }
+  ]
+}

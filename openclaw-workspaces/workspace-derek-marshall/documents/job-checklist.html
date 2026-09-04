@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Roofing Job Checklist</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 30px;
+            line-height: 1.4;
+        }
+        h1 {
+            text-align: center;
+            color: #1e4fa3;
+            margin-bottom: 5px;
+            border-bottom: 3px solid #1e4fa3;
+            padding-bottom: 10px;
+        }
+        .company-name {
+            text-align: center;
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 20px;
+        }
+        h2 {
+            background-color: #1e4fa3;
+            color: white;
+            padding: 8px 12px;
+            margin-top: 25px;
+            margin-bottom: 10px;
+            font-size: 16px;
+        }
+        h3 {
+            color: #1e4fa3;
+            margin-bottom: 8px;
+            margin-top: 15px;
+            font-size: 14px;
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 3px;
+        }
+        .checkbox {
+            margin: 6px 0;
+            font-size: 13px;
+        }
+        .checkbox-important {
+            margin: 6px 0;
+            font-size: 13px;
+            font-weight: bold;
+            color: #1e4fa3;
+        }
+        .job-info {
+            background-color: #f9f9f9;
+            padding: 12px;
+            border: 1px solid #ddd;
+            margin-bottom: 15px;
+        }
+        .job-info p {
+            margin: 6px 0;
+            font-size: 13px;
+        }
+        .fill-line {
+            border-bottom: 1px solid #333;
+            display: inline-block;
+            min-width: 180px;
+        }
+        .notes-box {
+            border: 1px solid #ccc;
+            padding: 10px;
+            min-height: 50px;
+            margin: 8px 0;
+            background-color: #fafafa;
+            font-size: 12px;
+        }
+        .two-column {
+            display: flex;
+            gap: 20px;
+        }
+        .two-column > div {
+            flex: 1;
+        }
+        .warning {
+            background-color: #fff3cd;
+            border-left: 3px solid #ffc107;
+            padding: 8px;
+            margin: 10px 0;
+            font-size: 12px;
+        }
+        .success {
+            background-color: #d4edda;
+            border-left: 3px solid #28a745;
+            padding: 8px;
+            margin: 10px 0;
+            font-size: 12px;
+        }
+        @media print {
+            body { padding: 15px; font-size: 12px; }
+            .page-break { page-break-before: always; }
+            h2 { font-size: 14px; padding: 6px 10px; }
+        }
+        .photo-checklist {
+            background-color: #e7f3ff;
+            padding: 10px;
+            margin: 10px 0;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 10px 0;
+            font-size: 12px;
+        }
+        th, td {
+            border: 1px solid #ccc;
+            padding: 6px;
+            text-align: left;
+        }
+        th {
+            background-color: #f5f5f5;
+        }
+    </style>
+</head>
+<body>
+
+<h1>🏠 ROOFING JOB CHECKLIST</h1>
+<p class="company-name">Affordable Roofing & Construction | 386-392-8952</p>
+
+<div class="job-info">
+    <p><strong>Customer Name:</strong> <span class="fill-line"></span></p>
+    <p><strong>Job Address:</strong> <span class="fill-line"></span></p>
+    <p><strong>Phone:</strong> <span class="fill-line" style="min-width:120px;"></span> <strong>Email:</strong> <span class="fill-line" style="min-width:150px;"></span></p>
+    <p><strong>Job Type:</strong> ☐ Replacement ☐ Repair ☐ Inspection ☐ Insurance Claim ☐ Other: __________</p>
+    <p><strong>Start Date:</strong> <span class="fill-line" style="min-width:100px;"></span> <strong>Est. Completion:</strong> <span class="fill-line" style="min-width:100px;"></span></p>
+    <p><strong>Contract Amount:</strong> $ <span class="fill-line" style="min-width:100px;"></span></p>
+</div>
+
+<h2>📋 PRE-JOB (Day Before / Morning Of)</h2>
+
+<h3>Customer Communication</h3>
+<div class="checkbox">☐ Confirm start date/time with customer</div>
+<div class="checkbox">☐ Confirm someone will be home or how to access property</div>
+<div class="checkbox">☐ Ask about pets that need to be secured</div>
+<div class="checkbox">☐ Ask about gate codes, parking restrictions</div>
+<div class="checkbox">☐ Remind them about noise and timeline expectations</div>
+
+<h3>Materials & Equipment</h3>
+<div class="checkbox">☐ Materials ordered and confirmed</div>
+<div class="checkbox">☐ Materials delivered to job site (or delivery scheduled)</div>
+<div class="checkbox">☐ Verify correct shingle color/type matches contract</div>
+<div class="checkbox">☐ All tools loaded and ready</div>
+<div class="checkbox">☐ Safety equipment (harnesses, hard hats, etc.)</div>
+<div class="checkbox">☐ Dump trailer or debris removal arranged</div>
+<div class="checkbox">☐ Tarps for property protection</div>
+<div class="checkbox">☐ Magnetic nail sweeper</div>
+
+<h3>Crew & Logistics</h3>
+<div class="checkbox">☐ Crew confirmed and knows address/time</div>
+<div class="checkbox">☐ Weather checked — clear to proceed</div>
+<div class="checkbox">☐ Permits pulled (if required)</div>
+<div class="checkbox">☐ Job settlement sheet printed</div>
+
+<h3>Marketing Prep</h3>
+<div class="checkbox">☐ Yard sign in truck</div>
+<div class="checkbox">☐ Business cards ready</div>
+<div class="checkbox">☐ Phone charged for photos/videos</div>
+
+<h2>📸 ARRIVAL — DOCUMENT EVERYTHING</h2>
+
+<div class="warning">
+<strong>⚠️ CRITICAL:</strong> Take photos BEFORE any work begins. This protects you from false damage claims.
+</div>
+
+<div class="photo-checklist">
+<strong>Required Photos — BEFORE Starting:</strong>
+<div class="checkbox">☐ Full roof from multiple angles (street view)</div>
+<div class="checkbox">☐ Close-ups of existing damage/wear</div>
+<div class="checkbox">☐ All sides of the house</div>
+<div class="checkbox">☐ Driveway condition</div>
+<div class="checkbox">☐ Landscaping, bushes, flower beds</div>
+<div class="checkbox">☐ AC units, pool equipment, outdoor furniture</div>
+<div class="checkbox">☐ Windows and siding</div>
+<div class="checkbox">☐ Gutters</div>
+<div class="checkbox">☐ Fence and gates</div>
+<div class="checkbox">☐ Vehicles parked nearby (if any)</div>
+</div>
+
+<h3>Property Protection Setup</h3>
+<div class="checkbox">☐ Tarps over bushes and landscaping</div>
+<div class="checkbox">☐ Tarps/plywood protecting AC units</div>
+<div class="checkbox">☐ Protection against windows/siding (if needed)</div>
+<div class="checkbox">☐ Patio furniture moved or covered</div>
+<div class="checkbox">☐ Customer vehicles moved away from work area</div>
+
+<h3>Job Site Setup</h3>
+<div class="checkbox">☐ Park truck FACING THE STREET (visibility)</div>
+<div class="checkbox">☐ Yard sign placed in front yard</div>
+<div class="checkbox">☐ Dump trailer/dumpster positioned</div>
+<div class="checkbox">☐ Ladders secured</div>
+<div class="checkbox">☐ Tool staging area set up</div>
+
+<h3>Customer Walkthrough</h3>
+<div class="checkbox">☐ Walk the property with customer</div>
+<div class="checkbox">☐ Confirm scope of work</div>
+<div class="checkbox">☐ Point out any pre-existing damage</div>
+<div class="checkbox">☐ Explain timeline and process</div>
+<div class="checkbox">☐ Get customer signature on scope (if needed)</div>
+
+<div class="page-break"></div>
+
+<h2>🔨 DURING THE JOB</h2>
+
+<h3>Safety</h3>
+<div class="checkbox">☐ All crew using proper safety equipment</div>
+<div class="checkbox">☐ Ladders secured and stable</div>
+<div class="checkbox">☐ Work area clear of hazards</div>
+<div class="checkbox">☐ Weather monitored throughout day</div>
+
+<h3>Communication — OVER-COMMUNICATE</h3>
+<div class="checkbox">☐ Text customer when arrived</div>
+<div class="checkbox">☐ Text midday progress update with photo</div>
+<div class="checkbox">☐ Call immediately if any issues or changes needed</div>
+<div class="checkbox">☐ Update customer on timeline if anything changes</div>
+
+<h3>Quality Control</h3>
+<div class="checkbox">☐ Materials match specs and contract</div>
+<div class="checkbox">☐ Proper underlayment installed</div>
+<div class="checkbox">☐ Flashing properly installed</div>
+<div class="checkbox">☐ Drip edge installed correctly</div>
+<div class="checkbox">☐ Vents and penetrations sealed</div>
+<div class="checkbox">☐ Shingles aligned and properly nailed</div>
+<div class="checkbox">☐ Ridge cap/ridge vent installed</div>
+
+<h3>Daily Cleanup (3-Step Process)</h3>
+<div class="checkbox-important">☐ STEP 1: Debris removed daily (not piled up)</div>
+<div class="checkbox-important">☐ STEP 2: Magnetic nail sweep of entire property</div>
+<div class="checkbox-important">☐ STEP 3: Ground inspection — walkthrough for any debris</div>
+
+<h3>Content to Capture</h3>
+<div class="checkbox">☐ Progress photos</div>
+<div class="checkbox">☐ Short video clip of crew working (10-15 sec)</div>
+<div class="checkbox">☐ Close-up of clean installation</div>
+<div class="checkbox">☐ Loaded dump trailer (shows scope of work)</div>
+<div class="checkbox">☐ Team photo (if appropriate)</div>
+
+<h3>End of Each Day</h3>
+<div class="checkbox">☐ Job site secured</div>
+<div class="checkbox">☐ Materials covered/protected</div>
+<div class="checkbox">☐ Tarps in place if work not complete</div>
+<div class="checkbox">☐ Tools secured</div>
+<div class="checkbox">☐ Customer updated on next day plan</div>
+
+<div class="warning">
+<strong>⚠️ IF IT RAINS:</strong> Tarps MUST be ready. Water damage during a job destroys trust and costs money.
+</div>
+
+<h2>✅ JOB COMPLETION</h2>
+
+<h3>Final Quality Check</h3>
+<div class="checkbox">☐ Full roof inspection — walk every section</div>
+<div class="checkbox">☐ All flashing secure</div>
+<div class="checkbox">☐ All vents and penetrations sealed</div>
+<div class="checkbox">☐ Ridge cap complete</div>
+<div class="checkbox">☐ Gutters clear of debris</div>
+<div class="checkbox">☐ No visible defects from ground level</div>
+
+<h3>Final 3-Step Cleanup</h3>
+<div class="checkbox-important">☐ STEP 1: All debris removed from property</div>
+<div class="checkbox-important">☐ STEP 2: Magnetic nail sweep — ENTIRE property (yard, driveway, street)</div>
+<div class="checkbox-important">☐ STEP 3: Final walkthrough — visually inspect everything</div>
+<div class="checkbox">☐ Driveway cleaned</div>
+<div class="checkbox">☐ Landscaping debris removed</div>
+<div class="checkbox">☐ Tarps removed, property restored</div>
+
+<div class="photo-checklist">
+<strong>Required Photos — AFTER Completion:</strong>
+<div class="checkbox">☐ Completed roof from multiple angles</div>
+<div class="checkbox">☐ Close-ups of key areas (vents, flashing, edges)</div>
+<div class="checkbox">☐ Clean yard and driveway</div>
+<div class="checkbox">☐ Same angles as "before" photos</div>
+</div>
+
+<div class="page-break"></div>
+
+<h2>🤝 CUSTOMER WALKTHROUGH</h2>
+
+<div class="checkbox">☐ Walk customer around entire property</div>
+<div class="checkbox">☐ Show completed roof from ground</div>
+<div class="checkbox">☐ Point out key features (new vents, flashing, etc.)</div>
+<div class="checkbox">☐ Show them the nail sweep was done</div>
+<div class="checkbox">☐ Ask if they have any questions or concerns</div>
+<div class="checkbox">☐ Address any concerns immediately</div>
+
+<h3>Handoff to Customer</h3>
+<div class="checkbox">☐ Warranty information provided</div>
+<div class="checkbox">☐ Manufacturer warranty registered (if applicable)</div>
+<div class="checkbox">☐ Maintenance tips provided</div>
+<div class="checkbox">☐ Your business cards (leave 2-3)</div>
+<div class="checkbox">☐ Extra shingles left with customer (for future repairs)</div>
+
+<h3>Get the Review</h3>
+<div class="success">
+<strong>🌟 ASK NOW — while they're happy:</strong><br>
+"If you're satisfied with our work, a Google review would really help us out. I can text you the link right now."
+</div>
+<div class="checkbox">☐ Asked for Google review</div>
+<div class="checkbox">☐ Sent review link via text</div>
+<div class="checkbox">☐ Asked for referrals — "Know anyone else who needs roof work?"</div>
+
+<h3>Final Customer Sign-Off</h3>
+<div class="checkbox">☐ Customer confirms satisfaction</div>
+<div class="checkbox">☐ Customer signature on completion form (if applicable)</div>
+<div class="checkbox">☐ Payment collected or payment terms confirmed</div>
+
+<h2>📊 POST-JOB ADMIN</h2>
+
+<h3>Same Day</h3>
+<div class="checkbox">☐ Job settlement sheet completed</div>
+<div class="checkbox">☐ All expenses logged with receipts</div>
+<div class="checkbox">☐ Profit split calculated</div>
+<div class="checkbox">☐ Photos backed up / saved</div>
+<div class="checkbox">☐ Before/after photos posted to Facebook (with permission)</div>
+
+<h3>Within 24 Hours</h3>
+<div class="checkbox">☐ Thank you text sent to customer</div>
+<div class="checkbox">☐ Follow up on review if not yet posted</div>
+<div class="checkbox">☐ Invoice sent (if not already paid)</div>
+<div class="checkbox">☐ Add to completed jobs record</div>
+
+<h3>Within 1 Week</h3>
+<div class="checkbox">☐ Follow-up call/text — "How's everything looking?"</div>
+<div class="checkbox">☐ Address any issues immediately</div>
+<div class="checkbox">☐ Second review reminder if needed</div>
+
+<h2>📝 NOTES</h2>
+<div class="notes-box" style="min-height:100px;"></div>
+
+<h2>⚠️ ISSUES / CHANGE ORDERS</h2>
+<div class="notes-box" style="min-height:80px;"></div>
+
+<h2>💰 JOB SUMMARY</h2>
+<table>
+    <tr><td>Contract Amount</td><td>$ ______________</td></tr>
+    <tr><td>Change Orders (+/-)</td><td>$ ______________</td></tr>
+    <tr><td><strong>Total Collected</strong></td><td><strong>$ ______________</strong></td></tr>
+    <tr><td>Total Expenses</td><td>$ ______________</td></tr>
+    <tr><td><strong>Net Profit</strong></td><td><strong>$ ______________</strong></td></tr>
+    <tr><td>Vladimir (70%)</td><td>$ ______________</td></tr>
+    <tr><td>Partner (30%)</td><td>$ ______________</td></tr>
+</table>
+
+<p><strong>Payment Received:</strong> ☐ Yes ☐ No &nbsp;&nbsp; <strong>Date:</strong> ______________ &nbsp;&nbsp; <strong>Method:</strong> ______________</p>
+
+<p><strong>Review Posted:</strong> ☐ Yes ☐ No &nbsp;&nbsp; <strong>Platform:</strong> ☐ Google ☐ Facebook ☐ Nextdoor ☐ Other</p>
+
+<br>
+<p style="text-align: center; font-size: 10px; color: #666; border-top: 1px solid #ccc; padding-top: 10px;">
+Affordable Roofing & Construction | 386-392-8952 | affordableroofingconstruction.com<br>
+Licensed & Insured: CCC 1327602 | CGC 1509441
+</p>
+
+</body>
+</html>

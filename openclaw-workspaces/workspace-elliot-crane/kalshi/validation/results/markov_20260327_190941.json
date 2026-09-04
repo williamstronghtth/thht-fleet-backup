@@ -1,0 +1,64 @@
+{
+  "timestamp": "20260327_190941",
+  "transition_matrix": {
+    "matrix": [
+      [
+        0.6,
+        0.3,
+        0.05,
+        0.02,
+        0.03
+      ],
+      [
+        0.15,
+        0.55,
+        0.18,
+        0.06,
+        0.06
+      ],
+      [
+        0.03,
+        0.15,
+        0.6,
+        0.2,
+        0.02
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "states": [
+      "low",
+      "mid",
+      "high",
+      "yes",
+      "no"
+    ],
+    "n_observations": 0
+  },
+  "resolution_probabilities": {
+    "from_low": 0.639,
+    "from_mid": 0.696,
+    "from_high": 0.819
+  },
+  "expected_steps": {
+    "from_low": 8.964,
+    "from_mid": 8.148,
+    "from_high": 5.928
+  },
+  "optimal_entry": {
+    "for_yes": "low",
+    "for_no": "high"
+  }
+}

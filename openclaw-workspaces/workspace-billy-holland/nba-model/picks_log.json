@@ -1,0 +1,27 @@
+{
+  "picks": [
+    {
+      "timestamp": "2026-02-08T14:19:20.225044",
+      "date": "2026-02-08",
+      "game": "MIA @ WAS",
+      "side": "WAS",
+      "line_at_pick": 10.5,
+      "model_line": 0.7,
+      "edge": 9.8,
+      "confidence": 0.78,
+      "kelly_pct": 13.4,
+      "reasoning": "Model V3 first pick. MIA -10.5 too high. WAS bad but not 10+ pts bad at home. Altitude-like HCA effect for home team.",
+      "closing_line": null,
+      "clv": null,
+      "result": null,
+      "profit": null
+    }
+  ],
+  "stats": {},
+  "meta": {
+    "model_version": "V3",
+    "min_edge": 6.0,
+    "created": "2026-02-08",
+    "notes": "High-confidence only. Based on 18-book synthesis. 78% historical accuracy at 6+ pt edge."
+  }
+}

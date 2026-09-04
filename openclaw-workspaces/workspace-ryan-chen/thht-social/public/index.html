@@ -1,0 +1,925 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Social Media Dashboard — The Hoover Home Team</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    :root {
+      --bg: #0a0a0f;
+      --bg-card: #12121a;
+      --bg-hover: #1a1a24;
+      --border: #2a2a3a;
+      --text: #e4e4e7;
+      --text-muted: #71717a;
+      --accent: #6366f1;
+      --accent-hover: #4f46e5;
+      --green: #22c55e;
+      --yellow: #eab308;
+      --red: #ef4444;
+      --blue: #3b82f6;
+      --pink: #ec4899;
+    }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+    }
+
+    header {
+      padding: 16px 24px;
+      background: var(--bg-card);
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    header h1 {
+      font-size: 18px;
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .header-actions {
+      display: flex;
+      gap: 12px;
+      align-items: center;
+    }
+
+    .btn {
+      padding: 8px 16px;
+      border-radius: 8px;
+      border: none;
+      font-size: 14px;
+      font-weight: 500;
+      cursor: pointer;
+      transition: all 0.15s;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .btn-primary {
+      background: var(--accent);
+      color: white;
+    }
+
+    .btn-primary:hover {
+      background: var(--accent-hover);
+    }
+
+    .btn-success {
+      background: var(--green);
+      color: white;
+    }
+
+    .btn-danger {
+      background: transparent;
+      color: var(--red);
+      border: 1px solid var(--red);
+    }
+
+    .btn-danger:hover {
+      background: var(--red);
+      color: white;
+    }
+
+    .stats-bar {
+      display: flex;
+      gap: 16px;
+      padding: 16px 24px;
+      background: var(--bg-card);
+      border-bottom: 1px solid var(--border);
+    }
+
+    .stat-card {
+      padding: 12px 20px;
+      background: var(--bg);
+      border-radius: 8px;
+      min-width: 100px;
+      cursor: pointer;
+      border: 2px solid transparent;
+      transition: all 0.15s;
+    }
+
+    .stat-card:hover, .stat-card.active {
+      border-color: var(--accent);
+    }
+
+    .stat-card .count {
+      font-size: 24px;
+      font-weight: 700;
+    }
+
+    .stat-card .label {
+      font-size: 11px;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .stat-card.pending .count { color: var(--yellow); }
+    .stat-card.approved .count { color: var(--green); }
+    .stat-card.rejected .count { color: var(--red); }
+    .stat-card.published .count { color: var(--blue); }
+
+    main {
+      padding: 24px;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+      gap: 20px;
+    }
+
+    .post-card {
+      background: var(--bg-card);
+      border-radius: 12px;
+      overflow: hidden;
+      border: 1px solid var(--border);
+    }
+
+    .post-image {
+      width: 100%;
+      aspect-ratio: 1;
+      object-fit: cover;
+      background: var(--bg);
+    }
+
+    .post-image.placeholder {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--text-muted);
+      font-size: 48px;
+    }
+
+    .post-content {
+      padding: 16px;
+    }
+
+    .post-caption {
+      font-size: 14px;
+      line-height: 1.5;
+      margin-bottom: 12px;
+      max-height: 80px;
+      overflow: hidden;
+    }
+
+    .post-platforms {
+      display: flex;
+      gap: 8px;
+      margin-bottom: 12px;
+    }
+
+    .platform-badge {
+      padding: 4px 10px;
+      border-radius: 12px;
+      font-size: 11px;
+      font-weight: 500;
+      background: var(--bg);
+    }
+
+    .platform-badge.instagram { color: var(--pink); }
+    .platform-badge.facebook { color: var(--blue); }
+    .platform-badge.twitter { color: #1da1f2; }
+    .platform-badge.linkedin { color: #0a66c2; }
+
+    .post-meta {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 12px;
+      color: var(--text-muted);
+      margin-bottom: 12px;
+    }
+
+    .post-status {
+      padding: 4px 10px;
+      border-radius: 12px;
+      font-size: 11px;
+      font-weight: 600;
+      text-transform: uppercase;
+    }
+
+    .post-status.pending { background: rgba(234, 179, 8, 0.2); color: var(--yellow); }
+    .post-status.approved { background: rgba(34, 197, 94, 0.2); color: var(--green); }
+    .post-status.rejected { background: rgba(239, 68, 68, 0.2); color: var(--red); }
+    .post-status.published { background: rgba(59, 130, 246, 0.2); color: var(--blue); }
+
+    .post-actions {
+      display: flex;
+      gap: 8px;
+      padding-top: 12px;
+      border-top: 1px solid var(--border);
+    }
+
+    .post-actions .btn {
+      flex: 1;
+      justify-content: center;
+      padding: 10px;
+    }
+
+    /* Modal */
+    .modal-overlay {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(0, 0, 0, 0.8);
+      z-index: 1000;
+      justify-content: center;
+      align-items: flex-start;
+      padding: 40px 20px;
+      overflow-y: auto;
+    }
+
+    .modal-overlay.open {
+      display: flex;
+    }
+
+    .modal {
+      background: var(--bg-card);
+      border-radius: 12px;
+      width: 100%;
+      max-width: 600px;
+    }
+
+    .modal-header {
+      padding: 20px 24px;
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .modal-header h2 {
+      font-size: 18px;
+      font-weight: 600;
+    }
+
+    .modal-close {
+      background: none;
+      border: none;
+      color: var(--text-muted);
+      font-size: 24px;
+      cursor: pointer;
+    }
+
+    .modal-body {
+      padding: 24px;
+    }
+
+    .form-group {
+      margin-bottom: 20px;
+    }
+
+    .form-group label {
+      display: block;
+      font-size: 13px;
+      font-weight: 500;
+      margin-bottom: 8px;
+      color: var(--text-muted);
+    }
+
+    .form-group input,
+    .form-group textarea,
+    .form-group select {
+      width: 100%;
+      padding: 12px;
+      border-radius: 8px;
+      border: 1px solid var(--border);
+      background: var(--bg);
+      color: var(--text);
+      font-size: 14px;
+      font-family: inherit;
+    }
+
+    .form-group textarea {
+      min-height: 120px;
+      resize: vertical;
+    }
+
+    .form-group input:focus,
+    .form-group textarea:focus {
+      outline: none;
+      border-color: var(--accent);
+    }
+
+    .image-upload {
+      border: 2px dashed var(--border);
+      border-radius: 8px;
+      padding: 40px;
+      text-align: center;
+      cursor: pointer;
+      transition: all 0.15s;
+    }
+
+    .image-upload:hover {
+      border-color: var(--accent);
+    }
+
+    .image-upload.has-image {
+      padding: 0;
+      border-style: solid;
+    }
+
+    .image-upload img {
+      width: 100%;
+      max-height: 300px;
+      object-fit: contain;
+    }
+
+    .platform-toggles {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .platform-toggle {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding: 10px 16px;
+      border-radius: 8px;
+      border: 1px solid var(--border);
+      background: var(--bg);
+      cursor: pointer;
+      transition: all 0.15s;
+    }
+
+    .platform-toggle:hover {
+      border-color: var(--accent);
+    }
+
+    .platform-toggle.selected {
+      border-color: var(--accent);
+      background: rgba(99, 102, 241, 0.1);
+    }
+
+    .platform-toggle input {
+      display: none;
+    }
+
+    .platform-icon {
+      font-size: 20px;
+    }
+
+    .modal-footer {
+      padding: 16px 24px;
+      border-top: 1px solid var(--border);
+      display: flex;
+      justify-content: flex-end;
+      gap: 12px;
+    }
+
+    .rejection-notes {
+      background: rgba(239, 68, 68, 0.1);
+      border: 1px solid var(--red);
+      border-radius: 8px;
+      padding: 12px;
+      margin-bottom: 12px;
+      font-size: 13px;
+    }
+
+    .rejection-notes strong {
+      color: var(--red);
+    }
+
+    .empty-state {
+      grid-column: 1 / -1;
+      text-align: center;
+      padding: 60px 20px;
+      color: var(--text-muted);
+    }
+
+    .empty-state h3 {
+      font-size: 18px;
+      margin-bottom: 8px;
+    }
+
+    .buffer-status {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 12px;
+      color: var(--text-muted);
+    }
+
+    .buffer-status .dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+    }
+
+    .buffer-status .dot.connected { background: var(--green); }
+    .buffer-status .dot.disconnected { background: var(--red); }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>📱 Social Media Dashboard</h1>
+    <div class="header-actions">
+      <div class="buffer-status" id="bufferStatus">
+        <span class="dot disconnected"></span>
+        Auto-post: Not connected
+      </div>
+      <button class="btn btn-primary" onclick="openCreateModal()">+ New Post</button>
+    </div>
+  </header>
+
+  <div class="stats-bar">
+    <div class="stat-card" data-filter="all">
+      <div class="count" id="statTotal">0</div>
+      <div class="label">Total</div>
+    </div>
+    <div class="stat-card pending" data-filter="pending">
+      <div class="count" id="statPending">0</div>
+      <div class="label">Pending</div>
+    </div>
+    <div class="stat-card approved" data-filter="approved">
+      <div class="count" id="statApproved">0</div>
+      <div class="label">Approved</div>
+    </div>
+    <div class="stat-card rejected" data-filter="rejected">
+      <div class="count" id="statRejected">0</div>
+      <div class="label">Rejected</div>
+    </div>
+    <div class="stat-card published" data-filter="published">
+      <div class="count" id="statPublished">0</div>
+      <div class="label">Published</div>
+    </div>
+  </div>
+
+  <main id="postsGrid">
+    <div class="empty-state">
+      <h3>No posts yet</h3>
+      <p>Click "+ New Post" to create your first social media post</p>
+    </div>
+  </main>
+
+  <!-- Create/Edit Post Modal -->
+  <div class="modal-overlay" id="postModal">
+    <div class="modal">
+      <div class="modal-header">
+        <h2 id="modalTitle">Create Post</h2>
+        <button class="modal-close" onclick="closeModal()">&times;</button>
+      </div>
+      <div class="modal-body">
+        <input type="hidden" id="postId">
+        
+        <div class="form-group">
+          <label>Image URL</label>
+          <input type="text" id="imageUrl" placeholder="Paste Google Drive link or image URL">
+          <small style="color: var(--text-muted)">Paste a Google Drive share link — it will be auto-converted</small>
+          <div id="imagePreview" style="margin-top: 12px; display: none;">
+            <img id="previewImg" style="max-width: 100%; max-height: 200px; border-radius: 8px; border: 1px solid var(--border);">
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label>Caption</label>
+          <textarea id="caption" placeholder="Write your post caption..."></textarea>
+          <small style="color: var(--text-muted)">Instagram: 2,200 chars | Twitter: 280 chars | Facebook: 63,206 chars</small>
+        </div>
+
+        <div class="form-group">
+          <label>Platforms</label>
+          <div class="platform-toggles">
+            <label class="platform-toggle" data-platform="instagram">
+              <input type="checkbox" name="platform" value="instagram">
+              <span class="platform-icon">📸</span>
+              <span>Instagram</span>
+            </label>
+            <label class="platform-toggle" data-platform="facebook">
+              <input type="checkbox" name="platform" value="facebook">
+              <span class="platform-icon">📘</span>
+              <span>Facebook</span>
+            </label>
+            <label class="platform-toggle" data-platform="twitter">
+              <input type="checkbox" name="platform" value="twitter">
+              <span class="platform-icon">🐦</span>
+              <span>X/Twitter</span>
+            </label>
+            <label class="platform-toggle" data-platform="linkedin">
+              <input type="checkbox" name="platform" value="linkedin">
+              <span class="platform-icon">💼</span>
+              <span>LinkedIn</span>
+            </label>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label>Schedule For (optional)</label>
+          <input type="datetime-local" id="scheduledFor">
+        </div>
+
+        <div id="rejectionNotes" class="rejection-notes" style="display: none;">
+          <strong>Rejection Feedback:</strong>
+          <p id="rejectionText"></p>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button class="btn" style="background: var(--border); color: var(--text);" onclick="closeModal()">Cancel</button>
+        <button class="btn btn-primary" onclick="savePost()">Queue for Approval</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Review Modal (for Chris) -->
+  <div class="modal-overlay" id="reviewModal">
+    <div class="modal">
+      <div class="modal-header">
+        <h2>Review Post</h2>
+        <button class="modal-close" onclick="closeReviewModal()">&times;</button>
+      </div>
+      <div class="modal-body">
+        <input type="hidden" id="reviewPostId">
+        
+        <div id="reviewImage" style="margin-bottom: 16px;"></div>
+        <div id="reviewCaption" style="font-size: 14px; line-height: 1.5; margin-bottom: 16px;"></div>
+        <div id="reviewPlatforms" style="margin-bottom: 16px;"></div>
+        <div id="reviewSchedule" style="font-size: 13px; color: var(--text-muted); margin-bottom: 20px;"></div>
+
+        <div class="form-group">
+          <label>Feedback (optional for approval, required for rejection)</label>
+          <textarea id="reviewNotes" placeholder="Add feedback for Fiona..."></textarea>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-danger" onclick="rejectPost()">Reject</button>
+        <button class="btn btn-success" onclick="approvePost()">✓ Approve & Publish</button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    let posts = [];
+    let currentFilter = 'all';
+
+    async function loadPosts() {
+      const res = await fetch('/api/posts');
+      const data = await res.json();
+      posts = data.posts;
+      renderPosts();
+      loadStats();
+    }
+
+    // Preview image URL when entered
+    document.addEventListener('DOMContentLoaded', () => {
+      const urlInput = document.getElementById('imageUrl');
+      if (urlInput) {
+        urlInput.addEventListener('input', debounce(previewImageUrl, 500));
+      }
+    });
+
+    function debounce(fn, ms) {
+      let timeout;
+      return (...args) => {
+        clearTimeout(timeout);
+        timeout = setTimeout(() => fn(...args), ms);
+      };
+    }
+
+    function previewImageUrl() {
+      const url = document.getElementById('imageUrl').value.trim();
+      const preview = document.getElementById('imagePreview');
+      const img = document.getElementById('previewImg');
+      
+      if (!url) {
+        preview.style.display = 'none';
+        return;
+      }
+      
+      // Convert Google Drive URL for preview
+      let previewUrl = url;
+      const driveMatch = url.match(/drive\.google\.com\/file\/d\/([a-zA-Z0-9_-]+)/);
+      if (driveMatch) {
+        previewUrl = `https://drive.google.com/uc?export=view&id=${driveMatch[1]}`;
+      }
+      
+      img.src = previewUrl;
+      img.onload = () => { preview.style.display = 'block'; };
+      img.onerror = () => { preview.style.display = 'none'; };
+    }
+
+    async function loadStats() {
+      const res = await fetch('/api/stats');
+      const stats = await res.json();
+      
+      document.getElementById('statTotal').textContent = stats.total;
+      document.getElementById('statPending').textContent = stats.pending;
+      document.getElementById('statApproved').textContent = stats.approved;
+      document.getElementById('statRejected').textContent = stats.rejected;
+      document.getElementById('statPublished').textContent = stats.published;
+    }
+
+    async function checkBufferStatus() {
+      const res = await fetch('/api/buffer/status');
+      const status = await res.json();
+      const el = document.getElementById('bufferStatus');
+      
+      if (status.connected) {
+        const profileCount = status.profiles?.length || 0;
+        el.innerHTML = `<span class="dot connected"></span> Auto-post: ${profileCount} profiles`;
+      } else {
+        el.innerHTML = '<span class="dot disconnected"></span> Auto-post: Manual mode';
+      }
+    }
+
+    function renderPosts() {
+      const grid = document.getElementById('postsGrid');
+      
+      let filtered = posts;
+      if (currentFilter !== 'all') {
+        filtered = posts.filter(p => p.status === currentFilter);
+      }
+      
+      if (filtered.length === 0) {
+        grid.innerHTML = `
+          <div class="empty-state">
+            <h3>No ${currentFilter === 'all' ? 'posts' : currentFilter + ' posts'} yet</h3>
+            <p>${currentFilter === 'all' ? 'Click "+ New Post" to create your first social media post' : ''}</p>
+          </div>
+        `;
+        return;
+      }
+      
+      grid.innerHTML = filtered.map(post => {
+        const platformBadges = (post.platforms || []).map(p => 
+          `<span class="platform-badge ${p}">${p}</span>`
+        ).join('');
+        
+        const date = new Date(post.created_at || post.createdAt).toLocaleDateString();
+        const imageUrl = post.image_url || post.image;
+        const createdBy = post.created_by || post.createdBy || 'unknown';
+        const reviewNotes = post.review_notes || post.reviewNotes;
+        
+        let actions = '';
+        if (post.status === 'pending') {
+          actions = `
+            <button class="btn" style="background: var(--border); color: var(--text);" onclick="openEditModal('${post.id}')">Edit</button>
+            <button class="btn btn-primary" onclick="openReviewModal('${post.id}')">Review</button>
+          `;
+        } else if (post.status === 'rejected') {
+          actions = `
+            <button class="btn btn-primary" onclick="openEditModal('${post.id}')">Edit & Resubmit</button>
+          `;
+        }
+        
+        return `
+          <div class="post-card">
+            ${imageUrl 
+              ? `<img class="post-image" src="${imageUrl}" alt="Post image" onerror="this.style.display='none'">`
+              : `<div class="post-image placeholder">📷</div>`
+            }
+            <div class="post-content">
+              <div class="post-caption">${escapeHtml(post.caption || '')}</div>
+              <div class="post-platforms">${platformBadges}</div>
+              <div class="post-meta">
+                <span>${date} · ${createdBy}</span>
+                <span class="post-status ${post.status}">${post.status}</span>
+              </div>
+              ${actions ? `<div class="post-actions">${actions}</div>` : ''}
+            </div>
+          </div>
+        `;
+      }).join('');
+    }
+
+    function escapeHtml(text) {
+      const div = document.createElement('div');
+      div.textContent = text;
+      return div.innerHTML;
+    }
+
+    function openCreateModal() {
+      document.getElementById('postModal').classList.add('open');
+      document.getElementById('modalTitle').textContent = 'Create Post';
+      document.getElementById('postId').value = '';
+      document.getElementById('caption').value = '';
+      document.getElementById('scheduledFor').value = '';
+      document.getElementById('imageUrl').value = '';
+      document.getElementById('imagePreview').style.display = 'none';
+      document.getElementById('rejectionNotes').style.display = 'none';
+      
+      // Reset platform toggles
+      document.querySelectorAll('.platform-toggle').forEach(t => {
+        t.classList.remove('selected');
+        t.querySelector('input').checked = false;
+      });
+    }
+
+    function openEditModal(postId) {
+      const post = posts.find(p => p.id === postId);
+      if (!post) return;
+      
+      document.getElementById('postModal').classList.add('open');
+      document.getElementById('modalTitle').textContent = 'Edit Post';
+      document.getElementById('postId').value = post.id;
+      document.getElementById('caption').value = post.caption || '';
+      document.getElementById('scheduledFor').value = post.scheduled_for || post.scheduledFor || '';
+      
+      const imageUrl = post.image_url || post.image || '';
+      document.getElementById('imageUrl').value = imageUrl;
+      if (imageUrl) {
+        document.getElementById('previewImg').src = imageUrl;
+        document.getElementById('imagePreview').style.display = 'block';
+      } else {
+        document.getElementById('imagePreview').style.display = 'none';
+      }
+      
+      // Set platform toggles
+      document.querySelectorAll('.platform-toggle').forEach(t => {
+        const platform = t.dataset.platform;
+        const isSelected = (post.platforms || []).includes(platform);
+        t.classList.toggle('selected', isSelected);
+        t.querySelector('input').checked = isSelected;
+      });
+      
+      // Show rejection notes if rejected
+      const reviewNotes = post.review_notes || post.reviewNotes;
+      if (post.status === 'rejected' && reviewNotes) {
+        document.getElementById('rejectionNotes').style.display = 'block';
+        document.getElementById('rejectionText').textContent = reviewNotes;
+      } else {
+        document.getElementById('rejectionNotes').style.display = 'none';
+      }
+    }
+
+    function closeModal() {
+      document.getElementById('postModal').classList.remove('open');
+    }
+
+    // Platform toggle handling
+    document.querySelectorAll('.platform-toggle').forEach(toggle => {
+      toggle.addEventListener('click', function(e) {
+        if (e.target.tagName !== 'INPUT') {
+          const input = this.querySelector('input');
+          input.checked = !input.checked;
+        }
+        this.classList.toggle('selected', this.querySelector('input').checked);
+      });
+    });
+
+    async function savePost() {
+      const platforms = [];
+      document.querySelectorAll('.platform-toggle input:checked').forEach(input => {
+        platforms.push(input.value);
+      });
+      
+      const postData = {
+        caption: document.getElementById('caption').value,
+        scheduledFor: document.getElementById('scheduledFor').value,
+        imageUrl: document.getElementById('imageUrl').value.trim(),
+        platforms: platforms,
+        createdBy: 'fiona'
+      };
+      
+      const postId = document.getElementById('postId').value;
+      const isEdit = !!postId;
+      
+      if (isEdit) {
+        postData.resubmit = true;
+      }
+      
+      const url = isEdit ? `/api/posts/${postId}` : '/api/posts';
+      const method = isEdit ? 'PUT' : 'POST';
+      
+      await fetch(url, { 
+        method, 
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(postData) 
+      });
+      
+      closeModal();
+      loadPosts();
+    }
+
+    function openReviewModal(postId) {
+      const post = posts.find(p => p.id === postId);
+      if (!post) return;
+      
+      document.getElementById('reviewModal').classList.add('open');
+      document.getElementById('reviewPostId').value = post.id;
+      
+      const imageUrl = post.image_url || post.image;
+      document.getElementById('reviewImage').innerHTML = imageUrl 
+        ? `<img src="${imageUrl}" style="max-width: 100%; border-radius: 8px;" onerror="this.style.display='none'">`
+        : '';
+      
+      document.getElementById('reviewCaption').textContent = post.caption || '';
+      
+      document.getElementById('reviewPlatforms').innerHTML = (post.platforms || []).map(p => 
+        `<span class="platform-badge ${p}">${p}</span>`
+      ).join(' ');
+      
+      const scheduledFor = post.scheduled_for || post.scheduledFor;
+      document.getElementById('reviewSchedule').textContent = scheduledFor 
+        ? `Scheduled for: ${new Date(scheduledFor).toLocaleString()}`
+        : 'No schedule set (will post immediately)';
+      
+      document.getElementById('reviewNotes').value = '';
+    }
+
+    function closeReviewModal() {
+      document.getElementById('reviewModal').classList.remove('open');
+    }
+
+    let approving = false; // Debounce flag
+    
+    async function approvePost() {
+      // Immediately disable button to prevent any double-clicks
+      const btn = document.querySelector('#reviewModal .btn-success');
+      btn.disabled = true;
+      
+      if (approving) {
+        console.log('Already approving, ignoring duplicate click');
+        return;
+      }
+      approving = true;
+      
+      const originalText = btn.textContent;
+      btn.textContent = 'Publishing...';
+      
+      try {
+        const postId = document.getElementById('reviewPostId').value;
+        const notes = document.getElementById('reviewNotes').value;
+        
+        const res = await fetch(`/api/posts/${postId}/approve`, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ reviewedBy: 'chris', notes })
+        });
+        
+        if (!res.ok) {
+          const err = await res.json();
+          throw new Error(err.error || 'Approval failed');
+        }
+        
+        closeReviewModal();
+        loadPosts();
+      } catch (err) {
+        alert('Error publishing: ' + err.message);
+        btn.disabled = false;
+        btn.textContent = originalText;
+      } finally {
+        approving = false;
+      }
+    }
+
+    async function rejectPost() {
+      const postId = document.getElementById('reviewPostId').value;
+      const notes = document.getElementById('reviewNotes').value;
+      
+      if (!notes) {
+        alert('Please provide feedback for the rejection');
+        return;
+      }
+      
+      await fetch(`/api/posts/${postId}/reject`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ reviewedBy: 'chris', notes })
+      });
+      
+      closeReviewModal();
+      loadPosts();
+    }
+
+    // Filter handling
+    document.querySelectorAll('.stat-card').forEach(card => {
+      card.addEventListener('click', function() {
+        document.querySelectorAll('.stat-card').forEach(c => c.classList.remove('active'));
+        this.classList.add('active');
+        currentFilter = this.dataset.filter;
+        renderPosts();
+      });
+    });
+
+    // Close modals on overlay click
+    document.getElementById('postModal').addEventListener('click', e => {
+      if (e.target.id === 'postModal') closeModal();
+    });
+    document.getElementById('reviewModal').addEventListener('click', e => {
+      if (e.target.id === 'reviewModal') closeReviewModal();
+    });
+
+    // Initialize
+    loadPosts();
+    checkBufferStatus();
+  </script>
+</body>
+</html>

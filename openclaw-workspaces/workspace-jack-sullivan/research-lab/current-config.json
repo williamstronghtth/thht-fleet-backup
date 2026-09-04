@@ -1,0 +1,28 @@
+{
+  "email_outreach": {
+    "daily_limit": 48,
+    "spacing_seconds": 300,
+    "warmup_week": 2,
+    "primary_angle": "qualification",
+    "avoid_words": ["desperate", "must sell", "foreclosure"],
+    "never_mention": ["divorce", "probate", "death"]
+  },
+  "sms_outreach": {
+    "enabled": false,
+    "reason": "Quo A2P pending approval",
+    "daily_limit": 100,
+    "tone": "conversational"
+  },
+  "lead_sources": {
+    "priority_order": ["lis_pendens", "expired", "absentee", "divorce", "probate"],
+    "skip_trace_provider": "BatchSkipTracing",
+    "property_matcher": "vcpa-local-match.js"
+  },
+  "follow_up": {
+    "default_touches": 10,
+    "days_between_emails": 3,
+    "stop_on_reply": true,
+    "weekly_report": true
+  },
+  "active_experiments": ["exp-001", "exp-002", "exp-003"]
+}

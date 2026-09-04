@@ -1,0 +1,17 @@
+{
+  "starting_bankroll": 1000,
+  "current_bankroll": 1000,
+  "total_deployed": 0,
+  "total_returned": 0,
+  "realized_pnl": 0,
+  "unrealized_pnl": 0,
+  "roi_pct": 0,
+  "positions_opened": 0,
+  "positions_closed": 0,
+  "win_count": 0,
+  "loss_count": 0,
+  "best_trade_pnl": 0,
+  "worst_trade_pnl": 0,
+  "avg_hold_time_hours": 0,
+  "last_updated": "2026-03-30T00:00:00Z"
+}

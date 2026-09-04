@@ -1,0 +1,505 @@
+{
+  "timestamp": "2026-03-12T20:00:24.036424+00:00",
+  "count": 20,
+  "opportunities": [
+    {
+      "ticker": "KXOSCARPIC-26-ONE",
+      "title": "Will One Battle After Another win Best Picture at the Oscars?",
+      "series": "KXOSCARPIC",
+      "event": "KXOSCARPIC-26",
+      "yes_bid": 74.0,
+      "yes_ask": 75.0,
+      "category": "entertainment",
+      "volume": 2478571.0,
+      "score": 16.0,
+      "bias_data": {
+        "implied": 74.5,
+        "actual": 77.5,
+        "bias": -2.9,
+        "bias_pct": -4.0,
+        "edge_if_short": -2.9,
+        "edge_if_long": 2.9
+      },
+      "reasons": [
+        "High-bias category (entertainment)",
+        "High volume"
+      ],
+      "recommendation": "LONG"
+    },
+    {
+      "ticker": "KXOSCARPIC-26-HAM",
+      "title": "Will Hamnet win Best Picture at the Oscars?",
+      "series": "KXOSCARPIC",
+      "event": "KXOSCARPIC-26",
+      "yes_bid": 2.0,
+      "yes_ask": 3.0,
+      "category": "entertainment",
+      "volume": 2475428.0,
+      "score": 46.52,
+      "bias_data": {
+        "implied": 2.5,
+        "actual": 2.1,
+        "bias": 0.4,
+        "bias_pct": 16.4,
+        "edge_if_short": 0.4,
+        "edge_if_long": -0.4
+      },
+      "reasons": [
+        "Longshot short: 0.4pt bias",
+        "High-bias category (entertainment)",
+        "High volume"
+      ],
+      "recommendation": "SHORT"
+    },
+    {
+      "ticker": "KXOSCARPIC-26-MAR",
+      "title": "Will Marty Supreme win Best Picture at the Oscars?",
+      "series": "KXOSCARPIC",
+      "event": "KXOSCARPIC-26",
+      "yes_bid": 1.0,
+      "yes_ask": 2.0,
+      "category": "entertainment",
+      "volume": 2108418.0,
+      "score": 46.260000000000005,
+      "bias_data": {
+        "implied": 1.5,
+        "actual": 1.3,
+        "bias": 0.2,
+        "bias_pct": 16.4,
+        "edge_if_short": 0.2,
+        "edge_if_long": -0.2
+      },
+      "reasons": [
+        "Longshot short: 0.2pt bias",
+        "High-bias category (entertainment)",
+        "High volume"
+      ],
+      "recommendation": "SHORT"
+    },
+    {
+      "ticker": "KXOSCARPIC-26-SIN",
+      "title": "Will Sinners win Best Picture at the Oscars?",
+      "series": "KXOSCARPIC",
+      "event": "KXOSCARPIC-26",
+      "yes_bid": 21.0,
+      "yes_ask": 22.0,
+      "category": "entertainment",
+      "volume": 3092856.0,
+      "score": 16.0,
+      "bias_data": {
+        "implied": 21.5,
+        "actual": 19.2,
+        "bias": 2.3,
+        "bias_pct": 10.7,
+        "edge_if_short": 2.3,
+        "edge_if_long": -2.3
+      },
+      "reasons": [
+        "High-bias category (entertainment)",
+        "High volume"
+      ],
+      "recommendation": "SHORT"
+    },
+    {
+      "ticker": "KXOSCARDIR-26-RYA",
+      "title": "Will Ryan Coogler win Best Director at the Oscars?",
+      "series": "KXOSCARDIR",
+      "event": "KXOSCARDIR-26",
+      "yes_bid": 7.000000000000001,
+      "yes_ask": 8.0,
+      "category": "entertainment",
+      "volume": 894021.0,
+      "score": 47.300000000000004,
+      "bias_data": {
+        "implied": 7.5,
+        "actual": 6.5,
+        "bias": 1.0,
+        "bias_pct": 13.5,
+        "edge_if_short": 1.0,
+        "edge_if_long": -1.0
+      },
+      "reasons": [
+        "Longshot short: 1.0pt bias",
+        "High-bias category (entertainment)",
+        "High volume"
+      ],
+      "recommendation": "SHORT"
+    },
+    {
+      "ticker": "KXOSCARDIR-26-PAU",
+      "title": "Will Paul Thomas Anderson win Best Director at the Oscars?",
+      "series": "KXOSCARDIR",
+      "event": "KXOSCARDIR-26",
+      "yes_bid": 91.0,
+      "yes_ask": 92.0,
+      "category": "entertainment",
+      "volume": 681486.0,
+      "score": 39.25,
+      "bias_data": {
+        "implied": 91.5,
+        "actual": 94.0,
+        "bias": -2.5,
+        "bias_pct": -2.7,
+        "edge_if_short": -2.5,
+        "edge_if_long": 2.5
+      },
+      "reasons": [
+        "Favorite long: 2.5pt edge",
+        "High-bias category (entertainment)",
+        "High volume"
+      ],
+      "recommendation": "LONG"
+    },
+    {
+      "ticker": "KXSURVIVOR-26DEC31-JON",
+      "title": "Will Jonathan Young win Survivor Season 50?",
+      "series": "KXSURVIVOR",
+      "event": "KXSURVIVOR-26DEC31",
+      "yes_bid": 2.0,
+      "yes_ask": 3.0,
+      "category": "entertainment",
+      "volume": 541944.0,
+      "score": 46.52,
+      "bias_data": {
+        "implied": 2.5,
+        "actual": 2.1,
+        "bias": 0.4,
+        "bias_pct": 16.4,
+        "edge_if_short": 0.4,
+        "edge_if_long": -0.4
+      },
+      "reasons": [
+        "Longshot short: 0.4pt bias",
+        "High-bias category (entertainment)",
+        "High volume"
+      ],
+      "recommendation": "SHORT"
+    },
+    {
+      "ticker": "KXSURVIVOR-26DEC31-CIR",
+      "title": "Will Cirie Fields win Survivor Season 50?",
+      "series": "KXSURVIVOR",
+      "event": "KXSURVIVOR-26DEC31",
+      "yes_bid": 4.0,
+      "yes_ask": 5.0,
+      "category": "entertainment",
+      "volume": 755361.0,
+      "score": 46.910000000000004,
+      "bias_data": {
+        "implied": 4.5,
+        "actual": 3.8,
+        "bias": 0.7,
+        "bias_pct": 16.4,
+        "edge_if_short": 0.7,
+        "edge_if_long": -0.7
+      },
+      "reasons": [
+        "Longshot short: 0.7pt bias",
+        "High-bias category (entertainment)",
+        "High volume"
+      ],
+      "recommendation": "SHORT"
+    },
+    {
+      "ticker": "KXSURVIVOR-26DEC31-RIZ",
+      "title": "Will Rizo Velovic win Survivor Season 50?",
+      "series": "KXSURVIVOR",
+      "event": "KXSURVIVOR-26DEC31",
+      "yes_bid": 1.0,
+      "yes_ask": 2.0,
+      "category": "entertainment",
+      "volume": 540191.0,
+      "score": 46.260000000000005,
+      "bias_data": {
+        "implied": 1.5,
+        "actual": 1.3,
+        "bias": 0.2,
+        "bias_pct": 16.4,
+        "edge_if_short": 0.2,
+        "edge_if_long": -0.2
+      },
+      "reasons": [
+        "Longshot short: 0.2pt bias",
+        "High-bias category (entertainment)",
+        "High volume"
+      ],
+      "recommendation": "SHORT"
+    },
+    {
+      "ticker": "KXSURVIVOR-26DEC31-CHRI",
+      "title": "Will Christian Hubicki win Survivor Season 50?",
+      "series": "KXSURVIVOR",
+      "event": "KXSURVIVOR-26DEC31",
+      "yes_bid": 1.0,
+      "yes_ask": 2.0,
+      "category": "entertainment",
+      "volume": 644097.0,
+      "score": 46.260000000000005,
+      "bias_data": {
+        "implied": 1.5,
+        "actual": 1.3,
+        "bias": 0.2,
+        "bias_pct": 16.4,
+        "edge_if_short": 0.2,
+        "edge_if_long": -0.2
+      },
+      "reasons": [
+        "Longshot short: 0.2pt bias",
+        "High-bias category (entertainment)",
+        "High volume"
+      ],
+      "recommendation": "SHORT"
+    },
+    {
+      "ticker": "KXSURVIVOR-26DEC31-AUB",
+      "title": "Will Aubry Bracco win Survivor Season 50?",
+      "series": "KXSURVIVOR",
+      "event": "KXSURVIVOR-26DEC31",
+      "yes_bid": 86.0,
+      "yes_ask": 87.0,
+      "category": "entertainment",
+      "volume": 1328441.0,
+      "score": 40.29,
+      "bias_data": {
+        "implied": 86.5,
+        "actual": 89.8,
+        "bias": -3.3,
+        "bias_pct": -3.8,
+        "edge_if_short": -3.3,
+        "edge_if_long": 3.3
+      },
+      "reasons": [
+        "Favorite long: 3.3pt edge",
+        "High-bias category (entertainment)",
+        "High volume"
+      ],
+      "recommendation": "LONG"
+    },
+    {
+      "ticker": "KXSURVIVOR-26DEC31-JOE",
+      "title": "Will Joe Hunter win Survivor Season 50?",
+      "series": "KXSURVIVOR",
+      "event": "KXSURVIVOR-26DEC31",
+      "yes_bid": 2.0,
+      "yes_ask": 3.0,
+      "category": "entertainment",
+      "volume": 631892.0,
+      "score": 46.52,
+      "bias_data": {
+        "implied": 2.5,
+        "actual": 2.1,
+        "bias": 0.4,
+        "bias_pct": 16.4,
+        "edge_if_short": 0.4,
+        "edge_if_long": -0.4
+      },
+      "reasons": [
+        "Longshot short: 0.4pt bias",
+        "High-bias category (entertainment)",
+        "High volume"
+      ],
+      "recommendation": "SHORT"
+    },
+    {
+      "ticker": "KXSURVIVOR-26DEC31-BEN",
+      "title": "Will Benjamin \u201cCoach\u201d Wade win Survivor Season 50?",
+      "series": "KXSURVIVOR",
+      "event": "KXSURVIVOR-26DEC31",
+      "yes_bid": 1.0,
+      "yes_ask": 2.0,
+      "category": "entertainment",
+      "volume": 653772.0,
+      "score": 46.260000000000005,
+      "bias_data": {
+        "implied": 1.5,
+        "actual": 1.3,
+        "bias": 0.2,
+        "bias_pct": 16.4,
+        "edge_if_short": 0.2,
+        "edge_if_long": -0.2
+      },
+      "reasons": [
+        "Longshot short: 0.2pt bias",
+        "High-bias category (entertainment)",
+        "High volume"
+      ],
+      "recommendation": "SHORT"
+    },
+    {
+      "ticker": "KXSNL-28-CJ",
+      "title": "Who will be announced as Lorne Michaels' successor at SNL?",
+      "series": "KXSNL",
+      "event": "KXSNL-28",
+      "yes_bid": 18.0,
+      "yes_ask": 26.0,
+      "category": "entertainment",
+      "volume": 2621.0,
+      "score": 2.9999999999999996,
+      "bias_data": {
+        "implied": 22.0,
+        "actual": 19.7,
+        "bias": 2.3,
+        "bias_pct": 10.5,
+        "edge_if_short": 2.3,
+        "edge_if_long": -2.3
+      },
+      "reasons": [
+        "High-bias category (entertainment)",
+        "Wide spread (8\u00a2)"
+      ],
+      "recommendation": "SHORT"
+    },
+    {
+      "ticker": "KXSNL-28-MS",
+      "title": "Who will be announced as Lorne Michaels' successor at SNL?",
+      "series": "KXSNL",
+      "event": "KXSNL-28",
+      "yes_bid": 3.0,
+      "yes_ask": 13.0,
+      "category": "entertainment",
+      "volume": 983.0,
+      "score": 22.300000000000004,
+      "bias_data": {
+        "implied": 8.0,
+        "actual": 7.0,
+        "bias": 1.0,
+        "bias_pct": 13.1,
+        "edge_if_short": 1.0,
+        "edge_if_long": -1.0
+      },
+      "reasons": [
+        "Longshot short: 1.0pt bias",
+        "High-bias category (entertainment)",
+        "Wide spread (10\u00a2)",
+        "Low volume"
+      ],
+      "recommendation": "SHORT"
+    },
+    {
+      "ticker": "KXSNL-28-KT",
+      "title": "Who will be announced as Lorne Michaels' successor at SNL?",
+      "series": "KXSNL",
+      "event": "KXSNL-28",
+      "yes_bid": 7.000000000000001,
+      "yes_ask": 17.0,
+      "category": "entertainment",
+      "volume": 3552.0,
+      "score": 32.690000000000005,
+      "bias_data": {
+        "implied": 12.0,
+        "actual": 10.7,
+        "bias": 1.3,
+        "bias_pct": 11.0,
+        "edge_if_short": 1.3,
+        "edge_if_long": -1.3
+      },
+      "reasons": [
+        "Longshot short: 1.3pt bias",
+        "High-bias category (entertainment)",
+        "Wide spread (10\u00a2)"
+      ],
+      "recommendation": "SHORT"
+    },
+    {
+      "ticker": "KXSNL-28-TFEY",
+      "title": "Who will be announced as Lorne Michaels' successor at SNL?",
+      "series": "KXSNL",
+      "event": "KXSNL-28",
+      "yes_bid": 37.0,
+      "yes_ask": 47.0,
+      "category": "entertainment",
+      "volume": 6418.0,
+      "score": 16.000000000000004,
+      "bias_data": {
+        "implied": 42.0,
+        "actual": 40.7,
+        "bias": 1.3,
+        "bias_pct": 3.1,
+        "edge_if_short": 1.3,
+        "edge_if_long": -1.3
+      },
+      "reasons": [
+        "Sweet spot range",
+        "High-bias category (entertainment)",
+        "Wide spread (10\u00a2)"
+      ],
+      "recommendation": "SHORT"
+    },
+    {
+      "ticker": "KXSNL-28-SH",
+      "title": "Who will be announced as Lorne Michaels' successor at SNL?",
+      "series": "KXSNL",
+      "event": "KXSNL-28",
+      "yes_bid": 1.0,
+      "yes_ask": 11.0,
+      "category": "entertainment",
+      "volume": 824.0,
+      "score": 22.17,
+      "bias_data": {
+        "implied": 6.0,
+        "actual": 5.1,
+        "bias": 0.9,
+        "bias_pct": 14.9,
+        "edge_if_short": 0.9,
+        "edge_if_long": -0.9
+      },
+      "reasons": [
+        "Longshot short: 0.9pt bias",
+        "High-bias category (entertainment)",
+        "Wide spread (10\u00a2)",
+        "Low volume"
+      ],
+      "recommendation": "SHORT"
+    },
+    {
+      "ticker": "KXSNL-28-SMEY",
+      "title": "Who will be announced as Lorne Michaels' successor at SNL?",
+      "series": "KXSNL",
+      "event": "KXSNL-28",
+      "yes_bid": 15.0,
+      "yes_ask": 20.0,
+      "category": "entertainment",
+      "volume": 3378.0,
+      "score": 38.34,
+      "bias_data": {
+        "implied": 17.5,
+        "actual": 15.7,
+        "bias": 1.8,
+        "bias_pct": 10.6,
+        "edge_if_short": 1.8,
+        "edge_if_long": -1.8
+      },
+      "reasons": [
+        "Longshot short: 1.8pt bias",
+        "High-bias category (entertainment)",
+        "Wide spread (5\u00a2)"
+      ],
+      "recommendation": "SHORT"
+    },
+    {
+      "ticker": "KXSNL-28-MR",
+      "title": "Who will be announced as Lorne Michaels' successor at SNL?",
+      "series": "KXSNL",
+      "event": "KXSNL-28",
+      "yes_bid": 1.0,
+      "yes_ask": 6.0,
+      "category": "entertainment",
+      "volume": 536.0,
+      "score": 26.78,
+      "bias_data": {
+        "implied": 3.5,
+        "actual": 2.9,
+        "bias": 0.6,
+        "bias_pct": 16.4,
+        "edge_if_short": 0.6,
+        "edge_if_long": -0.6
+      },
+      "reasons": [
+        "Longshot short: 0.6pt bias",
+        "High-bias category (entertainment)",
+        "Low volume"
+      ],
+      "recommendation": "SHORT"
+    }
+  ]
+}

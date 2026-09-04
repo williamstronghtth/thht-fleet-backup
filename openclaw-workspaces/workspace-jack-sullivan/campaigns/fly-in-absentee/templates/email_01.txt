@@ -1,0 +1,15 @@
+SUBJECT: Your property at {property_address}
+
+Hi {first_name},
+
+I noticed you own a property at {property_address} and wanted to reach out.
+
+The Fly In community has seen some interesting activity lately. Whether you're thinking about selling, renting, or just curious about what your property is worth today, I'd be happy to put together a free market analysis for you.
+
+No pressure, no obligation. Just good information to have.
+
+Would that be helpful?
+
+Jack Sullivan
+Lead Intelligence Specialist
+The Hoover Home Team powered by REAL LLC

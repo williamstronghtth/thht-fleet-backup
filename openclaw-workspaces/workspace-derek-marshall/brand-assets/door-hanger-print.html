@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Door Hanger - Print Ready</title>
+    <style>
+        @page {
+            size: 4.25in 11in;
+            margin: 0;
+        }
+        body {
+            margin: 0;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+            background: #888;
+            display: flex;
+            gap: 40px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .hanger {
+            width: 4.25in;
+            height: 11in;
+            background: white;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+            position: relative;
+            overflow: hidden;
+        }
+        .hole {
+            width: 1.5in;
+            height: 0.75in;
+            border: 2px dashed #ccc;
+            border-radius: 0 0 50% 50%;
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            background: #f0f0f0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 10px;
+            color: #999;
+        }
+        
+        /* FRONT SIDE */
+        .front {
+            background: linear-gradient(180deg, #1e4fa3 0%, #1e4fa3 45%, #ffffff 45%);
+        }
+        .front-content {
+            padding: 1in 0.3in 0.3in;
+            text-align: center;
+            height: calc(100% - 1in);
+            display: flex;
+            flex-direction: column;
+        }
+        .logo-area {
+            margin-bottom: 15px;
+        }
+        .logo-text {
+            color: white;
+            font-size: 22px;
+            font-weight: bold;
+            line-height: 1.2;
+        }
+        .tagline {
+            color: #ccc;
+            font-size: 12px;
+            font-style: italic;
+            margin-top: 5px;
+        }
+        .main-offer {
+            background: white;
+            margin: 20px 0;
+            padding: 20px 10px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        }
+        .offer-headline {
+            color: #1e4fa3;
+            font-size: 28px;
+            font-weight: bold;
+            line-height: 1.2;
+            margin-bottom: 10px;
+        }
+        .offer-sub {
+            color: #333;
+            font-size: 14px;
+            margin-bottom: 15px;
+        }
+        .phone-box {
+            background: #28a745;
+            color: white;
+            padding: 15px;
+            border-radius: 8px;
+            font-size: 26px;
+            font-weight: bold;
+            margin: 15px 0;
+        }
+        .benefits {
+            text-align: left;
+            padding: 15px 20px;
+            flex-grow: 1;
+        }
+        .benefit {
+            font-size: 13px;
+            margin: 8px 0;
+            color: #333;
+        }
+        .benefit-check {
+            color: #28a745;
+            font-weight: bold;
+            margin-right: 5px;
+        }
+        .front-footer {
+            background: #1e4fa3;
+            color: white;
+            padding: 12px;
+            font-size: 11px;
+            text-align: center;
+        }
+        .badge-row {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 10px;
+        }
+        .badge {
+            background: white;
+            color: #1e4fa3;
+            padding: 5px 10px;
+            border-radius: 15px;
+            font-size: 10px;
+            font-weight: bold;
+        }
+        
+        /* BACK SIDE */
+        .back {
+            background: white;
+        }
+        .back-content {
+            padding: 1in 0.3in 0.3in;
+            height: calc(100% - 1in);
+            display: flex;
+            flex-direction: column;
+        }
+        .back-header {
+            text-align: center;
+            margin-bottom: 15px;
+        }
+        .back-title {
+            color: #1e4fa3;
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        .warning-box {
+            background: #fff3cd;
+            border: 2px solid #ffc107;
+            border-radius: 8px;
+            padding: 12px;
+            margin-bottom: 15px;
+        }
+        .warning-title {
+            color: #856404;
+            font-size: 14px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .checklist {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .checklist li {
+            font-size: 12px;
+            color: #333;
+            margin: 6px 0;
+            display: flex;
+            align-items: flex-start;
+        }
+        .checkbox {
+            width: 14px;
+            height: 14px;
+            border: 2px solid #1e4fa3;
+            margin-right: 8px;
+            flex-shrink: 0;
+            margin-top: 1px;
+        }
+        .services-section {
+            margin: 15px 0;
+        }
+        .services-title {
+            color: #1e4fa3;
+            font-size: 14px;
+            font-weight: bold;
+            margin-bottom: 8px;
+        }
+        .services-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 5px;
+            font-size: 11px;
+        }
+        .service-item {
+            color: #333;
+        }
+        .why-us {
+            background: #f8f9fa;
+            padding: 12px;
+            border-radius: 8px;
+            margin: 15px 0;
+        }
+        .why-title {
+            color: #1e4fa3;
+            font-size: 13px;
+            font-weight: bold;
+            margin-bottom: 8px;
+        }
+        .why-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 5px;
+            font-size: 10px;
+        }
+        .why-item {
+            color: #333;
+        }
+        .back-cta {
+            background: #1e4fa3;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            border-radius: 8px;
+            margin-top: auto;
+        }
+        .back-phone {
+            font-size: 22px;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        .back-website {
+            font-size: 12px;
+        }
+        .back-footer {
+            text-align: center;
+            margin-top: 10px;
+            font-size: 9px;
+            color: #666;
+        }
+        
+        .label {
+            text-align: center;
+            color: white;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<!-- FRONT SIDE -->
+<div>
+    <div class="hanger front">
+        <div class="hole">HOLE</div>
+        <div class="front-content">
+            <div class="logo-area">
+                <div class="logo-text">AFFORDABLE ROOFING<br>& CONSTRUCTION</div>
+                <div class="tagline">Roofing Done Right.</div>
+            </div>
+            
+            <div class="main-offer">
+                <div class="offer-headline">FREE ROOF<br>INSPECTION</div>
+                <div class="offer-sub">We're in your neighborhood!<br>No obligation. No pressure.</div>
+                <div class="phone-box">386-392-8952</div>
+            </div>
+            
+            <div class="benefits">
+                <div class="benefit"><span class="benefit-check">✓</span> 20+ Years Experience</div>
+                <div class="benefit"><span class="benefit-check">✓</span> Licensed & Insured</div>
+                <div class="benefit"><span class="benefit-check">✓</span> 0% Financing Available</div>
+                <div class="benefit"><span class="benefit-check">✓</span> 5-Year Labor Warranty</div>
+                <div class="benefit"><span class="benefit-check">✓</span> Honest Pricing — No Hidden Fees</div>
+            </div>
+            
+            <div class="front-footer">
+                Serving Daytona Beach • Port Orange • Ormond Beach • Volusia County
+                <div class="badge-row">
+                    <span class="badge">LICENSED</span>
+                    <span class="badge">INSURED</span>
+                    <span class="badge">LOCAL</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="label">FRONT</div>
+</div>
+
+<!-- BACK SIDE -->
+<div>
+    <div class="hanger back">
+        <div class="hole">HOLE</div>
+        <div class="back-content">
+            <div class="back-header">
+                <div class="back-title">AFFORDABLE ROOFING & CONSTRUCTION</div>
+            </div>
+            
+            <div class="warning-box">
+                <div class="warning-title">⚠️ SIGNS YOUR ROOF NEEDS ATTENTION:</div>
+                <ul class="checklist">
+                    <li><div class="checkbox"></div> Missing or cracked shingles</li>
+                    <li><div class="checkbox"></div> Roof is 15+ years old</li>
+                    <li><div class="checkbox"></div> Dark streaks or moss/algae growth</li>
+                    <li><div class="checkbox"></div> Sagging or uneven areas</li>
+                    <li><div class="checkbox"></div> Granules in your gutters</li>
+                    <li><div class="checkbox"></div> Leaks or water stains inside</li>
+                </ul>
+            </div>
+            
+            <div class="services-section">
+                <div class="services-title">OUR SERVICES:</div>
+                <div class="services-grid">
+                    <div class="service-item">• Roof Replacement</div>
+                    <div class="service-item">• Roof Repairs</div>
+                    <div class="service-item">• Storm Damage</div>
+                    <div class="service-item">• Insurance Claims</div>
+                    <div class="service-item">• Commercial Roofing</div>
+                    <div class="service-item">• Residential Roofing</div>
+                    <div class="service-item">• Soffit & Fascia</div>
+                    <div class="service-item">• Free Inspections</div>
+                </div>
+            </div>
+            
+            <div class="why-us">
+                <div class="why-title">WHY CHOOSE US?</div>
+                <div class="why-grid">
+                    <div class="why-item">✓ 20+ Years Experience</div>
+                    <div class="why-item">✓ Licensed & Insured</div>
+                    <div class="why-item">✓ 0% Financing Available</div>
+                    <div class="why-item">✓ 5-Year Labor Warranty</div>
+                    <div class="why-item">✓ Clean Job Sites</div>
+                    <div class="why-item">✓ Local & Family-Owned</div>
+                </div>
+            </div>
+            
+            <div class="back-cta">
+                <div class="back-phone">📞 386-392-8952</div>
+                <div class="back-website">affordableroofingconstruction.com</div>
+            </div>
+            
+            <div class="back-footer">
+                FL Licenses: CCC 1327602 | CGC 1509441<br>
+                Serving Volusia County • Roofing Done Right.
+            </div>
+        </div>
+    </div>
+    <div class="label">BACK</div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,80 @@
+[
+  {
+    "matchup": "IND @ MIL",
+    "home": "MIL",
+    "away": "IND",
+    "model_spread": 7.3,
+    "hr_line": 1.0,
+    "edge": 8.3,
+    "value_team": "MIL",
+    "value_line": 1.0,
+    "confidence": "HIGH",
+    "ats_prob": 74.9,
+    "reliability": 6.0
+  },
+  {
+    "matchup": "NO @ MIN",
+    "home": "MIN",
+    "away": "NO",
+    "model_spread": 1.4,
+    "hr_line": -9.5,
+    "edge": 8.1,
+    "value_team": "NO",
+    "value_line": 9.5,
+    "confidence": "HIGH",
+    "ats_prob": 74.3,
+    "reliability": 7.0
+  },
+  {
+    "matchup": "NY @ DET",
+    "home": "DET",
+    "away": "NY",
+    "model_spread": -4.7,
+    "hr_line": -1.0,
+    "edge": 5.7,
+    "value_team": "NY",
+    "value_line": 1.0,
+    "confidence": "HIGH",
+    "ats_prob": 67.1,
+    "reliability": 5.5
+  },
+  {
+    "matchup": "MEM @ POR",
+    "home": "POR",
+    "away": "MEM",
+    "model_spread": 4.9,
+    "hr_line": -9.0,
+    "edge": 4.1,
+    "value_team": "MEM",
+    "value_line": 9.0,
+    "confidence": "MEDIUM",
+    "ats_prob": 62.3,
+    "reliability": 5.5
+  },
+  {
+    "matchup": "LAC @ SAC",
+    "home": "SAC",
+    "away": "LAC",
+    "model_spread": 0.5,
+    "hr_line": 3.5,
+    "edge": 4.0,
+    "value_team": "SAC",
+    "value_line": 3.5,
+    "confidence": "MEDIUM",
+    "ats_prob": 62.0,
+    "reliability": 7.0
+  },
+  {
+    "matchup": "MIA @ BOS",
+    "home": "BOS",
+    "away": "MIA",
+    "model_spread": 10.4,
+    "hr_line": -6.5,
+    "edge": 3.9000000000000004,
+    "value_team": "BOS",
+    "value_line": -6.5,
+    "confidence": "MEDIUM",
+    "ats_prob": 61.7,
+    "reliability": 6.0
+  }
+]

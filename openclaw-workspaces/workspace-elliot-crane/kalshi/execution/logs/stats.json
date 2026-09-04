@@ -1,0 +1,20 @@
+{
+  "total_signals": 1,
+  "executed": 0,
+  "auto_executed": 0,
+  "notified_awaiting": 0,
+  "skipped": 0,
+  "missed_opportunities": 0,
+  "resolved": 0,
+  "wins": 0,
+  "losses": 0,
+  "win_rate": null,
+  "total_pnl": 0,
+  "avg_pnl_per_trade": null,
+  "avg_edge_available": 8.000000000000007,
+  "avg_edge_captured": 0,
+  "edge_missed_total": 0,
+  "missed_opportunity_rate": 0.0,
+  "by_sentiment": {},
+  "pending_resolution": 0
+}

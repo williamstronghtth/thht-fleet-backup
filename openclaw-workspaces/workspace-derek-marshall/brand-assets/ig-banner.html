@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { width: 1080px; height: 1080px; overflow: hidden; font-family: 'Arial Black', 'Arial', sans-serif; }
+  
+  .banner {
+    width: 1080px;
+    height: 1080px;
+    background: #0033A0;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+
+  /* Background diagonal accent */
+  .bg-accent {
+    position: absolute;
+    bottom: -100px;
+    right: -100px;
+    width: 600px;
+    height: 600px;
+    background: rgba(255,255,255,0.05);
+    transform: rotate(45deg);
+    border-radius: 80px;
+  }
+  .bg-accent-2 {
+    position: absolute;
+    top: -150px;
+    left: -150px;
+    width: 500px;
+    height: 500px;
+    background: rgba(255,255,255,0.04);
+    transform: rotate(30deg);
+    border-radius: 80px;
+  }
+
+  /* Top badge */
+  .years-badge {
+    position: absolute;
+    top: 60px;
+    right: 60px;
+    width: 130px;
+    height: 130px;
+    background: #fff;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.3);
+  }
+  .years-badge .num {
+    font-size: 42px;
+    font-weight: 900;
+    color: #0033A0;
+    line-height: 1;
+  }
+  .years-badge .label {
+    font-size: 11px;
+    font-weight: 700;
+    color: #0033A0;
+    text-align: center;
+    line-height: 1.2;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+
+  /* House icon */
+  .house-icon {
+    font-size: 90px;
+    margin-bottom: 25px;
+    filter: drop-shadow(0 4px 12px rgba(0,0,0,0.3));
+  }
+
+  /* Main title */
+  .company-name {
+    font-size: 54px;
+    font-weight: 900;
+    color: #fff;
+    text-align: center;
+    line-height: 1.1;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+    text-shadow: 0 2px 10px rgba(0,0,0,0.3);
+  }
+  .company-name span {
+    color: #ffffff;
+  }
+  .ampersand {
+    color: rgba(255,255,255,0.7);
+  }
+  .construction {
+    font-size: 38px;
+  }
+
+  /* Tagline */
+  .tagline {
+    font-size: 20px;
+    color: rgba(255,255,255,0.85);
+    text-align: center;
+    margin-bottom: 45px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+  }
+
+  /* Divider */
+  .divider {
+    width: 80px;
+    height: 4px;
+    background: #fff;
+    border-radius: 2px;
+    margin-bottom: 45px;
+    opacity: 0.6;
+  }
+
+  /* Feature pills */
+  .features {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 60px;
+  }
+  .pill {
+    background: rgba(255,255,255,0.15);
+    border: 2px solid rgba(255,255,255,0.4);
+    color: #fff;
+    padding: 10px 22px;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    backdrop-filter: blur(4px);
+  }
+
+  /* Bottom info */
+  .bottom-bar {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0,0,0,0.3);
+    padding: 25px 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .phone {
+    color: #fff;
+    font-size: 26px;
+    font-weight: 900;
+    letter-spacing: 1px;
+  }
+  .website {
+    color: rgba(255,255,255,0.8);
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 1px;
+  }
+  .licensed {
+    color: rgba(255,255,255,0.6);
+    font-size: 13px;
+    text-align: right;
+    line-height: 1.5;
+  }
+</style>
+</head>
+<body>
+<div class="banner">
+  <div class="bg-accent"></div>
+  <div class="bg-accent-2"></div>
+
+  <div class="years-badge">
+    <div class="num">20+</div>
+    <div class="label">Years<br>Serving FL</div>
+  </div>
+
+  <div class="house-icon">🏠</div>
+
+  <div class="company-name">Affordable<br>Roofing <span class="ampersand">&amp;</span><br><span class="construction">Construction</span></div>
+  <div class="tagline">Roofing Done Right</div>
+  <div class="divider"></div>
+
+  <div class="features">
+    <div class="pill">⚡ 160 MPH Titan XT</div>
+    <div class="pill">💧 Peel & Stick Underlayment</div>
+    <div class="pill">🛡️ 5-Year Labor Warranty</div>
+    <div class="pill">💰 0% Financing</div>
+    <div class="pill">✅ Free Estimates</div>
+  </div>
+
+  <div class="bottom-bar">
+    <div>
+      <div class="phone">📞 386-392-8952</div>
+      <div class="website">affordableroofingconstruction.com</div>
+    </div>
+    <div class="licensed">
+      Licensed &amp; Insured<br>
+      CCC 1327602 | CGC 1509441
+    </div>
+  </div>
+</div>
+</body>
+</html>

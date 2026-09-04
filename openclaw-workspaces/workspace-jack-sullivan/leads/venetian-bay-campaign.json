@@ -1,0 +1,658 @@
+{
+  "name": "venetian-bay-absentee-owners",
+  "created": "2026-02-28",
+  "status": "ready",
+  "subject_lines": {
+    "A": "Quick question about your Venetian Bay property",
+    "B": "Venetian Bay market update \u2014 what owners are seeing",
+    "C": "Managing your NSB property from afar?"
+  },
+  "groups": {
+    "A": [
+      {
+        "first_name": "Douglas",
+        "last_name": "Lane",
+        "email": "lanedesiree@yahoo.com",
+        "mailing_state": "CO",
+        "property_address": "3220 Medici Blvd, New Smyrna Beach",
+        "phone": "3040000000.0"
+      },
+      {
+        "first_name": "Meghan",
+        "last_name": "Schook",
+        "email": "meghanschook@gmail.com",
+        "mailing_state": "MI",
+        "property_address": "3330 Bellino Blvd, New Smyrna Beach",
+        "phone": "5180000000.0"
+      },
+      {
+        "first_name": "Larry",
+        "last_name": "Peacock",
+        "email": "luisrodriguez176@gmail.com",
+        "mailing_state": "IN",
+        "property_address": "3343 Tesoro Cir, NEW SMYRNA BEACH",
+        "phone": "8127942422.0"
+      },
+      {
+        "first_name": "Michelle",
+        "last_name": "Conero",
+        "email": "cwburt@hotmail.com",
+        "mailing_state": "NY",
+        "property_address": "3329 Cerro Ave, New Smyrna Beach",
+        "phone": "8455414163.0"
+      },
+      {
+        "first_name": "Lawrence",
+        "last_name": "Mothersell",
+        "email": "duchesspat@frontier.com",
+        "mailing_state": "NY",
+        "property_address": "3509 Casalta Cir, New Smyrna Beach",
+        "phone": "5850000000.0"
+      },
+      {
+        "first_name": "Anthony",
+        "last_name": "Oliva",
+        "email": "ritaoliva@gmail.com",
+        "mailing_state": "NJ",
+        "property_address": "3549 Romea Cir, New Smyrna Beach",
+        "phone": "9080000000.0"
+      },
+      {
+        "first_name": "Kimj",
+        "last_name": "Priebe",
+        "email": "kimbobp@comcast.net",
+        "mailing_state": "MI",
+        "property_address": "358 N Airport Rd, New Smyrna Beach",
+        "phone": "2310000000.0"
+      },
+      {
+        "first_name": "Kevin",
+        "last_name": "Justice",
+        "email": "justicek@ignite2x.com",
+        "mailing_state": "PA",
+        "property_address": "3448 Poneta Ave, New Smyrna Beach",
+        "phone": "6100000000.0"
+      },
+      {
+        "first_name": "Craig",
+        "last_name": "Marino",
+        "email": "nicarino@aol.com",
+        "mailing_state": "NY",
+        "property_address": "3435 Torre Blvd, New Smyrna Beach",
+        "phone": "5160000000.0"
+      },
+      {
+        "first_name": "Raymond",
+        "last_name": "Hopkins",
+        "email": "rayhopkins1202@comcast.net",
+        "mailing_state": "MD",
+        "property_address": "412 N Airport Rd, New Smyrna Beach",
+        "phone": "4110000000.0"
+      },
+      {
+        "first_name": "Nancy",
+        "last_name": "Ballent",
+        "email": "rballent@wideopenwest.com",
+        "mailing_state": "IL",
+        "property_address": "3606 Casello Dr, New Smyrna Beach",
+        "phone": "7080000000.0"
+      },
+      {
+        "first_name": "Carol",
+        "last_name": "Cristaldi",
+        "email": "moezot4x@hotmail.com",
+        "mailing_state": "NY",
+        "property_address": "3619 Casello Dr, New Smyrna Beach",
+        "phone": "3160000000.0"
+      },
+      {
+        "first_name": "Dick",
+        "last_name": "Osborne",
+        "email": "ozziej5@yahoo.com",
+        "mailing_state": "NY",
+        "property_address": "3515 Casalta Cir, New Smyrna Beach",
+        "phone": "3150000000.0"
+      },
+      {
+        "first_name": "Nathan",
+        "last_name": "Fackrell",
+        "email": "nathanfackrell@outlook.com",
+        "mailing_state": "CT",
+        "property_address": "3366 Pintello Ave, New Smyrna Beach",
+        "phone": "8602875096.0"
+      },
+      {
+        "first_name": "Stephen",
+        "last_name": "Krawczuk",
+        "email": "steve@lakwarehouse.com",
+        "mailing_state": "NJ",
+        "property_address": "3369 Marsili Ave, New Smyrna Beach",
+        "phone": "2018354611.0"
+      },
+      {
+        "first_name": "Nathan",
+        "last_name": "Fackrell",
+        "email": "nathanfackrell@outlook.com",
+        "mailing_state": "CT",
+        "property_address": "3359 Velona Ave, New Smyrna Beach",
+        "phone": "8600000000.0"
+      },
+      {
+        "first_name": "Helen",
+        "last_name": "Dublas",
+        "email": "jdublas@aol.com",
+        "mailing_state": "NJ",
+        "property_address": "3544 Casalta Cir, New Smyrna Beach",
+        "phone": "6090000000.0"
+      },
+      {
+        "first_name": "Roberta",
+        "last_name": "Ferrucci",
+        "email": "rcferuch@comcast.net",
+        "mailing_state": "CT",
+        "property_address": "3655 Casalta Cir, New Smyrna Beach",
+        "phone": "2030000000.0"
+      },
+      {
+        "first_name": "Beth",
+        "last_name": "Baird",
+        "email": "jrbaird@comcast.net",
+        "mailing_state": "PA",
+        "property_address": "492 Venetian Villa Dr, New Smyrna Beach",
+        "phone": "7250000000.0"
+      },
+      {
+        "first_name": "Mia",
+        "last_name": "Confer",
+        "email": "chlmom@msn.com",
+        "mailing_state": "PA",
+        "property_address": "3326 Pintello Ave, New Smyrna Beach",
+        "phone": "8143642128.0"
+      },
+      {
+        "first_name": "Dondi",
+        "last_name": "Craft",
+        "email": "niftytifty16@hotmail.com",
+        "mailing_state": "NY",
+        "property_address": "3604 Casello Dr, New Smyrna Beach",
+        "phone": "3160000000.0"
+      },
+      {
+        "first_name": "Donna",
+        "last_name": "Houpe",
+        "email": "ladonna.kersten18@bellsouth.net",
+        "mailing_state": "MO",
+        "property_address": "3574 Casalta Cir, New Smyrna Beach",
+        "phone": "8160000000.0"
+      },
+      {
+        "first_name": "Beth",
+        "last_name": "Pelletier",
+        "email": "bethpellet61@maine.rr.com",
+        "mailing_state": "ME",
+        "property_address": "3555 Casalta Cir, New Smyrna Beach",
+        "phone": "2070000000.0"
+      },
+      {
+        "first_name": "Elicia",
+        "last_name": "Clegg",
+        "email": "eliciaconnors@yahoo.com",
+        "mailing_state": "NY",
+        "property_address": "3354 CATERINA DR, NEW SMYRNA BEACH",
+        "phone": "5857355495.0"
+      },
+      {
+        "first_name": "Sherri",
+        "last_name": "Bargen",
+        "email": "sherri@bargeninc.com",
+        "mailing_state": "MN",
+        "property_address": "3350 Caterina Dr, NEW SMYRNA BEACH",
+        "phone": "5074273514.0"
+      },
+      {
+        "first_name": "Dominga",
+        "last_name": "Jensen",
+        "email": "domingajensen1@optonline.net",
+        "mailing_state": "NY",
+        "property_address": "3323 Medici Blvd, New Smyrna Beach",
+        "phone": "9177364586.0"
+      },
+      {
+        "first_name": "Murat",
+        "last_name": "Tek",
+        "email": "thetek4@aol.com",
+        "mailing_state": "NY",
+        "property_address": "3366 Gallia St, New Smyrna Beach",
+        "phone": "7186374032.0"
+      }
+    ],
+    "B": [
+      {
+        "first_name": "Jeffrey",
+        "last_name": "Bernatovich",
+        "email": "jeffb@bernationalcontrols.com",
+        "mailing_state": "NY",
+        "property_address": "3312 modena way, New Smyrna Beach",
+        "phone": "3156688543.0"
+      },
+      {
+        "first_name": "Daren",
+        "last_name": "Maas",
+        "email": "darenmaas@texasag.com",
+        "mailing_state": "NY",
+        "property_address": "3322 Gallia St, New Smyrna Beach",
+        "phone": "6316698888.0"
+      },
+      {
+        "first_name": "Dennis",
+        "last_name": "Nowaczck",
+        "email": "nowaczck@yahoo.com",
+        "mailing_state": "MI",
+        "property_address": "3571 Casalta Cir, New Smyrna Beach",
+        "phone": "7340000000.0"
+      },
+      {
+        "first_name": "Dmitriy",
+        "last_name": "Galkin",
+        "email": "dmitriygalkin@gmail.com",
+        "mailing_state": "NJ",
+        "property_address": "3509 Romea Cir, New Smyrna Beach",
+        "phone": "7190000000.0"
+      },
+      {
+        "first_name": "Cole",
+        "last_name": "Sonner",
+        "email": "colesonner@gmail.com",
+        "mailing_state": "OH",
+        "property_address": "3313 Meleto Blvd, New Smyrna Beach",
+        "phone": "4190000000.0"
+      },
+      {
+        "first_name": "Evelyn",
+        "last_name": "Bradley",
+        "email": "ebkf11@yahoo.com",
+        "mailing_state": "MI",
+        "property_address": "3578 Casalta Cir, New Smyrna Beach",
+        "phone": "2490000000.0"
+      },
+      {
+        "first_name": "Stephanie",
+        "last_name": "Simpson",
+        "email": "jazmen9@aol.com",
+        "mailing_state": "NC",
+        "property_address": "467 Venetian Villa Dr, New Smyrna Beach",
+        "phone": "3870000000.0"
+      },
+      {
+        "first_name": "Regina",
+        "last_name": "Sheynblat",
+        "email": "rsheynblat@hotmail.com",
+        "mailing_state": "CA",
+        "property_address": "511 Luna Bella Ln, NEW SMYRNA BEACH",
+        "phone": "6508144393.0"
+      },
+      {
+        "first_name": "Edward",
+        "last_name": "Lange",
+        "email": "elange@optonline.net",
+        "mailing_state": "CT",
+        "property_address": "3455 Pegaso Ave, New Smyrna Beach",
+        "phone": "4150000000.0"
+      },
+      {
+        "first_name": "Richard",
+        "last_name": "Gilligan",
+        "email": "janual@aol.com",
+        "mailing_state": "IL",
+        "property_address": "3323 Cerro Ave, New Smyrna Beach",
+        "phone": "7737329322.0"
+      },
+      {
+        "first_name": "Beycan",
+        "last_name": "Akbulut",
+        "email": "beycan@prodigy.net",
+        "mailing_state": "NY",
+        "property_address": "298 N Airport Rd, New Smyrna Beach",
+        "phone": "6460000000.0"
+      },
+      {
+        "first_name": "Angela",
+        "last_name": "Bronold",
+        "email": "angelatromp13@gmail.com",
+        "mailing_state": "MI",
+        "property_address": "3616 Casello Dr, New Smyrna Beach",
+        "phone": "2310000000.0"
+      },
+      {
+        "first_name": "Dustin",
+        "last_name": "Gibson",
+        "email": "jgibson2@nycap.rr.com",
+        "mailing_state": "NY",
+        "property_address": "3367 Pintello Ave, New Smyrna Beach",
+        "phone": "5183695895.0"
+      },
+      {
+        "first_name": "Carol",
+        "last_name": "Farina",
+        "email": "csfarina@verizon.net",
+        "mailing_state": "MD",
+        "property_address": "3643 Casalta Cir, New Smyrna Beach",
+        "phone": "3020000000.0"
+      },
+      {
+        "first_name": "Craig",
+        "last_name": "Marino",
+        "email": "nicarino@aol.com",
+        "mailing_state": "NY",
+        "property_address": "3507 Sonesta Ct, New Smyrna Beach",
+        "phone": "5160000000.0"
+      },
+      {
+        "first_name": "Anita",
+        "last_name": "Abba",
+        "email": "anitabba@hotmail.com",
+        "mailing_state": "NJ",
+        "property_address": "510 Bacio St, NEW SMYRNA BEACH",
+        "phone": "8562973923.0"
+      },
+      {
+        "first_name": "Mike",
+        "last_name": "Bartlett",
+        "email": "abbybart@aol.com",
+        "mailing_state": "TN",
+        "property_address": "372 Leoni St, New Smyrna Beach",
+        "phone": "6150000000.0"
+      },
+      {
+        "first_name": "Donna",
+        "last_name": "Clark",
+        "email": "mztee0105@gmail.com",
+        "mailing_state": "KY",
+        "property_address": "3436 Torre Blvd, New Smyrna Beach",
+        "phone": "5027240621.0"
+      },
+      {
+        "first_name": "Amparo",
+        "last_name": "Muscatell",
+        "email": "ampy36@hotmail.com",
+        "mailing_state": "CA",
+        "property_address": "3222 Medici Blvd, New Smyrna Beach",
+        "phone": "4090000000.0"
+      },
+      {
+        "first_name": "Ron",
+        "last_name": "Kuehn",
+        "email": "ronald.kuehn@hotmail.com",
+        "mailing_state": "IL",
+        "property_address": "471 Venetian Villa Dr, New Smyrna Beach",
+        "phone": "8480000000.0"
+      },
+      {
+        "first_name": "Anthony",
+        "last_name": "Kubes",
+        "email": "akubes@collegeclub.com",
+        "mailing_state": "TX",
+        "property_address": "3385 Tesoro Cir, NEW SMYRNA BEACH",
+        "phone": "8177131323.0"
+      },
+      {
+        "first_name": "Jane",
+        "last_name": "Chen",
+        "email": "janepeterc@yahoo.com",
+        "mailing_state": "MN",
+        "property_address": "318 Leoni St, New Smyrna Beach",
+        "phone": "3140000000.0"
+      },
+      {
+        "first_name": "David",
+        "last_name": "Geiger",
+        "email": "esg3559@aol.com",
+        "mailing_state": "NJ",
+        "property_address": "3363 Torre Blvd, New Smyrna Beach",
+        "phone": "6090000000.0"
+      },
+      {
+        "first_name": "Kim",
+        "last_name": "Wiseman",
+        "email": "kaw.wiseman@gmail.com",
+        "mailing_state": "CA",
+        "property_address": "448 N Airport Rd, New Smyrna Beach",
+        "phone": "9250000000.0"
+      },
+      {
+        "first_name": "Karen",
+        "last_name": "Cannon",
+        "email": "marshmama@roadrunner.com",
+        "mailing_state": "OH",
+        "property_address": "3322 Rosa Ave, New Smyrna Beach",
+        "phone": "4402387968.0"
+      },
+      {
+        "first_name": "Linda",
+        "last_name": "Wilson",
+        "email": "bubbaw1031@aol.com",
+        "mailing_state": "CA",
+        "property_address": "3654 Cesi Ave, New Smyrna Beach",
+        "phone": "9100000000.0"
+      },
+      {
+        "first_name": "Glenn",
+        "last_name": "Borsky",
+        "email": "topsk8er911@aol.com",
+        "mailing_state": "NJ",
+        "property_address": "3507 Romea Cir, New Smyrna Beach",
+        "phone": "9730000000.0"
+      }
+    ],
+    "C": [
+      {
+        "first_name": "Christa",
+        "last_name": "Wilary",
+        "email": "cwilary@gmail.com",
+        "mailing_state": "NY",
+        "property_address": "3323 Tuscano Ave, New Smyrna Beach",
+        "phone": "5185277075.0"
+      },
+      {
+        "first_name": "Barbara",
+        "last_name": "Lavender",
+        "email": "barbvlaven@yahoo.com",
+        "mailing_state": "TX",
+        "property_address": "3383 Bellino Blvd, New Smyrna Beach",
+        "phone": "8170000000.0"
+      },
+      {
+        "first_name": "Francis",
+        "last_name": "Oschell",
+        "email": "elmasimione@gmail.com",
+        "mailing_state": "NJ",
+        "property_address": "3319 E Locanda Cir, NEW SMYRNA BEACH",
+        "phone": "4844676345.0"
+      },
+      {
+        "first_name": "Virginia",
+        "last_name": "Diaz",
+        "email": "siennaburgos@gmail.com",
+        "mailing_state": "PA",
+        "property_address": "3419 Torre Blvd, New Smyrna Beach",
+        "phone": "3480000000.0"
+      },
+      {
+        "first_name": "Joann",
+        "last_name": "Taylor",
+        "email": "brookfieldvac@charter.net",
+        "mailing_state": "WI",
+        "property_address": "3537 Casalta Cir, New Smyrna Beach",
+        "phone": "2620000000.0"
+      },
+      {
+        "first_name": "Donna",
+        "last_name": "Liberty",
+        "email": "dml7198@aol.com",
+        "mailing_state": "VT",
+        "property_address": "385 Leoni St, New Smyrna Beach",
+        "phone": "8030000000.0"
+      },
+      {
+        "first_name": "Donna",
+        "last_name": "Pifer",
+        "email": "dspifer59@gmail.com",
+        "mailing_state": "PA",
+        "property_address": "3445 Tesoro Cir, NEW SMYRNA BEACH",
+        "phone": "6103248419.0"
+      },
+      {
+        "first_name": "Marie",
+        "last_name": "Myers",
+        "email": "mae704@bellsouth.net",
+        "mailing_state": "PA",
+        "property_address": "3556 Romea Cir, New Smyrna Beach",
+        "phone": "6110000000.0"
+      },
+      {
+        "first_name": "Rose",
+        "last_name": "Ricca",
+        "email": "roselindaricca@gmail.com",
+        "mailing_state": "NY",
+        "property_address": "511 Venetian Villa Dr, New Smyrna Beach",
+        "phone": "5160000000.0"
+      },
+      {
+        "first_name": "Craig",
+        "last_name": "Marino",
+        "email": "nicarino@aol.com",
+        "mailing_state": "NY",
+        "property_address": "3508 Sonesta Ct, New Smyrna Beach",
+        "phone": "5160000000.0"
+      },
+      {
+        "first_name": "Lorraine",
+        "last_name": "Bennett",
+        "email": "mando900@yahoo.com",
+        "mailing_state": "NY",
+        "property_address": "3467 Tesoro Cir, NEW SMYRNA BEACH",
+        "phone": "9146453685.0"
+      },
+      {
+        "first_name": "William",
+        "last_name": "Sprouse",
+        "email": "fcsanch@aol.com",
+        "mailing_state": "CA",
+        "property_address": "3320 Pintello Ave, New Smyrna Beach",
+        "phone": "9147361643.0"
+      },
+      {
+        "first_name": "Karen",
+        "last_name": "Childs",
+        "email": "mrs44casey@yahoo.com",
+        "mailing_state": "OH",
+        "property_address": "3587 Romea Cir, New Smyrna Beach",
+        "phone": "2170000000.0"
+      },
+      {
+        "first_name": "Richard",
+        "last_name": "Fusco",
+        "email": "alisonfusco@yahoo.com",
+        "mailing_state": "NY",
+        "property_address": "506 Romdini St, NEW SMYRNA BEACH",
+        "phone": "5166432901.0"
+      },
+      {
+        "first_name": "Les",
+        "last_name": "Schaper",
+        "email": "tss7859@gmail.com",
+        "mailing_state": "MI",
+        "property_address": "3435 Tesoro Cir, NEW SMYRNA BEACH",
+        "phone": "9898546108.0"
+      },
+      {
+        "first_name": "Thomas",
+        "last_name": "Hallow",
+        "email": "thallow@yahoo.com",
+        "mailing_state": "IN",
+        "property_address": "3371 Torre Blvd, New Smyrna Beach",
+        "phone": "8120000000.0"
+      },
+      {
+        "first_name": "Raymond",
+        "last_name": "Lanzetti",
+        "email": "rlanzetti43@aol.com",
+        "mailing_state": "NJ",
+        "property_address": "3558 Romea Cir, New Smyrna Beach",
+        "phone": "9740000000.0"
+      },
+      {
+        "first_name": "James",
+        "last_name": "Heltemes",
+        "email": "helty_1995@hotmail.com",
+        "mailing_state": "MN",
+        "property_address": "3306 Bellino Blvd, New Smyrna Beach",
+        "phone": "5070000000.0"
+      },
+      {
+        "first_name": "John",
+        "last_name": "Griffith",
+        "email": "jgriffith@ptd.net",
+        "mailing_state": "KY",
+        "property_address": "3616 Romea Cir, New Smyrna Beach",
+        "phone": "8600000000.0"
+      },
+      {
+        "first_name": "Steven",
+        "last_name": "Closs",
+        "email": "closssanta@aol.com",
+        "mailing_state": "NY",
+        "property_address": "3629 Casalta Cir, New Smyrna Beach",
+        "phone": "9180000000.0"
+      },
+      {
+        "first_name": "Tracey",
+        "last_name": "Hahn",
+        "email": "tracey.hahn@yahoo.com",
+        "mailing_state": "IN",
+        "property_address": "3302 Bellino Blvd, New Smyrna Beach",
+        "phone": "2190000000.0"
+      },
+      {
+        "first_name": "Michael",
+        "last_name": "Schneider",
+        "email": "wedo1michael@live.com",
+        "mailing_state": "NY",
+        "property_address": "3361 Luna Bella Ln, New Smyrna Beach",
+        "phone": "6310000000.0"
+      },
+      {
+        "first_name": "Kathleen",
+        "last_name": "Mutter",
+        "email": "spaqueen053@gmail.com",
+        "mailing_state": "RI",
+        "property_address": "3334 Bellino Blvd, New Smyrna Beach",
+        "phone": "4020000000.0"
+      },
+      {
+        "first_name": "Charles",
+        "last_name": "Speer",
+        "email": "charleakonanl@gmail.com",
+        "mailing_state": "NY",
+        "property_address": "3368 Pintello Ave, New Smyrna Beach",
+        "phone": "5856453885.0"
+      },
+      {
+        "first_name": "David",
+        "last_name": "Abell",
+        "email": "rilwanbalogun97@gmail.com",
+        "mailing_state": "KY",
+        "property_address": "3539 Casalta Cir, New Smyrna Beach",
+        "phone": "5030000000.0"
+      },
+      {
+        "first_name": "Zachary",
+        "last_name": "Rivers",
+        "email": "river317@umn.edu",
+        "mailing_state": "VT",
+        "property_address": "3590 Casalta Cir, New Smyrna Beach",
+        "phone": "8020000000.0"
+      }
+    ]
+  }
+}

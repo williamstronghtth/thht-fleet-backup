@@ -1,0 +1,3 @@
+{greeting} {first_name}, {opener} I sent you an email about your Fly In property. Just wanted to make sure you saw it. {closer}
+
+Reply STOP to opt out.

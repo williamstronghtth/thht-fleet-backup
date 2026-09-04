@@ -1,0 +1,180 @@
+SHELL=/bin/bash
+PATH=/root/.npm-global/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+
+# ============================================================================
+# THHT Agent Crontab - All times UTC
+# ============================================================================
+
+# ----------------------------------------------------------------------------
+# DAILY
+# ----------------------------------------------------------------------------
+
+# Arthur - daily story delivery
+# DISABLED 2026-07-23 (Ryan, per Chris): 30 10 * * * cd /root/agents && source .env && bin/run-agent.sh arthur-pembroke "Read HEARTBEAT.md and follow it exactly. Scan story-log.json from the TOP of the array (index 0) and deliver the FIRST entry where delivered is not true. Use array order — do NOT sort by date." --model sonnet --telegram >> logs/cron.log 2>&1
+
+# Main - morning brief (weekdays)
+30 10 * * 1-5 cd /root/agents && source .env && bin/run-agent.sh main "morning brief with RE news, mortgage rates, Southern NH / Hillsborough County market news, Mont Vernon weather. Use ONLY figures from the newest CLEARED-FIGURES-*.md. Write the brief to /root/agents/william-strong/workspace/memory/<TODAY>-morning-brief.md where <TODAY> is today's date as YYYY-MM-DD and DO NOT send it to Chris yourself - brief-gate.py checks it and delivers it at 6:50am." >> logs/cron.log 2>&1
+
+# Main - daily content handoff
+0 11 * * * cd /root/agents && source .env && bin/run-agent.sh main "daily content handoff, gather RE news, write brief to /root/agents/fiona-murphy/workspace/inbox/daily-content.md" --telegram >> logs/cron.log 2>&1
+
+# Fiona - daily content processing (runs after William's 11:00 UTC handoff)
+30 11 * * * cd /root/agents && source .env && bin/run-agent.sh fiona-murphy "daily content processing, check inbox/ and inbox/processed/ for content briefs, create and schedule social posts" >> logs/cron.log 2>&1
+# Fiona - blog publish-verification gate (2:00 PM ET / 18:00 UTC) - alerts Chris if a draft exists but nothing published today
+0 18 * * * cd /root/agents && python3 fiona-murphy/workspace/scripts/publish-gate.py >> logs/cron.log 2>&1
+
+# Derek - SEO blog post (RESUMED — 2026-07-22, was paused 2026-07-16 for dedup cleanup)
+0 14 * * * cd /root/agents && source .env && bin/run-agent.sh derek-marshall "write and publish SEO blog post for Affordable Roofing. Before choosing a topic, check existing post titles/categories on the site (and documents/blog-content-audit.html) to avoid duplicating an already-covered topic — prefer content gaps (tile roofing, flat roofing TPO/EPDM, financing, gutters, HOA approval) over saturated ones (hurricane season, replacement cost, metal roofing, insurance claims)." --telegram >> logs/cron.log 2>&1
+
+# Jack - email outreach domain warmup (every 2 hours)
+# RETIRED 2026-08-30 (William, approved Aug 24) — 16 dark weeks, 0 sends, premise falsified: 0 12,14,16,18,20,22 * * * cd /root/agents && source .env && bin/run-agent.sh jack-sullivan "email outreach domain warmup, run email-outreach.py 8" >> logs/cron.log 2>&1
+
+
+# Jack - Lis Pendens cadence
+# RETIRED 2026-08-30 (William) — FL campaign, day 188 of 30, ~158 no-op runs: 0 17 * * * cd /root/agents && source .env && bin/run-agent.sh jack-sullivan "Lis Pendens cadence, run cadence-engine.py" >> logs/cron.log 2>&1
+
+# Jack - cold calling sequence
+# RETIRED 2026-08-30 (William) — FL campaign, day 143 of 30, last real touch 2026-05-05: 0 18 * * * cd /root/agents && source .env && bin/run-agent.sh jack-sullivan "cold calling sequence daily, run cold-calling-sequence.py" >> logs/cron.log 2>&1
+
+# Main - workday start (weekdays)
+0 13 * * 1-5 cd /root/agents && source .env && bin/run-agent.sh main "workday start, review backlog, plan day" >> logs/cron.log 2>&1
+
+# Main - work pulse 10am (weekdays)
+0 15 * * 1-5 cd /root/agents && source .env && bin/run-agent.sh main "work pulse 10am, check progress" >> logs/cron.log 2>&1
+
+# Main - work pulse 2pm (weekdays)
+0 19 * * 1-5 cd /root/agents && source .env && bin/run-agent.sh main "work pulse 2pm, afternoon check-in" >> logs/cron.log 2>&1
+
+# Main - workday end (weekdays)
+0 23 * * 1-5 cd /root/agents && source .env && bin/run-agent.sh main "workday end, daily summary to Chris" --telegram >> logs/cron.log 2>&1
+
+# Nolan - auto-score yesterday's results (9:13 AM ET / 13:13 UTC)
+13 13 * * * /root/agents/bin/nolan-heartbeat-cron.sh autoscore >> /root/agents/logs/cron.log 2>&1
+
+# Nolan - SP matchup scores (7:45 AM ET / 11:45 UTC)
+45 11 * * * /root/agents/bin/nolan-sp-cron.sh >> /root/agents/logs/cron.log 2>&1
+
+# Nolan - bullpen + team strength update (7:50 AM ET / 11:50 UTC)
+50 11 * * * /root/agents/bin/nolan-bullpen-cron.sh >> /root/agents/logs/cron.log 2>&1
+
+# Nolan - morning pre-screen (8:00 AM ET / 12:00 UTC)
+0 12 * * * /root/agents/bin/nolan-heartbeat-cron.sh morning >> /root/agents/logs/cron.log 2>&1
+
+# Nolan - full model run (11:00 AM ET / 15:00 UTC)
+0 15 * * * /root/agents/bin/nolan-heartbeat-cron.sh fullrun >> /root/agents/logs/cron.log 2>&1
+
+# Nolan - MC pregame engine (11:30 AM ET / 15:30 UTC)
+*/30 15,16,17,18,19,20,21,22,23,0,1,2,3,4,5 * * * /root/agents/bin/nolan-mc-cron.sh >> /root/agents/logs/cron.log 2>&1
+
+# Nolan - closing odds capture (every 30 min, 11 AM - 1 AM ET / 15-05 UTC)
+*/30 15,16,17,18,19,20,21,22,23,0,1,2,3,4,5 * * * /root/agents/bin/nolan-closing-cron.sh >> /root/agents/logs/cron.log 2>&1
+
+# Ryan - CRM keep-alive (every 6 hours)
+0 0,6,12,18 * * * /root/agents/bin/crm-keepalive.sh >> /root/agents/logs/cron.log 2>&1
+
+# Iris Vale - Daily Spark (7:00 AM ET / 11:00 UTC)
+0 11 * * * cd /root/agents && source .env && bin/run-agent.sh iris-vale "Run your Daily Spark: surface ONE fresh, specific, ready-to-use creative idea for the team and send it to William's inbox. One idea, not a list. Follow your proactive-creative-radar skill." --telegram >> logs/cron.log 2>&1
+
+# ----------------------------------------------------------------------------
+# WEEKLY (Sunday)
+# ----------------------------------------------------------------------------
+
+# Iris Vale - Weekly Creative Audit (Monday 8:00 AM ET / 12:00 UTC)
+0 12 * * 1 cd /root/agents && source .env && bin/run-agent.sh iris-vale "Run your Weekly Creative Audit: review the team's output from the past 7 days, identify the 2-3 highest-leverage creative upgrades, and send each to the relevant agent's inbox (or summarize for William). Follow your proactive-creative-radar skill." --telegram >> logs/cron.log 2>&1
+
+# Main - Amherst NH weekly news digest (Sunday)
+0 15 * * 0 cd /root/agents && source .env && bin/run-agent.sh main "Amherst NH weekly news digest" --telegram >> logs/cron.log 2>&1
+
+# Jack - cold calling weekly report (Friday)
+0 21 * * 5 cd /root/agents && source .env && bin/run-agent.sh jack-sullivan "cold calling weekly report" --telegram >> logs/cron.log 2>&1
+
+# Ryan - weekly tech scout (Sunday)
+5 22 * * 0 cd /root/agents && source .env && bin/run-agent.sh ryan-chen "weekly tech scout, search for new tools" --telegram >> logs/cron.log 2>&1
+
+# Ryan - weekly research lab review (Sunday)
+0 22 * * 0 cd /root/agents && source .env && bin/run-agent.sh ryan-chen "weekly research lab review" >> logs/cron.log 2>&1
+
+# Jack - research lab weekly review (Sunday)
+15 22 * * 0 cd /root/agents && source .env && bin/run-agent.sh jack-sullivan "research lab weekly review" >> logs/cron.log 2>&1
+
+# Fiona - weekly marketing review (Sunday)
+0 23 * * 0 cd /root/agents && source .env && bin/run-agent.sh fiona-murphy "weekly marketing review" >> logs/cron.log 2>&1
+
+# Main - William weekly research lab review (Sunday)
+10 23 * * 0 cd /root/agents && source .env && bin/run-agent.sh main "William weekly research lab review" --telegram >> logs/cron.log 2>&1
+
+
+# ----------------------------------------------------------------------------
+# TUESDAY
+# ----------------------------------------------------------------------------
+
+# Jack - weekly newsletter send
+0 13 * * 2 cd /root/agents && source .env && bin/run-agent.sh jack-sullivan "weekly newsletter send. MANDATORY PREFLIGHT: after writing send_newsletter_<date>.js and BEFORE sending, run python3 /root/agents/william-strong/workspace/scripts/brief-gate.py --target newsletter . Exit 0 = send. Non-zero = DO NOT SEND; fix the figures against the cleared block and re-run the gate." --telegram >> logs/cron.log 2>&1
+
+# Main - newsletter POST-SEND AUDIT (Tue 09:25 ET). Added 2026-08-31.
+# The preflight above depends on Jack complying. This does not. If a figure
+# that is not in the cleared block reached 88 subscriber inboxes, it fires 25
+# minutes later instead of never - which is the difference between a same-day
+# correction and finding out next quarter.
+25 13 * * 2 cd /root/agents/william-strong/workspace/scripts && source /root/agents/.env && python3 brief-gate.py --target newsletter >> /root/agents/logs/cron.log 2>&1
+
+# Main - weekly newsletter prep
+0 14 * * 1 cd /root/agents && source .env && bin/run-agent.sh main "weekly newsletter prep" --telegram >> logs/cron.log 2>&1
+
+# ----------------------------------------------------------------------------
+# MONTHLY
+# ----------------------------------------------------------------------------
+
+# Main - Yamanaka Factors research update (1st of month)
+0 18 1 * * cd /root/agents && source .env && bin/run-agent.sh main "Yamanaka Factors research update" --telegram >> logs/cron.log 2>&1
+
+# Ryan - weekly disk cleanup (Sunday 3:00 AM ET / 07:00 UTC): purge old session snapshots, cap logs, alert if disk >80%
+0 7 * * 0 /root/agents/bin/disk-cleanup.sh >> /root/agents/logs/cron.log 2>&1
+
+# Eno - Daily Streamer Board (9:05 AM ET / 13:05 UTC during EDT; shift to 14:05 UTC in EST)
+5 13 * * * cd /root/agents && source .env && bin/run-agent.sh eno-sarris "Daily Streamer Board: run scripts/daily_fetch.py then scripts/daily_report.py for today, then send Chris the SP streamer tiers + under-26 hitter hot board on Telegram with your own read on the top plays and any traps." --telegram >> logs/cron.log 2>&1
+
+# Nolan - slate coverage watchdog (9:20 AM ET / 13:20 UTC)
+20 13 * * * /root/agents/bin/nolan-coverage-cron.sh >> /root/agents/logs/cron.log 2>&1
+# Jack - Distress Pipeline (Foreclosure Watch) main run (Mon 07:00 ET / 11:00 UTC) - delivers to Chris only
+0 11 * * 1 cd /root/agents/jack-sullivan/workspace/distress-pipeline && source /root/agents/.env && python3 run_monday.py >> /root/agents/logs/cron.log 2>&1
+# Jack - Distress Pipeline postponement re-check (Thu 07:00 ET / 11:00 UTC)
+0 11 * * 4 cd /root/agents/jack-sullivan/workspace/distress-pipeline && source /root/agents/.env && python3 run_thursday.py >> /root/agents/logs/cron.log 2>&1
+
+# Figure gate: runs between William's brief (11:00 UTC) and Fiona's pickup (11:30 UTC).
+# Blocks uncleared figures in daily-content.md. See scripts/brief-gate.py docstring.
+15 11 * * * cd /root/agents && python3 william-strong/workspace/scripts/brief-gate.py --target fiona >> logs/cron.log 2>&1
+
+# Morning-brief gate + delivery (6:50am ET / 10:50 UTC, weekdays).
+# The 6:30 brief cron no longer sends to Chris; this checks figures against the
+# cleared block FIRST, then delivers. Dirty briefs still go, loudly marked.
+# Scoped --target chris so the 11:15 fiona run cannot deliver it twice.
+50 10 * * 1-5 cd /root/agents && python3 william-strong/workspace/scripts/brief-gate.py --target chris >> logs/cron.log 2>&1
+
+# PMMS pull - Freddie Mac publishes Thursdays at 12:00 PM ET (NOT 8am; that
+# error sat in four consecutive day plans). 12:15 PM ET = 16:15 UTC (EDT).
+15 16 * * 4 cd /root/agents && source .env && bin/run-agent.sh main "Freddie Mac PMMS released at 12pm ET today. Pull the new 30-yr and 15-yr fixed rates from https://www.freddiemac.com/pmms, then update the Rates table in the newest CLEARED-FIGURES-*.md with the new values, direction vs prior week, and week-ending date. Move the superseded rates to WITHDRAWN. Telegram Chris the new rates." --telegram >> logs/cron.log 2>&1
+
+# Letter gate - direct mail is signed, physical and unrecallable, and it was
+# the ONLY outbound channel with no check on it. brief-gate reads figures;
+# these letters contain none by design, so it passed them at full confidence.
+# This checks claims about PEOPLE (kinship/age/tenure/occupation) against the
+# docket's source record. 10:00 AM ET / 14:00 UTC, after Jack's letter runs.
+0 14 * * * cd /root/agents && python3 william-strong/workspace/scripts/letter-gate.py >> logs/cron.log 2>&1
+0 22 * * 0 cd /root/agents && python3 bin/security-scan.py > /root/agents/william-strong/workspace/reports/security-scan-latest.txt 2>&1; echo "[security-scan] exit=$? $(date)" >> /root/agents/logs/cron.log
+# Main - Fair Housing BACK-CATALOG audit (Mon 08:00 ET / 12:00 UTC). Added 2026-09-01.
+# Every other control looks forward. This one looks at what we already published.
+# Exit 1 only when EDITABLE (still-fixable) copy carries a blocker.
+0 12 * * 1 cd /root/agents/william-strong/workspace/scripts && python3 backcatalog-audit.py >> /root/agents/logs/cron.log 2>&1
+# CLEARED-FIGURES precondition (06:00 ET / 10:00 UTC, daily).
+# The block is the one gate input nothing generates and nothing checks. When
+# missing, brief-gate.py silently checks today's copy against YESTERDAY's
+# block and reports CLEAN. Late 4x: Aug 28, Aug 29-30, Sept 1, Sept 2.
+# Sept 1 wrote an amendment SAYING this cron existed. It did not. Ship the
+# scheduler line, not the sentence describing it.
+0 10 * * * cd /root/agents && source .env && python3 william-strong/workspace/scripts/cleared-figures-stub.py >> logs/cron.log 2>&1
+# 12:00 PM ET Thu — the instant the cleared block's rate expiry fires. PMMS
+# refresh runs at 12:15, leaving a 15-min window where the block is void by
+# its own terms. This closes it: the gate now parses the expiry line and
+# alerts if anything rate-carrying is still certified against a dead block.
+0 16 * * 4 cd /root/agents && source .env && python3 william-strong/workspace/scripts/brief-gate.py --target fiona >> logs/cron.log 2>&1

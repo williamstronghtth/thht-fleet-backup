@@ -1,0 +1,307 @@
+/* Billy's Betting Board - Clean Modern Style */
+
+:root {
+    --bg-primary: #0f1419;
+    --bg-secondary: #192734;
+    --bg-card: #22303c;
+    --text-primary: #ffffff;
+    --text-secondary: #8899a6;
+    --accent: #1da1f2;
+    --positive: #00c853;
+    --negative: #ff5252;
+    --warning: #ffc107;
+    --spread: #7c4dff;
+    --total: #00bcd4;
+    --prop: #ff9800;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    background: var(--bg-primary);
+    color: var(--text-primary);
+    line-height: 1.6;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 30px 0;
+    border-bottom: 1px solid var(--bg-card);
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.subtitle {
+    color: var(--text-secondary);
+    font-size: 1rem;
+}
+
+/* Stats Banner */
+.stats-banner {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    background: linear-gradient(135deg, var(--bg-secondary), var(--bg-card));
+    padding: 25px;
+    border-radius: 16px;
+    margin-bottom: 30px;
+}
+
+.stat-item {
+    text-align: center;
+}
+
+.stat-value {
+    display: block;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.stat-label {
+    color: var(--text-secondary);
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+/* Cards */
+.card {
+    background: var(--bg-secondary);
+    border-radius: 16px;
+    padding: 24px;
+    margin-bottom: 24px;
+}
+
+.card h2 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.date-badge {
+    background: var(--bg-card);
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: var(--text-secondary);
+}
+
+/* Picks List */
+.picks-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.pick-card {
+    background: var(--bg-card);
+    border-radius: 12px;
+    padding: 16px;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 8px;
+    border-left: 4px solid var(--text-secondary);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.pick-card:hover {
+    transform: translateX(4px);
+}
+
+.pick-card.w {
+    border-left-color: var(--positive);
+}
+
+.pick-card.l {
+    border-left-color: var(--negative);
+}
+
+.pick-card.pending {
+    border-left-color: var(--warning);
+}
+
+.pick-main {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.pick-text {
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.pick-type {
+    padding: 3px 10px;
+    border-radius: 12px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.pick-type.spread {
+    background: rgba(124, 77, 255, 0.2);
+    color: var(--spread);
+}
+
+.pick-type.total {
+    background: rgba(0, 188, 212, 0.2);
+    color: var(--total);
+}
+
+.pick-type.prop {
+    background: rgba(255, 152, 0, 0.2);
+    color: var(--prop);
+}
+
+.pick-details {
+    grid-column: 1;
+    display: flex;
+    gap: 16px;
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+}
+
+.pick-status {
+    grid-column: 2;
+    grid-row: 1 / 3;
+    display: flex;
+    align-items: center;
+}
+
+.status-badge {
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+
+.status-badge.win {
+    background: rgba(0, 200, 83, 0.15);
+    color: var(--positive);
+}
+
+.status-badge.loss {
+    background: rgba(255, 82, 82, 0.15);
+    color: var(--negative);
+}
+
+.status-badge.push {
+    background: rgba(136, 153, 166, 0.15);
+    color: var(--text-secondary);
+}
+
+.status-badge.pending {
+    background: rgba(255, 193, 7, 0.15);
+    color: var(--warning);
+}
+
+/* Stats Grid */
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+}
+
+.stat-card {
+    background: var(--bg-card);
+    padding: 16px;
+    border-radius: 12px;
+}
+
+.stat-card h3 {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    margin-bottom: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.stat-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 6px 0;
+    font-size: 0.95rem;
+}
+
+/* Colors */
+.positive {
+    color: var(--positive);
+}
+
+.negative {
+    color: var(--negative);
+}
+
+/* Empty State */
+.empty-state {
+    text-align: center;
+    padding: 40px;
+    color: var(--text-secondary);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 30px 0;
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .container {
+        padding: 15px;
+    }
+    
+    header h1 {
+        font-size: 1.8rem;
+    }
+    
+    .stats-banner {
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .stats-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .pick-card {
+        grid-template-columns: 1fr;
+    }
+    
+    .pick-status {
+        grid-column: 1;
+        grid-row: auto;
+        justify-content: flex-start;
+        margin-top: 8px;
+    }
+    
+    .pick-details {
+        flex-wrap: wrap;
+        gap: 8px;
+    }
+}

@@ -1,0 +1,59 @@
+first_name,last_name,address,city,state,zip,phone,phone_type,email,mailing_address,mailing_city,mailing_state,mailing_zip,lead_type,source,is_litigator,dnc_tcpa
+Gary,Rodriguez,898 LAZIO CIR,DEBARY,FL,32713,,,,,,,,pre-foreclosure,lis_pendens,no,false
+Rachel,Jordan,825 WHIPORWILL DR,PORT ORANGE,FL,32127,7062440751,Mobile,rachel.jordan24@yahoo.com,825 Whiporwill Dr,Port Orange,FL,32127,pre-foreclosure,lis_pendens,no,false
+James,Bailey,802 DERBYSHIRE RD,DAYTONA BEACH,FL,32114,7703101430,Mobile,blackhouse2050@hotmail.com,1410 San Marco Blvd,Jacksonville,FL,32207,pre-foreclosure,lis_pendens,no,false
+Melburn,Dillon,757 IOWA ST,DAYTONA BEACH,FL,32114,7862515505,Mobile,melburndillon@att.net,5726 SW 27th St # 2,Hollywood,FL,33023,pre-foreclosure,lis_pendens,no,false
+Shamya,Shepherd,711 LAISY DR,DELAND,FL,32720,3866247319,Land Line,shamyashepherd1@gmail.com,711 Laisy Dr,Deland,FL,32724,pre-foreclosure,lis_pendens,no,false
+Chad,Bell,689 WELLINGTON STATION BLVD,ORMOND BEACH,FL,32174,7402723383,Mobile,chadbell7738@live.com,689 Wellington Station Blvd,Ormond Beach,FL,32174,pre-foreclosure,lis_pendens,no,false
+Jackie,Holder,6509 SHAHAB LN,PORT ORANGE,FL,32127,3862368600,Land Line,jackiholder@gmail.com,6509 Shahab Ln,Port Orange,FL,32128,pre-foreclosure,lis_pendens,no,false
+Alexander,Benitez,637 E WASHINGTON AVE,PIERSON,FL,32180,3867490862,Land Line,,575 Braddock Rd,Pierson,FL,32180,pre-foreclosure,lis_pendens,no,false
+Anne,Davinovish,633 HAGER CT,DELTONA,FL,32725,9084226049,Land Line,annebony827@hotmail.com,701 Tuxedo Pl,Linden,NJ,07036,pre-foreclosure,lis_pendens,no,false
+James,Nelson,6280 PALM VISTA ST,PORT ORANGE,FL,32127,,,etznel@msn.com,7480 Zanzibar Ln N,Maple Grove,MN,55311,pre-foreclosure,lis_pendens,no,false
+Eva,Fennell,620 WARN-REE CIR,NEW SMYRNA BEACH,FL,32168,3864098039,Land Line,emfennell1972@gmail.com,166 Nancy St,Oak Hill,FL,32759,pre-foreclosure,lis_pendens,no,false
+Rose,Triplett,6111 OXBOW BEND LN,PORT ORANGE,FL,32127,6125582035,Mobile,rosetriplett83@gmail.com,6111 Oxbow Bend Ln,Port Orange,FL,32128,pre-foreclosure,lis_pendens,no,false
+Jason,Allison,6111 OXBOW BEND LN,PORT ORANGE,FL,32127,9526497483,Mobile,hustla_j@yahoo.com,6111 Oxbow Bend Ln,Port Orange,FL,32128,pre-foreclosure,lis_pendens,no,false
+Quintina,Tucker,608 LAISY DR,DELAND,FL,32720,3865891638,Mobile,quintina.tucker@hotmail.com,608 Laisy Dr,Deland,FL,32724,pre-foreclosure,lis_pendens,no,false
+Jose,Campuzano,606 E EUCLID AVE,DELAND,FL,32720,4074565581,Mobile,josecampuzano77@hotmail.com,1103 Aaron Dr,Deltona,FL,32725,pre-foreclosure,lis_pendens,no,false
+Jasmine,Bradley,605 STALLINGS AVE,DELTONA,FL,32725,3867855563,Mobile,jasminebradley57@yahoo.com,605 Stallings Ave,Deltona,FL,32738,pre-foreclosure,lis_pendens,yes,true
+Steven,Alkire,6000 WHISPERING TREES LN,PORT ORANGE,FL,32127,3863073454,Mobile,buckeyejsa@aol.com,6000 Whispering Trees Ln,Port Orange,FL,32128,pre-foreclosure,lis_pendens,no,false
+Heather,Putnam,552 MOSAIC BLVD,DAYTONA BEACH,FL,32114,9047960028,Mobile,precious3190@yahoo.com,2331 N Williamson Blvd Apt 19108,Daytona Beach,FL,32117,pre-foreclosure,lis_pendens,no,false
+Erika,Wheeler,5224 TAYLOR AVE,PORT ORANGE,FL,32127,3866936680,Mobile,erikaselenabilly13@gmail.com,416 Laurie Ave,Port Orange,FL,32127,pre-foreclosure,lis_pendens,no,false
+Thomas,Buonocore,508 CYPRESS OAK CIR,DELAND,FL,32720,3864795076,Mobile,tombuonocore@yahoo.com,508 Cypress Oak Cir,Deland,FL,32720,pre-foreclosure,lis_pendens,no,false
+Jack,Aberman,442 N PENINSULA DR,DAYTONA BEACH,FL,32114,,,ijaberman@aol.com,442 N Peninsula Dr,Daytona Beach,FL,32118,pre-foreclosure,lis_pendens,no,false
+Braedan,Bates,430 NORTH RD,ENTERPRISE,FL,32725,3056887543,Land Line,braedanb@email.com,430 North Rd,Deltona,FL,32725,pre-foreclosure,lis_pendens,no,false
+Thierry,Lubenec,420 CADDIE DR,DEBARY,FL,32713,3106752045,Land Line,thierrylubenec@yahoo.com,420 Caddie Dr,Debary,FL,32713,pre-foreclosure,lis_pendens,no,false
+John,Gutek,4150 S ATLANTIC AVE,NEW SMYRNA BEACH,FL,32168,3125509817,Mobile,jgutek@insightbb.com,4150 S Atlantic Ave,New Smyrna Beach,FL,32169,pre-foreclosure,lis_pendens,no,false
+Francisco,Riveras,404 OSLO DR,DELTONA,FL,32725,9144842118,Mobile,tlinda3000@gmail.com,404 Oslo Dr,Deltona,FL,32725,pre-foreclosure,lis_pendens,yes,true
+Eric,Moldthan,3769 RONDA DR,DELTONA,FL,32725,3866014374,Mobile,,3769 Ronda Dr,Deltona,FL,32738,pre-foreclosure,lis_pendens,no,false
+Darl,Houser,3751 JACKSON ST,PORT ORANGE,FL,32127,9047885332,Mobile,darlhouser34@aol.com,3751 Jackson St,Port Orange,FL,32129,pre-foreclosure,lis_pendens,no,false
+Amanda,Ceballos,3538 TREETOP ST,DELAND,FL,32720,4073830101,Mobile,amandita226@gmail.com,196 Dublin Dr,Lake Mary,FL,32746,pre-foreclosure,lis_pendens,no,false
+Joel,Morales,330 GLEN CLUB DR,DEBARY,FL,32713,3865618880,Mobile,janelmorales@gmail.com,330 Glen Club Dr,Debary,FL,32713,pre-foreclosure,lis_pendens,no,false
+Penelope,Hawthorne,317 PLANTATION CLUB DR,DEBARY,FL,32713,3214609256,Mobile,phawthorne1066@yahoo.com,317 Plantation Club Dr,Debary,FL,32713,pre-foreclosure,lis_pendens,no,false
+Marilyn,Kurfis,3128 WOODLAND DR,EDGEWATER,FL,32132,3864021855,Mobile,kaitlynkurfis2@aol.com,3128 Woodland Dr,Edgewater,FL,32141,pre-foreclosure,lis_pendens,no,false
+Melike,Degregorio,3011 N OLEANDER AVE,DAYTONA BEACH,FL,32114,6178423010,Mobile,meldegregorio@yahoo.com,3011 N Oleander Ave,Daytona Beach,FL,32118,pre-foreclosure,lis_pendens,no,false
+Yanitza,Martinez,2944 BECKWITH ST,DELTONA,FL,32725,4137341954,Land Line,yanimartinez618@yahoo.com,2944 Beckwith St,Deltona,FL,32738,pre-foreclosure,lis_pendens,no,false
+John,Shafner,231 RIVERSIDE DR,HOLLY HILL,FL,32117,9046730327,Mobile,jhnshafner@yahoo.com,231 Riverside Dr,Daytona Beach,FL,32117,pre-foreclosure,lis_pendens,no,false
+Lynn,Haycock,2301 MELONIE TR,NEW SMYRNA BEACH,FL,32168,7324314635,Land Line,lynnhaycock131@gmail.com,2301 Melonie Trl,New Smyrna Beach,FL,32168,pre-foreclosure,lis_pendens,no,false
+Maria,Cruz,22 PALM CASTLE DR,PORT ORANGE,FL,32127,3862752335,Mobile,,22 Palm Castle Dr,Port Orange,FL,32127,pre-foreclosure,lis_pendens,no,false
+Saswata,Nayak,2082 BUCKHANON TR,DELAND,FL,32720,7346123394,Mobile,saswata@gmail.com,51083 Gulfstream Park Ln,Canton,MI,48188,pre-foreclosure,lis_pendens,no,false
+Stephanie,Pace,204 LINKS TERRACE BLVD,DAYTONA BEACH,FL,32114,3868710482,Mobile,pace.stephanie@yahoo.com,204 Links Terrace Blvd,Daytona Beach,FL,32124,pre-foreclosure,lis_pendens,no,false
+Neil,Rabinowitz,2017 COURTLAND BLVD,DELTONA,FL,32725,3019325880,Land Line,hiddentreasures@earthlink.net,2017 Courtland Blvd,Deltona,FL,32738,pre-foreclosure,lis_pendens,no,false
+Thomas,Nunez,2014 WILLOW OAK DR,EDGEWATER,FL,32132,9042396929,Mobile,thomasnunez@onebox.com,864 Hanover Rd,Deland,FL,32724,pre-foreclosure,lis_pendens,no,false
+Diane,Ryan,1968 MENGER CIR,SOUTH DAYTONA,FL,32119,3867882251,Land Line,dianelovesmia07@gmail.com,1968 Menger Cir,Daytona Beach,FL,32119,pre-foreclosure,lis_pendens,no,false
+Ameling,Malave,1870 ARISTA TER,DELTONA,FL,32725,9295095476,Mobile,amelingo@hotmail.com,1870 Arista Ter,Deltona,FL,32725,pre-foreclosure,lis_pendens,no,false
+Arnold,Coluccio,187 CENTENNIAL LN,DAYTONA BEACH,FL,32114,3863662652,Mobile,ironmanmobile1@gmail.com,187 Centennial Ln,Daytona Beach,FL,32119,pre-foreclosure,lis_pendens,no,false
+Jeremy,Alvarez,1851 TALMADGE ST,DELAND,FL,32720,3866241691,Mobile,yoda_the_great_one@hotmail.com,1851 Talmadge St,Deland,FL,32724,pre-foreclosure,lis_pendens,yes,true
+Zhenxing,Tang,185 PITCHING WEDGE DR,DAYTONA BEACH,FL,32114,4076900131,Mobile,zhenxingtang@gmail.com,10766 Willow Ridge Loop,Orlando,FL,32825,pre-foreclosure,lis_pendens,yes,true
+Marisol,Lopez,1821 SPRINGWOOD LN,DELTONA,FL,32725,9045323517,Mobile,marisol.lopez32725@gmail.com,1821 Springwood Ln,Deltona,FL,32725,pre-foreclosure,lis_pendens,no,false
+Silvia,Fernandes,1639 URBANA AVE,DELTONA,FL,32725,3866753468,Mobile,davidjop@gmail.com,1839 N Normandy Blvd,Deltona,FL,32725,pre-foreclosure,lis_pendens,no,false
+Addie,Whitford,1465 CLARK BAY RD,DELAND,FL,32720,3867384824,Land Line,,1465 Clark Bay Rd,Deland,FL,32724,pre-foreclosure,lis_pendens,no,false
+Devin,Blackwell,1401 S PALMETTO AVE,DAYTONA BEACH,FL,32114,,,,1437 Carlow Cir,Ormond Beach,FL,32174,pre-foreclosure,lis_pendens,no,false
+Raymond,Torres,1340 LAKE BATON DR,DELTONA,FL,32725,3212747853,Mobile,rtorres@topratedinvestigations.com,4183 Looking Glass Pl,Sanford,FL,32771,pre-foreclosure,lis_pendens,no,false
+George,Rautenberg,133 S HALIFAX DR,ORMOND BEACH,FL,32174,3862320299,Mobile,wiesedonna6@gmail.com,133 S Halifax Dr,Ormond Beach,FL,32176,pre-foreclosure,lis_pendens,no,false
+Amarilys,Cruz,1321 FOUNTAINHEAD DR,DELTONA,FL,32725,3868789986,Mobile,ms.aruiz@yahoo.com,271 N Evans Cir Apt B,Deltona,FL,32725,pre-foreclosure,lis_pendens,no,false
+Dennis,Weber,1200 9TH AVE,DELAND,FL,32720,7328773756,Mobile,firsttimer1547@gmail.com,1200 9th Ave,Deland,FL,32724,pre-foreclosure,lis_pendens,no,false
+Ryan,Evans,118 S HIGH ST,DELAND,FL,32720,7722247498,Mobile,ryanevansar@hotmail.com,118 S High St,Deland,FL,32720,pre-foreclosure,lis_pendens,no,false
+Athena,Ryan,116 N BOUNDARY AVE,DELAND,FL,32720,,,aathenaryan@gmail.com,116 N Boundary Ave,Deland,FL,32720,pre-foreclosure,lis_pendens,no,false
+Nancy,Rodriguez,116 IMPERIAL HEIGHTS DR,ORMOND BEACH,FL,32174,3868685185,Land Line,sharkbitejr@aol.com,116 Imperial Heights Dr,Ormond Beach,FL,32176,pre-foreclosure,lis_pendens,no,false
+Jessica,Kennedy,1074 GERONA AVE,DELTONA,FL,32725,9545520754,Mobile,naturegirljlk@gmail.com,1702 E Erie St Apt 3,Long Beach,CA,90802,pre-foreclosure,lis_pendens,no,false
+Sherry,Pinner,101 HIBISCUS DR,DAYTONA BEACH,FL,32114,3213489052,Land Line,ptrican_mami06@yahoo.com,101 Hibiscus Dr,Daytona Beach,FL,32117,pre-foreclosure,lis_pendens,yes,true

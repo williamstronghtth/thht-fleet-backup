@@ -1,0 +1,51 @@
+Original Name,Confidence,Matched Owner Name,Property Address,City,Parcel ID,Property Class
+"WILLIAMS, TONY","ERROR","ERROR: elementHandle.scrollIntoViewIfNeeded: Timeout 30000ms exceeded.
+Call log:
+  - attempting scroll into view action
+    2 × waiting for element to be stable
+      - element is not visible
+    - retrying scroll into view action
+    - waiting 20ms
+    2 × waiting for element to be stable
+      - element is not visible
+    - retrying scroll into view action
+      - waiting 100ms
+    56 × waiting for element to be stable
+       - element is not visible
+     - retrying scroll into view action
+       - waiting 500ms
+","","","",""
+"REEDY, MATTHEW","ERROR","ERROR: elementHandle.scrollIntoViewIfNeeded: Timeout 30000ms exceeded.
+Call log:
+  - attempting scroll into view action
+    2 × waiting for element to be stable
+      - element is not visible
+    - retrying scroll into view action
+    - waiting 20ms
+    2 × waiting for element to be stable
+      - element is not visible
+    - retrying scroll into view action
+      - waiting 100ms
+    56 × waiting for element to be stable
+       - element is not visible
+     - retrying scroll into view action
+       - waiting 500ms
+","","","",""
+"BRYANT, DUSTIN","ERROR","ERROR: elementHandle.scrollIntoViewIfNeeded: Target page, context or browser has been closed
+Call log:
+  - attempting scroll into view action
+    2 × waiting for element to be stable
+      - element is not visible
+    - retrying scroll into view action
+    - waiting 20ms
+    2 × waiting for element to be stable
+      - element is not visible
+    - retrying scroll into view action
+      - waiting 100ms
+    30 × waiting for element to be stable
+       - element is not visible
+     - retrying scroll into view action
+       - waiting 500ms
+","","","",""
+"SEGUNA, GANNON","ERROR","ERROR: page.goto: Target page, context or browser has been closed","","","",""
+"FOWLER, DONALD","ERROR","ERROR: page.goto: Target page, context or browser has been closed","","","",""

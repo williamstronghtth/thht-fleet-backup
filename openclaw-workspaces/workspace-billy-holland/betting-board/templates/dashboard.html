@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🏀 Billy's Betting Board</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🏀 Billy's Betting Board</h1>
+            <p class="subtitle">AI-Powered NBA Betting Tracker</p>
+        </header>
+
+        <!-- Overall Stats Banner -->
+        <div class="stats-banner">
+            <div class="stat-item">
+                <span class="stat-value">{{ stats.wins }}-{{ stats.losses }}</span>
+                <span class="stat-label">Record</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-value {% if stats.win_pct >= 55 %}positive{% elif stats.win_pct < 50 %}negative{% endif %}">{{ stats.win_pct }}%</span>
+                <span class="stat-label">Win Rate</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-value {% if stats.pnl >= 0 %}positive{% else %}negative{% endif %}">{% if stats.pnl >= 0 %}+{% endif %}{{ stats.pnl }}u</span>
+                <span class="stat-label">P&L</span>
+            </div>
+        </div>
+
+        <!-- Today's Picks -->
+        <section class="card">
+            <h2>📅 Today's Picks <span class="date-badge">{{ today }}</span></h2>
+            {% if today_picks %}
+            <div class="picks-list">
+                {% for pick in today_picks %}
+                <div class="pick-card pending">
+                    <div class="pick-main">
+                        <span class="pick-text">{{ pick.pick }}</span>
+                        <span class="pick-type {{ pick.bet_type|lower }}">{{ pick.bet_type }}</span>
+                    </div>
+                    <div class="pick-details">
+                        <span class="game">{{ pick.game }}</span>
+                        <span class="confidence">{{ pick.confidence }}% conf</span>
+                        {% if pick.edge %}
+                        <span class="edge">{{ pick.edge }} pt edge</span>
+                        {% endif %}
+                    </div>
+                    <div class="pick-status">
+                        <span class="status-badge pending">⏳ Pending</span>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+            {% else %}
+            <div class="empty-state">
+                <p>No picks yet today. Check back later!</p>
+            </div>
+            {% endif %}
+        </section>
+
+        <!-- Yesterday's Results -->
+        <section class="card">
+            <h2>📊 Yesterday's Results <span class="date-badge">{{ yesterday }}</span></h2>
+            {% if yesterday_picks %}
+            <div class="picks-list">
+                {% for pick in yesterday_picks %}
+                <div class="pick-card {{ pick.result|lower }}">
+                    <div class="pick-main">
+                        <span class="pick-text">{{ pick.pick }}</span>
+                        <span class="pick-type {{ pick.bet_type|lower }}">{{ pick.bet_type }}</span>
+                    </div>
+                    <div class="pick-details">
+                        <span class="game">{{ pick.game }}</span>
+                        <span class="confidence">{{ pick.confidence }}% conf</span>
+                    </div>
+                    <div class="pick-status">
+                        {% if pick.result == 'W' %}
+                        <span class="status-badge win">✅ +{{ pick.pnl }}u</span>
+                        {% elif pick.result == 'L' %}
+                        <span class="status-badge loss">❌ {{ pick.pnl }}u</span>
+                        {% elif pick.result == 'P' %}
+                        <span class="status-badge push">➖ Push</span>
+                        {% else %}
+                        <span class="status-badge pending">⏳ Pending</span>
+                        {% endif %}
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+            {% else %}
+            <div class="empty-state">
+                <p>No results from yesterday.</p>
+            </div>
+            {% endif %}
+        </section>
+
+        <!-- Stats by Type -->
+        <section class="card">
+            <h2>📈 Stats by Bet Type</h2>
+            <div class="stats-grid">
+                {% for type, type_stat in type_stats.items() %}
+                <div class="stat-card">
+                    <h3>{{ type }}</h3>
+                    <div class="stat-row">
+                        <span>Record:</span>
+                        <span>{{ type_stat.wins }}-{{ type_stat.losses }}</span>
+                    </div>
+                    <div class="stat-row">
+                        <span>Win %:</span>
+                        <span class="{% if type_stat.win_pct >= 55 %}positive{% elif type_stat.win_pct < 50 and type_stat.total > 0 %}negative{% endif %}">
+                            {% if type_stat.total > 0 %}{{ type_stat.win_pct }}%{% else %}--{% endif %}
+                        </span>
+                    </div>
+                    <div class="stat-row">
+                        <span>P&L:</span>
+                        <span class="{% if type_stat.pnl >= 0 %}positive{% else %}negative{% endif %}">
+                            {% if type_stat.pnl >= 0 %}+{% endif %}{{ type_stat.pnl }}u
+                        </span>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </section>
+
+        <!-- Stats by Confidence -->
+        <section class="card">
+            <h2>🎯 Stats by Confidence Tier</h2>
+            <div class="stats-grid">
+                {% for tier, tier_stat in conf_tiers.items() %}
+                <div class="stat-card">
+                    <h3>{{ tier }}</h3>
+                    <div class="stat-row">
+                        <span>Record:</span>
+                        <span>{{ tier_stat.wins }}-{{ tier_stat.losses }}</span>
+                    </div>
+                    <div class="stat-row">
+                        <span>Win %:</span>
+                        <span class="{% if tier_stat.win_pct >= 55 %}positive{% elif tier_stat.win_pct < 50 and tier_stat.total > 0 %}negative{% endif %}">
+                            {% if tier_stat.total > 0 %}{{ tier_stat.win_pct }}%{% else %}--{% endif %}
+                        </span>
+                    </div>
+                    <div class="stat-row">
+                        <span>P&L:</span>
+                        <span class="{% if tier_stat.pnl >= 0 %}positive{% else %}negative{% endif %}">
+                            {% if tier_stat.pnl >= 0 %}+{% endif %}{{ tier_stat.pnl }}u
+                        </span>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </section>
+
+        <footer>
+            <p>Built by Billy 🤖 | Powered by data, not hunches</p>
+        </footer>
+    </div>
+</body>
+</html>

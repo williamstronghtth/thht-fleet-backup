@@ -1,0 +1,52 @@
+{
+  "bls_cpi_latest": {
+    "value": "330.213 (March 2026)",
+    "last_fetched": "2026-05-11T17:55:48.066011+00:00",
+    "source_name": "BLS CPI Latest Release"
+  },
+  "bea_gdp_advance": {
+    "value": "Gross Domestic Product by County and Personal Income by County, 2024",
+    "last_fetched": "2026-05-11T17:55:48.450926+00:00",
+    "source_name": "BEA GDP Advance Estimate"
+  },
+  "cme_fedwatch": {
+    "value": "page_hash=af6c769b",
+    "last_fetched": "2026-05-11T17:55:48.655668+00:00",
+    "source_name": "CME FedWatch Implied Probabilities"
+  },
+  "fed_funds_futures": {
+    "value": "page_hash=7566f076",
+    "last_fetched": "2026-05-11T17:55:48.724915+00:00",
+    "source_name": "SOFR/Fed Funds Futures (30-day)"
+  },
+  "bls_jobs_latest": {
+    "value": "158736K (April 2026)",
+    "last_fetched": "2026-05-11T17:55:49.154805+00:00",
+    "source_name": "BLS Nonfarm Payrolls (CES0000000001)"
+  },
+  "bls_unemployment_rate": {
+    "value": "4.3% (April 2026)",
+    "last_fetched": "2026-05-11T17:55:49.363597+00:00",
+    "source_name": "BLS Unemployment Rate (LNS14000000)"
+  },
+  "eia_weekly_petroleum": {
+    "value": "$5.583/gal (2026-03-30)",
+    "last_fetched": "2026-05-11T17:55:49.568908+00:00",
+    "source_name": "EIA Weekly Petroleum Status Report"
+  },
+  "bea_pce_monthly": {
+    "value": "Personal Consumption Expenditures by State and Real Personal Income by State, 2024",
+    "last_fetched": "2026-05-11T17:55:50.556309+00:00",
+    "source_name": "BEA PCE Monthly Release"
+  },
+  "cleveland_fed_nowcast": {
+    "value": "PCE Inflation MoM=0.1333% (as of 08/29)",
+    "last_fetched": "2026-05-11T17:55:47.699412+00:00",
+    "source_name": "Cleveland Fed Inflation Nowcast"
+  },
+  "atlanta_fed_gdpnow": {
+    "value": "0.77% (hash=425ad9a0)",
+    "last_fetched": "2026-05-11T17:55:48.266525+00:00",
+    "source_name": "Atlanta Fed GDPNow"
+  }
+}

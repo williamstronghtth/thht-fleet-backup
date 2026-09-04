@@ -1,0 +1,1152 @@
+{
+  "star_injuries": [
+    {
+      "team": "Boston Celtics",
+      "player": "Jayson Tatum",
+      "status": "Mar 4",
+      "comment": "Out",
+      "is_star": true,
+      "source": "ESPN",
+      "fetched_at": "2026-02-26T14:10:45.244409"
+    },
+    {
+      "team": "Cleveland Cavaliers",
+      "player": "Donovan Mitchell",
+      "status": "Feb 27",
+      "comment": "Out",
+      "is_star": true,
+      "source": "ESPN",
+      "fetched_at": "2026-02-26T14:10:45.244589"
+    },
+    {
+      "team": "Dallas Mavericks",
+      "player": "Kyrie Irving",
+      "status": "Oct 1",
+      "comment": "Out",
+      "is_star": true,
+      "source": "ESPN",
+      "fetched_at": "2026-02-26T14:10:45.244659"
+    },
+    {
+      "team": "Golden State Warriors",
+      "player": "Stephen Curry",
+      "status": "Mar 2",
+      "comment": "Out",
+      "is_star": true,
+      "source": "ESPN",
+      "fetched_at": "2026-02-26T14:10:45.244817"
+    },
+    {
+      "team": "Indiana Pacers",
+      "player": "Tyrese Haliburton",
+      "status": "Oct 1",
+      "comment": "Out",
+      "is_star": true,
+      "source": "ESPN",
+      "fetched_at": "2026-02-26T14:10:45.244981"
+    },
+    {
+      "team": "LA Clippers",
+      "player": "Kawhi Leonard",
+      "status": "Feb 26",
+      "comment": "Day-To-Day",
+      "is_star": true,
+      "source": "ESPN",
+      "fetched_at": "2026-02-26T14:10:45.245018"
+    },
+    {
+      "team": "Memphis Grizzlies",
+      "player": "Ja Morant",
+      "status": "Mar 7",
+      "comment": "Out",
+      "is_star": true,
+      "source": "ESPN",
+      "fetched_at": "2026-02-26T14:10:45.245130"
+    },
+    {
+      "team": "Milwaukee Bucks",
+      "player": "Giannis Antetokounmpo",
+      "status": "Feb 27",
+      "comment": "Out",
+      "is_star": true,
+      "source": "ESPN",
+      "fetched_at": "2026-02-26T14:10:45.245203"
+    },
+    {
+      "team": "Oklahoma City Thunder",
+      "player": "Chet Holmgren",
+      "status": "Feb 27",
+      "comment": "Day-To-Day",
+      "is_star": true,
+      "source": "ESPN",
+      "fetched_at": "2026-02-26T14:10:45.245315"
+    },
+    {
+      "team": "Oklahoma City Thunder",
+      "player": "Shai Gilgeous-Alexander",
+      "status": "Feb 27",
+      "comment": "Out",
+      "is_star": true,
+      "source": "ESPN",
+      "fetched_at": "2026-02-26T14:10:45.245424"
+    },
+    {
+      "team": "Philadelphia 76ers",
+      "player": "Joel Embiid",
+      "status": "Feb 26",
+      "comment": "Day-To-Day",
+      "is_star": true,
+      "source": "ESPN",
+      "fetched_at": "2026-02-26T14:10:45.245550"
+    },
+    {
+      "team": "Phoenix Suns",
+      "player": "Devin Booker",
+      "status": "Mar 3",
+      "comment": "Out",
+      "is_star": true,
+      "source": "ESPN",
+      "fetched_at": "2026-02-26T14:10:45.245624"
+    },
+    {
+      "team": "Portland Trail Blazers",
+      "player": "Damian Lillard",
+      "status": "Oct 1",
+      "comment": "Out",
+      "is_star": true,
+      "source": "ESPN",
+      "fetched_at": "2026-02-26T14:10:45.245672"
+    },
+    {
+      "team": "Sacramento Kings",
+      "player": "Domantas Sabonis",
+      "status": "Oct 1",
+      "comment": "Out",
+      "is_star": true,
+      "source": "ESPN",
+      "fetched_at": "2026-02-26T14:10:45.245725"
+    },
+    {
+      "team": "Washington Wizards",
+      "player": "Trae Young",
+      "status": "Feb 28",
+      "comment": "Out",
+      "is_star": true,
+      "source": "ESPN",
+      "fetched_at": "2026-02-26T14:10:45.245896"
+    },
+    {
+      "team": "Washington Wizards",
+      "player": "Anthony Davis",
+      "status": "Apr 1",
+      "comment": "Out",
+      "is_star": true,
+      "source": "ESPN",
+      "fetched_at": "2026-02-26T14:10:45.245904"
+    }
+  ],
+  "all_injuries": [
+    {
+      "team": "Atlanta Hawks",
+      "player": "Nickeil Alexander-Walker",
+      "status": "Feb 26",
+      "comment": "Day-To-Day",
+      "is_star": false,
+      "source": "ESPN",
+      "fetched_at": "2026-02-26T14:10:45.244188"
+    },
+    {
+      "team": "Atlanta Hawks",
+      "player": "Zaccharie Risacher",
+      "status": "Feb 26",
+      "comment": "Day-To-Day",
+      "is_star": false,
+      "source": "ESPN",
+      "fetched_at": "2026-02-26T14:10:45.244367"
+    },
+    {
+      "team": "Atlanta Hawks",
+      "player": "Jalen Johnson",
+      "status": "Feb 26",
+      "comment": "Day-To-Day",
+      "is_star": false,
+      "source": "ESPN",
+      "fetched_at": "2026-02-26T14:10:45.244383"
+    },
+    {
+      "team": "Boston Celtics",
+      "player": "Jayson Tatum",
+      "status": "Mar 4",
+      "comment": "Out",
+      "is_star": true,
+      "source": "ESPN",
+      "fetched_at": "2026-02-26T14:10:45.244409"
+    },
+    {
+      "team": "Charlotte Hornets",
+      "player": "Liam McNeeley",
+      "status": "Mar 8",
+      "comment": "Out",
+      "is_star": false,
+      "source": "ESPN",
+      "fetched_at": "2026-02-26T14:10:45.244465"
+    },
+    {
+      "team": "Chicago Bulls",
+      "player": "Patrick Williams",
+      "status": "Feb 26",
+      "comment": "Day-To-Day",
+      "is_star": false,
+      "source": "ESPN",
+      "fetched_at": "2026-02-26T14:10:45.244495"
+    },
+    {
+      "team": "Chicago Bulls",
+      "player": "Jalen Smith",
+      "status": "Feb 26",
+      "comment": "Out",
+      "is_star": false,
+      "source": "ESPN",
+      "fetched_at": "2026-02-26T14:10:45.244503"
+    },
+    {
+      "team": "Chicago Bulls",
+      "player": "Anfernee Simons",
+      "status": "Mar 8",
+      "comment": "Out",
+      "is_star": false,
+      "source": "ESPN",
+      "fetched_at": "2026-02-26T14:10:45.244512"
+    },
+    {
+      "team": "Chicago Bulls",
+      "player": "Zach Collins",
+      "status": "Oct 1",
+      "comment": "Out",
+      "is_star": false,
+      "source": "ESPN",
+      "fetched_at": "2026-02-26T14:10:45.244527"
+    },
+    {
+      "team": "Chicago Bulls",
+      "player": "Jaden Ivey",
+      "status": "Mar 8",
+      "comment": "Out",
+      "is_star": false,
+      "source": "ESPN",
+      "fetched_at": "2026-02-26T14:10:45.244537"
+    },
+    {
+      "team": "Chicago Bulls",
+      "player": "Noa Essengue",
+      "status": "Oct 1",
+      "comment": "Out",
+      "is_star": false,
+      "source": "ESPN",
+      "fetched_at": "2026-02-26T14:10:45.244545"
+    },
+    {
+      "team": "Cleveland Cavaliers",
+      "player": "James Harden",
+      "status": "Feb 27",
+      "comment": "Out",
+      "is_star": false,
+      "source": "ESPN",
+      "fetched_at": "2026-02-26T14:10:45.244570"
+    },
+    {
+      "team": "Cleveland Cavaliers",
+      "player": "Evan Mobley",
+      "status": "Feb 27",
+      "comment": "Out",
+      "is_star": false,
+      "source": "ESPN",
+      "fetched_at": "2026-02-26T14:10:45.244578"
+    },
+    {
+      "team": "Cleveland Cavaliers",
+      "player": "Donovan Mitchell",
+      "status": "Feb 27",
+      "comment": "Out",
+      "is_star": true,
+      "source": "ESPN",
+      "fetched_at": "2026-02-26T14:10:45.244589"
+    },
+    {
+      "team": "Cleveland Cavaliers",
+      "player": "Max Strus",
+      "status": "Feb 27",
+      "comment": "Out",
+      "is_star": false,
+      "source": "ESPN",
+      "fetched_at": "2026-02-26T14:10:45.244598"
+    },
+    {
+      "team": "Dallas Mavericks",
+      "player": "P.J. Washington",
+      "status": "Feb 27",
+      "comment": "Out",
+      "is_star": false,
+      "source": "ESPN",
+      "fetched_at": "2026-02-26T14:10:45.244625"
+    },
+    {
+      "team": "Dallas Mavericks",
+      "player": "Cooper Flagg",
+      "status": "Feb 26",
+      "comment": "Out",
+      "is_star": false,
+      "source": "ESPN",
+      "fetched_at": "2026-02-26T14:10:45.244633"
+    },
+    {
+      "team": "Dallas Mavericks",
+      "player": "Khris Middleton",
+      "status": "Feb 26",
+      "comment": "Day-To-Day",
+      "is_star": false,
+      "source": "ESPN",
+      "fetched_at": "2026-02-26T14:10:45.244640"
+    },
+    {
+      "team": "Dallas Mavericks",
+      "player": "Daniel Gafford",
+      "status": "Feb 26",
+      "comment": "Day-To-Day",
+      "is_star": false,
+      "source": "ESPN",
+      "fetched_at": "2026-02-26T14:10:45.244651"
+    },
+    {
+      "team": "Dallas Mavericks",
+      "player": "Kyrie Irving",
+      "status": "Oct 1",
+      "comment": "Out",
+      "is_star": true,
+      "source": "ESPN",
+      "fetched_at": "2026-02-26T14:10:45.244659"
+    },
+    {
+      "team": "Dallas Mavericks",
+      "player": "Dereck Lively II",
+      "status": "Oct 1",
+      "comment": "Out",
+      "is_star": false,
+      "source": "ESPN",
+      "fetched_at": "2026-02-26T14:10:45.244667"
+    },
+    {
+      "team": "Denver Nuggets",
+      "player": "Jamal Murray",
+      "status": "Feb 27",
+      "comment": "Day-To-Day",
+      "is_star": false,
+      "source": "ESPN",
+      "fetched_at": "2026-02-26T14:10:45.244692"
+    },
+    {
+      "team": "Denver Nuggets",
+      "player": "Jalen Pickett",
+      "status": "Feb 27",
+      "comment": "Out",
+      "is_star": false,
+      "source": "ESPN",
+      "fetched_at": "2026-02-26T14:10:45.244699"
+    },
+    {
+      "team": "Denver Nuggets",
+      "player": "Peyton Watson",
+      "status": "Mar 9",
+      "comment": "Out",
+      "is_star": false,
+      "source": "ESPN",
+      "fetched_at": "2026-02-26T14:10:45.244707"
+    },
+    {
+      "team": "Denver Nuggets",
+      "player": "Aaron Gordon",
+      "status": "Feb 27",
+      "comment": "Out",
+      "is_star": false,
+      "source": "ESPN",
+      "fetched_at": "2026-02-26T14:10:45.244714"
+    },
+    {
+      "team": "Denver Nuggets",
+      "player": "Tamar Bates",
+      "status": "Apr 1",
+      "comment": "Out",
+      "is_star": false,
+      "source": "ESPN",
+      "fetched_at": "2026-02-26T14:10:45.244725"
+    },
+    {
+      "team": "Golden State Warriors",
+      "player": "Draymond Green",
+      "status": "Feb 28",
+      "comment": "Out",
+      "is_star": false,
+      "source": "ESPN",
+      "fetched_at": "2026-02-26T14:10:45.244779"
+    },
+    {
+      "team": "Golden State Warriors",
+      "player": "De'Anthony Melton",
+      "status": "Feb 28",
+      "comment": "Out",
+      "is_star": false,
+      "source": "ESPN",
+      "fetched_at": "2026-02-26T14:10:45.244795"
+    },
+    {
+      "team": "Golden State Warriors",
+      "player": "Kristaps Porzingis",
+      "status": "Feb 28",
+      "comment": "Out",
+      "is_star": false,
+      "source": "ESPN",
+      "fetched_at": "2026-02-26T14:10:45.244808"
+    },
+    {
+      "team": "Golden State Warriors",
+      "player": "Stephen Curry",
+      "status": "Mar 2",
+      "comment": "Out",
+      "is_star": true,
+      "source": "ESPN",
+      "fetched_at": "2026-02-26T14:10:45.244817"
+    },
+    {
+      "team": "Golden State Warriors",
+      "player": "Seth Curry",
+      "status": "Mar 5",
+      "comment": "Out",
+      "is_star": false,
+      "source": "ESPN",
+      "fetched_at": "2026-02-26T14:10:45.244825"
+    },
+    {
+      "team": "Golden State Warriors",
+      "player": "L.J. Cryer",
+      "status": "Feb 28",
+      "comment": "Out",
+      "is_star": false,
+      "source": "ESPN",
+      "fetched_at": "2026-02-26T14:10:45.244833"
+    },
+    {
+      "team": "Golden State Warriors",
+      "player": "Jimmy Butler III",
+      "status": "Dec 1",
+      "comment": "Out",
+      "is_star": false,
+      "source": "ESPN",
+      "fetched_at": "2026-02-26T14:10:45.244848"
+    },
+    {
+      "team": "Houston Rockets",
+      "player": "Dorian Finney-Smith",
+      "status": "Feb 26",
+      "comment": "Out",
+      "is_star": false,
+      "source": "ESPN",
+      "fetched_at": "2026-02-26T14:10:45.244874"
+    },
+    {
+      "team": "Houston Rockets",
+      "player": "Amen Thompson",
+      "status": "Feb 26",
+      "comment": "Out",
+      "is_star": false,
+      "source": "ESPN",
+      "fetched_at": "2026-02-26T14:10:45.244882"
+    },
+    {
+      "team": "Houston Rockets",
+      "player": "Jae'Sean Tate",
+      "status": "Mar 10",
+      "comment": "Out",
+      "is_star": false,
+      "source": "ESPN",
+      "fetched_at": "2026-02-26T14:10:45.244890"
+    },
+    {
+      "team": "Houston Rockets",
+      "player": "Steven Adams",
+      "status": "Oct 1",
+      "comment": "Out",
+      "is_star": false,
+      "source": "ESPN",
+      "fetched_at": "2026-02-26T14:10:45.244898"
+    },
+    {
+      "team": "Houston Rockets",
+      "player": "Fred VanVleet",
+      "status": "Jun 1",
+      "comment": "Out",
+      "is_star": false,
+      "source": "ESPN",
+      "fetched_at": "2026-02-26T14:10:45.244906"
+    },
+    {
+      "team": "Indiana Pacers",
+      "player": "Obi Toppin",
+      "status": "Feb 26",
+      "comment": "Out",
+      "is_star": false,
+      "source": "ESPN",
+      "fetched_at": "2026-02-26T14:10:45.244935"
+    },
+    {
+      "team": "Indiana Pacers",
+      "player": "Andrew Nembhard",
+      "status": "Feb 26",
+      "comment": "Day-To-Day",
+      "is_star": false,
+      "source": "ESPN",
+      "fetched_at": "2026-02-26T14:10:45.244943"
+    },
+    {
+      "team": "Indiana Pacers",
+      "player": "Pascal Siakam",
+      "status": "Feb 26",
+      "comment": "Day-To-Day",
+      "is_star": false,
+      "source": "ESPN",
+      "fetched_at": "2026-02-26T14:10:45.244950"
+    },
+    {
+      "team": "Indiana Pacers",
+      "player": "Aaron Nesmith",
+      "status": "Mar 1",
+      "comment": "Out",
+      "is_star": false,
+      "source": "ESPN",
+      "fetched_at": "2026-02-26T14:10:45.244958"
+    },
+    {
+      "team": "Indiana Pacers",
+      "player": "Ivica Zubac",
+      "status": "Mar 1",
+      "comment": "Out",
+      "is_star": false,
+      "source": "ESPN",
+      "fetched_at": "2026-02-26T14:10:45.244966"
+    },
+    {
+      "team": "Indiana Pacers",
+      "player": "Johnny Furphy",
+      "status": "Jan 1",
+      "comment": "Out",
+      "is_star": false,
+      "source": "ESPN",
+      "fetched_at": "2026-02-26T14:10:45.244974"
+    },
+    {
+      "team": "Indiana Pacers",
+      "player": "Tyrese Haliburton",
+      "status": "Oct 1",
+      "comment": "Out",
+      "is_star": true,
+      "source": "ESPN",
+      "fetched_at": "2026-02-26T14:10:45.244981"
+    },
+    {
+      "team": "LA Clippers",
+      "player": "John Collins",
+      "status": "Feb 26",
+      "comment": "Day-To-Day",
+      "is_star": false,
+      "source": "ESPN",
+      "fetched_at": "2026-02-26T14:10:45.245006"
+    },
+    {
+      "team": "LA Clippers",
+      "player": "Kawhi Leonard",
+      "status": "Feb 26",
+      "comment": "Day-To-Day",
+      "is_star": true,
+      "source": "ESPN",
+      "fetched_at": "2026-02-26T14:10:45.245018"
+    },
+    {
+      "team": "LA Clippers",
+      "player": "Darius Garland",
+      "status": "Mar 1",
+      "comment": "Out",
+      "is_star": false,
+      "source": "ESPN",
+      "fetched_at": "2026-02-26T14:10:45.245026"
+    },
+    {
+      "team": "LA Clippers",
+      "player": "Bradley Beal",
+      "status": "Oct 1",
+      "comment": "Out",
+      "is_star": false,
+      "source": "ESPN",
+      "fetched_at": "2026-02-26T14:10:45.245033"
+    },
+    {
+      "team": "Los Angeles Lakers",
+      "player": "Jaxson Hayes",
+      "status": "Feb 26",
+      "comment": "Day-To-Day",
+      "is_star": false,
+      "source": "ESPN",
+      "fetched_at": "2026-02-26T14:10:45.245055"
+    },
+    {
+      "team": "Los Angeles Lakers",
+      "player": "Rui Hachimura",
+      "status": "Feb 26",
+      "comment": "Day-To-Day",
+      "is_star": false,
+      "source": "ESPN",
+      "fetched_at": "2026-02-26T14:10:45.245063"
+    },
+    {
+      "team": "Memphis Grizzlies",
+      "player": "Kyle Anderson",
+      "status": "Feb 27",
+      "comment": "Out",
+      "is_star": false,
+      "source": "ESPN",
+      "fetched_at": "2026-02-26T14:10:45.245090"
+    },
+    {
+      "team": "Memphis Grizzlies",
+      "player": "Santi Aldama",
+      "status": "Feb 27",
+      "comment": "Out",
+      "is_star": false,
+      "source": "ESPN",
+      "fetched_at": "2026-02-26T14:10:45.245101"
+    },
+    {
+      "team": "Memphis Grizzlies",
+      "player": "Cedric Coward",
+      "status": "Feb 27",
+      "comment": "Out",
+      "is_star": false,
+      "source": "ESPN",
+      "fetched_at": "2026-02-26T14:10:45.245111"
+    },
+    {
+      "team": "Memphis Grizzlies",
+      "player": "Kentavious Caldwell-Pope",
+      "status": "Oct 1",
+      "comment": "Out",
+      "is_star": false,
+      "source": "ESPN",
+      "fetched_at": "2026-02-26T14:10:45.245122"
+    },
+    {
+      "team": "Memphis Grizzlies",
+      "player": "Ja Morant",
+      "status": "Mar 7",
+      "comment": "Out",
+      "is_star": true,
+      "source": "ESPN",
+      "fetched_at": "2026-02-26T14:10:45.245130"
+    },
+    {
+      "team": "Memphis Grizzlies",
+      "player": "Zach Edey",
+      "status": "Mar 4",
+      "comment": "Out",
+      "is_star": false,
+      "source": "ESPN",
+      "fetched_at": "2026-02-26T14:10:45.245137"
+    },
+    {
+      "team": "Memphis Grizzlies",
+      "player": "Brandon Clarke",
+      "status": "Feb 27",
+      "comment": "Out",
+      "is_star": false,
+      "source": "ESPN",
+      "fetched_at": "2026-02-26T14:10:45.245145"
+    },
+    {
+      "team": "Miami Heat",
+      "player": "Nikola Jovic",
+      "status": "Feb 26",
+      "comment": "Out",
+      "is_star": false,
+      "source": "ESPN",
+      "fetched_at": "2026-02-26T14:10:45.245168"
+    },
+    {
+      "team": "Miami Heat",
+      "player": "Davion Mitchell",
+      "status": "Feb 26",
+      "comment": "Day-To-Day",
+      "is_star": false,
+      "source": "ESPN",
+      "fetched_at": "2026-02-26T14:10:45.245175"
+    },
+    {
+      "team": "Miami Heat",
+      "player": "Terry Rozier",
+      "status": "Apr 1",
+      "comment": "Out",
+      "is_star": false,
+      "source": "ESPN",
+      "fetched_at": "2026-02-26T14:10:45.245183"
+    },
+    {
+      "team": "Milwaukee Bucks",
+      "player": "Giannis Antetokounmpo",
+      "status": "Feb 27",
+      "comment": "Out",
+      "is_star": true,
+      "source": "ESPN",
+      "fetched_at": "2026-02-26T14:10:45.245203"
+    },
+    {
+      "team": "Milwaukee Bucks",
+      "player": "Taurean Prince",
+      "status": "Mar 2",
+      "comment": "Out",
+      "is_star": false,
+      "source": "ESPN",
+      "fetched_at": "2026-02-26T14:10:45.245211"
+    },
+    {
+      "team": "New Orleans Pelicans",
+      "player": "Yves Missi",
+      "status": "Feb 26",
+      "comment": "Out",
+      "is_star": false,
+      "source": "ESPN",
+      "fetched_at": "2026-02-26T14:10:45.245231"
+    },
+    {
+      "team": "New Orleans Pelicans",
+      "player": "Trey Murphy III",
+      "status": "Feb 28",
+      "comment": "Out",
+      "is_star": false,
+      "source": "ESPN",
+      "fetched_at": "2026-02-26T14:10:45.245238"
+    },
+    {
+      "team": "New York Knicks",
+      "player": "Miles McBride",
+      "status": "Apr 1",
+      "comment": "Out",
+      "is_star": false,
+      "source": "ESPN",
+      "fetched_at": "2026-02-26T14:10:45.245262"
+    },
+    {
+      "team": "Oklahoma City Thunder",
+      "player": "Chet Holmgren",
+      "status": "Feb 27",
+      "comment": "Day-To-Day",
+      "is_star": true,
+      "source": "ESPN",
+      "fetched_at": "2026-02-26T14:10:45.245315"
+    },
+    {
+      "team": "Oklahoma City Thunder",
+      "player": "Alex Caruso",
+      "status": "Feb 27",
+      "comment": "Day-To-Day",
+      "is_star": false,
+      "source": "ESPN",
+      "fetched_at": "2026-02-26T14:10:45.245353"
+    },
+    {
+      "team": "Oklahoma City Thunder",
+      "player": "Branden Carlson",
+      "status": "Feb 27",
+      "comment": "Out",
+      "is_star": false,
+      "source": "ESPN",
+      "fetched_at": "2026-02-26T14:10:45.245375"
+    },
+    {
+      "team": "Oklahoma City Thunder",
+      "player": "Isaiah Joe",
+      "status": "Feb 27",
+      "comment": "Day-To-Day",
+      "is_star": false,
+      "source": "ESPN",
+      "fetched_at": "2026-02-26T14:10:45.245389"
+    },
+    {
+      "team": "Oklahoma City Thunder",
+      "player": "Isaiah Hartenstein",
+      "status": "Feb 27",
+      "comment": "Out",
+      "is_star": false,
+      "source": "ESPN",
+      "fetched_at": "2026-02-26T14:10:45.245398"
+    },
+    {
+      "team": "Oklahoma City Thunder",
+      "player": "Ajay Mitchell",
+      "status": "Feb 27",
+      "comment": "Out",
+      "is_star": false,
+      "source": "ESPN",
+      "fetched_at": "2026-02-26T14:10:45.245416"
+    },
+    {
+      "team": "Oklahoma City Thunder",
+      "player": "Shai Gilgeous-Alexander",
+      "status": "Feb 27",
+      "comment": "Out",
+      "is_star": true,
+      "source": "ESPN",
+      "fetched_at": "2026-02-26T14:10:45.245424"
+    },
+    {
+      "team": "Oklahoma City Thunder",
+      "player": "Jalen Williams",
+      "status": "Mar 7",
+      "comment": "Out",
+      "is_star": false,
+      "source": "ESPN",
+      "fetched_at": "2026-02-26T14:10:45.245440"
+    },
+    {
+      "team": "Oklahoma City Thunder",
+      "player": "Thomas Sorber",
+      "status": "Oct 1",
+      "comment": "Out",
+      "is_star": false,
+      "source": "ESPN",
+      "fetched_at": "2026-02-26T14:10:45.245450"
+    },
+    {
+      "team": "Orlando Magic",
+      "player": "Jalen Suggs",
+      "status": "Feb 26",
+      "comment": "Out",
+      "is_star": false,
+      "source": "ESPN",
+      "fetched_at": "2026-02-26T14:10:45.245495"
+    },
+    {
+      "team": "Orlando Magic",
+      "player": "Franz Wagner",
+      "status": "Mar 11",
+      "comment": "Out",
+      "is_star": false,
+      "source": "ESPN",
+      "fetched_at": "2026-02-26T14:10:45.245516"
+    },
+    {
+      "team": "Philadelphia 76ers",
+      "player": "Joel Embiid",
+      "status": "Feb 26",
+      "comment": "Day-To-Day",
+      "is_star": true,
+      "source": "ESPN",
+      "fetched_at": "2026-02-26T14:10:45.245550"
+    },
+    {
+      "team": "Philadelphia 76ers",
+      "player": "MarJon Beauchamp",
+      "status": "Feb 26",
+      "comment": "Day-To-Day",
+      "is_star": false,
+      "source": "ESPN",
+      "fetched_at": "2026-02-26T14:10:45.245559"
+    },
+    {
+      "team": "Philadelphia 76ers",
+      "player": "Johni Broome",
+      "status": "Apr 1",
+      "comment": "Out",
+      "is_star": false,
+      "source": "ESPN",
+      "fetched_at": "2026-02-26T14:10:45.245567"
+    },
+    {
+      "team": "Phoenix Suns",
+      "player": "Cole Anthony",
+      "status": "Mar 3",
+      "comment": "Out",
+      "is_star": false,
+      "source": "ESPN",
+      "fetched_at": "2026-02-26T14:10:45.245594"
+    },
+    {
+      "team": "Phoenix Suns",
+      "player": "Jordan Goodwin",
+      "status": "Mar 3",
+      "comment": "Out",
+      "is_star": false,
+      "source": "ESPN",
+      "fetched_at": "2026-02-26T14:10:45.245602"
+    },
+    {
+      "team": "Phoenix Suns",
+      "player": "Dillon Brooks",
+      "status": "Mar 28",
+      "comment": "Out",
+      "is_star": false,
+      "source": "ESPN",
+      "fetched_at": "2026-02-26T14:10:45.245609"
+    },
+    {
+      "team": "Phoenix Suns",
+      "player": "Haywood Highsmith",
+      "status": "Mar 8",
+      "comment": "Out",
+      "is_star": false,
+      "source": "ESPN",
+      "fetched_at": "2026-02-26T14:10:45.245616"
+    },
+    {
+      "team": "Phoenix Suns",
+      "player": "Devin Booker",
+      "status": "Mar 3",
+      "comment": "Out",
+      "is_star": true,
+      "source": "ESPN",
+      "fetched_at": "2026-02-26T14:10:45.245624"
+    },
+    {
+      "team": "Portland Trail Blazers",
+      "player": "Deni Avdija",
+      "status": "Feb 26",
+      "comment": "Out",
+      "is_star": false,
+      "source": "ESPN",
+      "fetched_at": "2026-02-26T14:10:45.245648"
+    },
+    {
+      "team": "Portland Trail Blazers",
+      "player": "Robert Williams III",
+      "status": "Feb 26",
+      "comment": "Day-To-Day",
+      "is_star": false,
+      "source": "ESPN",
+      "fetched_at": "2026-02-26T14:10:45.245656"
+    },
+    {
+      "team": "Portland Trail Blazers",
+      "player": "Shaedon Sharpe",
+      "status": "Apr 2",
+      "comment": "Out",
+      "is_star": false,
+      "source": "ESPN",
+      "fetched_at": "2026-02-26T14:10:45.245664"
+    },
+    {
+      "team": "Portland Trail Blazers",
+      "player": "Damian Lillard",
+      "status": "Oct 1",
+      "comment": "Out",
+      "is_star": true,
+      "source": "ESPN",
+      "fetched_at": "2026-02-26T14:10:45.245672"
+    },
+    {
+      "team": "Sacramento Kings",
+      "player": "Keegan Murray",
+      "status": "Feb 26",
+      "comment": "Day-To-Day",
+      "is_star": false,
+      "source": "ESPN",
+      "fetched_at": "2026-02-26T14:10:45.245695"
+    },
+    {
+      "team": "Sacramento Kings",
+      "player": "De'Andre Hunter",
+      "status": "Oct 1",
+      "comment": "Out",
+      "is_star": false,
+      "source": "ESPN",
+      "fetched_at": "2026-02-26T14:10:45.245703"
+    },
+    {
+      "team": "Sacramento Kings",
+      "player": "Dylan Cardwell",
+      "status": "Mar 19",
+      "comment": "Out",
+      "is_star": false,
+      "source": "ESPN",
+      "fetched_at": "2026-02-26T14:10:45.245717"
+    },
+    {
+      "team": "Sacramento Kings",
+      "player": "Domantas Sabonis",
+      "status": "Oct 1",
+      "comment": "Out",
+      "is_star": true,
+      "source": "ESPN",
+      "fetched_at": "2026-02-26T14:10:45.245725"
+    },
+    {
+      "team": "Sacramento Kings",
+      "player": "Zach LaVine",
+      "status": "Oct 1",
+      "comment": "Out",
+      "is_star": false,
+      "source": "ESPN",
+      "fetched_at": "2026-02-26T14:10:45.245732"
+    },
+    {
+      "team": "San Antonio Spurs",
+      "player": "Mason Plumlee",
+      "status": "Feb 26",
+      "comment": "Out",
+      "is_star": false,
+      "source": "ESPN",
+      "fetched_at": "2026-02-26T14:10:45.245753"
+    },
+    {
+      "team": "San Antonio Spurs",
+      "player": "David Jones Garcia",
+      "status": "Jul 2",
+      "comment": "Out",
+      "is_star": false,
+      "source": "ESPN",
+      "fetched_at": "2026-02-26T14:10:45.245760"
+    },
+    {
+      "team": "Toronto Raptors",
+      "player": "Collin Murray-Boyles",
+      "status": "Feb 28",
+      "comment": "Day-To-Day",
+      "is_star": false,
+      "source": "ESPN",
+      "fetched_at": "2026-02-26T14:10:45.245780"
+    },
+    {
+      "team": "Toronto Raptors",
+      "player": "Chucky Hepburn",
+      "status": "Mar 3",
+      "comment": "Out",
+      "is_star": false,
+      "source": "ESPN",
+      "fetched_at": "2026-02-26T14:10:45.245791"
+    },
+    {
+      "team": "Utah Jazz",
+      "player": "Lauri Markkanen",
+      "status": "Feb 26",
+      "comment": "Day-To-Day",
+      "is_star": false,
+      "source": "ESPN",
+      "fetched_at": "2026-02-26T14:10:45.245815"
+    },
+    {
+      "team": "Utah Jazz",
+      "player": "Keyonte George",
+      "status": "Feb 26",
+      "comment": "Out",
+      "is_star": false,
+      "source": "ESPN",
+      "fetched_at": "2026-02-26T14:10:45.245822"
+    },
+    {
+      "team": "Utah Jazz",
+      "player": "Vince Williams Jr.",
+      "status": "Jan 1",
+      "comment": "Out",
+      "is_star": false,
+      "source": "ESPN",
+      "fetched_at": "2026-02-26T14:10:45.245829"
+    },
+    {
+      "team": "Utah Jazz",
+      "player": "Jusuf Nurkic",
+      "status": "Oct 1",
+      "comment": "Out",
+      "is_star": false,
+      "source": "ESPN",
+      "fetched_at": "2026-02-26T14:10:45.245840"
+    },
+    {
+      "team": "Utah Jazz",
+      "player": "Jaren Jackson Jr.",
+      "status": "Oct 1",
+      "comment": "Out",
+      "is_star": false,
+      "source": "ESPN",
+      "fetched_at": "2026-02-26T14:10:45.245847"
+    },
+    {
+      "team": "Utah Jazz",
+      "player": "Walker Kessler",
+      "status": "Oct 1",
+      "comment": "Out",
+      "is_star": false,
+      "source": "ESPN",
+      "fetched_at": "2026-02-26T14:10:45.245855"
+    },
+    {
+      "team": "Washington Wizards",
+      "player": "Tristan Vukcevic",
+      "status": "Feb 26",
+      "comment": "Day-To-Day",
+      "is_star": false,
+      "source": "ESPN",
+      "fetched_at": "2026-02-26T14:10:45.245881"
+    },
+    {
+      "team": "Washington Wizards",
+      "player": "Kyshawn George",
+      "status": "Feb 26",
+      "comment": "Day-To-Day",
+      "is_star": false,
+      "source": "ESPN",
+      "fetched_at": "2026-02-26T14:10:45.245889"
+    },
+    {
+      "team": "Washington Wizards",
+      "player": "Trae Young",
+      "status": "Feb 28",
+      "comment": "Out",
+      "is_star": true,
+      "source": "ESPN",
+      "fetched_at": "2026-02-26T14:10:45.245896"
+    },
+    {
+      "team": "Washington Wizards",
+      "player": "Anthony Davis",
+      "status": "Apr 1",
+      "comment": "Out",
+      "is_star": true,
+      "source": "ESPN",
+      "fetched_at": "2026-02-26T14:10:45.245904"
+    },
+    {
+      "team": "Washington Wizards",
+      "player": "Alex Sarr",
+      "status": "Feb 28",
+      "comment": "Out",
+      "is_star": false,
+      "source": "ESPN",
+      "fetched_at": "2026-02-26T14:10:45.245911"
+    },
+    {
+      "team": "Washington Wizards",
+      "player": "D'Angelo Russell",
+      "status": "Feb 28",
+      "comment": "Out",
+      "is_star": false,
+      "source": "ESPN",
+      "fetched_at": "2026-02-26T14:10:45.245918"
+    },
+    {
+      "team": "Washington Wizards",
+      "player": "Cam Whitmore",
+      "status": "Oct 1",
+      "comment": "Out",
+      "is_star": false,
+      "source": "ESPN",
+      "fetched_at": "2026-02-26T14:10:45.245929"
+    }
+  ],
+  "star_count": 16,
+  "total_count": 111,
+  "fetched_at": "2026-02-26T14:10:45.247058"
+}

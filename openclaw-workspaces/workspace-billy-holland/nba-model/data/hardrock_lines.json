@@ -1,0 +1,36 @@
+{
+  "fetched_at": "2026-02-07T00:50:54.359215",
+  "source": "manual",
+  "games": [
+    {
+      "away": "NY",
+      "home": "DET",
+      "hr_line": -4.0
+    },
+    {
+      "away": "MIA",
+      "home": "BOS",
+      "hr_line": -6.5
+    },
+    {
+      "away": "IND",
+      "home": "MIL",
+      "hr_line": 1.0
+    },
+    {
+      "away": "NO",
+      "home": "MIN",
+      "hr_line": -8.5
+    },
+    {
+      "away": "MEM",
+      "home": "POR",
+      "hr_line": -9.0
+    },
+    {
+      "away": "LAC",
+      "home": "SAC",
+      "hr_line": 3.5
+    }
+  ]
+}

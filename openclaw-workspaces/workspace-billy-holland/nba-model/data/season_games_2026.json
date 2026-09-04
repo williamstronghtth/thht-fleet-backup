@@ -1,0 +1,6154 @@
+[
+  {
+    "date": "Tue, Oct 21, 2025",
+    "away_team": "Houston Rockets",
+    "home_team": "Oklahoma City Thunder",
+    "away_score": 124,
+    "home_score": 125,
+    "margin": 1
+  },
+  {
+    "date": "Tue, Oct 21, 2025",
+    "away_team": "Golden State Warriors",
+    "home_team": "Los Angeles Lakers",
+    "away_score": 119,
+    "home_score": 109,
+    "margin": -10
+  },
+  {
+    "date": "Wed, Oct 22, 2025",
+    "away_team": "Brooklyn Nets",
+    "home_team": "Charlotte Hornets",
+    "away_score": 117,
+    "home_score": 136,
+    "margin": 19
+  },
+  {
+    "date": "Wed, Oct 22, 2025",
+    "away_team": "Cleveland Cavaliers",
+    "home_team": "New York Knicks",
+    "away_score": 111,
+    "home_score": 119,
+    "margin": 8
+  },
+  {
+    "date": "Wed, Oct 22, 2025",
+    "away_team": "Miami Heat",
+    "home_team": "Orlando Magic",
+    "away_score": 121,
+    "home_score": 125,
+    "margin": 4
+  },
+  {
+    "date": "Wed, Oct 22, 2025",
+    "away_team": "Philadelphia 76ers",
+    "home_team": "Boston Celtics",
+    "away_score": 117,
+    "home_score": 116,
+    "margin": -1
+  },
+  {
+    "date": "Wed, Oct 22, 2025",
+    "away_team": "Toronto Raptors",
+    "home_team": "Atlanta Hawks",
+    "away_score": 138,
+    "home_score": 118,
+    "margin": -20
+  },
+  {
+    "date": "Wed, Oct 22, 2025",
+    "away_team": "Detroit Pistons",
+    "home_team": "Chicago Bulls",
+    "away_score": 111,
+    "home_score": 115,
+    "margin": 4
+  },
+  {
+    "date": "Wed, Oct 22, 2025",
+    "away_team": "New Orleans Pelicans",
+    "home_team": "Memphis Grizzlies",
+    "away_score": 122,
+    "home_score": 128,
+    "margin": 6
+  },
+  {
+    "date": "Wed, Oct 22, 2025",
+    "away_team": "Washington Wizards",
+    "home_team": "Milwaukee Bucks",
+    "away_score": 120,
+    "home_score": 133,
+    "margin": 13
+  },
+  {
+    "date": "Wed, Oct 22, 2025",
+    "away_team": "Los Angeles Clippers",
+    "home_team": "Utah Jazz",
+    "away_score": 108,
+    "home_score": 129,
+    "margin": 21
+  },
+  {
+    "date": "Wed, Oct 22, 2025",
+    "away_team": "San Antonio Spurs",
+    "home_team": "Dallas Mavericks",
+    "away_score": 125,
+    "home_score": 92,
+    "margin": -33
+  },
+  {
+    "date": "Wed, Oct 22, 2025",
+    "away_team": "Minnesota Timberwolves",
+    "home_team": "Portland Trail Blazers",
+    "away_score": 118,
+    "home_score": 114,
+    "margin": -4
+  },
+  {
+    "date": "Wed, Oct 22, 2025",
+    "away_team": "Sacramento Kings",
+    "home_team": "Phoenix Suns",
+    "away_score": 116,
+    "home_score": 120,
+    "margin": 4
+  },
+  {
+    "date": "Thu, Oct 23, 2025",
+    "away_team": "Oklahoma City Thunder",
+    "home_team": "Indiana Pacers",
+    "away_score": 141,
+    "home_score": 135,
+    "margin": -6
+  },
+  {
+    "date": "Thu, Oct 23, 2025",
+    "away_team": "Denver Nuggets",
+    "home_team": "Golden State Warriors",
+    "away_score": 131,
+    "home_score": 137,
+    "margin": 6
+  },
+  {
+    "date": "Fri, Oct 24, 2025",
+    "away_team": "Milwaukee Bucks",
+    "home_team": "Toronto Raptors",
+    "away_score": 122,
+    "home_score": 116,
+    "margin": -6
+  },
+  {
+    "date": "Fri, Oct 24, 2025",
+    "away_team": "Atlanta Hawks",
+    "home_team": "Orlando Magic",
+    "away_score": 111,
+    "home_score": 107,
+    "margin": -4
+  },
+  {
+    "date": "Fri, Oct 24, 2025",
+    "away_team": "Cleveland Cavaliers",
+    "home_team": "Brooklyn Nets",
+    "away_score": 131,
+    "home_score": 124,
+    "margin": -7
+  },
+  {
+    "date": "Fri, Oct 24, 2025",
+    "away_team": "Boston Celtics",
+    "home_team": "New York Knicks",
+    "away_score": 95,
+    "home_score": 105,
+    "margin": 10
+  },
+  {
+    "date": "Fri, Oct 24, 2025",
+    "away_team": "Detroit Pistons",
+    "home_team": "Houston Rockets",
+    "away_score": 115,
+    "home_score": 111,
+    "margin": -4
+  },
+  {
+    "date": "Fri, Oct 24, 2025",
+    "away_team": "San Antonio Spurs",
+    "home_team": "New Orleans Pelicans",
+    "away_score": 120,
+    "home_score": 116,
+    "margin": -4
+  },
+  {
+    "date": "Fri, Oct 24, 2025",
+    "away_team": "Miami Heat",
+    "home_team": "Memphis Grizzlies",
+    "away_score": 146,
+    "home_score": 114,
+    "margin": -32
+  },
+  {
+    "date": "Fri, Oct 24, 2025",
+    "away_team": "Washington Wizards",
+    "home_team": "Dallas Mavericks",
+    "away_score": 117,
+    "home_score": 107,
+    "margin": -10
+  },
+  {
+    "date": "Fri, Oct 24, 2025",
+    "away_team": "Minnesota Timberwolves",
+    "home_team": "Los Angeles Lakers",
+    "away_score": 110,
+    "home_score": 128,
+    "margin": 18
+  },
+  {
+    "date": "Fri, Oct 24, 2025",
+    "away_team": "Golden State Warriors",
+    "home_team": "Portland Trail Blazers",
+    "away_score": 119,
+    "home_score": 139,
+    "margin": 20
+  },
+  {
+    "date": "Fri, Oct 24, 2025",
+    "away_team": "Utah Jazz",
+    "home_team": "Sacramento Kings",
+    "away_score": 104,
+    "home_score": 105,
+    "margin": 1
+  },
+  {
+    "date": "Fri, Oct 24, 2025",
+    "away_team": "Phoenix Suns",
+    "home_team": "Los Angeles Clippers",
+    "away_score": 102,
+    "home_score": 129,
+    "margin": 27
+  },
+  {
+    "date": "Sat, Oct 25, 2025",
+    "away_team": "Chicago Bulls",
+    "home_team": "Orlando Magic",
+    "away_score": 110,
+    "home_score": 98,
+    "margin": -12
+  },
+  {
+    "date": "Sat, Oct 25, 2025",
+    "away_team": "Oklahoma City Thunder",
+    "home_team": "Atlanta Hawks",
+    "away_score": 117,
+    "home_score": 100,
+    "margin": -17
+  },
+  {
+    "date": "Sat, Oct 25, 2025",
+    "away_team": "Charlotte Hornets",
+    "home_team": "Philadelphia 76ers",
+    "away_score": 121,
+    "home_score": 125,
+    "margin": 4
+  },
+  {
+    "date": "Sat, Oct 25, 2025",
+    "away_team": "Indiana Pacers",
+    "home_team": "Memphis Grizzlies",
+    "away_score": 103,
+    "home_score": 128,
+    "margin": 25
+  },
+  {
+    "date": "Sat, Oct 25, 2025",
+    "away_team": "Phoenix Suns",
+    "home_team": "Denver Nuggets",
+    "away_score": 111,
+    "home_score": 133,
+    "margin": 22
+  },
+  {
+    "date": "Sun, Oct 26, 2025",
+    "away_team": "Brooklyn Nets",
+    "home_team": "San Antonio Spurs",
+    "away_score": 107,
+    "home_score": 118,
+    "margin": 11
+  },
+  {
+    "date": "Sun, Oct 26, 2025",
+    "away_team": "Boston Celtics",
+    "home_team": "Detroit Pistons",
+    "away_score": 113,
+    "home_score": 119,
+    "margin": 6
+  },
+  {
+    "date": "Sun, Oct 26, 2025",
+    "away_team": "Charlotte Hornets",
+    "home_team": "Washington Wizards",
+    "away_score": 139,
+    "home_score": 113,
+    "margin": -26
+  },
+  {
+    "date": "Sun, Oct 26, 2025",
+    "away_team": "New York Knicks",
+    "home_team": "Miami Heat",
+    "away_score": 107,
+    "home_score": 115,
+    "margin": 8
+  },
+  {
+    "date": "Sun, Oct 26, 2025",
+    "away_team": "Milwaukee Bucks",
+    "home_team": "Cleveland Cavaliers",
+    "away_score": 113,
+    "home_score": 118,
+    "margin": 5
+  },
+  {
+    "date": "Sun, Oct 26, 2025",
+    "away_team": "Indiana Pacers",
+    "home_team": "Minnesota Timberwolves",
+    "away_score": 110,
+    "home_score": 114,
+    "margin": 4
+  },
+  {
+    "date": "Sun, Oct 26, 2025",
+    "away_team": "Toronto Raptors",
+    "home_team": "Dallas Mavericks",
+    "away_score": 129,
+    "home_score": 139,
+    "margin": 10
+  },
+  {
+    "date": "Sun, Oct 26, 2025",
+    "away_team": "Los Angeles Lakers",
+    "home_team": "Sacramento Kings",
+    "away_score": 127,
+    "home_score": 120,
+    "margin": -7
+  },
+  {
+    "date": "Sun, Oct 26, 2025",
+    "away_team": "Portland Trail Blazers",
+    "home_team": "Los Angeles Clippers",
+    "away_score": 107,
+    "home_score": 114,
+    "margin": 7
+  },
+  {
+    "date": "Mon, Oct 27, 2025",
+    "away_team": "Cleveland Cavaliers",
+    "home_team": "Detroit Pistons",
+    "away_score": 116,
+    "home_score": 95,
+    "margin": -21
+  },
+  {
+    "date": "Mon, Oct 27, 2025",
+    "away_team": "Orlando Magic",
+    "home_team": "Philadelphia 76ers",
+    "away_score": 124,
+    "home_score": 136,
+    "margin": 12
+  },
+  {
+    "date": "Mon, Oct 27, 2025",
+    "away_team": "Atlanta Hawks",
+    "home_team": "Chicago Bulls",
+    "away_score": 123,
+    "home_score": 128,
+    "margin": 5
+  },
+  {
+    "date": "Mon, Oct 27, 2025",
+    "away_team": "Brooklyn Nets",
+    "home_team": "Houston Rockets",
+    "away_score": 109,
+    "home_score": 137,
+    "margin": 28
+  },
+  {
+    "date": "Mon, Oct 27, 2025",
+    "away_team": "Boston Celtics",
+    "home_team": "New Orleans Pelicans",
+    "away_score": 122,
+    "home_score": 90,
+    "margin": -32
+  },
+  {
+    "date": "Mon, Oct 27, 2025",
+    "away_team": "Toronto Raptors",
+    "home_team": "San Antonio Spurs",
+    "away_score": 103,
+    "home_score": 121,
+    "margin": 18
+  },
+  {
+    "date": "Mon, Oct 27, 2025",
+    "away_team": "Oklahoma City Thunder",
+    "home_team": "Dallas Mavericks",
+    "away_score": 101,
+    "home_score": 94,
+    "margin": -7
+  },
+  {
+    "date": "Mon, Oct 27, 2025",
+    "away_team": "Phoenix Suns",
+    "home_team": "Utah Jazz",
+    "away_score": 134,
+    "home_score": 138,
+    "margin": 4
+  },
+  {
+    "date": "Mon, Oct 27, 2025",
+    "away_team": "Denver Nuggets",
+    "home_team": "Minnesota Timberwolves",
+    "away_score": 127,
+    "home_score": 114,
+    "margin": -13
+  },
+  {
+    "date": "Mon, Oct 27, 2025",
+    "away_team": "Memphis Grizzlies",
+    "home_team": "Golden State Warriors",
+    "away_score": 118,
+    "home_score": 131,
+    "margin": 13
+  },
+  {
+    "date": "Mon, Oct 27, 2025",
+    "away_team": "Portland Trail Blazers",
+    "home_team": "Los Angeles Lakers",
+    "away_score": 122,
+    "home_score": 108,
+    "margin": -14
+  },
+  {
+    "date": "Tue, Oct 28, 2025",
+    "away_team": "Philadelphia 76ers",
+    "home_team": "Washington Wizards",
+    "away_score": 139,
+    "home_score": 134,
+    "margin": -5
+  },
+  {
+    "date": "Tue, Oct 28, 2025",
+    "away_team": "Charlotte Hornets",
+    "home_team": "Miami Heat",
+    "away_score": 117,
+    "home_score": 144,
+    "margin": 27
+  },
+  {
+    "date": "Tue, Oct 28, 2025",
+    "away_team": "New York Knicks",
+    "home_team": "Milwaukee Bucks",
+    "away_score": 111,
+    "home_score": 121,
+    "margin": 10
+  },
+  {
+    "date": "Tue, Oct 28, 2025",
+    "away_team": "Sacramento Kings",
+    "home_team": "Oklahoma City Thunder",
+    "away_score": 101,
+    "home_score": 107,
+    "margin": 6
+  },
+  {
+    "date": "Tue, Oct 28, 2025",
+    "away_team": "Los Angeles Clippers",
+    "home_team": "Golden State Warriors",
+    "away_score": 79,
+    "home_score": 98,
+    "margin": 19
+  },
+  {
+    "date": "Wed, Oct 29, 2025",
+    "away_team": "Houston Rockets",
+    "home_team": "Toronto Raptors",
+    "away_score": 139,
+    "home_score": 121,
+    "margin": -18
+  },
+  {
+    "date": "Wed, Oct 29, 2025",
+    "away_team": "Cleveland Cavaliers",
+    "home_team": "Boston Celtics",
+    "away_score": 105,
+    "home_score": 125,
+    "margin": 20
+  },
+  {
+    "date": "Wed, Oct 29, 2025",
+    "away_team": "Orlando Magic",
+    "home_team": "Detroit Pistons",
+    "away_score": 116,
+    "home_score": 135,
+    "margin": 19
+  },
+  {
+    "date": "Wed, Oct 29, 2025",
+    "away_team": "Atlanta Hawks",
+    "home_team": "Brooklyn Nets",
+    "away_score": 117,
+    "home_score": 112,
+    "margin": -5
+  },
+  {
+    "date": "Wed, Oct 29, 2025",
+    "away_team": "Sacramento Kings",
+    "home_team": "Chicago Bulls",
+    "away_score": 113,
+    "home_score": 126,
+    "margin": 13
+  },
+  {
+    "date": "Wed, Oct 29, 2025",
+    "away_team": "Indiana Pacers",
+    "home_team": "Dallas Mavericks",
+    "away_score": 105,
+    "home_score": 107,
+    "margin": 2
+  },
+  {
+    "date": "Wed, Oct 29, 2025",
+    "away_team": "Portland Trail Blazers",
+    "home_team": "Utah Jazz",
+    "away_score": 136,
+    "home_score": 134,
+    "margin": -2
+  },
+  {
+    "date": "Wed, Oct 29, 2025",
+    "away_team": "New Orleans Pelicans",
+    "home_team": "Denver Nuggets",
+    "away_score": 88,
+    "home_score": 122,
+    "margin": 34
+  },
+  {
+    "date": "Wed, Oct 29, 2025",
+    "away_team": "Los Angeles Lakers",
+    "home_team": "Minnesota Timberwolves",
+    "away_score": 116,
+    "home_score": 115,
+    "margin": -1
+  },
+  {
+    "date": "Wed, Oct 29, 2025",
+    "away_team": "Memphis Grizzlies",
+    "home_team": "Phoenix Suns",
+    "away_score": 114,
+    "home_score": 113,
+    "margin": -1
+  },
+  {
+    "date": "Thu, Oct 30, 2025",
+    "away_team": "Orlando Magic",
+    "home_team": "Charlotte Hornets",
+    "away_score": 123,
+    "home_score": 107,
+    "margin": -16
+  },
+  {
+    "date": "Thu, Oct 30, 2025",
+    "away_team": "Golden State Warriors",
+    "home_team": "Milwaukee Bucks",
+    "away_score": 110,
+    "home_score": 120,
+    "margin": 10
+  },
+  {
+    "date": "Thu, Oct 30, 2025",
+    "away_team": "Washington Wizards",
+    "home_team": "Oklahoma City Thunder",
+    "away_score": 108,
+    "home_score": 127,
+    "margin": 19
+  },
+  {
+    "date": "Thu, Oct 30, 2025",
+    "away_team": "Miami Heat",
+    "home_team": "San Antonio Spurs",
+    "away_score": 101,
+    "home_score": 107,
+    "margin": 6
+  },
+  {
+    "date": "Fri, Oct 31, 2025",
+    "away_team": "Atlanta Hawks",
+    "home_team": "Indiana Pacers",
+    "away_score": 128,
+    "home_score": 108,
+    "margin": -20
+  },
+  {
+    "date": "Fri, Oct 31, 2025",
+    "away_team": "Boston Celtics",
+    "home_team": "Philadelphia 76ers",
+    "away_score": 109,
+    "home_score": 108,
+    "margin": -1
+  },
+  {
+    "date": "Fri, Oct 31, 2025",
+    "away_team": "Toronto Raptors",
+    "home_team": "Cleveland Cavaliers",
+    "away_score": 112,
+    "home_score": 101,
+    "margin": -11
+  },
+  {
+    "date": "Fri, Oct 31, 2025",
+    "away_team": "New York Knicks",
+    "home_team": "Chicago Bulls",
+    "away_score": 125,
+    "home_score": 135,
+    "margin": 10
+  },
+  {
+    "date": "Fri, Oct 31, 2025",
+    "away_team": "Los Angeles Lakers",
+    "home_team": "Memphis Grizzlies",
+    "away_score": 117,
+    "home_score": 112,
+    "margin": -5
+  },
+  {
+    "date": "Fri, Oct 31, 2025",
+    "away_team": "Utah Jazz",
+    "home_team": "Phoenix Suns",
+    "away_score": 96,
+    "home_score": 118,
+    "margin": 22
+  },
+  {
+    "date": "Fri, Oct 31, 2025",
+    "away_team": "Denver Nuggets",
+    "home_team": "Portland Trail Blazers",
+    "away_score": 107,
+    "home_score": 109,
+    "margin": 2
+  },
+  {
+    "date": "Fri, Oct 31, 2025",
+    "away_team": "New Orleans Pelicans",
+    "home_team": "Los Angeles Clippers",
+    "away_score": 124,
+    "home_score": 126,
+    "margin": 2
+  },
+  {
+    "date": "Sat, Nov 1, 2025",
+    "away_team": "Sacramento Kings",
+    "home_team": "Milwaukee Bucks",
+    "away_score": 135,
+    "home_score": 133,
+    "margin": -2
+  },
+  {
+    "date": "Sat, Nov 1, 2025",
+    "away_team": "Minnesota Timberwolves",
+    "home_team": "Charlotte Hornets",
+    "away_score": 122,
+    "home_score": 105,
+    "margin": -17
+  },
+  {
+    "date": "Sat, Nov 1, 2025",
+    "away_team": "Golden State Warriors",
+    "home_team": "Indiana Pacers",
+    "away_score": 109,
+    "home_score": 114,
+    "margin": 5
+  },
+  {
+    "date": "Sat, Nov 1, 2025",
+    "away_team": "Orlando Magic",
+    "home_team": "Washington Wizards",
+    "away_score": 125,
+    "home_score": 94,
+    "margin": -31
+  },
+  {
+    "date": "Sat, Nov 1, 2025",
+    "away_team": "Houston Rockets",
+    "home_team": "Boston Celtics",
+    "away_score": 128,
+    "home_score": 101,
+    "margin": -27
+  },
+  {
+    "date": "Sat, Nov 1, 2025",
+    "away_team": "Dallas Mavericks",
+    "home_team": "Detroit Pistons",
+    "away_score": 110,
+    "home_score": 122,
+    "margin": 12
+  },
+  {
+    "date": "Sun, Nov 2, 2025",
+    "away_team": "New Orleans Pelicans",
+    "home_team": "Oklahoma City Thunder",
+    "away_score": 106,
+    "home_score": 137,
+    "margin": 31
+  },
+  {
+    "date": "Sun, Nov 2, 2025",
+    "away_team": "Philadelphia 76ers",
+    "home_team": "Brooklyn Nets",
+    "away_score": 129,
+    "home_score": 105,
+    "margin": -24
+  },
+  {
+    "date": "Sun, Nov 2, 2025",
+    "away_team": "Utah Jazz",
+    "home_team": "Charlotte Hornets",
+    "away_score": 103,
+    "home_score": 126,
+    "margin": 23
+  },
+  {
+    "date": "Sun, Nov 2, 2025",
+    "away_team": "Atlanta Hawks",
+    "home_team": "Cleveland Cavaliers",
+    "away_score": 109,
+    "home_score": 117,
+    "margin": 8
+  },
+  {
+    "date": "Sun, Nov 2, 2025",
+    "away_team": "Memphis Grizzlies",
+    "home_team": "Toronto Raptors",
+    "away_score": 104,
+    "home_score": 117,
+    "margin": 13
+  },
+  {
+    "date": "Sun, Nov 2, 2025",
+    "away_team": "Chicago Bulls",
+    "home_team": "New York Knicks",
+    "away_score": 116,
+    "home_score": 128,
+    "margin": 12
+  },
+  {
+    "date": "Sun, Nov 2, 2025",
+    "away_team": "San Antonio Spurs",
+    "home_team": "Phoenix Suns",
+    "away_score": 118,
+    "home_score": 130,
+    "margin": 12
+  },
+  {
+    "date": "Sun, Nov 2, 2025",
+    "away_team": "Miami Heat",
+    "home_team": "Los Angeles Lakers",
+    "away_score": 120,
+    "home_score": 130,
+    "margin": 10
+  },
+  {
+    "date": "Mon, Nov 3, 2025",
+    "away_team": "Minnesota Timberwolves",
+    "home_team": "Brooklyn Nets",
+    "away_score": 125,
+    "home_score": 109,
+    "margin": -16
+  },
+  {
+    "date": "Mon, Nov 3, 2025",
+    "away_team": "Milwaukee Bucks",
+    "home_team": "Indiana Pacers",
+    "away_score": 117,
+    "home_score": 115,
+    "margin": -2
+  },
+  {
+    "date": "Mon, Nov 3, 2025",
+    "away_team": "Utah Jazz",
+    "home_team": "Boston Celtics",
+    "away_score": 105,
+    "home_score": 103,
+    "margin": -2
+  },
+  {
+    "date": "Mon, Nov 3, 2025",
+    "away_team": "Washington Wizards",
+    "home_team": "New York Knicks",
+    "away_score": 102,
+    "home_score": 119,
+    "margin": 17
+  },
+  {
+    "date": "Mon, Nov 3, 2025",
+    "away_team": "Dallas Mavericks",
+    "home_team": "Houston Rockets",
+    "away_score": 102,
+    "home_score": 110,
+    "margin": 8
+  },
+  {
+    "date": "Mon, Nov 3, 2025",
+    "away_team": "Detroit Pistons",
+    "home_team": "Memphis Grizzlies",
+    "away_score": 114,
+    "home_score": 106,
+    "margin": -8
+  },
+  {
+    "date": "Mon, Nov 3, 2025",
+    "away_team": "Sacramento Kings",
+    "home_team": "Denver Nuggets",
+    "away_score": 124,
+    "home_score": 130,
+    "margin": 6
+  },
+  {
+    "date": "Mon, Nov 3, 2025",
+    "away_team": "Los Angeles Lakers",
+    "home_team": "Portland Trail Blazers",
+    "away_score": 123,
+    "home_score": 115,
+    "margin": -8
+  },
+  {
+    "date": "Mon, Nov 3, 2025",
+    "away_team": "Miami Heat",
+    "home_team": "Los Angeles Clippers",
+    "away_score": 120,
+    "home_score": 119,
+    "margin": -1
+  },
+  {
+    "date": "Tue, Nov 4, 2025",
+    "away_team": "Milwaukee Bucks",
+    "home_team": "Toronto Raptors",
+    "away_score": 100,
+    "home_score": 128,
+    "margin": 28
+  },
+  {
+    "date": "Tue, Nov 4, 2025",
+    "away_team": "Orlando Magic",
+    "home_team": "Atlanta Hawks",
+    "away_score": 112,
+    "home_score": 127,
+    "margin": 15
+  },
+  {
+    "date": "Tue, Nov 4, 2025",
+    "away_team": "Philadelphia 76ers",
+    "home_team": "Chicago Bulls",
+    "away_score": 111,
+    "home_score": 113,
+    "margin": 2
+  },
+  {
+    "date": "Tue, Nov 4, 2025",
+    "away_team": "Charlotte Hornets",
+    "home_team": "New Orleans Pelicans",
+    "away_score": 112,
+    "home_score": 116,
+    "margin": 4
+  },
+  {
+    "date": "Tue, Nov 4, 2025",
+    "away_team": "Phoenix Suns",
+    "home_team": "Golden State Warriors",
+    "away_score": 107,
+    "home_score": 118,
+    "margin": 11
+  },
+  {
+    "date": "Tue, Nov 4, 2025",
+    "away_team": "Oklahoma City Thunder",
+    "home_team": "Los Angeles Clippers",
+    "away_score": 126,
+    "home_score": 107,
+    "margin": -19
+  },
+  {
+    "date": "Wed, Nov 5, 2025",
+    "away_team": "Philadelphia 76ers",
+    "home_team": "Cleveland Cavaliers",
+    "away_score": 121,
+    "home_score": 132,
+    "margin": 11
+  },
+  {
+    "date": "Wed, Nov 5, 2025",
+    "away_team": "Utah Jazz",
+    "home_team": "Detroit Pistons",
+    "away_score": 103,
+    "home_score": 114,
+    "margin": 11
+  },
+  {
+    "date": "Wed, Nov 5, 2025",
+    "away_team": "Brooklyn Nets",
+    "home_team": "Indiana Pacers",
+    "away_score": 112,
+    "home_score": 103,
+    "margin": -9
+  },
+  {
+    "date": "Wed, Nov 5, 2025",
+    "away_team": "Washington Wizards",
+    "home_team": "Boston Celtics",
+    "away_score": 107,
+    "home_score": 136,
+    "margin": 29
+  },
+  {
+    "date": "Wed, Nov 5, 2025",
+    "away_team": "Minnesota Timberwolves",
+    "home_team": "New York Knicks",
+    "away_score": 114,
+    "home_score": 137,
+    "margin": 23
+  },
+  {
+    "date": "Wed, Nov 5, 2025",
+    "away_team": "Houston Rockets",
+    "home_team": "Memphis Grizzlies",
+    "away_score": 124,
+    "home_score": 109,
+    "margin": -15
+  },
+  {
+    "date": "Wed, Nov 5, 2025",
+    "away_team": "New Orleans Pelicans",
+    "home_team": "Dallas Mavericks",
+    "away_score": 101,
+    "home_score": 99,
+    "margin": -2
+  },
+  {
+    "date": "Wed, Nov 5, 2025",
+    "away_team": "Miami Heat",
+    "home_team": "Denver Nuggets",
+    "away_score": 112,
+    "home_score": 122,
+    "margin": 10
+  },
+  {
+    "date": "Wed, Nov 5, 2025",
+    "away_team": "San Antonio Spurs",
+    "home_team": "Los Angeles Lakers",
+    "away_score": 116,
+    "home_score": 118,
+    "margin": 2
+  },
+  {
+    "date": "Wed, Nov 5, 2025",
+    "away_team": "Oklahoma City Thunder",
+    "home_team": "Portland Trail Blazers",
+    "away_score": 119,
+    "home_score": 121,
+    "margin": 2
+  },
+  {
+    "date": "Wed, Nov 5, 2025",
+    "away_team": "Golden State Warriors",
+    "home_team": "Sacramento Kings",
+    "away_score": 116,
+    "home_score": 121,
+    "margin": 5
+  },
+  {
+    "date": "Thu, Nov 6, 2025",
+    "away_team": "Los Angeles Clippers",
+    "home_team": "Phoenix Suns",
+    "away_score": 102,
+    "home_score": 115,
+    "margin": 13
+  },
+  {
+    "date": "Fri, Nov 7, 2025",
+    "away_team": "Boston Celtics",
+    "home_team": "Orlando Magic",
+    "away_score": 110,
+    "home_score": 123,
+    "margin": 13
+  },
+  {
+    "date": "Fri, Nov 7, 2025",
+    "away_team": "Cleveland Cavaliers",
+    "home_team": "Washington Wizards",
+    "away_score": 148,
+    "home_score": 115,
+    "margin": -33
+  },
+  {
+    "date": "Fri, Nov 7, 2025",
+    "away_team": "Toronto Raptors",
+    "home_team": "Atlanta Hawks",
+    "away_score": 109,
+    "home_score": 97,
+    "margin": -12
+  },
+  {
+    "date": "Fri, Nov 7, 2025",
+    "away_team": "Detroit Pistons",
+    "home_team": "Brooklyn Nets",
+    "away_score": 125,
+    "home_score": 107,
+    "margin": -18
+  },
+  {
+    "date": "Fri, Nov 7, 2025",
+    "away_team": "Houston Rockets",
+    "home_team": "San Antonio Spurs",
+    "away_score": 110,
+    "home_score": 121,
+    "margin": 11
+  },
+  {
+    "date": "Fri, Nov 7, 2025",
+    "away_team": "Dallas Mavericks",
+    "home_team": "Memphis Grizzlies",
+    "away_score": 104,
+    "home_score": 118,
+    "margin": 14
+  },
+  {
+    "date": "Fri, Nov 7, 2025",
+    "away_team": "Charlotte Hornets",
+    "home_team": "Miami Heat",
+    "away_score": 108,
+    "home_score": 126,
+    "margin": 18
+  },
+  {
+    "date": "Fri, Nov 7, 2025",
+    "away_team": "Chicago Bulls",
+    "home_team": "Milwaukee Bucks",
+    "away_score": 110,
+    "home_score": 126,
+    "margin": 16
+  },
+  {
+    "date": "Fri, Nov 7, 2025",
+    "away_team": "Utah Jazz",
+    "home_team": "Minnesota Timberwolves",
+    "away_score": 97,
+    "home_score": 137,
+    "margin": 40
+  },
+  {
+    "date": "Fri, Nov 7, 2025",
+    "away_team": "Golden State Warriors",
+    "home_team": "Denver Nuggets",
+    "away_score": 104,
+    "home_score": 129,
+    "margin": 25
+  },
+  {
+    "date": "Fri, Nov 7, 2025",
+    "away_team": "Oklahoma City Thunder",
+    "home_team": "Sacramento Kings",
+    "away_score": 132,
+    "home_score": 101,
+    "margin": -31
+  },
+  {
+    "date": "Sat, Nov 8, 2025",
+    "away_team": "Dallas Mavericks",
+    "home_team": "Washington Wizards",
+    "away_score": 111,
+    "home_score": 105,
+    "margin": -6
+  },
+  {
+    "date": "Sat, Nov 8, 2025",
+    "away_team": "Toronto Raptors",
+    "home_team": "Philadelphia 76ers",
+    "away_score": 120,
+    "home_score": 130,
+    "margin": 10
+  },
+  {
+    "date": "Sat, Nov 8, 2025",
+    "away_team": "Los Angeles Lakers",
+    "home_team": "Atlanta Hawks",
+    "away_score": 102,
+    "home_score": 122,
+    "margin": 20
+  },
+  {
+    "date": "Sat, Nov 8, 2025",
+    "away_team": "Chicago Bulls",
+    "home_team": "Cleveland Cavaliers",
+    "away_score": 122,
+    "home_score": 128,
+    "margin": 6
+  },
+  {
+    "date": "Sat, Nov 8, 2025",
+    "away_team": "Portland Trail Blazers",
+    "home_team": "Miami Heat",
+    "away_score": 131,
+    "home_score": 136,
+    "margin": 5
+  },
+  {
+    "date": "Sat, Nov 8, 2025",
+    "away_team": "New Orleans Pelicans",
+    "home_team": "San Antonio Spurs",
+    "away_score": 119,
+    "home_score": 126,
+    "margin": 7
+  },
+  {
+    "date": "Sat, Nov 8, 2025",
+    "away_team": "Indiana Pacers",
+    "home_team": "Denver Nuggets",
+    "away_score": 100,
+    "home_score": 117,
+    "margin": 17
+  },
+  {
+    "date": "Sat, Nov 8, 2025",
+    "away_team": "Phoenix Suns",
+    "home_team": "Los Angeles Clippers",
+    "away_score": 114,
+    "home_score": 103,
+    "margin": -11
+  },
+  {
+    "date": "Sun, Nov 9, 2025",
+    "away_team": "Houston Rockets",
+    "home_team": "Milwaukee Bucks",
+    "away_score": 122,
+    "home_score": 115,
+    "margin": -7
+  },
+  {
+    "date": "Sun, Nov 9, 2025",
+    "away_team": "Oklahoma City Thunder",
+    "home_team": "Memphis Grizzlies",
+    "away_score": 114,
+    "home_score": 100,
+    "margin": -14
+  },
+  {
+    "date": "Sun, Nov 9, 2025",
+    "away_team": "Brooklyn Nets",
+    "home_team": "New York Knicks",
+    "away_score": 98,
+    "home_score": 134,
+    "margin": 36
+  },
+  {
+    "date": "Sun, Nov 9, 2025",
+    "away_team": "Boston Celtics",
+    "home_team": "Orlando Magic",
+    "away_score": 111,
+    "home_score": 107,
+    "margin": -4
+  },
+  {
+    "date": "Sun, Nov 9, 2025",
+    "away_team": "Detroit Pistons",
+    "home_team": "Philadelphia 76ers",
+    "away_score": 111,
+    "home_score": 108,
+    "margin": -3
+  },
+  {
+    "date": "Sun, Nov 9, 2025",
+    "away_team": "Indiana Pacers",
+    "home_team": "Golden State Warriors",
+    "away_score": 83,
+    "home_score": 114,
+    "margin": 31
+  },
+  {
+    "date": "Sun, Nov 9, 2025",
+    "away_team": "Minnesota Timberwolves",
+    "home_team": "Sacramento Kings",
+    "away_score": 144,
+    "home_score": 117,
+    "margin": -27
+  },
+  {
+    "date": "Mon, Nov 10, 2025",
+    "away_team": "Los Angeles Lakers",
+    "home_team": "Charlotte Hornets",
+    "away_score": 121,
+    "home_score": 111,
+    "margin": -10
+  },
+  {
+    "date": "Mon, Nov 10, 2025",
+    "away_team": "Washington Wizards",
+    "home_team": "Detroit Pistons",
+    "away_score": 135,
+    "home_score": 137,
+    "margin": 2
+  },
+  {
+    "date": "Mon, Nov 10, 2025",
+    "away_team": "Portland Trail Blazers",
+    "home_team": "Orlando Magic",
+    "away_score": 112,
+    "home_score": 115,
+    "margin": 3
+  },
+  {
+    "date": "Mon, Nov 10, 2025",
+    "away_team": "Cleveland Cavaliers",
+    "home_team": "Miami Heat",
+    "away_score": 138,
+    "home_score": 140,
+    "margin": 2
+  },
+  {
+    "date": "Mon, Nov 10, 2025",
+    "away_team": "San Antonio Spurs",
+    "home_team": "Chicago Bulls",
+    "away_score": 121,
+    "home_score": 117,
+    "margin": -4
+  },
+  {
+    "date": "Mon, Nov 10, 2025",
+    "away_team": "Milwaukee Bucks",
+    "home_team": "Dallas Mavericks",
+    "away_score": 116,
+    "home_score": 114,
+    "margin": -2
+  },
+  {
+    "date": "Mon, Nov 10, 2025",
+    "away_team": "New Orleans Pelicans",
+    "home_team": "Phoenix Suns",
+    "away_score": 98,
+    "home_score": 121,
+    "margin": 23
+  },
+  {
+    "date": "Mon, Nov 10, 2025",
+    "away_team": "Minnesota Timberwolves",
+    "home_team": "Utah Jazz",
+    "away_score": 120,
+    "home_score": 113,
+    "margin": -7
+  },
+  {
+    "date": "Mon, Nov 10, 2025",
+    "away_team": "Atlanta Hawks",
+    "home_team": "Los Angeles Clippers",
+    "away_score": 105,
+    "home_score": 102,
+    "margin": -3
+  },
+  {
+    "date": "Tue, Nov 11, 2025",
+    "away_team": "Toronto Raptors",
+    "home_team": "Brooklyn Nets",
+    "away_score": 119,
+    "home_score": 109,
+    "margin": -10
+  },
+  {
+    "date": "Tue, Nov 11, 2025",
+    "away_team": "Memphis Grizzlies",
+    "home_team": "New York Knicks",
+    "away_score": 120,
+    "home_score": 133,
+    "margin": 13
+  },
+  {
+    "date": "Tue, Nov 11, 2025",
+    "away_team": "Golden State Warriors",
+    "home_team": "Oklahoma City Thunder",
+    "away_score": 102,
+    "home_score": 126,
+    "margin": 24
+  },
+  {
+    "date": "Tue, Nov 11, 2025",
+    "away_team": "Boston Celtics",
+    "home_team": "Philadelphia 76ers",
+    "away_score": 100,
+    "home_score": 102,
+    "margin": 2
+  },
+  {
+    "date": "Tue, Nov 11, 2025",
+    "away_team": "Indiana Pacers",
+    "home_team": "Utah Jazz",
+    "away_score": 128,
+    "home_score": 152,
+    "margin": 24
+  },
+  {
+    "date": "Tue, Nov 11, 2025",
+    "away_team": "Denver Nuggets",
+    "home_team": "Sacramento Kings",
+    "away_score": 122,
+    "home_score": 108,
+    "margin": -14
+  },
+  {
+    "date": "Wed, Nov 12, 2025",
+    "away_team": "Milwaukee Bucks",
+    "home_team": "Charlotte Hornets",
+    "away_score": 100,
+    "home_score": 111,
+    "margin": 11
+  },
+  {
+    "date": "Wed, Nov 12, 2025",
+    "away_team": "Chicago Bulls",
+    "home_team": "Detroit Pistons",
+    "away_score": 113,
+    "home_score": 124,
+    "margin": 11
+  },
+  {
+    "date": "Wed, Nov 12, 2025",
+    "away_team": "Orlando Magic",
+    "home_team": "New York Knicks",
+    "away_score": 124,
+    "home_score": 107,
+    "margin": -17
+  },
+  {
+    "date": "Wed, Nov 12, 2025",
+    "away_team": "Memphis Grizzlies",
+    "home_team": "Boston Celtics",
+    "away_score": 95,
+    "home_score": 131,
+    "margin": 36
+  },
+  {
+    "date": "Wed, Nov 12, 2025",
+    "away_team": "Cleveland Cavaliers",
+    "home_team": "Miami Heat",
+    "away_score": 130,
+    "home_score": 116,
+    "margin": -14
+  },
+  {
+    "date": "Wed, Nov 12, 2025",
+    "away_team": "Washington Wizards",
+    "home_team": "Houston Rockets",
+    "away_score": 112,
+    "home_score": 135,
+    "margin": 23
+  },
+  {
+    "date": "Wed, Nov 12, 2025",
+    "away_team": "Portland Trail Blazers",
+    "home_team": "New Orleans Pelicans",
+    "away_score": 125,
+    "home_score": 117,
+    "margin": -8
+  },
+  {
+    "date": "Wed, Nov 12, 2025",
+    "away_team": "Golden State Warriors",
+    "home_team": "San Antonio Spurs",
+    "away_score": 125,
+    "home_score": 120,
+    "margin": -5
+  },
+  {
+    "date": "Wed, Nov 12, 2025",
+    "away_team": "Phoenix Suns",
+    "home_team": "Dallas Mavericks",
+    "away_score": 123,
+    "home_score": 114,
+    "margin": -9
+  },
+  {
+    "date": "Wed, Nov 12, 2025",
+    "away_team": "Los Angeles Lakers",
+    "home_team": "Oklahoma City Thunder",
+    "away_score": 92,
+    "home_score": 121,
+    "margin": 29
+  },
+  {
+    "date": "Wed, Nov 12, 2025",
+    "away_team": "Atlanta Hawks",
+    "home_team": "Sacramento Kings",
+    "away_score": 133,
+    "home_score": 100,
+    "margin": -33
+  },
+  {
+    "date": "Wed, Nov 12, 2025",
+    "away_team": "Denver Nuggets",
+    "home_team": "Los Angeles Clippers",
+    "away_score": 130,
+    "home_score": 116,
+    "margin": -14
+  },
+  {
+    "date": "Thu, Nov 13, 2025",
+    "away_team": "Toronto Raptors",
+    "home_team": "Cleveland Cavaliers",
+    "away_score": 126,
+    "home_score": 113,
+    "margin": -13
+  },
+  {
+    "date": "Thu, Nov 13, 2025",
+    "away_team": "Indiana Pacers",
+    "home_team": "Phoenix Suns",
+    "away_score": 98,
+    "home_score": 133,
+    "margin": 35
+  },
+  {
+    "date": "Thu, Nov 13, 2025",
+    "away_team": "Atlanta Hawks",
+    "home_team": "Utah Jazz",
+    "away_score": 132,
+    "home_score": 122,
+    "margin": -10
+  },
+  {
+    "date": "Fri, Nov 14, 2025",
+    "away_team": "Miami Heat",
+    "home_team": "New York Knicks",
+    "away_score": 132,
+    "home_score": 140,
+    "margin": 8
+  },
+  {
+    "date": "Fri, Nov 14, 2025",
+    "away_team": "Brooklyn Nets",
+    "home_team": "Orlando Magic",
+    "away_score": 98,
+    "home_score": 105,
+    "margin": 7
+  },
+  {
+    "date": "Fri, Nov 14, 2025",
+    "away_team": "Philadelphia 76ers",
+    "home_team": "Detroit Pistons",
+    "away_score": 105,
+    "home_score": 114,
+    "margin": 9
+  },
+  {
+    "date": "Fri, Nov 14, 2025",
+    "away_team": "Portland Trail Blazers",
+    "home_team": "Houston Rockets",
+    "away_score": 116,
+    "home_score": 140,
+    "margin": 24
+  },
+  {
+    "date": "Fri, Nov 14, 2025",
+    "away_team": "Charlotte Hornets",
+    "home_team": "Milwaukee Bucks",
+    "away_score": 134,
+    "home_score": 147,
+    "margin": 13
+  },
+  {
+    "date": "Fri, Nov 14, 2025",
+    "away_team": "Sacramento Kings",
+    "home_team": "Minnesota Timberwolves",
+    "away_score": 110,
+    "home_score": 124,
+    "margin": 14
+  },
+  {
+    "date": "Fri, Nov 14, 2025",
+    "away_team": "Los Angeles Lakers",
+    "home_team": "New Orleans Pelicans",
+    "away_score": 118,
+    "home_score": 104,
+    "margin": -14
+  },
+  {
+    "date": "Fri, Nov 14, 2025",
+    "away_team": "Los Angeles Clippers",
+    "home_team": "Dallas Mavericks",
+    "away_score": 133,
+    "home_score": 127,
+    "margin": -6
+  },
+  {
+    "date": "Fri, Nov 14, 2025",
+    "away_team": "Golden State Warriors",
+    "home_team": "San Antonio Spurs",
+    "away_score": 109,
+    "home_score": 108,
+    "margin": -1
+  },
+  {
+    "date": "Sat, Nov 15, 2025",
+    "away_team": "Memphis Grizzlies",
+    "home_team": "Cleveland Cavaliers",
+    "away_score": 100,
+    "home_score": 108,
+    "margin": 8
+  },
+  {
+    "date": "Sat, Nov 15, 2025",
+    "away_team": "Oklahoma City Thunder",
+    "home_team": "Charlotte Hornets",
+    "away_score": 109,
+    "home_score": 96,
+    "margin": -13
+  },
+  {
+    "date": "Sat, Nov 15, 2025",
+    "away_team": "Toronto Raptors",
+    "home_team": "Indiana Pacers",
+    "away_score": 129,
+    "home_score": 111,
+    "margin": -18
+  },
+  {
+    "date": "Sat, Nov 15, 2025",
+    "away_team": "Los Angeles Lakers",
+    "home_team": "Milwaukee Bucks",
+    "away_score": 119,
+    "home_score": 95,
+    "margin": -24
+  },
+  {
+    "date": "Sat, Nov 15, 2025",
+    "away_team": "Denver Nuggets",
+    "home_team": "Minnesota Timberwolves",
+    "away_score": 123,
+    "home_score": 112,
+    "margin": -11
+  },
+  {
+    "date": "Sun, Nov 16, 2025",
+    "away_team": "Los Angeles Clippers",
+    "home_team": "Boston Celtics",
+    "away_score": 118,
+    "home_score": 121,
+    "margin": 3
+  },
+  {
+    "date": "Sun, Nov 16, 2025",
+    "away_team": "Sacramento Kings",
+    "home_team": "San Antonio Spurs",
+    "away_score": 110,
+    "home_score": 123,
+    "margin": 13
+  },
+  {
+    "date": "Sun, Nov 16, 2025",
+    "away_team": "Brooklyn Nets",
+    "home_team": "Washington Wizards",
+    "away_score": 129,
+    "home_score": 106,
+    "margin": -23
+  },
+  {
+    "date": "Sun, Nov 16, 2025",
+    "away_team": "Orlando Magic",
+    "home_team": "Houston Rockets",
+    "away_score": 113,
+    "home_score": 117,
+    "margin": 4
+  },
+  {
+    "date": "Sun, Nov 16, 2025",
+    "away_team": "Golden State Warriors",
+    "home_team": "New Orleans Pelicans",
+    "away_score": 124,
+    "home_score": 106,
+    "margin": -18
+  },
+  {
+    "date": "Sun, Nov 16, 2025",
+    "away_team": "Portland Trail Blazers",
+    "home_team": "Dallas Mavericks",
+    "away_score": 133,
+    "home_score": 138,
+    "margin": 5
+  },
+  {
+    "date": "Sun, Nov 16, 2025",
+    "away_team": "Atlanta Hawks",
+    "home_team": "Phoenix Suns",
+    "away_score": 124,
+    "home_score": 122,
+    "margin": -2
+  },
+  {
+    "date": "Sun, Nov 16, 2025",
+    "away_team": "Chicago Bulls",
+    "home_team": "Utah Jazz",
+    "away_score": 147,
+    "home_score": 150,
+    "margin": 3
+  },
+  {
+    "date": "Mon, Nov 17, 2025",
+    "away_team": "Milwaukee Bucks",
+    "home_team": "Cleveland Cavaliers",
+    "away_score": 106,
+    "home_score": 118,
+    "margin": 12
+  },
+  {
+    "date": "Mon, Nov 17, 2025",
+    "away_team": "Indiana Pacers",
+    "home_team": "Detroit Pistons",
+    "away_score": 112,
+    "home_score": 127,
+    "margin": 15
+  },
+  {
+    "date": "Mon, Nov 17, 2025",
+    "away_team": "Los Angeles Clippers",
+    "home_team": "Philadelphia 76ers",
+    "away_score": 108,
+    "home_score": 110,
+    "margin": 2
+  },
+  {
+    "date": "Mon, Nov 17, 2025",
+    "away_team": "New York Knicks",
+    "home_team": "Miami Heat",
+    "away_score": 113,
+    "home_score": 115,
+    "margin": 2
+  },
+  {
+    "date": "Mon, Nov 17, 2025",
+    "away_team": "Charlotte Hornets",
+    "home_team": "Toronto Raptors",
+    "away_score": 108,
+    "home_score": 110,
+    "margin": 2
+  },
+  {
+    "date": "Mon, Nov 17, 2025",
+    "away_team": "Dallas Mavericks",
+    "home_team": "Minnesota Timberwolves",
+    "away_score": 96,
+    "home_score": 120,
+    "margin": 24
+  },
+  {
+    "date": "Mon, Nov 17, 2025",
+    "away_team": "Oklahoma City Thunder",
+    "home_team": "New Orleans Pelicans",
+    "away_score": 126,
+    "home_score": 109,
+    "margin": -17
+  },
+  {
+    "date": "Mon, Nov 17, 2025",
+    "away_team": "Chicago Bulls",
+    "home_team": "Denver Nuggets",
+    "away_score": 130,
+    "home_score": 127,
+    "margin": -3
+  },
+  {
+    "date": "Tue, Nov 18, 2025",
+    "away_team": "Golden State Warriors",
+    "home_team": "Orlando Magic",
+    "away_score": 113,
+    "home_score": 121,
+    "margin": 8
+  },
+  {
+    "date": "Tue, Nov 18, 2025",
+    "away_team": "Detroit Pistons",
+    "home_team": "Atlanta Hawks",
+    "away_score": 120,
+    "home_score": 112,
+    "margin": -8
+  },
+  {
+    "date": "Tue, Nov 18, 2025",
+    "away_team": "Boston Celtics",
+    "home_team": "Brooklyn Nets",
+    "away_score": 113,
+    "home_score": 99,
+    "margin": -14
+  },
+  {
+    "date": "Tue, Nov 18, 2025",
+    "away_team": "Memphis Grizzlies",
+    "home_team": "San Antonio Spurs",
+    "away_score": 101,
+    "home_score": 111,
+    "margin": 10
+  },
+  {
+    "date": "Tue, Nov 18, 2025",
+    "away_team": "Utah Jazz",
+    "home_team": "Los Angeles Lakers",
+    "away_score": 126,
+    "home_score": 140,
+    "margin": 14
+  },
+  {
+    "date": "Tue, Nov 18, 2025",
+    "away_team": "Phoenix Suns",
+    "home_team": "Portland Trail Blazers",
+    "away_score": 127,
+    "home_score": 110,
+    "margin": -17
+  },
+  {
+    "date": "Wed, Nov 19, 2025",
+    "away_team": "Houston Rockets",
+    "home_team": "Cleveland Cavaliers",
+    "away_score": 114,
+    "home_score": 104,
+    "margin": -10
+  },
+  {
+    "date": "Wed, Nov 19, 2025",
+    "away_team": "Charlotte Hornets",
+    "home_team": "Indiana Pacers",
+    "away_score": 118,
+    "home_score": 127,
+    "margin": 9
+  },
+  {
+    "date": "Wed, Nov 19, 2025",
+    "away_team": "Toronto Raptors",
+    "home_team": "Philadelphia 76ers",
+    "away_score": 121,
+    "home_score": 112,
+    "margin": -9
+  },
+  {
+    "date": "Wed, Nov 19, 2025",
+    "away_team": "Golden State Warriors",
+    "home_team": "Miami Heat",
+    "away_score": 96,
+    "home_score": 110,
+    "margin": 14
+  },
+  {
+    "date": "Wed, Nov 19, 2025",
+    "away_team": "Washington Wizards",
+    "home_team": "Minnesota Timberwolves",
+    "away_score": 109,
+    "home_score": 120,
+    "margin": 11
+  },
+  {
+    "date": "Wed, Nov 19, 2025",
+    "away_team": "Denver Nuggets",
+    "home_team": "New Orleans Pelicans",
+    "away_score": 125,
+    "home_score": 118,
+    "margin": -7
+  },
+  {
+    "date": "Wed, Nov 19, 2025",
+    "away_team": "Sacramento Kings",
+    "home_team": "Oklahoma City Thunder",
+    "away_score": 99,
+    "home_score": 113,
+    "margin": 14
+  },
+  {
+    "date": "Wed, Nov 19, 2025",
+    "away_team": "New York Knicks",
+    "home_team": "Dallas Mavericks",
+    "away_score": 113,
+    "home_score": 111,
+    "margin": -2
+  },
+  {
+    "date": "Wed, Nov 19, 2025",
+    "away_team": "Chicago Bulls",
+    "home_team": "Portland Trail Blazers",
+    "away_score": 122,
+    "home_score": 121,
+    "margin": -1
+  },
+  {
+    "date": "Thu, Nov 20, 2025",
+    "away_team": "Los Angeles Clippers",
+    "home_team": "Orlando Magic",
+    "away_score": 101,
+    "home_score": 129,
+    "margin": 28
+  },
+  {
+    "date": "Thu, Nov 20, 2025",
+    "away_team": "Sacramento Kings",
+    "home_team": "Memphis Grizzlies",
+    "away_score": 96,
+    "home_score": 137,
+    "margin": 41
+  },
+  {
+    "date": "Thu, Nov 20, 2025",
+    "away_team": "Philadelphia 76ers",
+    "home_team": "Milwaukee Bucks",
+    "away_score": 123,
+    "home_score": 114,
+    "margin": -9
+  },
+  {
+    "date": "Thu, Nov 20, 2025",
+    "away_team": "Atlanta Hawks",
+    "home_team": "San Antonio Spurs",
+    "away_score": 126,
+    "home_score": 135,
+    "margin": 9
+  },
+  {
+    "date": "Fri, Nov 21, 2025",
+    "away_team": "Indiana Pacers",
+    "home_team": "Cleveland Cavaliers",
+    "away_score": 109,
+    "home_score": 120,
+    "margin": 11
+  },
+  {
+    "date": "Fri, Nov 21, 2025",
+    "away_team": "Brooklyn Nets",
+    "home_team": "Boston Celtics",
+    "away_score": 113,
+    "home_score": 105,
+    "margin": -8
+  },
+  {
+    "date": "Fri, Nov 21, 2025",
+    "away_team": "Washington Wizards",
+    "home_team": "Toronto Raptors",
+    "away_score": 110,
+    "home_score": 140,
+    "margin": 30
+  },
+  {
+    "date": "Fri, Nov 21, 2025",
+    "away_team": "Miami Heat",
+    "home_team": "Chicago Bulls",
+    "away_score": 143,
+    "home_score": 107,
+    "margin": -36
+  },
+  {
+    "date": "Fri, Nov 21, 2025",
+    "away_team": "New Orleans Pelicans",
+    "home_team": "Dallas Mavericks",
+    "away_score": 115,
+    "home_score": 118,
+    "margin": 3
+  },
+  {
+    "date": "Fri, Nov 21, 2025",
+    "away_team": "Minnesota Timberwolves",
+    "home_team": "Phoenix Suns",
+    "away_score": 113,
+    "home_score": 114,
+    "margin": 1
+  },
+  {
+    "date": "Fri, Nov 21, 2025",
+    "away_team": "Denver Nuggets",
+    "home_team": "Houston Rockets",
+    "away_score": 112,
+    "home_score": 109,
+    "margin": -3
+  },
+  {
+    "date": "Fri, Nov 21, 2025",
+    "away_team": "Portland Trail Blazers",
+    "home_team": "Golden State Warriors",
+    "away_score": 127,
+    "home_score": 123,
+    "margin": -4
+  },
+  {
+    "date": "Fri, Nov 21, 2025",
+    "away_team": "Oklahoma City Thunder",
+    "home_team": "Utah Jazz",
+    "away_score": 144,
+    "home_score": 112,
+    "margin": -32
+  },
+  {
+    "date": "Sat, Nov 22, 2025",
+    "away_team": "Los Angeles Clippers",
+    "home_team": "Charlotte Hornets",
+    "away_score": 131,
+    "home_score": 116,
+    "margin": -15
+  },
+  {
+    "date": "Sat, Nov 22, 2025",
+    "away_team": "New York Knicks",
+    "home_team": "Orlando Magic",
+    "away_score": 121,
+    "home_score": 133,
+    "margin": 12
+  },
+  {
+    "date": "Sat, Nov 22, 2025",
+    "away_team": "Atlanta Hawks",
+    "home_team": "New Orleans Pelicans",
+    "away_score": 115,
+    "home_score": 98,
+    "margin": -17
+  },
+  {
+    "date": "Sat, Nov 22, 2025",
+    "away_team": "Washington Wizards",
+    "home_team": "Chicago Bulls",
+    "away_score": 120,
+    "home_score": 121,
+    "margin": 1
+  },
+  {
+    "date": "Sat, Nov 22, 2025",
+    "away_team": "Detroit Pistons",
+    "home_team": "Milwaukee Bucks",
+    "away_score": 129,
+    "home_score": 116,
+    "margin": -13
+  },
+  {
+    "date": "Sat, Nov 22, 2025",
+    "away_team": "Memphis Grizzlies",
+    "home_team": "Dallas Mavericks",
+    "away_score": 102,
+    "home_score": 96,
+    "margin": -6
+  },
+  {
+    "date": "Sat, Nov 22, 2025",
+    "away_team": "Sacramento Kings",
+    "home_team": "Denver Nuggets",
+    "away_score": 128,
+    "home_score": 123,
+    "margin": -5
+  },
+  {
+    "date": "Sun, Nov 23, 2025",
+    "away_team": "Miami Heat",
+    "home_team": "Philadelphia 76ers",
+    "away_score": 127,
+    "home_score": 117,
+    "margin": -10
+  },
+  {
+    "date": "Sun, Nov 23, 2025",
+    "away_team": "Charlotte Hornets",
+    "home_team": "Atlanta Hawks",
+    "away_score": 110,
+    "home_score": 113,
+    "margin": 3
+  },
+  {
+    "date": "Sun, Nov 23, 2025",
+    "away_team": "Orlando Magic",
+    "home_team": "Boston Celtics",
+    "away_score": 129,
+    "home_score": 138,
+    "margin": 9
+  },
+  {
+    "date": "Sun, Nov 23, 2025",
+    "away_team": "Los Angeles Clippers",
+    "home_team": "Cleveland Cavaliers",
+    "away_score": 105,
+    "home_score": 120,
+    "margin": 15
+  },
+  {
+    "date": "Sun, Nov 23, 2025",
+    "away_team": "Brooklyn Nets",
+    "home_team": "Toronto Raptors",
+    "away_score": 109,
+    "home_score": 119,
+    "margin": 10
+  },
+  {
+    "date": "Sun, Nov 23, 2025",
+    "away_team": "Portland Trail Blazers",
+    "home_team": "Oklahoma City Thunder",
+    "away_score": 95,
+    "home_score": 122,
+    "margin": 27
+  },
+  {
+    "date": "Sun, Nov 23, 2025",
+    "away_team": "San Antonio Spurs",
+    "home_team": "Phoenix Suns",
+    "away_score": 102,
+    "home_score": 111,
+    "margin": 9
+  },
+  {
+    "date": "Sun, Nov 23, 2025",
+    "away_team": "Los Angeles Lakers",
+    "home_team": "Utah Jazz",
+    "away_score": 108,
+    "home_score": 106,
+    "margin": -2
+  },
+  {
+    "date": "Mon, Nov 24, 2025",
+    "away_team": "Detroit Pistons",
+    "home_team": "Indiana Pacers",
+    "away_score": 122,
+    "home_score": 117,
+    "margin": -5
+  },
+  {
+    "date": "Mon, Nov 24, 2025",
+    "away_team": "Cleveland Cavaliers",
+    "home_team": "Toronto Raptors",
+    "away_score": 99,
+    "home_score": 110,
+    "margin": 11
+  },
+  {
+    "date": "Mon, Nov 24, 2025",
+    "away_team": "New York Knicks",
+    "home_team": "Brooklyn Nets",
+    "away_score": 113,
+    "home_score": 100,
+    "margin": -13
+  },
+  {
+    "date": "Mon, Nov 24, 2025",
+    "away_team": "Dallas Mavericks",
+    "home_team": "Miami Heat",
+    "away_score": 102,
+    "home_score": 106,
+    "margin": 4
+  },
+  {
+    "date": "Mon, Nov 24, 2025",
+    "away_team": "Denver Nuggets",
+    "home_team": "Memphis Grizzlies",
+    "away_score": 125,
+    "home_score": 115,
+    "margin": -10
+  },
+  {
+    "date": "Mon, Nov 24, 2025",
+    "away_team": "Portland Trail Blazers",
+    "home_team": "Milwaukee Bucks",
+    "away_score": 115,
+    "home_score": 103,
+    "margin": -12
+  },
+  {
+    "date": "Mon, Nov 24, 2025",
+    "away_team": "Chicago Bulls",
+    "home_team": "New Orleans Pelicans",
+    "away_score": 130,
+    "home_score": 143,
+    "margin": 13
+  },
+  {
+    "date": "Mon, Nov 24, 2025",
+    "away_team": "Houston Rockets",
+    "home_team": "Phoenix Suns",
+    "away_score": 114,
+    "home_score": 92,
+    "margin": -22
+  },
+  {
+    "date": "Mon, Nov 24, 2025",
+    "away_team": "Utah Jazz",
+    "home_team": "Golden State Warriors",
+    "away_score": 117,
+    "home_score": 134,
+    "margin": 17
+  },
+  {
+    "date": "Mon, Nov 24, 2025",
+    "away_team": "Minnesota Timberwolves",
+    "home_team": "Sacramento Kings",
+    "away_score": 112,
+    "home_score": 117,
+    "margin": 5
+  },
+  {
+    "date": "Tue, Nov 25, 2025",
+    "away_team": "Atlanta Hawks",
+    "home_team": "Washington Wizards",
+    "away_score": 113,
+    "home_score": 132,
+    "margin": 19
+  },
+  {
+    "date": "Tue, Nov 25, 2025",
+    "away_team": "Orlando Magic",
+    "home_team": "Philadelphia 76ers",
+    "away_score": 144,
+    "home_score": 103,
+    "margin": -41
+  },
+  {
+    "date": "Tue, Nov 25, 2025",
+    "away_team": "Los Angeles Clippers",
+    "home_team": "Los Angeles Lakers",
+    "away_score": 118,
+    "home_score": 135,
+    "margin": 17
+  },
+  {
+    "date": "Wed, Nov 26, 2025",
+    "away_team": "Detroit Pistons",
+    "home_team": "Boston Celtics",
+    "away_score": 114,
+    "home_score": 117,
+    "margin": 3
+  },
+  {
+    "date": "Wed, Nov 26, 2025",
+    "away_team": "New York Knicks",
+    "home_team": "Charlotte Hornets",
+    "away_score": 129,
+    "home_score": 101,
+    "margin": -28
+  },
+  {
+    "date": "Wed, Nov 26, 2025",
+    "away_team": "Milwaukee Bucks",
+    "home_team": "Miami Heat",
+    "away_score": 103,
+    "home_score": 106,
+    "margin": 3
+  },
+  {
+    "date": "Wed, Nov 26, 2025",
+    "away_team": "Minnesota Timberwolves",
+    "home_team": "Oklahoma City Thunder",
+    "away_score": 105,
+    "home_score": 113,
+    "margin": 8
+  },
+  {
+    "date": "Wed, Nov 26, 2025",
+    "away_team": "Indiana Pacers",
+    "home_team": "Toronto Raptors",
+    "away_score": 95,
+    "home_score": 97,
+    "margin": 2
+  },
+  {
+    "date": "Wed, Nov 26, 2025",
+    "away_team": "Memphis Grizzlies",
+    "home_team": "New Orleans Pelicans",
+    "away_score": 133,
+    "home_score": 128,
+    "margin": -5
+  },
+  {
+    "date": "Wed, Nov 26, 2025",
+    "away_team": "Houston Rockets",
+    "home_team": "Golden State Warriors",
+    "away_score": 104,
+    "home_score": 100,
+    "margin": -4
+  },
+  {
+    "date": "Wed, Nov 26, 2025",
+    "away_team": "San Antonio Spurs",
+    "home_team": "Portland Trail Blazers",
+    "away_score": 115,
+    "home_score": 102,
+    "margin": -13
+  },
+  {
+    "date": "Wed, Nov 26, 2025",
+    "away_team": "Phoenix Suns",
+    "home_team": "Sacramento Kings",
+    "away_score": 112,
+    "home_score": 100,
+    "margin": -12
+  },
+  {
+    "date": "Fri, Nov 28, 2025",
+    "away_team": "Cleveland Cavaliers",
+    "home_team": "Atlanta Hawks",
+    "away_score": 123,
+    "home_score": 130,
+    "margin": 7
+  },
+  {
+    "date": "Fri, Nov 28, 2025",
+    "away_team": "Philadelphia 76ers",
+    "home_team": "Brooklyn Nets",
+    "away_score": 115,
+    "home_score": 103,
+    "margin": -12
+  },
+  {
+    "date": "Fri, Nov 28, 2025",
+    "away_team": "Chicago Bulls",
+    "home_team": "Charlotte Hornets",
+    "away_score": 116,
+    "home_score": 123,
+    "margin": 7
+  },
+  {
+    "date": "Fri, Nov 28, 2025",
+    "away_team": "Orlando Magic",
+    "home_team": "Detroit Pistons",
+    "away_score": 112,
+    "home_score": 109,
+    "margin": -3
+  },
+  {
+    "date": "Fri, Nov 28, 2025",
+    "away_team": "Washington Wizards",
+    "home_team": "Indiana Pacers",
+    "away_score": 86,
+    "home_score": 119,
+    "margin": 33
+  },
+  {
+    "date": "Fri, Nov 28, 2025",
+    "away_team": "Milwaukee Bucks",
+    "home_team": "New York Knicks",
+    "away_score": 109,
+    "home_score": 118,
+    "margin": 9
+  },
+  {
+    "date": "Fri, Nov 28, 2025",
+    "away_team": "San Antonio Spurs",
+    "home_team": "Denver Nuggets",
+    "away_score": 139,
+    "home_score": 136,
+    "margin": -3
+  },
+  {
+    "date": "Fri, Nov 28, 2025",
+    "away_team": "Phoenix Suns",
+    "home_team": "Oklahoma City Thunder",
+    "away_score": 119,
+    "home_score": 123,
+    "margin": 4
+  },
+  {
+    "date": "Fri, Nov 28, 2025",
+    "away_team": "Sacramento Kings",
+    "home_team": "Utah Jazz",
+    "away_score": 119,
+    "home_score": 128,
+    "margin": 9
+  },
+  {
+    "date": "Fri, Nov 28, 2025",
+    "away_team": "Memphis Grizzlies",
+    "home_team": "Los Angeles Clippers",
+    "away_score": 112,
+    "home_score": 107,
+    "margin": -5
+  },
+  {
+    "date": "Fri, Nov 28, 2025",
+    "away_team": "Dallas Mavericks",
+    "home_team": "Los Angeles Lakers",
+    "away_score": 119,
+    "home_score": 129,
+    "margin": 10
+  },
+  {
+    "date": "Sat, Nov 29, 2025",
+    "away_team": "Boston Celtics",
+    "home_team": "Minnesota Timberwolves",
+    "away_score": 115,
+    "home_score": 119,
+    "margin": 4
+  },
+  {
+    "date": "Sat, Nov 29, 2025",
+    "away_team": "Toronto Raptors",
+    "home_team": "Charlotte Hornets",
+    "away_score": 111,
+    "home_score": 118,
+    "margin": 7
+  },
+  {
+    "date": "Sat, Nov 29, 2025",
+    "away_team": "Chicago Bulls",
+    "home_team": "Indiana Pacers",
+    "away_score": 101,
+    "home_score": 103,
+    "margin": 2
+  },
+  {
+    "date": "Sat, Nov 29, 2025",
+    "away_team": "Detroit Pistons",
+    "home_team": "Miami Heat",
+    "away_score": 138,
+    "home_score": 135,
+    "margin": -3
+  },
+  {
+    "date": "Sat, Nov 29, 2025",
+    "away_team": "Brooklyn Nets",
+    "home_team": "Milwaukee Bucks",
+    "away_score": 99,
+    "home_score": 116,
+    "margin": 17
+  },
+  {
+    "date": "Sat, Nov 29, 2025",
+    "away_team": "New Orleans Pelicans",
+    "home_team": "Golden State Warriors",
+    "away_score": 96,
+    "home_score": 104,
+    "margin": 8
+  },
+  {
+    "date": "Sat, Nov 29, 2025",
+    "away_team": "Denver Nuggets",
+    "home_team": "Phoenix Suns",
+    "away_score": 130,
+    "home_score": 112,
+    "margin": -18
+  },
+  {
+    "date": "Sat, Nov 29, 2025",
+    "away_team": "Dallas Mavericks",
+    "home_team": "Los Angeles Clippers",
+    "away_score": 114,
+    "home_score": 110,
+    "margin": -4
+  },
+  {
+    "date": "Sun, Nov 30, 2025",
+    "away_team": "Houston Rockets",
+    "home_team": "Utah Jazz",
+    "away_score": 129,
+    "home_score": 101,
+    "margin": -28
+  },
+  {
+    "date": "Sun, Nov 30, 2025",
+    "away_team": "Boston Celtics",
+    "home_team": "Cleveland Cavaliers",
+    "away_score": 117,
+    "home_score": 115,
+    "margin": -2
+  },
+  {
+    "date": "Sun, Nov 30, 2025",
+    "away_team": "Toronto Raptors",
+    "home_team": "New York Knicks",
+    "away_score": 94,
+    "home_score": 116,
+    "margin": 22
+  },
+  {
+    "date": "Sun, Nov 30, 2025",
+    "away_team": "Atlanta Hawks",
+    "home_team": "Philadelphia 76ers",
+    "away_score": 142,
+    "home_score": 134,
+    "margin": -8
+  },
+  {
+    "date": "Sun, Nov 30, 2025",
+    "away_team": "Oklahoma City Thunder",
+    "home_team": "Portland Trail Blazers",
+    "away_score": 123,
+    "home_score": 115,
+    "margin": -8
+  },
+  {
+    "date": "Sun, Nov 30, 2025",
+    "away_team": "San Antonio Spurs",
+    "home_team": "Minnesota Timberwolves",
+    "away_score": 112,
+    "home_score": 125,
+    "margin": 13
+  },
+  {
+    "date": "Sun, Nov 30, 2025",
+    "away_team": "Memphis Grizzlies",
+    "home_team": "Sacramento Kings",
+    "away_score": 115,
+    "home_score": 107,
+    "margin": -8
+  },
+  {
+    "date": "Sun, Nov 30, 2025",
+    "away_team": "New Orleans Pelicans",
+    "home_team": "Los Angeles Lakers",
+    "away_score": 121,
+    "home_score": 133,
+    "margin": 12
+  },
+  {
+    "date": "Mon, Dec 1, 2025",
+    "away_team": "Atlanta Hawks",
+    "home_team": "Detroit Pistons",
+    "away_score": 98,
+    "home_score": 99,
+    "margin": 1
+  },
+  {
+    "date": "Mon, Dec 1, 2025",
+    "away_team": "Cleveland Cavaliers",
+    "home_team": "Indiana Pacers",
+    "away_score": 135,
+    "home_score": 119,
+    "margin": -16
+  },
+  {
+    "date": "Mon, Dec 1, 2025",
+    "away_team": "Milwaukee Bucks",
+    "home_team": "Washington Wizards",
+    "away_score": 126,
+    "home_score": 129,
+    "margin": 3
+  },
+  {
+    "date": "Mon, Dec 1, 2025",
+    "away_team": "Charlotte Hornets",
+    "home_team": "Brooklyn Nets",
+    "away_score": 103,
+    "home_score": 116,
+    "margin": 13
+  },
+  {
+    "date": "Mon, Dec 1, 2025",
+    "away_team": "Los Angeles Clippers",
+    "home_team": "Miami Heat",
+    "away_score": 123,
+    "home_score": 140,
+    "margin": 17
+  },
+  {
+    "date": "Mon, Dec 1, 2025",
+    "away_team": "Chicago Bulls",
+    "home_team": "Orlando Magic",
+    "away_score": 120,
+    "home_score": 125,
+    "margin": 5
+  },
+  {
+    "date": "Mon, Dec 1, 2025",
+    "away_team": "Dallas Mavericks",
+    "home_team": "Denver Nuggets",
+    "away_score": 131,
+    "home_score": 121,
+    "margin": -10
+  },
+  {
+    "date": "Mon, Dec 1, 2025",
+    "away_team": "Houston Rockets",
+    "home_team": "Utah Jazz",
+    "away_score": 125,
+    "home_score": 133,
+    "margin": 8
+  },
+  {
+    "date": "Mon, Dec 1, 2025",
+    "away_team": "Phoenix Suns",
+    "home_team": "Los Angeles Lakers",
+    "away_score": 125,
+    "home_score": 108,
+    "margin": -17
+  },
+  {
+    "date": "Tue, Dec 2, 2025",
+    "away_team": "Washington Wizards",
+    "home_team": "Philadelphia 76ers",
+    "away_score": 102,
+    "home_score": 121,
+    "margin": 19
+  },
+  {
+    "date": "Tue, Dec 2, 2025",
+    "away_team": "Portland Trail Blazers",
+    "home_team": "Toronto Raptors",
+    "away_score": 118,
+    "home_score": 121,
+    "margin": 3
+  },
+  {
+    "date": "Tue, Dec 2, 2025",
+    "away_team": "New York Knicks",
+    "home_team": "Boston Celtics",
+    "away_score": 117,
+    "home_score": 123,
+    "margin": 6
+  },
+  {
+    "date": "Tue, Dec 2, 2025",
+    "away_team": "Minnesota Timberwolves",
+    "home_team": "New Orleans Pelicans",
+    "away_score": 149,
+    "home_score": 142,
+    "margin": -7
+  },
+  {
+    "date": "Tue, Dec 2, 2025",
+    "away_team": "Memphis Grizzlies",
+    "home_team": "San Antonio Spurs",
+    "away_score": 119,
+    "home_score": 126,
+    "margin": 7
+  },
+  {
+    "date": "Tue, Dec 2, 2025",
+    "away_team": "Oklahoma City Thunder",
+    "home_team": "Golden State Warriors",
+    "away_score": 124,
+    "home_score": 112,
+    "margin": -12
+  },
+  {
+    "date": "Wed, Dec 3, 2025",
+    "away_team": "Portland Trail Blazers",
+    "home_team": "Cleveland Cavaliers",
+    "away_score": 122,
+    "home_score": 110,
+    "margin": -12
+  },
+  {
+    "date": "Wed, Dec 3, 2025",
+    "away_team": "Denver Nuggets",
+    "home_team": "Indiana Pacers",
+    "away_score": 135,
+    "home_score": 120,
+    "margin": -15
+  },
+  {
+    "date": "Wed, Dec 3, 2025",
+    "away_team": "San Antonio Spurs",
+    "home_team": "Orlando Magic",
+    "away_score": 114,
+    "home_score": 112,
+    "margin": -2
+  },
+  {
+    "date": "Wed, Dec 3, 2025",
+    "away_team": "Los Angeles Clippers",
+    "home_team": "Atlanta Hawks",
+    "away_score": 115,
+    "home_score": 92,
+    "margin": -23
+  },
+  {
+    "date": "Wed, Dec 3, 2025",
+    "away_team": "Charlotte Hornets",
+    "home_team": "New York Knicks",
+    "away_score": 104,
+    "home_score": 119,
+    "margin": 15
+  },
+  {
+    "date": "Wed, Dec 3, 2025",
+    "away_team": "Brooklyn Nets",
+    "home_team": "Chicago Bulls",
+    "away_score": 113,
+    "home_score": 103,
+    "margin": -10
+  },
+  {
+    "date": "Wed, Dec 3, 2025",
+    "away_team": "Sacramento Kings",
+    "home_team": "Houston Rockets",
+    "away_score": 95,
+    "home_score": 121,
+    "margin": 26
+  },
+  {
+    "date": "Wed, Dec 3, 2025",
+    "away_team": "Detroit Pistons",
+    "home_team": "Milwaukee Bucks",
+    "away_score": 109,
+    "home_score": 113,
+    "margin": 4
+  },
+  {
+    "date": "Wed, Dec 3, 2025",
+    "away_team": "Miami Heat",
+    "home_team": "Dallas Mavericks",
+    "away_score": 108,
+    "home_score": 118,
+    "margin": 10
+  },
+  {
+    "date": "Thu, Dec 4, 2025",
+    "away_team": "Golden State Warriors",
+    "home_team": "Philadelphia 76ers",
+    "away_score": 98,
+    "home_score": 99,
+    "margin": 1
+  },
+  {
+    "date": "Thu, Dec 4, 2025",
+    "away_team": "Boston Celtics",
+    "home_team": "Washington Wizards",
+    "away_score": 146,
+    "home_score": 101,
+    "margin": -45
+  },
+  {
+    "date": "Thu, Dec 4, 2025",
+    "away_team": "Utah Jazz",
+    "home_team": "Brooklyn Nets",
+    "away_score": 123,
+    "home_score": 110,
+    "margin": -13
+  },
+  {
+    "date": "Thu, Dec 4, 2025",
+    "away_team": "Los Angeles Lakers",
+    "home_team": "Toronto Raptors",
+    "away_score": 123,
+    "home_score": 120,
+    "margin": -3
+  },
+  {
+    "date": "Thu, Dec 4, 2025",
+    "away_team": "Minnesota Timberwolves",
+    "home_team": "New Orleans Pelicans",
+    "away_score": 125,
+    "home_score": 116,
+    "margin": -9
+  },
+  {
+    "date": "Fri, Dec 5, 2025",
+    "away_team": "Los Angeles Lakers",
+    "home_team": "Boston Celtics",
+    "away_score": 105,
+    "home_score": 126,
+    "margin": 21
+  },
+  {
+    "date": "Fri, Dec 5, 2025",
+    "away_team": "Miami Heat",
+    "home_team": "Orlando Magic",
+    "away_score": 105,
+    "home_score": 106,
+    "margin": 1
+  },
+  {
+    "date": "Fri, Dec 5, 2025",
+    "away_team": "Denver Nuggets",
+    "home_team": "Atlanta Hawks",
+    "away_score": 134,
+    "home_score": 133,
+    "margin": -1
+  },
+  {
+    "date": "Fri, Dec 5, 2025",
+    "away_team": "San Antonio Spurs",
+    "home_team": "Cleveland Cavaliers",
+    "away_score": 117,
+    "home_score": 130,
+    "margin": 13
+  },
+  {
+    "date": "Fri, Dec 5, 2025",
+    "away_team": "Portland Trail Blazers",
+    "home_team": "Detroit Pistons",
+    "away_score": 116,
+    "home_score": 122,
+    "margin": 6
+  },
+  {
+    "date": "Fri, Dec 5, 2025",
+    "away_team": "Utah Jazz",
+    "home_team": "New York Knicks",
+    "away_score": 112,
+    "home_score": 146,
+    "margin": 34
+  },
+  {
+    "date": "Fri, Dec 5, 2025",
+    "away_team": "Charlotte Hornets",
+    "home_team": "Toronto Raptors",
+    "away_score": 111,
+    "home_score": 86,
+    "margin": -25
+  },
+  {
+    "date": "Fri, Dec 5, 2025",
+    "away_team": "Indiana Pacers",
+    "home_team": "Chicago Bulls",
+    "away_score": 120,
+    "home_score": 105,
+    "margin": -15
+  },
+  {
+    "date": "Fri, Dec 5, 2025",
+    "away_team": "Phoenix Suns",
+    "home_team": "Houston Rockets",
+    "away_score": 98,
+    "home_score": 117,
+    "margin": 19
+  },
+  {
+    "date": "Fri, Dec 5, 2025",
+    "away_team": "Los Angeles Clippers",
+    "home_team": "Memphis Grizzlies",
+    "away_score": 98,
+    "home_score": 107,
+    "margin": 9
+  },
+  {
+    "date": "Fri, Dec 5, 2025",
+    "away_team": "Philadelphia 76ers",
+    "home_team": "Milwaukee Bucks",
+    "away_score": 116,
+    "home_score": 101,
+    "margin": -15
+  },
+  {
+    "date": "Fri, Dec 5, 2025",
+    "away_team": "Dallas Mavericks",
+    "home_team": "Oklahoma City Thunder",
+    "away_score": 111,
+    "home_score": 132,
+    "margin": 21
+  },
+  {
+    "date": "Sat, Dec 6, 2025",
+    "away_team": "New Orleans Pelicans",
+    "home_team": "Brooklyn Nets",
+    "away_score": 101,
+    "home_score": 119,
+    "margin": 18
+  },
+  {
+    "date": "Sat, Dec 6, 2025",
+    "away_team": "Atlanta Hawks",
+    "home_team": "Washington Wizards",
+    "away_score": 131,
+    "home_score": 116,
+    "margin": -15
+  },
+  {
+    "date": "Sat, Dec 6, 2025",
+    "away_team": "Golden State Warriors",
+    "home_team": "Cleveland Cavaliers",
+    "away_score": 99,
+    "home_score": 94,
+    "margin": -5
+  },
+  {
+    "date": "Sat, Dec 6, 2025",
+    "away_team": "Milwaukee Bucks",
+    "home_team": "Detroit Pistons",
+    "away_score": 112,
+    "home_score": 124,
+    "margin": 12
+  },
+  {
+    "date": "Sat, Dec 6, 2025",
+    "away_team": "Sacramento Kings",
+    "home_team": "Miami Heat",
+    "away_score": 127,
+    "home_score": 111,
+    "margin": -16
+  },
+  {
+    "date": "Sat, Dec 6, 2025",
+    "away_team": "Los Angeles Clippers",
+    "home_team": "Minnesota Timberwolves",
+    "away_score": 106,
+    "home_score": 109,
+    "margin": 3
+  },
+  {
+    "date": "Sat, Dec 6, 2025",
+    "away_team": "Houston Rockets",
+    "home_team": "Dallas Mavericks",
+    "away_score": 109,
+    "home_score": 122,
+    "margin": 13
+  },
+  {
+    "date": "Sun, Dec 7, 2025",
+    "away_team": "Orlando Magic",
+    "home_team": "New York Knicks",
+    "away_score": 100,
+    "home_score": 106,
+    "margin": 6
+  },
+  {
+    "date": "Sun, Dec 7, 2025",
+    "away_team": "Boston Celtics",
+    "home_team": "Toronto Raptors",
+    "away_score": 121,
+    "home_score": 113,
+    "margin": -8
+  },
+  {
+    "date": "Sun, Dec 7, 2025",
+    "away_team": "Denver Nuggets",
+    "home_team": "Charlotte Hornets",
+    "away_score": 115,
+    "home_score": 106,
+    "margin": -9
+  },
+  {
+    "date": "Sun, Dec 7, 2025",
+    "away_team": "Portland Trail Blazers",
+    "home_team": "Memphis Grizzlies",
+    "away_score": 96,
+    "home_score": 119,
+    "margin": 23
+  },
+  {
+    "date": "Sun, Dec 7, 2025",
+    "away_team": "Golden State Warriors",
+    "home_team": "Chicago Bulls",
+    "away_score": 123,
+    "home_score": 91,
+    "margin": -32
+  },
+  {
+    "date": "Sun, Dec 7, 2025",
+    "away_team": "Los Angeles Lakers",
+    "home_team": "Philadelphia 76ers",
+    "away_score": 112,
+    "home_score": 108,
+    "margin": -4
+  },
+  {
+    "date": "Sun, Dec 7, 2025",
+    "away_team": "Oklahoma City Thunder",
+    "home_team": "Utah Jazz",
+    "away_score": 131,
+    "home_score": 101,
+    "margin": -30
+  },
+  {
+    "date": "Mon, Dec 8, 2025",
+    "away_team": "Sacramento Kings",
+    "home_team": "Indiana Pacers",
+    "away_score": 105,
+    "home_score": 116,
+    "margin": 11
+  },
+  {
+    "date": "Mon, Dec 8, 2025",
+    "away_team": "Phoenix Suns",
+    "home_team": "Minnesota Timberwolves",
+    "away_score": 108,
+    "home_score": 105,
+    "margin": -3
+  },
+  {
+    "date": "Mon, Dec 8, 2025",
+    "away_team": "San Antonio Spurs",
+    "home_team": "New Orleans Pelicans",
+    "away_score": 135,
+    "home_score": 132,
+    "margin": -3
+  },
+  {
+    "date": "Tue, Dec 9, 2025",
+    "away_team": "Miami Heat",
+    "home_team": "Orlando Magic",
+    "away_score": 108,
+    "home_score": 117,
+    "margin": 9
+  },
+  {
+    "date": "Tue, Dec 9, 2025",
+    "away_team": "New York Knicks",
+    "home_team": "Toronto Raptors",
+    "away_score": 117,
+    "home_score": 101,
+    "margin": -16
+  },
+  {
+    "date": "Wed, Dec 10, 2025",
+    "away_team": "Phoenix Suns",
+    "home_team": "Oklahoma City Thunder",
+    "away_score": 89,
+    "home_score": 138,
+    "margin": 49
+  },
+  {
+    "date": "Wed, Dec 10, 2025",
+    "away_team": "San Antonio Spurs",
+    "home_team": "Los Angeles Lakers",
+    "away_score": 132,
+    "home_score": 119,
+    "margin": -13
+  },
+  {
+    "date": "Thu, Dec 11, 2025",
+    "away_team": "Los Angeles Clippers",
+    "home_team": "Houston Rockets",
+    "away_score": 113,
+    "home_score": 115,
+    "margin": 2
+  },
+  {
+    "date": "Thu, Dec 11, 2025",
+    "away_team": "Boston Celtics",
+    "home_team": "Milwaukee Bucks",
+    "away_score": 101,
+    "home_score": 116,
+    "margin": 15
+  },
+  {
+    "date": "Thu, Dec 11, 2025",
+    "away_team": "Portland Trail Blazers",
+    "home_team": "New Orleans Pelicans",
+    "away_score": 120,
+    "home_score": 143,
+    "margin": 23
+  },
+  {
+    "date": "Thu, Dec 11, 2025",
+    "away_team": "Denver Nuggets",
+    "home_team": "Sacramento Kings",
+    "away_score": 136,
+    "home_score": 105,
+    "margin": -31
+  },
+  {
+    "date": "Fri, Dec 12, 2025",
+    "away_team": "Chicago Bulls",
+    "home_team": "Charlotte Hornets",
+    "away_score": 129,
+    "home_score": 126,
+    "margin": -3
+  },
+  {
+    "date": "Fri, Dec 12, 2025",
+    "away_team": "Atlanta Hawks",
+    "home_team": "Detroit Pistons",
+    "away_score": 115,
+    "home_score": 142,
+    "margin": 27
+  },
+  {
+    "date": "Fri, Dec 12, 2025",
+    "away_team": "Indiana Pacers",
+    "home_team": "Philadelphia 76ers",
+    "away_score": 105,
+    "home_score": 115,
+    "margin": 10
+  },
+  {
+    "date": "Fri, Dec 12, 2025",
+    "away_team": "Cleveland Cavaliers",
+    "home_team": "Washington Wizards",
+    "away_score": 130,
+    "home_score": 126,
+    "margin": -4
+  },
+  {
+    "date": "Fri, Dec 12, 2025",
+    "away_team": "Utah Jazz",
+    "home_team": "Memphis Grizzlies",
+    "away_score": 130,
+    "home_score": 126,
+    "margin": -4
+  },
+  {
+    "date": "Fri, Dec 12, 2025",
+    "away_team": "Brooklyn Nets",
+    "home_team": "Dallas Mavericks",
+    "away_score": 111,
+    "home_score": 119,
+    "margin": 8
+  },
+  {
+    "date": "Fri, Dec 12, 2025",
+    "away_team": "Minnesota Timberwolves",
+    "home_team": "Golden State Warriors",
+    "away_score": 127,
+    "home_score": 120,
+    "margin": -7
+  },
+  {
+    "date": "Sat, Dec 13, 2025",
+    "away_team": "New York Knicks",
+    "home_team": "Orlando Magic",
+    "away_score": 132,
+    "home_score": 120,
+    "margin": -12
+  },
+  {
+    "date": "Sat, Dec 13, 2025",
+    "away_team": "San Antonio Spurs",
+    "home_team": "Oklahoma City Thunder",
+    "away_score": 111,
+    "home_score": 109,
+    "margin": -2
+  },
+  {
+    "date": "Sun, Dec 14, 2025",
+    "away_team": "Washington Wizards",
+    "home_team": "Indiana Pacers",
+    "away_score": 108,
+    "home_score": 89,
+    "margin": -19
+  },
+  {
+    "date": "Sun, Dec 14, 2025",
+    "away_team": "Charlotte Hornets",
+    "home_team": "Cleveland Cavaliers",
+    "away_score": 119,
+    "home_score": 111,
+    "margin": -8
+  },
+  {
+    "date": "Sun, Dec 14, 2025",
+    "away_team": "Philadelphia 76ers",
+    "home_team": "Atlanta Hawks",
+    "away_score": 117,
+    "home_score": 120,
+    "margin": 3
+  },
+  {
+    "date": "Sun, Dec 14, 2025",
+    "away_team": "Milwaukee Bucks",
+    "home_team": "Brooklyn Nets",
+    "away_score": 82,
+    "home_score": 127,
+    "margin": 45
+  },
+  {
+    "date": "Sun, Dec 14, 2025",
+    "away_team": "New Orleans Pelicans",
+    "home_team": "Chicago Bulls",
+    "away_score": 114,
+    "home_score": 104,
+    "margin": -10
+  },
+  {
+    "date": "Sun, Dec 14, 2025",
+    "away_team": "Sacramento Kings",
+    "home_team": "Minnesota Timberwolves",
+    "away_score": 103,
+    "home_score": 117,
+    "margin": 14
+  },
+  {
+    "date": "Sun, Dec 14, 2025",
+    "away_team": "Los Angeles Lakers",
+    "home_team": "Phoenix Suns",
+    "away_score": 116,
+    "home_score": 114,
+    "margin": -2
+  },
+  {
+    "date": "Sun, Dec 14, 2025",
+    "away_team": "Golden State Warriors",
+    "home_team": "Portland Trail Blazers",
+    "away_score": 131,
+    "home_score": 136,
+    "margin": 5
+  },
+  {
+    "date": "Mon, Dec 15, 2025",
+    "away_team": "Detroit Pistons",
+    "home_team": "Boston Celtics",
+    "away_score": 112,
+    "home_score": 105,
+    "margin": -7
+  },
+  {
+    "date": "Mon, Dec 15, 2025",
+    "away_team": "Toronto Raptors",
+    "home_team": "Miami Heat",
+    "away_score": 106,
+    "home_score": 96,
+    "margin": -10
+  },
+  {
+    "date": "Mon, Dec 15, 2025",
+    "away_team": "Dallas Mavericks",
+    "home_team": "Utah Jazz",
+    "away_score": 133,
+    "home_score": 140,
+    "margin": 7
+  },
+  {
+    "date": "Mon, Dec 15, 2025",
+    "away_team": "Houston Rockets",
+    "home_team": "Denver Nuggets",
+    "away_score": 125,
+    "home_score": 128,
+    "margin": 3
+  },
+  {
+    "date": "Mon, Dec 15, 2025",
+    "away_team": "Memphis Grizzlies",
+    "home_team": "Los Angeles Clippers",
+    "away_score": 121,
+    "home_score": 103,
+    "margin": -18
+  },
+  {
+    "date": "Tue, Dec 16, 2025",
+    "away_team": "San Antonio Spurs",
+    "home_team": "New York Knicks",
+    "away_score": 113,
+    "home_score": 124,
+    "margin": 11
+  },
+  {
+    "date": "Wed, Dec 17, 2025",
+    "away_team": "Cleveland Cavaliers",
+    "home_team": "Chicago Bulls",
+    "away_score": 111,
+    "home_score": 127,
+    "margin": 16
+  },
+  {
+    "date": "Wed, Dec 17, 2025",
+    "away_team": "Memphis Grizzlies",
+    "home_team": "Minnesota Timberwolves",
+    "away_score": 116,
+    "home_score": 110,
+    "margin": -6
+  },
+  {
+    "date": "Thu, Dec 18, 2025",
+    "away_team": "Atlanta Hawks",
+    "home_team": "Charlotte Hornets",
+    "away_score": 126,
+    "home_score": 133,
+    "margin": 7
+  },
+  {
+    "date": "Thu, Dec 18, 2025",
+    "away_team": "New York Knicks",
+    "home_team": "Indiana Pacers",
+    "away_score": 114,
+    "home_score": 113,
+    "margin": -1
+  },
+  {
+    "date": "Thu, Dec 18, 2025",
+    "away_team": "Miami Heat",
+    "home_team": "Brooklyn Nets",
+    "away_score": 106,
+    "home_score": 95,
+    "margin": -11
+  },
+  {
+    "date": "Thu, Dec 18, 2025",
+    "away_team": "Toronto Raptors",
+    "home_team": "Milwaukee Bucks",
+    "away_score": 111,
+    "home_score": 105,
+    "margin": -6
+  },
+  {
+    "date": "Thu, Dec 18, 2025",
+    "away_team": "Houston Rockets",
+    "home_team": "New Orleans Pelicans",
+    "away_score": 128,
+    "home_score": 133,
+    "margin": 5
+  },
+  {
+    "date": "Thu, Dec 18, 2025",
+    "away_team": "Los Angeles Clippers",
+    "home_team": "Oklahoma City Thunder",
+    "away_score": 101,
+    "home_score": 122,
+    "margin": 21
+  },
+  {
+    "date": "Thu, Dec 18, 2025",
+    "away_team": "Washington Wizards",
+    "home_team": "San Antonio Spurs",
+    "away_score": 94,
+    "home_score": 119,
+    "margin": 25
+  },
+  {
+    "date": "Thu, Dec 18, 2025",
+    "away_team": "Detroit Pistons",
+    "home_team": "Dallas Mavericks",
+    "away_score": 114,
+    "home_score": 116,
+    "margin": 2
+  },
+  {
+    "date": "Thu, Dec 18, 2025",
+    "away_team": "Orlando Magic",
+    "home_team": "Denver Nuggets",
+    "away_score": 115,
+    "home_score": 126,
+    "margin": 11
+  },
+  {
+    "date": "Thu, Dec 18, 2025",
+    "away_team": "Golden State Warriors",
+    "home_team": "Phoenix Suns",
+    "away_score": 98,
+    "home_score": 99,
+    "margin": 1
+  },
+  {
+    "date": "Thu, Dec 18, 2025",
+    "away_team": "Los Angeles Lakers",
+    "home_team": "Utah Jazz",
+    "away_score": 143,
+    "home_score": 135,
+    "margin": -8
+  },
+  {
+    "date": "Thu, Dec 18, 2025",
+    "away_team": "Sacramento Kings",
+    "home_team": "Portland Trail Blazers",
+    "away_score": 133,
+    "home_score": 134,
+    "margin": 1
+  },
+  {
+    "date": "Fri, Dec 19, 2025",
+    "away_team": "Miami Heat",
+    "home_team": "Boston Celtics",
+    "away_score": 116,
+    "home_score": 129,
+    "margin": 13
+  },
+  {
+    "date": "Fri, Dec 19, 2025",
+    "away_team": "Philadelphia 76ers",
+    "home_team": "New York Knicks",
+    "away_score": 116,
+    "home_score": 107,
+    "margin": -9
+  },
+  {
+    "date": "Fri, Dec 19, 2025",
+    "away_team": "San Antonio Spurs",
+    "home_team": "Atlanta Hawks",
+    "away_score": 126,
+    "home_score": 98,
+    "margin": -28
+  },
+  {
+    "date": "Fri, Dec 19, 2025",
+    "away_team": "Chicago Bulls",
+    "home_team": "Cleveland Cavaliers",
+    "away_score": 136,
+    "home_score": 125,
+    "margin": -11
+  },
+  {
+    "date": "Fri, Dec 19, 2025",
+    "away_team": "Oklahoma City Thunder",
+    "home_team": "Minnesota Timberwolves",
+    "away_score": 107,
+    "home_score": 112,
+    "margin": 5
+  },
+  {
+    "date": "Sat, Dec 20, 2025",
+    "away_team": "Houston Rockets",
+    "home_team": "Denver Nuggets",
+    "away_score": 115,
+    "home_score": 101,
+    "margin": -14
+  },
+  {
+    "date": "Sat, Dec 20, 2025",
+    "away_team": "Indiana Pacers",
+    "home_team": "New Orleans Pelicans",
+    "away_score": 109,
+    "home_score": 128,
+    "margin": 19
+  },
+  {
+    "date": "Sat, Dec 20, 2025",
+    "away_team": "Dallas Mavericks",
+    "home_team": "Philadelphia 76ers",
+    "away_score": 114,
+    "home_score": 121,
+    "margin": 7
+  },
+  {
+    "date": "Sat, Dec 20, 2025",
+    "away_team": "Boston Celtics",
+    "home_team": "Toronto Raptors",
+    "away_score": 112,
+    "home_score": 96,
+    "margin": -16
+  },
+  {
+    "date": "Sat, Dec 20, 2025",
+    "away_team": "Charlotte Hornets",
+    "home_team": "Detroit Pistons",
+    "away_score": 86,
+    "home_score": 112,
+    "margin": 26
+  },
+  {
+    "date": "Sat, Dec 20, 2025",
+    "away_team": "Washington Wizards",
+    "home_team": "Memphis Grizzlies",
+    "away_score": 130,
+    "home_score": 122,
+    "margin": -8
+  },
+  {
+    "date": "Sat, Dec 20, 2025",
+    "away_team": "Phoenix Suns",
+    "home_team": "Golden State Warriors",
+    "away_score": 116,
+    "home_score": 119,
+    "margin": 3
+  },
+  {
+    "date": "Sat, Dec 20, 2025",
+    "away_team": "Orlando Magic",
+    "home_team": "Utah Jazz",
+    "away_score": 128,
+    "home_score": 127,
+    "margin": -1
+  },
+  {
+    "date": "Sat, Dec 20, 2025",
+    "away_team": "Portland Trail Blazers",
+    "home_team": "Sacramento Kings",
+    "away_score": 98,
+    "home_score": 93,
+    "margin": -5
+  },
+  {
+    "date": "Sat, Dec 20, 2025",
+    "away_team": "Los Angeles Lakers",
+    "home_team": "Los Angeles Clippers",
+    "away_score": 88,
+    "home_score": 103,
+    "margin": 15
+  },
+  {
+    "date": "Sun, Dec 21, 2025",
+    "away_team": "Chicago Bulls",
+    "home_team": "Atlanta Hawks",
+    "away_score": 152,
+    "home_score": 150,
+    "margin": -2
+  },
+  {
+    "date": "Sun, Dec 21, 2025",
+    "away_team": "Toronto Raptors",
+    "home_team": "Brooklyn Nets",
+    "away_score": 81,
+    "home_score": 96,
+    "margin": 15
+  },
+  {
+    "date": "Sun, Dec 21, 2025",
+    "away_team": "Miami Heat",
+    "home_team": "New York Knicks",
+    "away_score": 125,
+    "home_score": 132,
+    "margin": 7
+  },
+  {
+    "date": "Sun, Dec 21, 2025",
+    "away_team": "Milwaukee Bucks",
+    "home_team": "Minnesota Timberwolves",
+    "away_score": 100,
+    "home_score": 103,
+    "margin": 3
+  },
+  {
+    "date": "Sun, Dec 21, 2025",
+    "away_team": "San Antonio Spurs",
+    "home_team": "Washington Wizards",
+    "away_score": 124,
+    "home_score": 113,
+    "margin": -11
+  },
+  {
+    "date": "Sun, Dec 21, 2025",
+    "away_team": "Houston Rockets",
+    "home_team": "Sacramento Kings",
+    "away_score": 124,
+    "home_score": 125,
+    "margin": 1
+  },
+  {
+    "date": "Mon, Dec 22, 2025",
+    "away_team": "Charlotte Hornets",
+    "home_team": "Cleveland Cavaliers",
+    "away_score": 132,
+    "home_score": 139,
+    "margin": 7
+  },
+  {
+    "date": "Mon, Dec 22, 2025",
+    "away_team": "Indiana Pacers",
+    "home_team": "Boston Celtics",
+    "away_score": 95,
+    "home_score": 103,
+    "margin": 8
+  },
+  {
+    "date": "Mon, Dec 22, 2025",
+    "away_team": "Dallas Mavericks",
+    "home_team": "New Orleans Pelicans",
+    "away_score": 113,
+    "home_score": 119,
+    "margin": 6
+  },
+  {
+    "date": "Mon, Dec 22, 2025",
+    "away_team": "Utah Jazz",
+    "home_team": "Denver Nuggets",
+    "away_score": 112,
+    "home_score": 135,
+    "margin": 23
+  },
+  {
+    "date": "Mon, Dec 22, 2025",
+    "away_team": "Memphis Grizzlies",
+    "home_team": "Oklahoma City Thunder",
+    "away_score": 103,
+    "home_score": 119,
+    "margin": 16
+  },
+  {
+    "date": "Mon, Dec 22, 2025",
+    "away_team": "Orlando Magic",
+    "home_team": "Golden State Warriors",
+    "away_score": 97,
+    "home_score": 120,
+    "margin": 23
+  },
+  {
+    "date": "Mon, Dec 22, 2025",
+    "away_team": "Detroit Pistons",
+    "home_team": "Portland Trail Blazers",
+    "away_score": 110,
+    "home_score": 102,
+    "margin": -8
+  },
+  {
+    "date": "Tue, Dec 23, 2025",
+    "away_team": "Washington Wizards",
+    "home_team": "Charlotte Hornets",
+    "away_score": 109,
+    "home_score": 126,
+    "margin": 17
+  },
+  {
+    "date": "Tue, Dec 23, 2025",
+    "away_team": "Brooklyn Nets",
+    "home_team": "Philadelphia 76ers",
+    "away_score": 114,
+    "home_score": 106,
+    "margin": -8
+  },
+  {
+    "date": "Tue, Dec 23, 2025",
+    "away_team": "Chicago Bulls",
+    "home_team": "Atlanta Hawks",
+    "away_score": 126,
+    "home_score": 123,
+    "margin": -3
+  },
+  {
+    "date": "Tue, Dec 23, 2025",
+    "away_team": "New Orleans Pelicans",
+    "home_team": "Cleveland Cavaliers",
+    "away_score": 118,
+    "home_score": 141,
+    "margin": 23
+  },
+  {
+    "date": "Tue, Dec 23, 2025",
+    "away_team": "Milwaukee Bucks",
+    "home_team": "Indiana Pacers",
+    "away_score": 111,
+    "home_score": 94,
+    "margin": -17
+  },
+  {
+    "date": "Tue, Dec 23, 2025",
+    "away_team": "Toronto Raptors",
+    "home_team": "Miami Heat",
+    "away_score": 112,
+    "home_score": 91,
+    "margin": -21
+  },
+  {
+    "date": "Tue, Dec 23, 2025",
+    "away_team": "Denver Nuggets",
+    "home_team": "Dallas Mavericks",
+    "away_score": 130,
+    "home_score": 131,
+    "margin": 1
+  },
+  {
+    "date": "Tue, Dec 23, 2025",
+    "away_team": "New York Knicks",
+    "home_team": "Minnesota Timberwolves",
+    "away_score": 104,
+    "home_score": 115,
+    "margin": 11
+  },
+  {
+    "date": "Tue, Dec 23, 2025",
+    "away_team": "Oklahoma City Thunder",
+    "home_team": "San Antonio Spurs",
+    "away_score": 110,
+    "home_score": 130,
+    "margin": 20
+  },
+  {
+    "date": "Tue, Dec 23, 2025",
+    "away_team": "Los Angeles Lakers",
+    "home_team": "Phoenix Suns",
+    "away_score": 108,
+    "home_score": 132,
+    "margin": 24
+  },
+  {
+    "date": "Tue, Dec 23, 2025",
+    "away_team": "Memphis Grizzlies",
+    "home_team": "Utah Jazz",
+    "away_score": 137,
+    "home_score": 128,
+    "margin": -9
+  },
+  {
+    "date": "Tue, Dec 23, 2025",
+    "away_team": "Orlando Magic",
+    "home_team": "Portland Trail Blazers",
+    "away_score": 110,
+    "home_score": 106,
+    "margin": -4
+  },
+  {
+    "date": "Tue, Dec 23, 2025",
+    "away_team": "Detroit Pistons",
+    "home_team": "Sacramento Kings",
+    "away_score": 136,
+    "home_score": 127,
+    "margin": -9
+  },
+  {
+    "date": "Tue, Dec 23, 2025",
+    "away_team": "Houston Rockets",
+    "home_team": "Los Angeles Clippers",
+    "away_score": 108,
+    "home_score": 128,
+    "margin": 20
+  },
+  {
+    "date": "Thu, Dec 25, 2025",
+    "away_team": "Cleveland Cavaliers",
+    "home_team": "New York Knicks",
+    "away_score": 124,
+    "home_score": 126,
+    "margin": 2
+  },
+  {
+    "date": "Thu, Dec 25, 2025",
+    "away_team": "San Antonio Spurs",
+    "home_team": "Oklahoma City Thunder",
+    "away_score": 117,
+    "home_score": 102,
+    "margin": -15
+  },
+  {
+    "date": "Thu, Dec 25, 2025",
+    "away_team": "Dallas Mavericks",
+    "home_team": "Golden State Warriors",
+    "away_score": 116,
+    "home_score": 126,
+    "margin": 10
+  },
+  {
+    "date": "Thu, Dec 25, 2025",
+    "away_team": "Houston Rockets",
+    "home_team": "Los Angeles Lakers",
+    "away_score": 119,
+    "home_score": 96,
+    "margin": -23
+  },
+  {
+    "date": "Thu, Dec 25, 2025",
+    "away_team": "Minnesota Timberwolves",
+    "home_team": "Denver Nuggets",
+    "away_score": 138,
+    "home_score": 142,
+    "margin": 4
+  },
+  {
+    "date": "Fri, Dec 26, 2025",
+    "away_team": "Miami Heat",
+    "home_team": "Atlanta Hawks",
+    "away_score": 126,
+    "home_score": 111,
+    "margin": -15
+  },
+  {
+    "date": "Fri, Dec 26, 2025",
+    "away_team": "Boston Celtics",
+    "home_team": "Indiana Pacers",
+    "away_score": 140,
+    "home_score": 122,
+    "margin": -18
+  },
+  {
+    "date": "Fri, Dec 26, 2025",
+    "away_team": "Charlotte Hornets",
+    "home_team": "Orlando Magic",
+    "away_score": 120,
+    "home_score": 105,
+    "margin": -15
+  },
+  {
+    "date": "Fri, Dec 26, 2025",
+    "away_team": "Toronto Raptors",
+    "home_team": "Washington Wizards",
+    "away_score": 117,
+    "home_score": 138,
+    "margin": 21
+  },
+  {
+    "date": "Fri, Dec 26, 2025",
+    "away_team": "Philadelphia 76ers",
+    "home_team": "Chicago Bulls",
+    "away_score": 102,
+    "home_score": 109,
+    "margin": 7
+  },
+  {
+    "date": "Fri, Dec 26, 2025",
+    "away_team": "Milwaukee Bucks",
+    "home_team": "Memphis Grizzlies",
+    "away_score": 104,
+    "home_score": 125,
+    "margin": 21
+  },
+  {
+    "date": "Fri, Dec 26, 2025",
+    "away_team": "Phoenix Suns",
+    "home_team": "New Orleans Pelicans",
+    "away_score": 115,
+    "home_score": 108,
+    "margin": -7
+  },
+  {
+    "date": "Fri, Dec 26, 2025",
+    "away_team": "Detroit Pistons",
+    "home_team": "Utah Jazz",
+    "away_score": 129,
+    "home_score": 131,
+    "margin": 2
+  },
+  {
+    "date": "Fri, Dec 26, 2025",
+    "away_team": "Los Angeles Clippers",
+    "home_team": "Portland Trail Blazers",
+    "away_score": 119,
+    "home_score": 103,
+    "margin": -16
+  },
+  {
+    "date": "Sat, Dec 27, 2025",
+    "away_team": "Dallas Mavericks",
+    "home_team": "Sacramento Kings",
+    "away_score": 107,
+    "home_score": 113,
+    "margin": 6
+  },
+  {
+    "date": "Sat, Dec 27, 2025",
+    "away_team": "Phoenix Suns",
+    "home_team": "New Orleans Pelicans",
+    "away_score": 123,
+    "home_score": 114,
+    "margin": -9
+  },
+  {
+    "date": "Sat, Dec 27, 2025",
+    "away_team": "Denver Nuggets",
+    "home_team": "Orlando Magic",
+    "away_score": 126,
+    "home_score": 127,
+    "margin": 1
+  },
+  {
+    "date": "Sat, Dec 27, 2025",
+    "away_team": "New York Knicks",
+    "home_team": "Atlanta Hawks",
+    "away_score": 128,
+    "home_score": 125,
+    "margin": -3
+  },
+  {
+    "date": "Sat, Dec 27, 2025",
+    "away_team": "Milwaukee Bucks",
+    "home_team": "Chicago Bulls",
+    "away_score": 112,
+    "home_score": 103,
+    "margin": -9
+  },
+  {
+    "date": "Sat, Dec 27, 2025",
+    "away_team": "Cleveland Cavaliers",
+    "home_team": "Houston Rockets",
+    "away_score": 100,
+    "home_score": 117,
+    "margin": 17
+  },
+  {
+    "date": "Sat, Dec 27, 2025",
+    "away_team": "Indiana Pacers",
+    "home_team": "Miami Heat",
+    "away_score": 116,
+    "home_score": 142,
+    "margin": 26
+  },
+  {
+    "date": "Sat, Dec 27, 2025",
+    "away_team": "Brooklyn Nets",
+    "home_team": "Minnesota Timberwolves",
+    "away_score": 123,
+    "home_score": 107,
+    "margin": -16
+  },
+  {
+    "date": "Sat, Dec 27, 2025",
+    "away_team": "Utah Jazz",
+    "home_team": "San Antonio Spurs",
+    "away_score": 127,
+    "home_score": 114,
+    "margin": -13
+  },
+  {
+    "date": "Sun, Dec 28, 2025",
+    "away_team": "Philadelphia 76ers",
+    "home_team": "Oklahoma City Thunder",
+    "away_score": 104,
+    "home_score": 129,
+    "margin": 25
+  },
+  {
+    "date": "Sun, Dec 28, 2025",
+    "away_team": "Golden State Warriors",
+    "home_team": "Toronto Raptors",
+    "away_score": 127,
+    "home_score": 141,
+    "margin": 14
+  },
+  {
+    "date": "Sun, Dec 28, 2025",
+    "away_team": "Boston Celtics",
+    "home_team": "Portland Trail Blazers",
+    "away_score": 108,
+    "home_score": 114,
+    "margin": 6
+  },
+  {
+    "date": "Sun, Dec 28, 2025",
+    "away_team": "Memphis Grizzlies",
+    "home_team": "Washington Wizards",
+    "away_score": 112,
+    "home_score": 116,
+    "margin": 4
+  },
+  {
+    "date": "Sun, Dec 28, 2025",
+    "away_team": "Detroit Pistons",
+    "home_team": "Los Angeles Clippers",
+    "away_score": 99,
+    "home_score": 112,
+    "margin": 13
+  },
+  {
+    "date": "Sun, Dec 28, 2025",
+    "away_team": "Sacramento Kings",
+    "home_team": "Los Angeles Lakers",
+    "away_score": 101,
+    "home_score": 125,
+    "margin": 24
+  },
+  {
+    "date": "Mon, Dec 29, 2025",
+    "away_team": "Milwaukee Bucks",
+    "home_team": "Charlotte Hornets",
+    "away_score": 123,
+    "home_score": 113,
+    "margin": -10
+  },
+  {
+    "date": "Mon, Dec 29, 2025",
+    "away_team": "Phoenix Suns",
+    "home_team": "Washington Wizards",
+    "away_score": 115,
+    "home_score": 101,
+    "margin": -14
+  },
+  {
+    "date": "Mon, Dec 29, 2025",
+    "away_team": "Golden State Warriors",
+    "home_team": "Brooklyn Nets",
+    "away_score": 120,
+    "home_score": 107,
+    "margin": -13
+  },
+  {
+    "date": "Mon, Dec 29, 2025",
+    "away_team": "Denver Nuggets",
+    "home_team": "Miami Heat",
+    "away_score": 123,
+    "home_score": 147,
+    "margin": 24
+  },
+  {
+    "date": "Mon, Dec 29, 2025",
+    "away_team": "Orlando Magic",
+    "home_team": "Toronto Raptors",
+    "away_score": 106,
+    "home_score": 107,
+    "margin": 1
+  },
+  {
+    "date": "Mon, Dec 29, 2025",
+    "away_team": "Minnesota Timberwolves",
+    "home_team": "Chicago Bulls",
+    "away_score": 136,
+    "home_score": 101,
+    "margin": -35
+  },
+  {
+    "date": "Mon, Dec 29, 2025",
+    "away_team": "Indiana Pacers",
+    "home_team": "Houston Rockets",
+    "away_score": 119,
+    "home_score": 126,
+    "margin": 7
+  },
+  {
+    "date": "Mon, Dec 29, 2025",
+    "away_team": "New York Knicks",
+    "home_team": "New Orleans Pelicans",
+    "away_score": 130,
+    "home_score": 125,
+    "margin": -5
+  },
+  {
+    "date": "Mon, Dec 29, 2025",
+    "away_team": "Atlanta Hawks",
+    "home_team": "Oklahoma City Thunder",
+    "away_score": 129,
+    "home_score": 140,
+    "margin": 11
+  },
+  {
+    "date": "Mon, Dec 29, 2025",
+    "away_team": "Cleveland Cavaliers",
+    "home_team": "San Antonio Spurs",
+    "away_score": 113,
+    "home_score": 101,
+    "margin": -12
+  },
+  {
+    "date": "Mon, Dec 29, 2025",
+    "away_team": "Dallas Mavericks",
+    "home_team": "Portland Trail Blazers",
+    "away_score": 122,
+    "home_score": 125,
+    "margin": 3
+  },
+  {
+    "date": "Tue, Dec 30, 2025",
+    "away_team": "Philadelphia 76ers",
+    "home_team": "Memphis Grizzlies",
+    "away_score": 139,
+    "home_score": 136,
+    "margin": -3
+  },
+  {
+    "date": "Tue, Dec 30, 2025",
+    "away_team": "Boston Celtics",
+    "home_team": "Utah Jazz",
+    "away_score": 129,
+    "home_score": 119,
+    "margin": -10
+  },
+  {
+    "date": "Tue, Dec 30, 2025",
+    "away_team": "Detroit Pistons",
+    "home_team": "Los Angeles Lakers",
+    "away_score": 128,
+    "home_score": 106,
+    "margin": -22
+  },
+  {
+    "date": "Tue, Dec 30, 2025",
+    "away_team": "Sacramento Kings",
+    "home_team": "Los Angeles Clippers",
+    "away_score": 90,
+    "home_score": 131,
+    "margin": 41
+  },
+  {
+    "date": "Wed, Dec 31, 2025",
+    "away_team": "Golden State Warriors",
+    "home_team": "Charlotte Hornets",
+    "away_score": 132,
+    "home_score": 125,
+    "margin": -7
+  },
+  {
+    "date": "Wed, Dec 31, 2025",
+    "away_team": "Minnesota Timberwolves",
+    "home_team": "Atlanta Hawks",
+    "away_score": 102,
+    "home_score": 126,
+    "margin": 24
+  },
+  {
+    "date": "Wed, Dec 31, 2025",
+    "away_team": "Orlando Magic",
+    "home_team": "Indiana Pacers",
+    "away_score": 112,
+    "home_score": 110,
+    "margin": -2
+  },
+  {
+    "date": "Wed, Dec 31, 2025",
+    "away_team": "Phoenix Suns",
+    "home_team": "Cleveland Cavaliers",
+    "away_score": 113,
+    "home_score": 129,
+    "margin": 16
+  },
+  {
+    "date": "Wed, Dec 31, 2025",
+    "away_team": "New Orleans Pelicans",
+    "home_team": "Chicago Bulls",
+    "away_score": 118,
+    "home_score": 134,
+    "margin": 16
+  },
+  {
+    "date": "Wed, Dec 31, 2025",
+    "away_team": "New York Knicks",
+    "home_team": "San Antonio Spurs",
+    "away_score": 132,
+    "home_score": 134,
+    "margin": 2
+  },
+  {
+    "date": "Wed, Dec 31, 2025",
+    "away_team": "Denver Nuggets",
+    "home_team": "Toronto Raptors",
+    "away_score": 106,
+    "home_score": 103,
+    "margin": -3
+  },
+  {
+    "date": "Wed, Dec 31, 2025",
+    "away_team": "Washington Wizards",
+    "home_team": "Milwaukee Bucks",
+    "away_score": 114,
+    "home_score": 113,
+    "margin": -1
+  },
+  {
+    "date": "Wed, Dec 31, 2025",
+    "away_team": "Portland Trail Blazers",
+    "home_team": "Oklahoma City Thunder",
+    "away_score": 95,
+    "home_score": 124,
+    "margin": 29
+  },
+  {
+    "date": "Thu, Jan 1, 2026",
+    "away_team": "Houston Rockets",
+    "home_team": "Brooklyn Nets",
+    "away_score": 120,
+    "home_score": 96,
+    "margin": -24
+  },
+  {
+    "date": "Thu, Jan 1, 2026",
+    "away_team": "Miami Heat",
+    "home_team": "Detroit Pistons",
+    "away_score": 118,
+    "home_score": 112,
+    "margin": -6
+  },
+  {
+    "date": "Thu, Jan 1, 2026",
+    "away_team": "Philadelphia 76ers",
+    "home_team": "Dallas Mavericks",
+    "away_score": 123,
+    "home_score": 108,
+    "margin": -15
+  },
+  {
+    "date": "Thu, Jan 1, 2026",
+    "away_team": "Boston Celtics",
+    "home_team": "Sacramento Kings",
+    "away_score": 120,
+    "home_score": 106,
+    "margin": -14
+  },
+  {
+    "date": "Thu, Jan 1, 2026",
+    "away_team": "Utah Jazz",
+    "home_team": "Los Angeles Clippers",
+    "away_score": 101,
+    "home_score": 118,
+    "margin": 17
+  },
+  {
+    "date": "Fri, Jan 2, 2026",
+    "away_team": "San Antonio Spurs",
+    "home_team": "Indiana Pacers",
+    "away_score": 123,
+    "home_score": 113,
+    "margin": -10
+  },
+  {
+    "date": "Fri, Jan 2, 2026",
+    "away_team": "Brooklyn Nets",
+    "home_team": "Washington Wizards",
+    "away_score": 99,
+    "home_score": 119,
+    "margin": 20
+  },
+  {
+    "date": "Fri, Jan 2, 2026",
+    "away_team": "Denver Nuggets",
+    "home_team": "Cleveland Cavaliers",
+    "away_score": 108,
+    "home_score": 113,
+    "margin": 5
+  },
+  {
+    "date": "Fri, Jan 2, 2026",
+    "away_team": "Atlanta Hawks",
+    "home_team": "New York Knicks",
+    "away_score": 111,
+    "home_score": 99,
+    "margin": -12
+  },
+  {
+    "date": "Fri, Jan 2, 2026",
+    "away_team": "Orlando Magic",
+    "home_team": "Chicago Bulls",
+    "away_score": 114,
+    "home_score": 121,
+    "margin": 7
+  },
+  {
+    "date": "Fri, Jan 2, 2026",
+    "away_team": "Charlotte Hornets",
+    "home_team": "Milwaukee Bucks",
+    "away_score": 121,
+    "home_score": 122,
+    "margin": 1
+  },
+  {
+    "date": "Fri, Jan 2, 2026",
+    "away_team": "Portland Trail Blazers",
+    "home_team": "New Orleans Pelicans",
+    "away_score": 122,
+    "home_score": 109,
+    "margin": -13
+  },
+  {
+    "date": "Fri, Jan 2, 2026",
+    "away_team": "Sacramento Kings",
+    "home_team": "Phoenix Suns",
+    "away_score": 102,
+    "home_score": 129,
+    "margin": 27
+  },
+  {
+    "date": "Fri, Jan 2, 2026",
+    "away_team": "Oklahoma City Thunder",
+    "home_team": "Golden State Warriors",
+    "away_score": 131,
+    "home_score": 94,
+    "margin": -37
+  },
+  {
+    "date": "Fri, Jan 2, 2026",
+    "away_team": "Memphis Grizzlies",
+    "home_team": "Los Angeles Lakers",
+    "away_score": 121,
+    "home_score": 128,
+    "margin": 7
+  },
+  {
+    "date": "Sat, Jan 3, 2026",
+    "away_team": "Minnesota Timberwolves",
+    "home_team": "Miami Heat",
+    "away_score": 125,
+    "home_score": 115,
+    "margin": -10
+  },
+  {
+    "date": "Sat, Jan 3, 2026",
+    "away_team": "Philadelphia 76ers",
+    "home_team": "New York Knicks",
+    "away_score": 130,
+    "home_score": 119,
+    "margin": -11
+  },
+  {
+    "date": "Sat, Jan 3, 2026",
+    "away_team": "Atlanta Hawks",
+    "home_team": "Toronto Raptors",
+    "away_score": 117,
+    "home_score": 134,
+    "margin": 17
+  },
+  {
+    "date": "Sat, Jan 3, 2026",
+    "away_team": "Charlotte Hornets",
+    "home_team": "Chicago Bulls",
+    "away_score": 112,
+    "home_score": 99,
+    "margin": -13
+  },
+  {
+    "date": "Sat, Jan 3, 2026",
+    "away_team": "Portland Trail Blazers",
+    "home_team": "San Antonio Spurs",
+    "away_score": 115,
+    "home_score": 110,
+    "margin": -5
+  },
+  {
+    "date": "Sat, Jan 3, 2026",
+    "away_team": "Houston Rockets",
+    "home_team": "Dallas Mavericks",
+    "away_score": 104,
+    "home_score": 110,
+    "margin": 6
+  },
+  {
+    "date": "Sat, Jan 3, 2026",
+    "away_team": "Utah Jazz",
+    "home_team": "Golden State Warriors",
+    "away_score": 114,
+    "home_score": 123,
+    "margin": 9
+  },
+  {
+    "date": "Sat, Jan 3, 2026",
+    "away_team": "Boston Celtics",
+    "home_team": "Los Angeles Clippers",
+    "away_score": 146,
+    "home_score": 115,
+    "margin": -31
+  },
+  {
+    "date": "Sun, Jan 4, 2026",
+    "away_team": "Detroit Pistons",
+    "home_team": "Cleveland Cavaliers",
+    "away_score": 114,
+    "home_score": 110,
+    "margin": -4
+  },
+  {
+    "date": "Sun, Jan 4, 2026",
+    "away_team": "Indiana Pacers",
+    "home_team": "Orlando Magic",
+    "away_score": 127,
+    "home_score": 135,
+    "margin": 8
+  },
+  {
+    "date": "Sun, Jan 4, 2026",
+    "away_team": "Denver Nuggets",
+    "home_team": "Brooklyn Nets",
+    "away_score": 115,
+    "home_score": 127,
+    "margin": 12
+  },
+  {
+    "date": "Sun, Jan 4, 2026",
+    "away_team": "New Orleans Pelicans",
+    "home_team": "Miami Heat",
+    "away_score": 106,
+    "home_score": 125,
+    "margin": 19
+  },
+  {
+    "date": "Sun, Jan 4, 2026",
+    "away_team": "Minnesota Timberwolves",
+    "home_team": "Washington Wizards",
+    "away_score": 141,
+    "home_score": 115,
+    "margin": -26
+  },
+  {
+    "date": "Sun, Jan 4, 2026",
+    "away_team": "Oklahoma City Thunder",
+    "home_team": "Phoenix Suns",
+    "away_score": 105,
+    "home_score": 108,
+    "margin": 3
+  },
+  {
+    "date": "Sun, Jan 4, 2026",
+    "away_team": "Milwaukee Bucks",
+    "home_team": "Sacramento Kings",
+    "away_score": 115,
+    "home_score": 98,
+    "margin": -17
+  },
+  {
+    "date": "Sun, Jan 4, 2026",
+    "away_team": "Memphis Grizzlies",
+    "home_team": "Los Angeles Lakers",
+    "away_score": 114,
+    "home_score": 120,
+    "margin": 6
+  },
+  {
+    "date": "Mon, Jan 5, 2026",
+    "away_team": "New York Knicks",
+    "home_team": "Detroit Pistons",
+    "away_score": 90,
+    "home_score": 121,
+    "margin": 31
+  },
+  {
+    "date": "Mon, Jan 5, 2026",
+    "away_team": "Chicago Bulls",
+    "home_team": "Boston Celtics",
+    "away_score": 101,
+    "home_score": 115,
+    "margin": 14
+  },
+  {
+    "date": "Mon, Jan 5, 2026",
+    "away_team": "Atlanta Hawks",
+    "home_team": "Toronto Raptors",
+    "away_score": 100,
+    "home_score": 118,
+    "margin": 18
+  },
+  {
+    "date": "Mon, Jan 5, 2026",
+    "away_team": "Phoenix Suns",
+    "home_team": "Houston Rockets",
+    "away_score": 97,
+    "home_score": 100,
+    "margin": 3
+  },
+  {
+    "date": "Mon, Jan 5, 2026",
+    "away_team": "Charlotte Hornets",
+    "home_team": "Oklahoma City Thunder",
+    "away_score": 124,
+    "home_score": 97,
+    "margin": -27
+  },
+  {
+    "date": "Mon, Jan 5, 2026",
+    "away_team": "Denver Nuggets",
+    "home_team": "Philadelphia 76ers",
+    "away_score": 125,
+    "home_score": 124,
+    "margin": -1
+  },
+  {
+    "date": "Mon, Jan 5, 2026",
+    "away_team": "Golden State Warriors",
+    "home_team": "Los Angeles Clippers",
+    "away_score": 102,
+    "home_score": 103,
+    "margin": 1
+  },
+  {
+    "date": "Mon, Jan 5, 2026",
+    "away_team": "Utah Jazz",
+    "home_team": "Portland Trail Blazers",
+    "away_score": 117,
+    "home_score": 137,
+    "margin": 20
+  },
+  {
+    "date": "Tue, Jan 6, 2026",
+    "away_team": "Cleveland Cavaliers",
+    "home_team": "Indiana Pacers",
+    "away_score": 120,
+    "home_score": 116,
+    "margin": -4
+  },
+  {
+    "date": "Tue, Jan 6, 2026",
+    "away_team": "Orlando Magic",
+    "home_team": "Washington Wizards",
+    "away_score": 112,
+    "home_score": 120,
+    "margin": 8
+  },
+  {
+    "date": "Tue, Jan 6, 2026",
+    "away_team": "San Antonio Spurs",
+    "home_team": "Memphis Grizzlies",
+    "away_score": 105,
+    "home_score": 106,
+    "margin": 1
+  },
+  {
+    "date": "Tue, Jan 6, 2026",
+    "away_team": "Miami Heat",
+    "home_team": "Minnesota Timberwolves",
+    "away_score": 94,
+    "home_score": 122,
+    "margin": 28
+  },
+  {
+    "date": "Tue, Jan 6, 2026",
+    "away_team": "Los Angeles Lakers",
+    "home_team": "New Orleans Pelicans",
+    "away_score": 111,
+    "home_score": 103,
+    "margin": -8
+  },
+  {
+    "date": "Tue, Jan 6, 2026",
+    "away_team": "Dallas Mavericks",
+    "home_team": "Sacramento Kings",
+    "away_score": 100,
+    "home_score": 98,
+    "margin": -2
+  },
+  {
+    "date": "Wed, Jan 7, 2026",
+    "away_team": "Denver Nuggets",
+    "home_team": "Boston Celtics",
+    "away_score": 114,
+    "home_score": 110,
+    "margin": -4
+  },
+  {
+    "date": "Wed, Jan 7, 2026",
+    "away_team": "Toronto Raptors",
+    "home_team": "Charlotte Hornets",
+    "away_score": 97,
+    "home_score": 96,
+    "margin": -1
+  },
+  {
+    "date": "Wed, Jan 7, 2026",
+    "away_team": "Chicago Bulls",
+    "home_team": "Detroit Pistons",
+    "away_score": 93,
+    "home_score": 108,
+    "margin": 15
+  },
+  {
+    "date": "Wed, Jan 7, 2026",
+    "away_team": "Washington Wizards",
+    "home_team": "Philadelphia 76ers",
+    "away_score": 110,
+    "home_score": 131,
+    "margin": 21
+  },
+  {
+    "date": "Wed, Jan 7, 2026",
+    "away_team": "New Orleans Pelicans",
+    "home_team": "Atlanta Hawks",
+    "away_score": 100,
+    "home_score": 117,
+    "margin": 17
+  },
+  {
+    "date": "Wed, Jan 7, 2026",
+    "away_team": "Orlando Magic",
+    "home_team": "Brooklyn Nets",
+    "away_score": 104,
+    "home_score": 103,
+    "margin": -1
+  },
+  {
+    "date": "Wed, Jan 7, 2026",
+    "away_team": "Los Angeles Clippers",
+    "home_team": "New York Knicks",
+    "away_score": 111,
+    "home_score": 123,
+    "margin": 12
+  },
+  {
+    "date": "Wed, Jan 7, 2026",
+    "away_team": "Phoenix Suns",
+    "home_team": "Memphis Grizzlies",
+    "away_score": 117,
+    "home_score": 98,
+    "margin": -19
+  },
+  {
+    "date": "Wed, Jan 7, 2026",
+    "away_team": "Utah Jazz",
+    "home_team": "Oklahoma City Thunder",
+    "away_score": 125,
+    "home_score": 129,
+    "margin": 4
+  },
+  {
+    "date": "Wed, Jan 7, 2026",
+    "away_team": "Los Angeles Lakers",
+    "home_team": "San Antonio Spurs",
+    "away_score": 91,
+    "home_score": 107,
+    "margin": 16
+  },
+  {
+    "date": "Wed, Jan 7, 2026",
+    "away_team": "Milwaukee Bucks",
+    "home_team": "Golden State Warriors",
+    "away_score": 113,
+    "home_score": 120,
+    "margin": 7
+  },
+  {
+    "date": "Wed, Jan 7, 2026",
+    "away_team": "Houston Rockets",
+    "home_team": "Portland Trail Blazers",
+    "away_score": 102,
+    "home_score": 103,
+    "margin": 1
+  },
+  {
+    "date": "Thu, Jan 8, 2026",
+    "away_team": "Indiana Pacers",
+    "home_team": "Charlotte Hornets",
+    "away_score": 114,
+    "home_score": 112,
+    "margin": -2
+  },
+  {
+    "date": "Thu, Jan 8, 2026",
+    "away_team": "Cleveland Cavaliers",
+    "home_team": "Minnesota Timberwolves",
+    "away_score": 122,
+    "home_score": 131,
+    "margin": 9
+  },
+  {
+    "date": "Thu, Jan 8, 2026",
+    "away_team": "Dallas Mavericks",
+    "home_team": "Utah Jazz",
+    "away_score": 114,
+    "home_score": 116,
+    "margin": 2
+  },
+  {
+    "date": "Fri, Jan 9, 2026",
+    "away_team": "Toronto Raptors",
+    "home_team": "Boston Celtics",
+    "away_score": 117,
+    "home_score": 125,
+    "margin": 8
+  },
+  {
+    "date": "Fri, Jan 9, 2026",
+    "away_team": "Philadelphia 76ers",
+    "home_team": "Orlando Magic",
+    "away_score": 103,
+    "home_score": 91,
+    "margin": -12
+  },
+  {
+    "date": "Fri, Jan 9, 2026",
+    "away_team": "New Orleans Pelicans",
+    "home_team": "Washington Wizards",
+    "away_score": 128,
+    "home_score": 107,
+    "margin": -21
+  },
+  {
+    "date": "Fri, Jan 9, 2026",
+    "away_team": "Los Angeles Clippers",
+    "home_team": "Brooklyn Nets",
+    "away_score": 121,
+    "home_score": 105,
+    "margin": -16
+  },
+  {
+    "date": "Fri, Jan 9, 2026",
+    "away_team": "Oklahoma City Thunder",
+    "home_team": "Memphis Grizzlies",
+    "away_score": 117,
+    "home_score": 116,
+    "margin": -1
+  },
+  {
+    "date": "Fri, Jan 9, 2026",
+    "away_team": "Atlanta Hawks",
+    "home_team": "Denver Nuggets",
+    "away_score": 110,
+    "home_score": 87,
+    "margin": -23
+  },
+  {
+    "date": "Fri, Jan 9, 2026",
+    "away_team": "New York Knicks",
+    "home_team": "Phoenix Suns",
+    "away_score": 107,
+    "home_score": 112,
+    "margin": 5
+  },
+  {
+    "date": "Fri, Jan 9, 2026",
+    "away_team": "Sacramento Kings",
+    "home_team": "Golden State Warriors",
+    "away_score": 103,
+    "home_score": 137,
+    "margin": 34
+  },
+  {
+    "date": "Fri, Jan 9, 2026",
+    "away_team": "Houston Rockets",
+    "home_team": "Portland Trail Blazers",
+    "away_score": 105,
+    "home_score": 111,
+    "margin": 6
+  },
+  {
+    "date": "Fri, Jan 9, 2026",
+    "away_team": "Milwaukee Bucks",
+    "home_team": "Los Angeles Lakers",
+    "away_score": 105,
+    "home_score": 101,
+    "margin": -4
+  },
+  {
+    "date": "Sat, Jan 10, 2026",
+    "away_team": "Minnesota Timberwolves",
+    "home_team": "Cleveland Cavaliers",
+    "away_score": 134,
+    "home_score": 146,
+    "margin": 12
+  },
+  {
+    "date": "Sat, Jan 10, 2026",
+    "away_team": "Miami Heat",
+    "home_team": "Indiana Pacers",
+    "away_score": 99,
+    "home_score": 123,
+    "margin": 24
+  },
+  {
+    "date": "Sat, Jan 10, 2026",
+    "away_team": "Los Angeles Clippers",
+    "home_team": "Detroit Pistons",
+    "away_score": 98,
+    "home_score": 92,
+    "margin": -6
+  },
+  {
+    "date": "Sat, Jan 10, 2026",
+    "away_team": "San Antonio Spurs",
+    "home_team": "Boston Celtics",
+    "away_score": 100,
+    "home_score": 95,
+    "margin": -5
+  },
+  {
+    "date": "Sat, Jan 10, 2026",
+    "away_team": "Dallas Mavericks",
+    "home_team": "Chicago Bulls",
+    "away_score": 107,
+    "home_score": 125,
+    "margin": 18
+  },
+  {
+    "date": "Sat, Jan 10, 2026",
+    "away_team": "Charlotte Hornets",
+    "home_team": "Utah Jazz",
+    "away_score": 150,
+    "home_score": 95,
+    "margin": -55
+  },
+  {
+    "date": "Sun, Jan 11, 2026",
+    "away_team": "New Orleans Pelicans",
+    "home_team": "Orlando Magic",
+    "away_score": 118,
+    "home_score": 128,
+    "margin": 10
+  },
+  {
+    "date": "Sun, Jan 11, 2026",
+    "away_team": "Brooklyn Nets",
+    "home_team": "Memphis Grizzlies",
+    "away_score": 98,
+    "home_score": 103,
+    "margin": 5
+  },
+  {
+    "date": "Sun, Jan 11, 2026",
+    "away_team": "New York Knicks",
+    "home_team": "Portland Trail Blazers",
+    "away_score": 123,
+    "home_score": 114,
+    "margin": -9
+  },
+  {
+    "date": "Sun, Jan 11, 2026",
+    "away_team": "Philadelphia 76ers",
+    "home_team": "Toronto Raptors",
+    "away_score": 115,
+    "home_score": 116,
+    "margin": 1
+  },
+  {
+    "date": "Sun, Jan 11, 2026",
+    "away_team": "San Antonio Spurs",
+    "home_team": "Minnesota Timberwolves",
+    "away_score": 103,
+    "home_score": 104,
+    "margin": 1
+  },
+  {
+    "date": "Sun, Jan 11, 2026",
+    "away_team": "Miami Heat",
+    "home_team": "Oklahoma City Thunder",
+    "away_score": 112,
+    "home_score": 124,
+    "margin": 12
+  },
+  {
+    "date": "Sun, Jan 11, 2026",
+    "away_team": "Milwaukee Bucks",
+    "home_team": "Denver Nuggets",
+    "away_score": 104,
+    "home_score": 108,
+    "margin": 4
+  },
+  {
+    "date": "Sun, Jan 11, 2026",
+    "away_team": "Washington Wizards",
+    "home_team": "Phoenix Suns",
+    "away_score": 93,
+    "home_score": 112,
+    "margin": 19
+  },
+  {
+    "date": "Sun, Jan 11, 2026",
+    "away_team": "Atlanta Hawks",
+    "home_team": "Golden State Warriors",
+    "away_score": 124,
+    "home_score": 111,
+    "margin": -13
+  },
+  {
+    "date": "Sun, Jan 11, 2026",
+    "away_team": "Houston Rockets",
+    "home_team": "Sacramento Kings",
+    "away_score": 98,
+    "home_score": 111,
+    "margin": 13
+  },
+  {
+    "date": "Mon, Jan 12, 2026",
+    "away_team": "Utah Jazz",
+    "home_team": "Cleveland Cavaliers",
+    "away_score": 123,
+    "home_score": 112,
+    "margin": -11
+  },
+  {
+    "date": "Mon, Jan 12, 2026",
+    "away_team": "Boston Celtics",
+    "home_team": "Indiana Pacers",
+    "away_score": 96,
+    "home_score": 98,
+    "margin": 2
+  },
+  {
+    "date": "Mon, Jan 12, 2026",
+    "away_team": "Philadelphia 76ers",
+    "home_team": "Toronto Raptors",
+    "away_score": 115,
+    "home_score": 102,
+    "margin": -13
+  },
+  {
+    "date": "Mon, Jan 12, 2026",
+    "away_team": "Brooklyn Nets",
+    "home_team": "Dallas Mavericks",
+    "away_score": 105,
+    "home_score": 113,
+    "margin": 8
+  },
+  {
+    "date": "Mon, Jan 12, 2026",
+    "away_team": "Los Angeles Lakers",
+    "home_team": "Sacramento Kings",
+    "away_score": 112,
+    "home_score": 124,
+    "margin": 12
+  },
+  {
+    "date": "Mon, Jan 12, 2026",
+    "away_team": "Charlotte Hornets",
+    "home_team": "Los Angeles Clippers",
+    "away_score": 109,
+    "home_score": 117,
+    "margin": 8
+  },
+  {
+    "date": "Tue, Jan 13, 2026",
+    "away_team": "Phoenix Suns",
+    "home_team": "Miami Heat",
+    "away_score": 121,
+    "home_score": 127,
+    "margin": 6
+  },
+  {
+    "date": "Tue, Jan 13, 2026",
+    "away_team": "Chicago Bulls",
+    "home_team": "Houston Rockets",
+    "away_score": 113,
+    "home_score": 119,
+    "margin": 6
+  },
+  {
+    "date": "Tue, Jan 13, 2026",
+    "away_team": "Minnesota Timberwolves",
+    "home_team": "Milwaukee Bucks",
+    "away_score": 139,
+    "home_score": 106,
+    "margin": -33
+  },
+  {
+    "date": "Tue, Jan 13, 2026",
+    "away_team": "Denver Nuggets",
+    "home_team": "New Orleans Pelicans",
+    "away_score": 122,
+    "home_score": 116,
+    "margin": -6
+  },
+  {
+    "date": "Tue, Jan 13, 2026",
+    "away_team": "San Antonio Spurs",
+    "home_team": "Oklahoma City Thunder",
+    "away_score": 98,
+    "home_score": 119,
+    "margin": 21
+  },
+  {
+    "date": "Tue, Jan 13, 2026",
+    "away_team": "Atlanta Hawks",
+    "home_team": "Los Angeles Lakers",
+    "away_score": 116,
+    "home_score": 141,
+    "margin": 25
+  },
+  {
+    "date": "Tue, Jan 13, 2026",
+    "away_team": "Portland Trail Blazers",
+    "home_team": "Golden State Warriors",
+    "away_score": 97,
+    "home_score": 119,
+    "margin": 22
+  },
+  {
+    "date": "Wed, Jan 14, 2026",
+    "away_team": "Toronto Raptors",
+    "home_team": "Indiana Pacers",
+    "away_score": 115,
+    "home_score": 101,
+    "margin": -14
+  },
+  {
+    "date": "Wed, Jan 14, 2026",
+    "away_team": "Cleveland Cavaliers",
+    "home_team": "Philadelphia 76ers",
+    "away_score": 133,
+    "home_score": 107,
+    "margin": -26
+  },
+  {
+    "date": "Wed, Jan 14, 2026",
+    "away_team": "Utah Jazz",
+    "home_team": "Chicago Bulls",
+    "away_score": 126,
+    "home_score": 128,
+    "margin": 2
+  },
+  {
+    "date": "Wed, Jan 14, 2026",
+    "away_team": "Brooklyn Nets",
+    "home_team": "New Orleans Pelicans",
+    "away_score": 113,
+    "home_score": 116,
+    "margin": 3
+  },
+  {
+    "date": "Wed, Jan 14, 2026",
+    "away_team": "Denver Nuggets",
+    "home_team": "Dallas Mavericks",
+    "away_score": 118,
+    "home_score": 109,
+    "margin": -9
+  },
+  {
+    "date": "Wed, Jan 14, 2026",
+    "away_team": "New York Knicks",
+    "home_team": "Sacramento Kings",
+    "away_score": 101,
+    "home_score": 112,
+    "margin": 11
+  },
+  {
+    "date": "Wed, Jan 14, 2026",
+    "away_team": "Washington Wizards",
+    "home_team": "Los Angeles Clippers",
+    "away_score": 105,
+    "home_score": 119,
+    "margin": 14
+  },
+  {
+    "date": "Thu, Jan 15, 2026",
+    "away_team": "Memphis Grizzlies",
+    "home_team": "Orlando Magic",
+    "away_score": 111,
+    "home_score": 118,
+    "margin": 7
+  },
+  {
+    "date": "Thu, Jan 15, 2026",
+    "away_team": "Phoenix Suns",
+    "home_team": "Detroit Pistons",
+    "away_score": 105,
+    "home_score": 108,
+    "margin": 3
+  },
+  {
+    "date": "Thu, Jan 15, 2026",
+    "away_team": "Oklahoma City Thunder",
+    "home_team": "Houston Rockets",
+    "away_score": 111,
+    "home_score": 91,
+    "margin": -20
+  },
+  {
+    "date": "Thu, Jan 15, 2026",
+    "away_team": "Boston Celtics",
+    "home_team": "Miami Heat",
+    "away_score": 119,
+    "home_score": 114,
+    "margin": -5
+  },
+  {
+    "date": "Thu, Jan 15, 2026",
+    "away_team": "Milwaukee Bucks",
+    "home_team": "San Antonio Spurs",
+    "away_score": 101,
+    "home_score": 119,
+    "margin": 18
+  },
+  {
+    "date": "Thu, Jan 15, 2026",
+    "away_team": "Utah Jazz",
+    "home_team": "Dallas Mavericks",
+    "away_score": 122,
+    "home_score": 144,
+    "margin": 22
+  },
+  {
+    "date": "Thu, Jan 15, 2026",
+    "away_team": "New York Knicks",
+    "home_team": "Golden State Warriors",
+    "away_score": 113,
+    "home_score": 126,
+    "margin": 13
+  },
+  {
+    "date": "Thu, Jan 15, 2026",
+    "away_team": "Atlanta Hawks",
+    "home_team": "Portland Trail Blazers",
+    "away_score": 101,
+    "home_score": 117,
+    "margin": 16
+  },
+  {
+    "date": "Thu, Jan 15, 2026",
+    "away_team": "Charlotte Hornets",
+    "home_team": "Los Angeles Lakers",
+    "away_score": 135,
+    "home_score": 117,
+    "margin": -18
+  },
+  {
+    "date": "Fri, Jan 16, 2026",
+    "away_team": "New Orleans Pelicans",
+    "home_team": "Indiana Pacers",
+    "away_score": 119,
+    "home_score": 127,
+    "margin": 8
+  },
+  {
+    "date": "Fri, Jan 16, 2026",
+    "away_team": "Cleveland Cavaliers",
+    "home_team": "Philadelphia 76ers",
+    "away_score": 117,
+    "home_score": 115,
+    "margin": -2
+  },
+  {
+    "date": "Fri, Jan 16, 2026",
+    "away_team": "Chicago Bulls",
+    "home_team": "Brooklyn Nets",
+    "away_score": 109,
+    "home_score": 112,
+    "margin": 3
+  },
+  {
+    "date": "Fri, Jan 16, 2026",
+    "away_team": "Los Angeles Clippers",
+    "home_team": "Toronto Raptors",
+    "away_score": 121,
+    "home_score": 117,
+    "margin": -4
+  },
+  {
+    "date": "Fri, Jan 16, 2026",
+    "away_team": "Minnesota Timberwolves",
+    "home_team": "Houston Rockets",
+    "away_score": 105,
+    "home_score": 110,
+    "margin": 5
+  },
+  {
+    "date": "Fri, Jan 16, 2026",
+    "away_team": "Washington Wizards",
+    "home_team": "Sacramento Kings",
+    "away_score": 115,
+    "home_score": 128,
+    "margin": 13
+  },
+  {
+    "date": "Sat, Jan 17, 2026",
+    "away_team": "Utah Jazz",
+    "home_team": "Dallas Mavericks",
+    "away_score": 120,
+    "home_score": 138,
+    "margin": 18
+  },
+  {
+    "date": "Sat, Jan 17, 2026",
+    "away_team": "Boston Celtics",
+    "home_team": "Atlanta Hawks",
+    "away_score": 132,
+    "home_score": 106,
+    "margin": -26
+  },
+  {
+    "date": "Sat, Jan 17, 2026",
+    "away_team": "Indiana Pacers",
+    "home_team": "Detroit Pistons",
+    "away_score": 78,
+    "home_score": 121,
+    "margin": 43
+  },
+  {
+    "date": "Sat, Jan 17, 2026",
+    "away_team": "Phoenix Suns",
+    "home_team": "New York Knicks",
+    "away_score": 106,
+    "home_score": 99,
+    "margin": -7
+  },
+  {
+    "date": "Sat, Jan 17, 2026",
+    "away_team": "Oklahoma City Thunder",
+    "home_team": "Miami Heat",
+    "away_score": 120,
+    "home_score": 122,
+    "margin": 2
+  },
+  {
+    "date": "Sat, Jan 17, 2026",
+    "away_team": "Minnesota Timberwolves",
+    "home_team": "San Antonio Spurs",
+    "away_score": 123,
+    "home_score": 126,
+    "margin": 3
+  },
+  {
+    "date": "Sat, Jan 17, 2026",
+    "away_team": "Charlotte Hornets",
+    "home_team": "Golden State Warriors",
+    "away_score": 116,
+    "home_score": 136,
+    "margin": 20
+  },
+  {
+    "date": "Sat, Jan 17, 2026",
+    "away_team": "Washington Wizards",
+    "home_team": "Denver Nuggets",
+    "away_score": 115,
+    "home_score": 121,
+    "margin": 6
+  },
+  {
+    "date": "Sat, Jan 17, 2026",
+    "away_team": "Los Angeles Lakers",
+    "home_team": "Portland Trail Blazers",
+    "away_score": 116,
+    "home_score": 132,
+    "margin": 16
+  },
+  {
+    "date": "Sun, Jan 18, 2026",
+    "away_team": "Orlando Magic",
+    "home_team": "Memphis Grizzlies",
+    "away_score": 109,
+    "home_score": 126,
+    "margin": 17
+  },
+  {
+    "date": "Sun, Jan 18, 2026",
+    "away_team": "Brooklyn Nets",
+    "home_team": "Chicago Bulls",
+    "away_score": 102,
+    "home_score": 124,
+    "margin": 22
+  },
+  {
+    "date": "Sun, Jan 18, 2026",
+    "away_team": "New Orleans Pelicans",
+    "home_team": "Houston Rockets",
+    "away_score": 110,
+    "home_score": 119,
+    "margin": 9
+  },
+  {
+    "date": "Sun, Jan 18, 2026",
+    "away_team": "Charlotte Hornets",
+    "home_team": "Denver Nuggets",
+    "away_score": 110,
+    "home_score": 87,
+    "margin": -23
+  },
+  {
+    "date": "Sun, Jan 18, 2026",
+    "away_team": "Portland Trail Blazers",
+    "home_team": "Sacramento Kings",
+    "away_score": 117,
+    "home_score": 110,
+    "margin": -7
+  },
+  {
+    "date": "Sun, Jan 18, 2026",
+    "away_team": "Toronto Raptors",
+    "home_team": "Los Angeles Lakers",
+    "away_score": 93,
+    "home_score": 110,
+    "margin": 17
+  },
+  {
+    "date": "Mon, Jan 19, 2026",
+    "away_team": "Milwaukee Bucks",
+    "home_team": "Atlanta Hawks",
+    "away_score": 112,
+    "home_score": 110,
+    "margin": -2
+  },
+  {
+    "date": "Mon, Jan 19, 2026",
+    "away_team": "Oklahoma City Thunder",
+    "home_team": "Cleveland Cavaliers",
+    "away_score": 136,
+    "home_score": 104,
+    "margin": -32
+  },
+  {
+    "date": "Mon, Jan 19, 2026",
+    "away_team": "Los Angeles Clippers",
+    "home_team": "Washington Wizards",
+    "away_score": 110,
+    "home_score": 106,
+    "margin": -4
+  },
+  {
+    "date": "Mon, Jan 19, 2026",
+    "away_team": "Dallas Mavericks",
+    "home_team": "New York Knicks",
+    "away_score": 114,
+    "home_score": 97,
+    "margin": -17
+  },
+  {
+    "date": "Mon, Jan 19, 2026",
+    "away_team": "Utah Jazz",
+    "home_team": "San Antonio Spurs",
+    "away_score": 110,
+    "home_score": 123,
+    "margin": 13
+  },
+  {
+    "date": "Mon, Jan 19, 2026",
+    "away_team": "Indiana Pacers",
+    "home_team": "Philadelphia 76ers",
+    "away_score": 104,
+    "home_score": 113,
+    "margin": 9
+  },
+  {
+    "date": "Mon, Jan 19, 2026",
+    "away_team": "Phoenix Suns",
+    "home_team": "Brooklyn Nets",
+    "away_score": 126,
+    "home_score": 117,
+    "margin": -9
+  },
+  {
+    "date": "Mon, Jan 19, 2026",
+    "away_team": "Boston Celtics",
+    "home_team": "Detroit Pistons",
+    "away_score": 103,
+    "home_score": 104,
+    "margin": 1
+  },
+  {
+    "date": "Mon, Jan 19, 2026",
+    "away_team": "Miami Heat",
+    "home_team": "Golden State Warriors",
+    "away_score": 112,
+    "home_score": 135,
+    "margin": 23
+  },
+  {
+    "date": "Tue, Jan 20, 2026",
+    "away_team": "Phoenix Suns",
+    "home_team": "Philadelphia 76ers",
+    "away_score": 116,
+    "home_score": 110,
+    "margin": -6
+  },
+  {
+    "date": "Tue, Jan 20, 2026",
+    "away_team": "Los Angeles Clippers",
+    "home_team": "Chicago Bulls",
+    "away_score": 110,
+    "home_score": 138,
+    "margin": 28
+  },
+  {
+    "date": "Tue, Jan 20, 2026",
+    "away_team": "San Antonio Spurs",
+    "home_team": "Houston Rockets",
+    "away_score": 106,
+    "home_score": 111,
+    "margin": 5
+  },
+  {
+    "date": "Tue, Jan 20, 2026",
+    "away_team": "Minnesota Timberwolves",
+    "home_team": "Utah Jazz",
+    "away_score": 122,
+    "home_score": 127,
+    "margin": 5
+  },
+  {
+    "date": "Tue, Jan 20, 2026",
+    "away_team": "Los Angeles Lakers",
+    "home_team": "Denver Nuggets",
+    "away_score": 115,
+    "home_score": 107,
+    "margin": -8
+  },
+  {
+    "date": "Tue, Jan 20, 2026",
+    "away_team": "Toronto Raptors",
+    "home_team": "Golden State Warriors",
+    "away_score": 145,
+    "home_score": 127,
+    "margin": -18
+  },
+  {
+    "date": "Tue, Jan 20, 2026",
+    "away_team": "Miami Heat",
+    "home_team": "Sacramento Kings",
+    "away_score": 130,
+    "home_score": 117,
+    "margin": -13
+  },
+  {
+    "date": "Wed, Jan 21, 2026",
+    "away_team": "Cleveland Cavaliers",
+    "home_team": "Charlotte Hornets",
+    "away_score": 94,
+    "home_score": 87,
+    "margin": -7
+  },
+  {
+    "date": "Wed, Jan 21, 2026",
+    "away_team": "Indiana Pacers",
+    "home_team": "Boston Celtics",
+    "away_score": 104,
+    "home_score": 119,
+    "margin": 15
+  },
+  {
+    "date": "Wed, Jan 21, 2026",
+    "away_team": "Brooklyn Nets",
+    "home_team": "New York Knicks",
+    "away_score": 66,
+    "home_score": 120,
+    "margin": 54
+  },
+  {
+    "date": "Wed, Jan 21, 2026",
+    "away_team": "Atlanta Hawks",
+    "home_team": "Memphis Grizzlies",
+    "away_score": 124,
+    "home_score": 122,
+    "margin": -2
+  },
+  {
+    "date": "Wed, Jan 21, 2026",
+    "away_team": "Detroit Pistons",
+    "home_team": "New Orleans Pelicans",
+    "away_score": 112,
+    "home_score": 104,
+    "margin": -8
+  },
+  {
+    "date": "Wed, Jan 21, 2026",
+    "away_team": "Oklahoma City Thunder",
+    "home_team": "Milwaukee Bucks",
+    "away_score": 122,
+    "home_score": 102,
+    "margin": -20
+  },
+  {
+    "date": "Wed, Jan 21, 2026",
+    "away_team": "Toronto Raptors",
+    "home_team": "Sacramento Kings",
+    "away_score": 122,
+    "home_score": 109,
+    "margin": -13
+  },
+  {
+    "date": "Thu, Jan 22, 2026",
+    "away_team": "Charlotte Hornets",
+    "home_team": "Orlando Magic",
+    "away_score": 124,
+    "home_score": 97,
+    "margin": -27
+  },
+  {
+    "date": "Thu, Jan 22, 2026",
+    "away_team": "Houston Rockets",
+    "home_team": "Philadelphia 76ers",
+    "away_score": 122,
+    "home_score": 128,
+    "margin": 6
+  },
+  {
+    "date": "Thu, Jan 22, 2026",
+    "away_team": "Denver Nuggets",
+    "home_team": "Washington Wizards",
+    "away_score": 107,
+    "home_score": 97,
+    "margin": -10
+  },
+  {
+    "date": "Thu, Jan 22, 2026",
+    "away_team": "Golden State Warriors",
+    "home_team": "Dallas Mavericks",
+    "away_score": 115,
+    "home_score": 123,
+    "margin": 8
+  },
+  {
+    "date": "Thu, Jan 22, 2026",
+    "away_team": "Chicago Bulls",
+    "home_team": "Minnesota Timberwolves",
+    "away_score": 120,
+    "home_score": 115,
+    "margin": -5
+  },
+  {
+    "date": "Thu, Jan 22, 2026",
+    "away_team": "San Antonio Spurs",
+    "home_team": "Utah Jazz",
+    "away_score": 126,
+    "home_score": 109,
+    "margin": -17
+  },
+  {
+    "date": "Thu, Jan 22, 2026",
+    "away_team": "Los Angeles Lakers",
+    "home_team": "Los Angeles Clippers",
+    "away_score": 104,
+    "home_score": 112,
+    "margin": 8
+  },
+  {
+    "date": "Thu, Jan 22, 2026",
+    "away_team": "Miami Heat",
+    "home_team": "Portland Trail Blazers",
+    "away_score": 110,
+    "home_score": 127,
+    "margin": 17
+  },
+  {
+    "date": "Fri, Jan 23, 2026",
+    "away_team": "Houston Rockets",
+    "home_team": "Detroit Pistons",
+    "away_score": 111,
+    "home_score": 104,
+    "margin": -7
+  },
+  {
+    "date": "Fri, Jan 23, 2026",
+    "away_team": "Phoenix Suns",
+    "home_team": "Atlanta Hawks",
+    "away_score": 103,
+    "home_score": 110,
+    "margin": 7
+  },
+  {
+    "date": "Fri, Jan 23, 2026",
+    "away_team": "Boston Celtics",
+    "home_team": "Brooklyn Nets",
+    "away_score": 130,
+    "home_score": 126,
+    "margin": -4
+  },
+  {
+    "date": "Fri, Jan 23, 2026",
+    "away_team": "Sacramento Kings",
+    "home_team": "Cleveland Cavaliers",
+    "away_score": 118,
+    "home_score": 123,
+    "margin": 5
+  },
+  {
+    "date": "Fri, Jan 23, 2026",
+    "away_team": "New Orleans Pelicans",
+    "home_team": "Memphis Grizzlies",
+    "away_score": 133,
+    "home_score": 127,
+    "margin": -6
+  },
+  {
+    "date": "Fri, Jan 23, 2026",
+    "away_team": "Indiana Pacers",
+    "home_team": "Oklahoma City Thunder",
+    "away_score": 117,
+    "home_score": 114,
+    "margin": -3
+  },
+  {
+    "date": "Fri, Jan 23, 2026",
+    "away_team": "Denver Nuggets",
+    "home_team": "Milwaukee Bucks",
+    "away_score": 102,
+    "home_score": 100,
+    "margin": -2
+  },
+  {
+    "date": "Fri, Jan 23, 2026",
+    "away_team": "Toronto Raptors",
+    "home_team": "Portland Trail Blazers",
+    "away_score": 110,
+    "home_score": 98,
+    "margin": -12
+  },
+  {
+    "date": "Sat, Jan 24, 2026",
+    "away_team": "Washington Wizards",
+    "home_team": "Charlotte Hornets",
+    "away_score": 115,
+    "home_score": 119,
+    "margin": 4
+  },
+  {
+    "date": "Sat, Jan 24, 2026",
+    "away_team": "New York Knicks",
+    "home_team": "Philadelphia 76ers",
+    "away_score": 112,
+    "home_score": 109,
+    "margin": -3
+  },
+  {
+    "date": "Sat, Jan 24, 2026",
+    "away_team": "Cleveland Cavaliers",
+    "home_team": "Orlando Magic",
+    "away_score": 119,
+    "home_score": 105,
+    "margin": -14
+  },
+  {
+    "date": "Sat, Jan 24, 2026",
+    "away_team": "Boston Celtics",
+    "home_team": "Chicago Bulls",
+    "away_score": 111,
+    "home_score": 114,
+    "margin": 3
+  },
+  {
+    "date": "Sat, Jan 24, 2026",
+    "away_team": "Los Angeles Lakers",
+    "home_team": "Dallas Mavericks",
+    "away_score": 116,
+    "home_score": 110,
+    "margin": -6
+  },
+  {
+    "date": "Sat, Jan 24, 2026",
+    "away_team": "Miami Heat",
+    "home_team": "Utah Jazz",
+    "away_score": 147,
+    "home_score": 116,
+    "margin": -31
+  },
+  {
+    "date": "Sun, Jan 25, 2026",
+    "away_team": "Sacramento Kings",
+    "home_team": "Detroit Pistons",
+    "away_score": 116,
+    "home_score": 139,
+    "margin": 23
+  },
+  {
+    "date": "Sun, Jan 25, 2026",
+    "away_team": "Golden State Warriors",
+    "home_team": "Minnesota Timberwolves",
+    "away_score": 111,
+    "home_score": 85,
+    "margin": -26
+  },
+  {
+    "date": "Sun, Jan 25, 2026",
+    "away_team": "Toronto Raptors",
+    "home_team": "Oklahoma City Thunder",
+    "away_score": 103,
+    "home_score": 101,
+    "margin": -2
+  },
+  {
+    "date": "Sun, Jan 25, 2026",
+    "away_team": "New Orleans Pelicans",
+    "home_team": "San Antonio Spurs",
+    "away_score": 104,
+    "home_score": 95,
+    "margin": -9
+  },
+  {
+    "date": "Sun, Jan 25, 2026",
+    "away_team": "Miami Heat",
+    "home_team": "Phoenix Suns",
+    "away_score": 111,
+    "home_score": 102,
+    "margin": -9
+  },
+  {
+    "date": "Sun, Jan 25, 2026",
+    "away_team": "Brooklyn Nets",
+    "home_team": "Los Angeles Clippers",
+    "away_score": 89,
+    "home_score": 126,
+    "margin": 37
+  },
+  {
+    "date": "Mon, Jan 26, 2026",
+    "away_team": "Indiana Pacers",
+    "home_team": "Atlanta Hawks",
+    "away_score": 116,
+    "home_score": 132,
+    "margin": 16
+  },
+  {
+    "date": "Mon, Jan 26, 2026",
+    "away_team": "Philadelphia 76ers",
+    "home_team": "Charlotte Hornets",
+    "away_score": 93,
+    "home_score": 130,
+    "margin": 37
+  },
+  {
+    "date": "Mon, Jan 26, 2026",
+    "away_team": "Orlando Magic",
+    "home_team": "Cleveland Cavaliers",
+    "away_score": 98,
+    "home_score": 114,
+    "margin": 16
+  },
+  {
+    "date": "Mon, Jan 26, 2026",
+    "away_team": "Portland Trail Blazers",
+    "home_team": "Boston Celtics",
+    "away_score": 94,
+    "home_score": 102,
+    "margin": 8
+  },
+  {
+    "date": "Mon, Jan 26, 2026",
+    "away_team": "Los Angeles Lakers",
+    "home_team": "Chicago Bulls",
+    "away_score": 129,
+    "home_score": 118,
+    "margin": -11
+  },
+  {
+    "date": "Mon, Jan 26, 2026",
+    "away_team": "Memphis Grizzlies",
+    "home_team": "Houston Rockets",
+    "away_score": 99,
+    "home_score": 108,
+    "margin": 9
+  },
+  {
+    "date": "Mon, Jan 26, 2026",
+    "away_team": "Golden State Warriors",
+    "home_team": "Minnesota Timberwolves",
+    "away_score": 83,
+    "home_score": 108,
+    "margin": 25
+  },
+  {
+    "date": "Tue, Jan 27, 2026",
+    "away_team": "Portland Trail Blazers",
+    "home_team": "Washington Wizards",
+    "away_score": 111,
+    "home_score": 115,
+    "margin": 4
+  },
+  {
+    "date": "Tue, Jan 27, 2026",
+    "away_team": "Sacramento Kings",
+    "home_team": "New York Knicks",
+    "away_score": 87,
+    "home_score": 103,
+    "margin": 16
+  },
+  {
+    "date": "Tue, Jan 27, 2026",
+    "away_team": "New Orleans Pelicans",
+    "home_team": "Oklahoma City Thunder",
+    "away_score": 95,
+    "home_score": 104,
+    "margin": 9
+  },
+  {
+    "date": "Tue, Jan 27, 2026",
+    "away_team": "Milwaukee Bucks",
+    "home_team": "Philadelphia 76ers",
+    "away_score": 122,
+    "home_score": 139,
+    "margin": 17
+  },
+  {
+    "date": "Tue, Jan 27, 2026",
+    "away_team": "Detroit Pistons",
+    "home_team": "Denver Nuggets",
+    "away_score": 109,
+    "home_score": 107,
+    "margin": -2
+  },
+  {
+    "date": "Tue, Jan 27, 2026",
+    "away_team": "Brooklyn Nets",
+    "home_team": "Phoenix Suns",
+    "away_score": 102,
+    "home_score": 106,
+    "margin": 4
+  },
+  {
+    "date": "Tue, Jan 27, 2026",
+    "away_team": "Los Angeles Clippers",
+    "home_team": "Utah Jazz",
+    "away_score": 115,
+    "home_score": 103,
+    "margin": -12
+  },
+  {
+    "date": "Wed, Jan 28, 2026",
+    "away_team": "Los Angeles Lakers",
+    "home_team": "Cleveland Cavaliers",
+    "away_score": 99,
+    "home_score": 129,
+    "margin": 30
+  },
+  {
+    "date": "Wed, Jan 28, 2026",
+    "away_team": "Chicago Bulls",
+    "home_team": "Indiana Pacers",
+    "away_score": 110,
+    "home_score": 113,
+    "margin": 3
+  },
+  {
+    "date": "Wed, Jan 28, 2026",
+    "away_team": "Atlanta Hawks",
+    "home_team": "Boston Celtics",
+    "away_score": 117,
+    "home_score": 106,
+    "margin": -11
+  },
+  {
+    "date": "Wed, Jan 28, 2026",
+    "away_team": "Orlando Magic",
+    "home_team": "Miami Heat",
+    "away_score": 133,
+    "home_score": 124,
+    "margin": -9
+  },
+  {
+    "date": "Wed, Jan 28, 2026",
+    "away_team": "New York Knicks",
+    "home_team": "Toronto Raptors",
+    "away_score": 119,
+    "home_score": 92,
+    "margin": -27
+  },
+  {
+    "date": "Wed, Jan 28, 2026",
+    "away_team": "Charlotte Hornets",
+    "home_team": "Memphis Grizzlies",
+    "away_score": 112,
+    "home_score": 97,
+    "margin": -15
+  },
+  {
+    "date": "Wed, Jan 28, 2026",
+    "away_team": "Minnesota Timberwolves",
+    "home_team": "Dallas Mavericks",
+    "away_score": 118,
+    "home_score": 105,
+    "margin": -13
+  },
+  {
+    "date": "Wed, Jan 28, 2026",
+    "away_team": "Golden State Warriors",
+    "home_team": "Utah Jazz",
+    "away_score": 140,
+    "home_score": 124,
+    "margin": -16
+  },
+  {
+    "date": "Wed, Jan 28, 2026",
+    "away_team": "San Antonio Spurs",
+    "home_team": "Houston Rockets",
+    "away_score": 111,
+    "home_score": 99,
+    "margin": -12
+  },
+  {
+    "date": "Thu, Jan 29, 2026",
+    "away_team": "Sacramento Kings",
+    "home_team": "Philadelphia 76ers",
+    "away_score": 111,
+    "home_score": 113,
+    "margin": 2
+  },
+  {
+    "date": "Thu, Jan 29, 2026",
+    "away_team": "Milwaukee Bucks",
+    "home_team": "Washington Wizards",
+    "away_score": 99,
+    "home_score": 109,
+    "margin": 10
+  },
+  {
+    "date": "Thu, Jan 29, 2026",
+    "away_team": "Houston Rockets",
+    "home_team": "Atlanta Hawks",
+    "away_score": 104,
+    "home_score": 86,
+    "margin": -18
+  },
+  {
+    "date": "Thu, Jan 29, 2026",
+    "away_team": "Miami Heat",
+    "home_team": "Chicago Bulls",
+    "away_score": 116,
+    "home_score": 113,
+    "margin": -3
+  },
+  {
+    "date": "Thu, Jan 29, 2026",
+    "away_team": "Charlotte Hornets",
+    "home_team": "Dallas Mavericks",
+    "away_score": 123,
+    "home_score": 121,
+    "margin": -2
+  },
+  {
+    "date": "Thu, Jan 29, 2026",
+    "away_team": "Brooklyn Nets",
+    "home_team": "Denver Nuggets",
+    "away_score": 103,
+    "home_score": 107,
+    "margin": 4
+  },
+  {
+    "date": "Thu, Jan 29, 2026",
+    "away_team": "Detroit Pistons",
+    "home_team": "Phoenix Suns",
+    "away_score": 96,
+    "home_score": 114,
+    "margin": 18
+  },
+  {
+    "date": "Thu, Jan 29, 2026",
+    "away_team": "Oklahoma City Thunder",
+    "home_team": "Minnesota Timberwolves",
+    "away_score": 111,
+    "home_score": 123,
+    "margin": 12
+  },
+  {
+    "date": "Fri, Jan 30, 2026",
+    "away_team": "Los Angeles Lakers",
+    "home_team": "Washington Wizards",
+    "away_score": 142,
+    "home_score": 111,
+    "margin": -31
+  },
+  {
+    "date": "Fri, Jan 30, 2026",
+    "away_team": "Sacramento Kings",
+    "home_team": "Boston Celtics",
+    "away_score": 93,
+    "home_score": 112,
+    "margin": 19
+  },
+  {
+    "date": "Fri, Jan 30, 2026",
+    "away_team": "Memphis Grizzlies",
+    "home_team": "New Orleans Pelicans",
+    "away_score": 106,
+    "home_score": 114,
+    "margin": 8
+  },
+  {
+    "date": "Fri, Jan 30, 2026",
+    "away_team": "Portland Trail Blazers",
+    "home_team": "New York Knicks",
+    "away_score": 97,
+    "home_score": 127,
+    "margin": 30
+  },
+  {
+    "date": "Fri, Jan 30, 2026",
+    "away_team": "Toronto Raptors",
+    "home_team": "Orlando Magic",
+    "away_score": 120,
+    "home_score": 130,
+    "margin": 10
+  },
+  {
+    "date": "Fri, Jan 30, 2026",
+    "away_team": "Los Angeles Clippers",
+    "home_team": "Denver Nuggets",
+    "away_score": 109,
+    "home_score": 122,
+    "margin": 13
+  },
+  {
+    "date": "Fri, Jan 30, 2026",
+    "away_team": "Cleveland Cavaliers",
+    "home_team": "Phoenix Suns",
+    "away_score": 113,
+    "home_score": 126,
+    "margin": 13
+  },
+  {
+    "date": "Fri, Jan 30, 2026",
+    "away_team": "Brooklyn Nets",
+    "home_team": "Utah Jazz",
+    "away_score": 109,
+    "home_score": 99,
+    "margin": -10
+  },
+  {
+    "date": "Fri, Jan 30, 2026",
+    "away_team": "Detroit Pistons",
+    "home_team": "Golden State Warriors",
+    "away_score": 131,
+    "home_score": 124,
+    "margin": -7
+  },
+  {
+    "date": "Sat, Jan 31, 2026",
+    "away_team": "San Antonio Spurs",
+    "home_team": "Charlotte Hornets",
+    "away_score": 106,
+    "home_score": 111,
+    "margin": 5
+  },
+  {
+    "date": "Sat, Jan 31, 2026",
+    "away_team": "Atlanta Hawks",
+    "home_team": "Indiana Pacers",
+    "away_score": 124,
+    "home_score": 129,
+    "margin": 5
+  },
+  {
+    "date": "Sat, Jan 31, 2026",
+    "away_team": "New Orleans Pelicans",
+    "home_team": "Philadelphia 76ers",
+    "away_score": 114,
+    "home_score": 124,
+    "margin": 10
+  },
+  {
+    "date": "Sat, Jan 31, 2026",
+    "away_team": "Minnesota Timberwolves",
+    "home_team": "Memphis Grizzlies",
+    "away_score": 131,
+    "home_score": 114,
+    "margin": -17
+  },
+  {
+    "date": "Sat, Jan 31, 2026",
+    "away_team": "Chicago Bulls",
+    "home_team": "Miami Heat",
+    "away_score": 125,
+    "home_score": 118,
+    "margin": -7
+  },
+  {
+    "date": "Sat, Jan 31, 2026",
+    "away_team": "Dallas Mavericks",
+    "home_team": "Houston Rockets",
+    "away_score": 107,
+    "home_score": 111,
+    "margin": 4
+  },
+  {
+    "date": "Sun, Feb 1, 2026",
+    "away_team": "Milwaukee Bucks",
+    "home_team": "Boston Celtics",
+    "away_score": 79,
+    "home_score": 107,
+    "margin": 28
+  },
+  {
+    "date": "Sun, Feb 1, 2026",
+    "away_team": "Brooklyn Nets",
+    "home_team": "Detroit Pistons",
+    "away_score": 77,
+    "home_score": 130,
+    "margin": 53
+  },
+  {
+    "date": "Sun, Feb 1, 2026",
+    "away_team": "Chicago Bulls",
+    "home_team": "Miami Heat",
+    "away_score": 91,
+    "home_score": 134,
+    "margin": 43
+  },
+  {
+    "date": "Sun, Feb 1, 2026",
+    "away_team": "Utah Jazz",
+    "home_team": "Toronto Raptors",
+    "away_score": 100,
+    "home_score": 107,
+    "margin": 7
+  },
+  {
+    "date": "Sun, Feb 1, 2026",
+    "away_team": "Sacramento Kings",
+    "home_team": "Washington Wizards",
+    "away_score": 112,
+    "home_score": 116,
+    "margin": 4
+  },
+  {
+    "date": "Sun, Feb 1, 2026",
+    "away_team": "Los Angeles Lakers",
+    "home_team": "New York Knicks",
+    "away_score": 100,
+    "home_score": 112,
+    "margin": 12
+  },
+  {
+    "date": "Sun, Feb 1, 2026",
+    "away_team": "Los Angeles Clippers",
+    "home_team": "Phoenix Suns",
+    "away_score": 117,
+    "home_score": 93,
+    "margin": -24
+  },
+  {
+    "date": "Sun, Feb 1, 2026",
+    "away_team": "Cleveland Cavaliers",
+    "home_team": "Portland Trail Blazers",
+    "away_score": 130,
+    "home_score": 111,
+    "margin": -19
+  },
+  {
+    "date": "Sun, Feb 1, 2026",
+    "away_team": "Orlando Magic",
+    "home_team": "San Antonio Spurs",
+    "away_score": 103,
+    "home_score": 112,
+    "margin": 9
+  },
+  {
+    "date": "Sun, Feb 1, 2026",
+    "away_team": "Oklahoma City Thunder",
+    "home_team": "Denver Nuggets",
+    "away_score": 121,
+    "home_score": 111,
+    "margin": -10
+  },
+  {
+    "date": "Mon, Feb 2, 2026",
+    "away_team": "New Orleans Pelicans",
+    "home_team": "Charlotte Hornets",
+    "away_score": 95,
+    "home_score": 102,
+    "margin": 7
+  },
+  {
+    "date": "Mon, Feb 2, 2026",
+    "away_team": "Houston Rockets",
+    "home_team": "Indiana Pacers",
+    "away_score": 118,
+    "home_score": 114,
+    "margin": -4
+  },
+  {
+    "date": "Mon, Feb 2, 2026",
+    "away_team": "Minnesota Timberwolves",
+    "home_team": "Memphis Grizzlies",
+    "away_score": 128,
+    "home_score": 137,
+    "margin": 9
+  },
+  {
+    "date": "Mon, Feb 2, 2026",
+    "away_team": "Philadelphia 76ers",
+    "home_team": "Los Angeles Clippers",
+    "away_score": 128,
+    "home_score": 113,
+    "margin": -15
+  },
+  {
+    "date": "Tue, Feb 3, 2026",
+    "away_team": "Denver Nuggets",
+    "home_team": "Detroit Pistons",
+    "away_score": 121,
+    "home_score": 124,
+    "margin": 3
+  },
+  {
+    "date": "Tue, Feb 3, 2026",
+    "away_team": "Utah Jazz",
+    "home_team": "Indiana Pacers",
+    "away_score": 131,
+    "home_score": 122,
+    "margin": -9
+  },
+  {
+    "date": "Tue, Feb 3, 2026",
+    "away_team": "New York Knicks",
+    "home_team": "Washington Wizards",
+    "away_score": 132,
+    "home_score": 101,
+    "margin": -31
+  },
+  {
+    "date": "Tue, Feb 3, 2026",
+    "away_team": "Los Angeles Lakers",
+    "home_team": "Brooklyn Nets",
+    "away_score": 125,
+    "home_score": 109,
+    "margin": -16
+  },
+  {
+    "date": "Tue, Feb 3, 2026",
+    "away_team": "Atlanta Hawks",
+    "home_team": "Miami Heat",
+    "away_score": 127,
+    "home_score": 115,
+    "margin": -12
+  },
+  {
+    "date": "Tue, Feb 3, 2026",
+    "away_team": "Boston Celtics",
+    "home_team": "Dallas Mavericks",
+    "away_score": 110,
+    "home_score": 100,
+    "margin": -10
+  },
+  {
+    "date": "Tue, Feb 3, 2026",
+    "away_team": "Chicago Bulls",
+    "home_team": "Milwaukee Bucks",
+    "away_score": 115,
+    "home_score": 131,
+    "margin": 16
+  },
+  {
+    "date": "Tue, Feb 3, 2026",
+    "away_team": "Orlando Magic",
+    "home_team": "Oklahoma City Thunder",
+    "away_score": 92,
+    "home_score": 128,
+    "margin": 36
+  },
+  {
+    "date": "Tue, Feb 3, 2026",
+    "away_team": "Philadelphia 76ers",
+    "home_team": "Golden State Warriors",
+    "away_score": 113,
+    "home_score": 94,
+    "margin": -19
+  },
+  {
+    "date": "Tue, Feb 3, 2026",
+    "away_team": "Phoenix Suns",
+    "home_team": "Portland Trail Blazers",
+    "away_score": 130,
+    "home_score": 125,
+    "margin": -5
+  },
+  {
+    "date": "Wed, Feb 4, 2026",
+    "away_team": "Denver Nuggets",
+    "home_team": "New York Knicks",
+    "away_score": 127,
+    "home_score": 134,
+    "margin": 7
+  },
+  {
+    "date": "Wed, Feb 4, 2026",
+    "away_team": "Minnesota Timberwolves",
+    "home_team": "Toronto Raptors",
+    "away_score": 128,
+    "home_score": 126,
+    "margin": -2
+  },
+  {
+    "date": "Wed, Feb 4, 2026",
+    "away_team": "Boston Celtics",
+    "home_team": "Houston Rockets",
+    "away_score": 114,
+    "home_score": 93,
+    "margin": -21
+  },
+  {
+    "date": "Wed, Feb 4, 2026",
+    "away_team": "New Orleans Pelicans",
+    "home_team": "Milwaukee Bucks",
+    "away_score": 137,
+    "home_score": 141,
+    "margin": 4
+  },
+  {
+    "date": "Wed, Feb 4, 2026",
+    "away_team": "Oklahoma City Thunder",
+    "home_team": "San Antonio Spurs",
+    "away_score": 106,
+    "home_score": 116,
+    "margin": 10
+  },
+  {
+    "date": "Wed, Feb 4, 2026",
+    "away_team": "Memphis Grizzlies",
+    "home_team": "Sacramento Kings",
+    "away_score": 129,
+    "home_score": 125,
+    "margin": -4
+  },
+  {
+    "date": "Wed, Feb 4, 2026",
+    "away_team": "Cleveland Cavaliers",
+    "home_team": "Los Angeles Clippers",
+    "away_score": 124,
+    "home_score": 91,
+    "margin": -33
+  },
+  {
+    "date": "Thu, Feb 5, 2026",
+    "away_team": "Washington Wizards",
+    "home_team": "Detroit Pistons",
+    "away_score": 126,
+    "home_score": 117,
+    "margin": -9
+  },
+  {
+    "date": "Thu, Feb 5, 2026",
+    "away_team": "Brooklyn Nets",
+    "home_team": "Orlando Magic",
+    "away_score": 98,
+    "home_score": 118,
+    "margin": 20
+  },
+  {
+    "date": "Thu, Feb 5, 2026",
+    "away_team": "Utah Jazz",
+    "home_team": "Atlanta Hawks",
+    "away_score": 119,
+    "home_score": 121,
+    "margin": 2
+  },
+  {
+    "date": "Thu, Feb 5, 2026",
+    "away_team": "Chicago Bulls",
+    "home_team": "Toronto Raptors",
+    "away_score": 107,
+    "home_score": 123,
+    "margin": 16
+  },
+  {
+    "date": "Thu, Feb 5, 2026",
+    "away_team": "Charlotte Hornets",
+    "home_team": "Houston Rockets",
+    "away_score": 109,
+    "home_score": 99,
+    "margin": -10
+  },
+  {
+    "date": "Thu, Feb 5, 2026",
+    "away_team": "San Antonio Spurs",
+    "home_team": "Dallas Mavericks",
+    "away_score": 135,
+    "home_score": 123,
+    "margin": -12
+  },
+  {
+    "date": "Thu, Feb 5, 2026",
+    "away_team": "Philadelphia 76ers",
+    "home_team": "Los Angeles Lakers",
+    "away_score": 115,
+    "home_score": 119,
+    "margin": 4
+  },
+  {
+    "date": "Thu, Feb 5, 2026",
+    "away_team": "Golden State Warriors",
+    "home_team": "Phoenix Suns",
+    "away_score": 101,
+    "home_score": 97,
+    "margin": -4
+  }
+]

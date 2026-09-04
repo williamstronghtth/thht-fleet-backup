@@ -1,0 +1,1 @@
+{greeting} {first_name}, quick question. Any plans for your property at {property_address}? Curious if selling or renting is on your radar. {closer}
